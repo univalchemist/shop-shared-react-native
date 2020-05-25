@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`showConfirmation should call onAction on ios specific actionsheet action 1`] = `
+Array [
+  Object {
+    "cancelButtonIndex": 0,
+    "destructiveButtonIndex": 1,
+    "message": undefined,
+    "options": Array [
+      "cancel",
+      "test action",
+    ],
+    "title": undefined,
+  },
+  [Function],
+]
+`;
+
+exports[`showConfirmation should call onAction on ios specific actionsheet action with destructive false 1`] = `
+Array [
+  Object {
+    "cancelButtonIndex": 0,
+    "destructiveButtonIndex": null,
+    "message": undefined,
+    "options": Array [
+      "cancel",
+      "test action",
+    ],
+    "title": undefined,
+  },
+  [Function],
+]
+`;

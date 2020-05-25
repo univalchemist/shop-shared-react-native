@@ -1,0 +1,16 @@
+{
+  "height": 65,
+  "weight": 55,
+  "waistCircumference": null,
+  "ethnicity": "EastAsian",
+  "hasSmoked": false,
+  "hasConsumedAlcohol": true,
+  "hasDiabetesInFamily": false,
+  "hasHighBloodPressure": false,
+  "takesMedication": false,
+  "doesExercise": false,
+  "hasFatigue": false,
+  "frequencyOfInterest": "Zero",
+  "frequencyOfDepression": "Zero",
+  "frequencyOfSugaryDrink": "Low"
+}

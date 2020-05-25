@@ -1,0 +1,18 @@
+diff --git a/node_modules/expo-permissions/android/build.gradle b/node_modules/expo-permissions/android/build.gradle
+index 8eb984e..2be1d1a 100644
+--- a/node_modules/expo-permissions/android/build.gradle
++++ b/node_modules/expo-permissions/android/build.gradle
+@@ -41,11 +41,11 @@ uploadArchives {
+ }
+ 
+ android {
+-  compileSdkVersion 26
++  compileSdkVersion 28
+ 
+   defaultConfig {
+     minSdkVersion 21
+-    targetSdkVersion 27
++    targetSdkVersion 28
+     versionCode 14
+     versionName "4.0.0"
+   }

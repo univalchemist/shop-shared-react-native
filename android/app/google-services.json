@@ -1,0 +1,191 @@
+{
+  "project_info": {
+    "project_number": "771634002732",
+    "firebase_url": "https://cxa-app.firebaseio.com",
+    "project_id": "cxa-app",
+    "storage_bucket": "cxa-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:771634002732:android:7a5babd65b810356820a89",
+        "android_client_info": {
+          "package_name": "com.employeefrontend.development.shared"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "771634002732-conresj6shm4fip720n4l3amaqi23t4e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCzMYAeSammRcvxrJCthM3l21B_B4vvIZU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "771634002732-conresj6shm4fip720n4l3amaqi23t4e.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "771634002732-08d9g410p6bvl0d19vm8tnrs8nke80dt.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.cxagroup.mobile.EmployeePortal.production.shared"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:771634002732:android:0eefc2cd2d0972fd820a89",
+        "android_client_info": {
+          "package_name": "com.employeefrontend.production.shared"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "771634002732-conresj6shm4fip720n4l3amaqi23t4e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCzMYAeSammRcvxrJCthM3l21B_B4vvIZU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "771634002732-conresj6shm4fip720n4l3amaqi23t4e.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "771634002732-08d9g410p6bvl0d19vm8tnrs8nke80dt.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.cxagroup.mobile.EmployeePortal.production.shared"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:771634002732:android:d7a63b9355cd0b6e820a89",
+        "android_client_info": {
+          "package_name": "com.employeefrontend.staging.cxa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "771634002732-conresj6shm4fip720n4l3amaqi23t4e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCzMYAeSammRcvxrJCthM3l21B_B4vvIZU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "771634002732-conresj6shm4fip720n4l3amaqi23t4e.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "771634002732-08d9g410p6bvl0d19vm8tnrs8nke80dt.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.cxagroup.mobile.EmployeePortal.production.shared"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:771634002732:android:f157cb62ac5a623e820a89",
+        "android_client_info": {
+          "package_name": "com.employeefrontend.staging.shared"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "771634002732-conresj6shm4fip720n4l3amaqi23t4e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCzMYAeSammRcvxrJCthM3l21B_B4vvIZU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "771634002732-conresj6shm4fip720n4l3amaqi23t4e.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "771634002732-08d9g410p6bvl0d19vm8tnrs8nke80dt.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.cxagroup.mobile.EmployeePortal.production.shared"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:771634002732:android:b5fcd3089fe9677c820a89",
+        "android_client_info": {
+          "package_name": "com.employeefrontend.uat.shared"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "771634002732-conresj6shm4fip720n4l3amaqi23t4e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCzMYAeSammRcvxrJCthM3l21B_B4vvIZU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "771634002732-conresj6shm4fip720n4l3amaqi23t4e.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "771634002732-08d9g410p6bvl0d19vm8tnrs8nke80dt.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.cxagroup.mobile.EmployeePortal.production.shared"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

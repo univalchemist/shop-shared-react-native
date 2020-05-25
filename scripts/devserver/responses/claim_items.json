@@ -1,0 +1,3406 @@
+{
+    "planYears": [
+        {
+            "id": "2019",
+            "name": "2019",
+            "period": "1 Jan 2019 - 31 Dec 2019",
+            "start": "2018-12-31T16:00:00Z",
+            "end": "2019-12-30T16:00:00Z"
+        }
+    ],
+    "groupedClaimItems": [
+        {
+            "groupName": "Insurance Claims",
+            "claimItems": []
+        },
+        {
+            "groupName": "MSA Claims",
+            "claimItems": []
+        },
+        {
+            "groupName": "Non-Flex Claims",
+            "claimItems": []
+        },
+        {
+            "groupName": "Flex Claims",
+            "claimItems": [
+                {
+                    "categoryName": "Medical Claims (Insurance) (Click on the item(s) below to submit claim(s))",
+                    "categoryImage": "",
+                    "claimId": "InsuranceClaim",
+                    "claimName": "",
+                    "isTaxable": false,
+                    "cpfContributable": false,
+                    "isVisible": false,
+                    "categoryDisplayOrder": 0,
+                    "itemDisplayOrder": 0,
+                    "claimants": []
+                },
+                {
+                    "categoryName": "Medical Claims (Insurance) (Click on the item(s) below to submit claim(s))",
+                    "categoryImage": "",
+                    "claimId": "GHSClaim",
+                    "claimName": "",
+                    "isTaxable": false,
+                    "cpfContributable": false,
+                    "isVisible": false,
+                    "categoryDisplayOrder": 0,
+                    "itemDisplayOrder": 0,
+                    "claimants": []
+                },
+                {
+                    "categoryName": "Outpatient Specialist (Click on the item(s) below to submit claim(s))",
+                    "categoryImage": "",
+                    "claimId": "MO-PSPTCM",
+                    "claimName": "",
+                    "isTaxable": false,
+                    "cpfContributable": false,
+                    "isVisible": false,
+                    "categoryDisplayOrder": 0,
+                    "itemDisplayOrder": 0,
+                    "claimants": []
+                },
+                {
+                    "categoryName": "Outpatient Specialist (Click on the item(s) below to submit claim(s))",
+                    "categoryImage": "",
+                    "claimId": "MO-NPSPTCM",
+                    "claimName": "",
+                    "isTaxable": false,
+                    "cpfContributable": false,
+                    "isVisible": false,
+                    "categoryDisplayOrder": 0,
+                    "itemDisplayOrder": 0,
+                    "claimants": []
+                },
+                {
+                    "categoryName": "Hospitalisation (Click on the item(s) below to submit claim(s))",
+                    "categoryImage": "",
+                    "claimId": "HS-IPSURG",
+                    "claimName": "",
+                    "isTaxable": false,
+                    "cpfContributable": false,
+                    "isVisible": false,
+                    "categoryDisplayOrder": 0,
+                    "itemDisplayOrder": 0,
+                    "claimants": []
+                },
+                {
+                    "categoryName": "Hospitalisation (Click on the item(s) below to submit claim(s))",
+                    "categoryImage": "",
+                    "claimId": "HS-POST",
+                    "claimName": "",
+                    "isTaxable": false,
+                    "cpfContributable": false,
+                    "isVisible": false,
+                    "categoryDisplayOrder": 0,
+                    "itemDisplayOrder": 0,
+                    "claimants": []
+                },
+                {
+                    "categoryName": "Hospitalisation (Click on the item(s) below to submit claim(s))",
+                    "categoryImage": "",
+                    "claimId": "HS-PRE",
+                    "claimName": "",
+                    "isTaxable": false,
+                    "cpfContributable": false,
+                    "isVisible": false,
+                    "categoryDisplayOrder": 0,
+                    "itemDisplayOrder": 0,
+                    "claimants": []
+                },
+                {
+                    "categoryName": "Hospitalisation (Click on the item(s) below to submit claim(s))",
+                    "categoryImage": "",
+                    "claimId": "HS-EMERGENCY",
+                    "claimName": "",
+                    "isTaxable": false,
+                    "cpfContributable": false,
+                    "isVisible": false,
+                    "categoryDisplayOrder": 0,
+                    "itemDisplayOrder": 0,
+                    "claimants": []
+                },
+                {
+                    "categoryName": "Hospitalisation (Click on the item(s) below to submit claim(s))",
+                    "categoryImage": "",
+                    "claimId": "HS-OP",
+                    "claimName": "",
+                    "isTaxable": false,
+                    "cpfContributable": false,
+                    "isVisible": false,
+                    "categoryDisplayOrder": 0,
+                    "itemDisplayOrder": 0,
+                    "claimants": []
+                },
+                {
+                    "categoryName": "Hospitalisation (Click on the item(s) below to submit claim(s))",
+                    "categoryImage": "",
+                    "claimId": "HS-MISCARRIAGE",
+                    "claimName": "",
+                    "isTaxable": false,
+                    "cpfContributable": false,
+                    "isVisible": false,
+                    "categoryDisplayOrder": 0,
+                    "itemDisplayOrder": 0,
+                    "claimants": []
+                },
+                {
+                    "categoryName": "Click on the claim category to submit a claim:",
+                    "categoryImage": "",
+                    "claimId": "NF-MEDPA",
+                    "claimName": "",
+                    "isTaxable": false,
+                    "cpfContributable": false,
+                    "isVisible": false,
+                    "categoryDisplayOrder": 0,
+                    "itemDisplayOrder": 0,
+                    "claimants": []
+                },
+                {
+                    "categoryName": "Click on the claim category to submit a claim:",
+                    "categoryImage": "",
+                    "claimId": "NF-MEDAPP",
+                    "claimName": "",
+                    "isTaxable": false,
+                    "cpfContributable": false,
+                    "isVisible": false,
+                    "categoryDisplayOrder": 0,
+                    "itemDisplayOrder": 0,
+                    "claimants": []
+                },
+                {
+                    "categoryName": "Click on the claim category to submit a claim:",
+                    "categoryImage": "",
+                    "claimId": "NF-FTY",
+                    "claimName": "",
+                    "isTaxable": false,
+                    "cpfContributable": false,
+                    "isVisible": false,
+                    "categoryDisplayOrder": 0,
+                    "itemDisplayOrder": 0,
+                    "claimants": []
+                },
+                {
+                    "categoryName": "Click on the claim category to submit a claim:",
+                    "categoryImage": "",
+                    "claimId": "NF-LASIK",
+                    "claimName": "",
+                    "isTaxable": false,
+                    "cpfContributable": false,
+                    "isVisible": false,
+                    "categoryDisplayOrder": 0,
+                    "itemDisplayOrder": 0,
+                    "claimants": []
+                },
+                {
+                    "categoryName": "Family Oriented Benefits (Click on the item(s) below to submit claim(s))",
+                    "categoryImage": "",
+                    "claimId": "NF-NURSE",
+                    "claimName": "",
+                    "isTaxable": false,
+                    "cpfContributable": false,
+                    "isVisible": false,
+                    "categoryDisplayOrder": 0,
+                    "itemDisplayOrder": 0,
+                    "claimants": []
+                },
+                {
+                    "categoryName": "Wellness (Click on the item(s) below to submit claim(s))",
+                    "categoryImage": "",
+                    "claimId": "NF-VACCINE",
+                    "claimName": "",
+                    "isTaxable": false,
+                    "cpfContributable": false,
+                    "isVisible": false,
+                    "categoryDisplayOrder": 0,
+                    "itemDisplayOrder": 0,
+                    "claimants": []
+                },
+                {
+                    "categoryName": "Wellness (Click on the item(s) below to submit claim(s))",
+                    "categoryImage": "",
+                    "claimId": "NF-VIT",
+                    "claimName": "",
+                    "isTaxable": false,
+                    "cpfContributable": false,
+                    "isVisible": false,
+                    "categoryDisplayOrder": 0,
+                    "itemDisplayOrder": 0,
+                    "claimants": []
+                },
+                {
+                    "categoryName": "Wellness (Click on the item(s) below to submit claim(s))",
+                    "categoryImage": "",
+                    "claimId": "NF-HLTMGMT",
+                    "claimName": "",
+                    "isTaxable": false,
+                    "cpfContributable": false,
+                    "isVisible": false,
+                    "categoryDisplayOrder": 0,
+                    "itemDisplayOrder": 0,
+                    "claimants": []
+                },
+                {
+                    "categoryName": "Wellness (Click on the item(s) below to submit claim(s))",
+                    "categoryImage": "",
+                    "claimId": "NF-FITEQ",
+                    "claimName": "",
+                    "isTaxable": false,
+                    "cpfContributable": false,
+                    "isVisible": false,
+                    "categoryDisplayOrder": 0,
+                    "itemDisplayOrder": 0,
+                    "claimants": []
+                },
+                {
+                    "categoryName": "Wellness (Click on the item(s) below to submit claim(s))",
+                    "categoryImage": "",
+                    "claimId": "NF-SPA",
+                    "claimName": "",
+                    "isTaxable": false,
+                    "cpfContributable": false,
+                    "isVisible": false,
+                    "categoryDisplayOrder": 0,
+                    "itemDisplayOrder": 0,
+                    "claimants": []
+                },
+                {
+                    "categoryName": "Wellness (Click on the item(s) below to submit claim(s))",
+                    "categoryImage": "",
+                    "claimId": "MAG-TAXNCPF",
+                    "claimName": "",
+                    "isTaxable": false,
+                    "cpfContributable": false,
+                    "isVisible": false,
+                    "categoryDisplayOrder": 0,
+                    "itemDisplayOrder": 0,
+                    "claimants": []
+                },
+                {
+                    "categoryName": "Wellness (Click on the item(s) below to submit claim(s))",
+                    "categoryImage": "",
+                    "claimId": "MAG-NTAXNCPF",
+                    "claimName": "",
+                    "isTaxable": false,
+                    "cpfContributable": false,
+                    "isVisible": false,
+                    "categoryDisplayOrder": 0,
+                    "itemDisplayOrder": 0,
+                    "claimants": []
+                },
+                {
+                    "categoryName": "Wellness (Click on the item(s) below to submit claim(s))",
+                    "categoryImage": "",
+                    "claimId": "MAG-TAXCPF",
+                    "claimName": "",
+                    "isTaxable": false,
+                    "cpfContributable": false,
+                    "isVisible": false,
+                    "categoryDisplayOrder": 0,
+                    "itemDisplayOrder": 0,
+                    "claimants": []
+                },
+                {
+                    "categoryName": "Wellness (Click on the item(s) below to submit claim(s))",
+                    "categoryImage": "",
+                    "claimId": "MAG-NTAXCPF",
+                    "claimName": "",
+                    "isTaxable": false,
+                    "cpfContributable": false,
+                    "isVisible": false,
+                    "categoryDisplayOrder": 0,
+                    "itemDisplayOrder": 0,
+                    "claimants": []
+                },
+                {
+                    "categoryName": "Wellness (Click on the item(s) below to submit claim(s))",
+                    "categoryImage": "",
+                    "claimId": "NF-ALTMED",
+                    "claimName": "",
+                    "isTaxable": false,
+                    "cpfContributable": false,
+                    "isVisible": false,
+                    "categoryDisplayOrder": 0,
+                    "itemDisplayOrder": 0,
+                    "claimants": []
+                },
+                {
+                    "categoryName": "Wellness (Click on the item(s) below to submit claim(s))",
+                    "categoryImage": "",
+                    "claimId": "NF-OPTIC",
+                    "claimName": "",
+                    "isTaxable": false,
+                    "cpfContributable": false,
+                    "isVisible": false,
+                    "categoryDisplayOrder": 0,
+                    "itemDisplayOrder": 0,
+                    "claimants": []
+                },
+                {
+                    "categoryName": "Wellness (Click on the item(s) below to submit claim(s))",
+                    "categoryImage": "",
+                    "claimId": "NF-TCMGBEE",
+                    "claimName": "",
+                    "isTaxable": false,
+                    "cpfContributable": false,
+                    "isVisible": false,
+                    "categoryDisplayOrder": 0,
+                    "itemDisplayOrder": 0,
+                    "claimants": []
+                },
+                {
+                    "categoryName": "Wellness (Click on the item(s) below to submit claim(s))",
+                    "categoryImage": "",
+                    "claimId": "NF-TCMGBSPCH",
+                    "claimName": "",
+                    "isTaxable": false,
+                    "cpfContributable": false,
+                    "isVisible": false,
+                    "categoryDisplayOrder": 0,
+                    "itemDisplayOrder": 0,
+                    "claimants": []
+                },
+                {
+                    "categoryName": "Wellness (Click on the item(s) below to submit claim(s))",
+                    "categoryImage": "",
+                    "claimId": "NF-AMEDTEE",
+                    "claimName": "",
+                    "isTaxable": false,
+                    "cpfContributable": false,
+                    "isVisible": false,
+                    "categoryDisplayOrder": 0,
+                    "itemDisplayOrder": 0,
+                    "claimants": []
+                },
+                {
+                    "categoryName": "Wellness (Click on the item(s) below to submit claim(s))",
+                    "categoryImage": "",
+                    "claimId": "NF-AMEDGBEE",
+                    "claimName": "",
+                    "isTaxable": false,
+                    "cpfContributable": false,
+                    "isVisible": false,
+                    "categoryDisplayOrder": 0,
+                    "itemDisplayOrder": 0,
+                    "claimants": []
+                },
+                {
+                    "categoryName": "Wellness (Click on the item(s) below to submit claim(s))",
+                    "categoryImage": "",
+                    "claimId": "NF-AMEDTSPCH",
+                    "claimName": "",
+                    "isTaxable": false,
+                    "cpfContributable": false,
+                    "isVisible": false,
+                    "categoryDisplayOrder": 0,
+                    "itemDisplayOrder": 0,
+                    "claimants": []
+                },
+                {
+                    "categoryName": "Wellness (Click on the item(s) below to submit claim(s))",
+                    "categoryImage": "",
+                    "claimId": "NF-AMEDGBSPCH",
+                    "claimName": "",
+                    "isTaxable": false,
+                    "cpfContributable": false,
+                    "isVisible": false,
+                    "categoryDisplayOrder": 0,
+                    "itemDisplayOrder": 0,
+                    "claimants": []
+                },
+                {
+                    "categoryName": "Wellness (Click on the item(s) below to submit claim(s))",
+                    "categoryImage": "",
+                    "claimId": "NF-OPTICSPCHPR",
+                    "claimName": "",
+                    "isTaxable": false,
+                    "cpfContributable": false,
+                    "isVisible": false,
+                    "categoryDisplayOrder": 0,
+                    "itemDisplayOrder": 0,
+                    "claimants": []
+                },
+                {
+                    "categoryName": "Wellness (Click on the item(s) below to submit claim(s))",
+                    "categoryImage": "",
+                    "claimId": "NF-CCCMSF",
+                    "claimName": "",
+                    "isTaxable": false,
+                    "cpfContributable": false,
+                    "isVisible": false,
+                    "categoryDisplayOrder": 0,
+                    "itemDisplayOrder": 0,
+                    "claimants": []
+                },
+                {
+                    "categoryName": "Wellness (Click on the item(s) below to submit claim(s))",
+                    "categoryImage": "",
+                    "claimId": "NF-CCCNMSF",
+                    "claimName": "",
+                    "isTaxable": false,
+                    "cpfContributable": false,
+                    "isVisible": false,
+                    "categoryDisplayOrder": 0,
+                    "itemDisplayOrder": 0,
+                    "claimants": []
+                },
+                {
+                    "categoryName": "Wellness (Click on the item(s) below to submit claim(s))",
+                    "categoryImage": "",
+                    "claimId": "NF-ELDER",
+                    "claimName": "",
+                    "isTaxable": false,
+                    "cpfContributable": false,
+                    "isVisible": false,
+                    "categoryDisplayOrder": 0,
+                    "itemDisplayOrder": 0,
+                    "claimants": []
+                },
+                {
+                    "categoryName": "Discretionary (Click on the item(s) below to submit claim(s))",
+                    "categoryImage": "",
+                    "claimId": "NF-DONATE",
+                    "claimName": "",
+                    "isTaxable": false,
+                    "cpfContributable": false,
+                    "isVisible": false,
+                    "categoryDisplayOrder": 0,
+                    "itemDisplayOrder": 0,
+                    "claimants": []
+                },
+                {
+                    "categoryName": "Group Dental (Click on the item(s) below to submit claim(s))",
+                    "categoryImage": "",
+                    "claimId": "MO-NPDEN",
+                    "claimName": "",
+                    "isTaxable": false,
+                    "cpfContributable": false,
+                    "isVisible": false,
+                    "categoryDisplayOrder": 0,
+                    "itemDisplayOrder": 0,
+                    "claimants": []
+                },
+                {
+                    "categoryName": "Group Maternity (Click on the item(s) below to submit claim(s))",
+                    "categoryImage": "",
+                    "claimId": "HS-MATNORMAL",
+                    "claimName": "",
+                    "isTaxable": false,
+                    "cpfContributable": false,
+                    "isVisible": false,
+                    "categoryDisplayOrder": 0,
+                    "itemDisplayOrder": 0,
+                    "claimants": []
+                },
+                {
+                    "categoryName": "Group Maternity (Click on the item(s) below to submit claim(s))",
+                    "categoryImage": "",
+                    "claimId": "HS-MATCOMPLICATED",
+                    "claimName": "",
+                    "isTaxable": false,
+                    "cpfContributable": false,
+                    "isVisible": false,
+                    "categoryDisplayOrder": 0,
+                    "itemDisplayOrder": 0,
+                    "claimants": []
+                },
+                {
+                    "categoryName": "Outpatient (Click on the item(s) below to submit claim(s))",
+                    "categoryImage": "",
+                    "claimId": "MO-GD",
+                    "claimName": "",
+                    "isTaxable": false,
+                    "cpfContributable": false,
+                    "isVisible": false,
+                    "categoryDisplayOrder": 0,
+                    "itemDisplayOrder": 0,
+                    "claimants": []
+                },
+                {
+                    "categoryName": "Outpatient (Click on the item(s) below to submit claim(s))",
+                    "categoryImage": "",
+                    "claimId": "MO-SPSSO",
+                    "claimName": "",
+                    "isTaxable": false,
+                    "cpfContributable": false,
+                    "isVisible": false,
+                    "categoryDisplayOrder": 0,
+                    "itemDisplayOrder": 0,
+                    "claimants": []
+                },
+                {
+                    "categoryName": "Outpatient (Click on the item(s) below to submit claim(s))",
+                    "categoryImage": "",
+                    "claimId": "MO-GDSSO",
+                    "claimName": "",
+                    "isTaxable": false,
+                    "cpfContributable": false,
+                    "isVisible": false,
+                    "categoryDisplayOrder": 0,
+                    "itemDisplayOrder": 0,
+                    "claimants": []
+                },
+                {
+                    "categoryName": "Inpatient (Click on the item(s) below to submit claim(s))",
+                    "categoryImage": "",
+                    "claimId": "HS-HS",
+                    "claimName": "",
+                    "isTaxable": false,
+                    "cpfContributable": false,
+                    "isVisible": false,
+                    "categoryDisplayOrder": 0,
+                    "itemDisplayOrder": 0,
+                    "claimants": []
+                },
+                {
+                    "categoryName": "Inpatient (Click on the item(s) below to submit claim(s))",
+                    "categoryImage": "",
+                    "claimId": "HS-GM",
+                    "claimName": "",
+                    "isTaxable": false,
+                    "cpfContributable": false,
+                    "isVisible": false,
+                    "categoryDisplayOrder": 0,
+                    "itemDisplayOrder": 0,
+                    "claimants": []
+                },
+                {
+                    "categoryName": "Inpatient (Click on the item(s) below to submit claim(s))",
+                    "categoryImage": "",
+                    "claimId": "HS-HSSSO",
+                    "claimName": "",
+                    "isTaxable": false,
+                    "cpfContributable": false,
+                    "isVisible": false,
+                    "categoryDisplayOrder": 0,
+                    "itemDisplayOrder": 0,
+                    "claimants": []
+                },
+                {
+                    "categoryName": "Inpatient (Click on the item(s) below to submit claim(s))",
+                    "categoryImage": "",
+                    "claimId": "HS-GMSSO",
+                    "claimName": "",
+                    "isTaxable": false,
+                    "cpfContributable": false,
+                    "isVisible": false,
+                    "categoryDisplayOrder": 0,
+                    "itemDisplayOrder": 0,
+                    "claimants": []
+                },
+                {
+                    "categoryName": "Healthcare (Click on the item(s) below to submit claim(s))",
+                    "categoryImage": "",
+                    "claimId": "NF-DEN",
+                    "claimName": "",
+                    "isTaxable": false,
+                    "cpfContributable": false,
+                    "isVisible": false,
+                    "categoryDisplayOrder": 0,
+                    "itemDisplayOrder": 0,
+                    "claimants": []
+                },
+                {
+                    "categoryName": "Healthcare (Click on the item(s) below to submit claim(s))",
+                    "categoryImage": "",
+                    "claimId": "NF-DEN2",
+                    "claimName": "",
+                    "isTaxable": false,
+                    "cpfContributable": false,
+                    "isVisible": false,
+                    "categoryDisplayOrder": 0,
+                    "itemDisplayOrder": 0,
+                    "claimants": []
+                },
+                {
+                    "categoryName": "Healthcare (Click on the item(s) below to submit claim(s))",
+                    "categoryImage": "",
+                    "claimId": "NF-BEYHNS",
+                    "claimName": "",
+                    "isTaxable": false,
+                    "cpfContributable": false,
+                    "isVisible": false,
+                    "categoryDisplayOrder": 0,
+                    "itemDisplayOrder": 0,
+                    "claimants": []
+                },
+                {
+                    "categoryName": "Healthcare (Click on the item(s) below to submit claim(s))",
+                    "categoryImage": "",
+                    "claimId": "NF-NCHNS",
+                    "claimName": "",
+                    "isTaxable": false,
+                    "cpfContributable": false,
+                    "isVisible": false,
+                    "categoryDisplayOrder": 0,
+                    "itemDisplayOrder": 0,
+                    "claimants": []
+                },
+                {
+                    "categoryName": "Healthcare (Click on the item(s) below to submit claim(s))",
+                    "categoryImage": "",
+                    "claimId": "NF-HS",
+                    "claimName": "",
+                    "isTaxable": false,
+                    "cpfContributable": false,
+                    "isVisible": false,
+                    "categoryDisplayOrder": 0,
+                    "itemDisplayOrder": 0,
+                    "claimants": []
+                },
+                {
+                    "categoryName": "Healthcare (Click on the item(s) below to submit claim(s))",
+                    "categoryImage": "",
+                    "claimId": "NF-HSPA",
+                    "claimName": "",
+                    "isTaxable": false,
+                    "cpfContributable": false,
+                    "isVisible": false,
+                    "categoryDisplayOrder": 0,
+                    "itemDisplayOrder": 0,
+                    "claimants": []
+                },
+                {
+                    "categoryName": "Healthcare (Click on the item(s) below to submit claim(s))",
+                    "categoryImage": "",
+                    "claimId": "NF-MAT",
+                    "claimName": "",
+                    "isTaxable": false,
+                    "cpfContributable": false,
+                    "isVisible": false,
+                    "categoryDisplayOrder": 0,
+                    "itemDisplayOrder": 0,
+                    "claimants": []
+                },
+                {
+                    "categoryName": "Healthcare (Click on the item(s) below to submit claim(s))",
+                    "categoryImage": "",
+                    "claimId": "NF-MAT2",
+                    "claimName": "",
+                    "isTaxable": false,
+                    "cpfContributable": false,
+                    "isVisible": false,
+                    "categoryDisplayOrder": 0,
+                    "itemDisplayOrder": 0,
+                    "claimants": []
+                },
+                {
+                    "categoryName": "Healthcare (Click on the item(s) below to submit claim(s))",
+                    "categoryImage": "",
+                    "claimId": "NF-DENDP",
+                    "claimName": "",
+                    "isTaxable": false,
+                    "cpfContributable": false,
+                    "isVisible": false,
+                    "categoryDisplayOrder": 0,
+                    "itemDisplayOrder": 0,
+                    "claimants": []
+                },
+                {
+                    "categoryName": "Healthcare (Click on the item(s) below to submit claim(s))",
+                    "categoryImage": "",
+                    "claimId": "NF-HSSC",
+                    "claimName": "",
+                    "isTaxable": false,
+                    "cpfContributable": false,
+                    "isVisible": false,
+                    "categoryDisplayOrder": 0,
+                    "itemDisplayOrder": 0,
+                    "claimants": []
+                },
+                {
+                    "categoryName": "Healthcare (Click on the item(s) below to submit claim(s))",
+                    "categoryImage": "",
+                    "claimId": "NF-DENFR",
+                    "claimName": "",
+                    "isTaxable": false,
+                    "cpfContributable": false,
+                    "isVisible": false,
+                    "categoryDisplayOrder": 0,
+                    "itemDisplayOrder": 0,
+                    "claimants": []
+                },
+                {
+                    "categoryName": "Healthcare (Click on the item(s) below to submit claim(s))",
+                    "categoryImage": "",
+                    "claimId": "NF-DENSPCH",
+                    "claimName": "",
+                    "isTaxable": false,
+                    "cpfContributable": false,
+                    "isVisible": false,
+                    "categoryDisplayOrder": 0,
+                    "itemDisplayOrder": 0,
+                    "claimants": []
+                },
+                {
+                    "categoryName": "Healthcare (Click on the item(s) below to submit claim(s))",
+                    "categoryImage": "",
+                    "claimId": "NF-HSSPCH",
+                    "claimName": "",
+                    "isTaxable": false,
+                    "cpfContributable": false,
+                    "isVisible": false,
+                    "categoryDisplayOrder": 0,
+                    "itemDisplayOrder": 0,
+                    "claimants": []
+                },
+                {
+                    "categoryName": "Healthcare (Click on the item(s) below to submit claim(s))",
+                    "categoryImage": "",
+                    "claimId": "NF-NFDEN",
+                    "claimName": "",
+                    "isTaxable": false,
+                    "cpfContributable": false,
+                    "isVisible": false,
+                    "categoryDisplayOrder": 0,
+                    "itemDisplayOrder": 0,
+                    "claimants": []
+                },
+                {
+                    "categoryName": "Healthcare (Click on the item(s) below to submit claim(s))",
+                    "categoryImage": "",
+                    "claimId": "NF-NFDENFR",
+                    "claimName": "",
+                    "isTaxable": false,
+                    "cpfContributable": false,
+                    "isVisible": false,
+                    "categoryDisplayOrder": 0,
+                    "itemDisplayOrder": 0,
+                    "claimants": []
+                },
+                {
+                    "categoryName": "Healthcare (Click on the item(s) below to submit claim(s))",
+                    "categoryImage": "",
+                    "claimId": "NF-NFDEN2",
+                    "claimName": "",
+                    "isTaxable": false,
+                    "cpfContributable": false,
+                    "isVisible": false,
+                    "categoryDisplayOrder": 0,
+                    "itemDisplayOrder": 0,
+                    "claimants": []
+                },
+                {
+                    "categoryName": "Healthcare (Click on the item(s) below to submit claim(s))",
+                    "categoryImage": "",
+                    "claimId": "NF-NFHNS",
+                    "claimName": "",
+                    "isTaxable": false,
+                    "cpfContributable": false,
+                    "isVisible": false,
+                    "categoryDisplayOrder": 0,
+                    "itemDisplayOrder": 0,
+                    "claimants": []
+                },
+                {
+                    "categoryName": "Healthcare (Click on the item(s) below to submit claim(s))",
+                    "categoryImage": "",
+                    "claimId": "NF-TCM",
+                    "claimName": "",
+                    "isTaxable": false,
+                    "cpfContributable": false,
+                    "isVisible": false,
+                    "categoryDisplayOrder": 0,
+                    "itemDisplayOrder": 0,
+                    "claimants": []
+                },
+                {
+                    "categoryName": "Healthcare (Click on the item(s) below to submit claim(s))",
+                    "categoryImage": "",
+                    "claimId": "NF-TCMNREE",
+                    "claimName": "",
+                    "isTaxable": false,
+                    "cpfContributable": false,
+                    "isVisible": false,
+                    "categoryDisplayOrder": 0,
+                    "itemDisplayOrder": 0,
+                    "claimants": []
+                },
+                {
+                    "categoryName": "Healthcare (Click on the item(s) below to submit claim(s))",
+                    "categoryImage": "",
+                    "claimId": "NF-TCMSPCH",
+                    "claimName": "",
+                    "isTaxable": false,
+                    "cpfContributable": false,
+                    "isVisible": false,
+                    "categoryDisplayOrder": 0,
+                    "itemDisplayOrder": 0,
+                    "claimants": []
+                },
+                {
+                    "categoryName": "Healthcare (Click on the item(s) below to submit claim(s))",
+                    "categoryImage": "",
+                    "claimId": "NF-TCMNRSPCH",
+                    "claimName": "",
+                    "isTaxable": false,
+                    "cpfContributable": false,
+                    "isVisible": false,
+                    "categoryDisplayOrder": 0,
+                    "itemDisplayOrder": 0,
+                    "claimants": []
+                },
+                {
+                    "categoryName": "Healthcare (Click on the item(s) below to submit claim(s))",
+                    "categoryImage": "",
+                    "claimId": "NF-NFDENExec",
+                    "claimName": "",
+                    "isTaxable": false,
+                    "cpfContributable": false,
+                    "isVisible": false,
+                    "categoryDisplayOrder": 0,
+                    "itemDisplayOrder": 0,
+                    "claimants": []
+                },
+                {
+                    "categoryName": "Healthcare (Click on the item(s) below to submit claim(s))",
+                    "categoryImage": "",
+                    "claimId": "NF-NFDENNonExec",
+                    "claimName": "",
+                    "isTaxable": false,
+                    "cpfContributable": false,
+                    "isVisible": false,
+                    "categoryDisplayOrder": 0,
+                    "itemDisplayOrder": 0,
+                    "claimants": []
+                },
+                {
+                    "categoryName": "Healthcare (Click on the item(s) below to submit claim(s))",
+                    "categoryImage": "",
+                    "claimId": "NF-NFDENCONExec",
+                    "claimName": "",
+                    "isTaxable": false,
+                    "cpfContributable": false,
+                    "isVisible": false,
+                    "categoryDisplayOrder": 0,
+                    "itemDisplayOrder": 0,
+                    "claimants": []
+                },
+                {
+                    "categoryName": "Healthcare (Click on the item(s) below to submit claim(s))",
+                    "categoryImage": "",
+                    "claimId": "NF-NFDENCONNonExec",
+                    "claimName": "",
+                    "isTaxable": false,
+                    "cpfContributable": false,
+                    "isVisible": false,
+                    "categoryDisplayOrder": 0,
+                    "itemDisplayOrder": 0,
+                    "claimants": []
+                },
+                {
+                    "categoryName": "Healthcare (Click on the item(s) below to submit claim(s))",
+                    "categoryImage": "",
+                    "claimId": "NF-NFDENExec2",
+                    "claimName": "",
+                    "isTaxable": false,
+                    "cpfContributable": false,
+                    "isVisible": false,
+                    "categoryDisplayOrder": 0,
+                    "itemDisplayOrder": 0,
+                    "claimants": []
+                },
+                {
+                    "categoryName": "Healthcare (Click on the item(s) below to submit claim(s))",
+                    "categoryImage": "",
+                    "claimId": "NF-NFDENNonExec2",
+                    "claimName": "",
+                    "isTaxable": false,
+                    "cpfContributable": false,
+                    "isVisible": false,
+                    "categoryDisplayOrder": 0,
+                    "itemDisplayOrder": 0,
+                    "claimants": []
+                },
+                {
+                    "categoryName": "Healthcare (Click on the item(s) below to submit claim(s))",
+                    "categoryImage": "",
+                    "claimId": "NF-NFDENCONExec2",
+                    "claimName": "",
+                    "isTaxable": false,
+                    "cpfContributable": false,
+                    "isVisible": false,
+                    "categoryDisplayOrder": 0,
+                    "itemDisplayOrder": 0,
+                    "claimants": []
+                },
+                {
+                    "categoryName": "Healthcare (Click on the item(s) below to submit claim(s))",
+                    "categoryImage": "",
+                    "claimId": "NF-NFDENCONNonExec2",
+                    "claimName": "",
+                    "isTaxable": false,
+                    "cpfContributable": false,
+                    "isVisible": false,
+                    "categoryDisplayOrder": 0,
+                    "itemDisplayOrder": 0,
+                    "claimants": []
+                },
+                {
+                    "categoryName": "Healthcare (Click on the item(s) below to submit claim(s))",
+                    "categoryImage": "",
+                    "claimId": "NF-NFHS",
+                    "claimName": "",
+                    "isTaxable": false,
+                    "cpfContributable": false,
+                    "isVisible": false,
+                    "categoryDisplayOrder": 0,
+                    "itemDisplayOrder": 0,
+                    "claimants": []
+                },
+                {
+                    "categoryName": "Healthcare (Click on the item(s) below to submit claim(s))",
+                    "categoryImage": "",
+                    "claimId": "NF-NFGPNonPanel",
+                    "claimName": "",
+                    "isTaxable": false,
+                    "cpfContributable": false,
+                    "isVisible": false,
+                    "categoryDisplayOrder": 0,
+                    "itemDisplayOrder": 0,
+                    "claimants": []
+                },
+                {
+                    "categoryName": "Healthcare (Click on the item(s) below to submit claim(s))",
+                    "categoryImage": "",
+                    "claimId": "NF-NFSPPrivate",
+                    "claimName": "",
+                    "isTaxable": false,
+                    "cpfContributable": false,
+                    "isVisible": false,
+                    "categoryDisplayOrder": 0,
+                    "itemDisplayOrder": 0,
+                    "claimants": []
+                },
+                {
+                    "categoryName": "Healthcare (Click on the item(s) below to submit claim(s))",
+                    "categoryImage": "",
+                    "claimId": "NF-NFSPGvtHspt",
+                    "claimName": "",
+                    "isTaxable": false,
+                    "cpfContributable": false,
+                    "isVisible": false,
+                    "categoryDisplayOrder": 0,
+                    "itemDisplayOrder": 0,
+                    "claimants": []
+                },
+                {
+                    "categoryName": "Healthcare (Click on the item(s) below to submit claim(s))",
+                    "categoryImage": "",
+                    "claimId": "NF-NFGPPoly",
+                    "claimName": "",
+                    "isTaxable": false,
+                    "cpfContributable": false,
+                    "isVisible": false,
+                    "categoryDisplayOrder": 0,
+                    "itemDisplayOrder": 0,
+                    "claimants": []
+                },
+                {
+                    "categoryName": "Healthcare (Click on the item(s) below to submit claim(s))",
+                    "categoryImage": "",
+                    "claimId": "NF-NFGPNonPanel2",
+                    "claimName": "",
+                    "isTaxable": false,
+                    "cpfContributable": false,
+                    "isVisible": false,
+                    "categoryDisplayOrder": 0,
+                    "itemDisplayOrder": 0,
+                    "claimants": []
+                },
+                {
+                    "categoryName": "Healthcare (Click on the item(s) below to submit claim(s))",
+                    "categoryImage": "",
+                    "claimId": "NF-NFGPPoly2",
+                    "claimName": "",
+                    "isTaxable": false,
+                    "cpfContributable": false,
+                    "isVisible": false,
+                    "categoryDisplayOrder": 0,
+                    "itemDisplayOrder": 0,
+                    "claimants": []
+                },
+                {
+                    "categoryName": "Healthcare (Click on the item(s) below to submit claim(s))",
+                    "categoryImage": "",
+                    "claimId": "NF-NFSPPrivate2",
+                    "claimName": "",
+                    "isTaxable": false,
+                    "cpfContributable": false,
+                    "isVisible": false,
+                    "categoryDisplayOrder": 0,
+                    "itemDisplayOrder": 0,
+                    "claimants": []
+                },
+                {
+                    "categoryName": "Healthcare (Click on the item(s) below to submit claim(s))",
+                    "categoryImage": "",
+                    "claimId": "NF-NFSPGvtHspt2",
+                    "claimName": "",
+                    "isTaxable": false,
+                    "cpfContributable": false,
+                    "isVisible": false,
+                    "categoryDisplayOrder": 0,
+                    "itemDisplayOrder": 0,
+                    "claimants": []
+                },
+                {
+                    "categoryName": "Personal and Work Life Enhancement (Click on the item(s) below to submit claim(s))",
+                    "categoryImage": "",
+                    "claimId": "NF-LOAN",
+                    "claimName": "",
+                    "isTaxable": false,
+                    "cpfContributable": false,
+                    "isVisible": false,
+                    "categoryDisplayOrder": 0,
+                    "itemDisplayOrder": 0,
+                    "claimants": []
+                },
+                {
+                    "categoryName": "Personal and Work Life Enhancement (Click on the item(s) below to submit claim(s))",
+                    "categoryImage": "",
+                    "claimId": "NF-INCTAX",
+                    "claimName": "",
+                    "isTaxable": false,
+                    "cpfContributable": false,
+                    "isVisible": false,
+                    "categoryDisplayOrder": 0,
+                    "itemDisplayOrder": 0,
+                    "claimants": []
+                },
+                {
+                    "categoryName": "Personal and Work Life Enhancement (Click on the item(s) below to submit claim(s))",
+                    "categoryImage": "",
+                    "claimId": "NF-PROPTAX",
+                    "claimName": "",
+                    "isTaxable": false,
+                    "cpfContributable": false,
+                    "isVisible": false,
+                    "categoryDisplayOrder": 0,
+                    "itemDisplayOrder": 0,
+                    "claimants": []
+                },
+                {
+                    "categoryName": "Personal and Work Life Enhancement (Click on the item(s) below to submit claim(s))",
+                    "categoryImage": "",
+                    "claimId": "NF-EDUEE",
+                    "claimName": "",
+                    "isTaxable": false,
+                    "cpfContributable": false,
+                    "isVisible": false,
+                    "categoryDisplayOrder": 0,
+                    "itemDisplayOrder": 0,
+                    "claimants": []
+                },
+                {
+                    "categoryName": "Family Wellness (Click on the item(s) below to submit claim(s))",
+                    "categoryImage": "",
+                    "claimId": "NF-EDUCH",
+                    "claimName": "",
+                    "isTaxable": false,
+                    "cpfContributable": false,
+                    "isVisible": false,
+                    "categoryDisplayOrder": 0,
+                    "itemDisplayOrder": 0,
+                    "claimants": []
+                },
+                {
+                    "categoryName": "Family Wellness (Click on the item(s) below to submit claim(s))",
+                    "categoryImage": "",
+                    "claimId": "NF-GADGET",
+                    "claimName": "",
+                    "isTaxable": false,
+                    "cpfContributable": false,
+                    "isVisible": false,
+                    "categoryDisplayOrder": 0,
+                    "itemDisplayOrder": 0,
+                    "claimants": []
+                },
+                {
+                    "categoryName": "Family Wellness (Click on the item(s) below to submit claim(s))",
+                    "categoryImage": "",
+                    "claimId": "NF-INSPREM",
+                    "claimName": "",
+                    "isTaxable": false,
+                    "cpfContributable": false,
+                    "isVisible": false,
+                    "categoryDisplayOrder": 0,
+                    "itemDisplayOrder": 0,
+                    "claimants": []
+                },
+                {
+                    "categoryName": "Medical Outpatient Benefit (Click on the item(s) below to submit claim(s))",
+                    "categoryImage": "",
+                    "claimId": "NF-GP",
+                    "claimName": "",
+                    "isTaxable": false,
+                    "cpfContributable": false,
+                    "isVisible": false,
+                    "categoryDisplayOrder": 0,
+                    "itemDisplayOrder": 0,
+                    "claimants": []
+                },
+                {
+                    "categoryName": "Medical Outpatient Benefit (Click on the item(s) below to submit claim(s))",
+                    "categoryImage": "",
+                    "claimId": "NF-SP",
+                    "claimName": "",
+                    "isTaxable": false,
+                    "cpfContributable": false,
+                    "isVisible": false,
+                    "categoryDisplayOrder": 0,
+                    "itemDisplayOrder": 0,
+                    "claimants": []
+                },
+                {
+                    "categoryName": "Medical Outpatient Benefit (Click on the item(s) below to submit claim(s))",
+                    "categoryImage": "",
+                    "claimId": "NF-GPSP",
+                    "claimName": "",
+                    "isTaxable": false,
+                    "cpfContributable": false,
+                    "isVisible": false,
+                    "categoryDisplayOrder": 0,
+                    "itemDisplayOrder": 0,
+                    "claimants": []
+                },
+                {
+                    "categoryName": "Medical Outpatient Benefit (Click on the item(s) below to submit claim(s))",
+                    "categoryImage": "",
+                    "claimId": "NF-HNS",
+                    "claimName": "",
+                    "isTaxable": false,
+                    "cpfContributable": false,
+                    "isVisible": false,
+                    "categoryDisplayOrder": 0,
+                    "itemDisplayOrder": 0,
+                    "claimants": []
+                },
+                {
+                    "categoryName": "Medical Outpatient Benefit (Click on the item(s) below to submit claim(s))",
+                    "categoryImage": "",
+                    "claimId": "NF-GPSPDP",
+                    "claimName": "",
+                    "isTaxable": false,
+                    "cpfContributable": false,
+                    "isVisible": false,
+                    "categoryDisplayOrder": 0,
+                    "itemDisplayOrder": 0,
+                    "claimants": []
+                },
+                {
+                    "categoryName": "Medical Outpatient Benefit (Click on the item(s) below to submit claim(s))",
+                    "categoryImage": "",
+                    "claimId": "NF-GPSPPT",
+                    "claimName": "",
+                    "isTaxable": false,
+                    "cpfContributable": false,
+                    "isVisible": false,
+                    "categoryDisplayOrder": 0,
+                    "itemDisplayOrder": 0,
+                    "claimants": []
+                },
+                {
+                    "categoryName": "Medical Outpatient Benefit (Click on the item(s) below to submit claim(s))",
+                    "categoryImage": "",
+                    "claimId": "NF-NFGPSP",
+                    "claimName": "",
+                    "isTaxable": false,
+                    "cpfContributable": false,
+                    "isVisible": false,
+                    "categoryDisplayOrder": 0,
+                    "itemDisplayOrder": 0,
+                    "claimants": []
+                },
+                {
+                    "categoryName": "Medical Outpatient Benefit (Click on the item(s) below to submit claim(s))",
+                    "categoryImage": "",
+                    "claimId": "NF-GPSPFusion",
+                    "claimName": "",
+                    "isTaxable": false,
+                    "cpfContributable": false,
+                    "isVisible": false,
+                    "categoryDisplayOrder": 0,
+                    "itemDisplayOrder": 0,
+                    "claimants": []
+                },
+                {
+                    "categoryName": "Medical Outpatient Benefit (Click on the item(s) below to submit claim(s))",
+                    "categoryImage": "",
+                    "claimId": "NF-HNSFusion",
+                    "claimName": "",
+                    "isTaxable": false,
+                    "cpfContributable": false,
+                    "isVisible": false,
+                    "categoryDisplayOrder": 0,
+                    "itemDisplayOrder": 0,
+                    "claimants": []
+                },
+                {
+                    "categoryName": "Medical Outpatient Benefit (Click on the item(s) below to submit claim(s))",
+                    "categoryImage": "",
+                    "claimId": "NF-GPSPRmpConExec",
+                    "claimName": "",
+                    "isTaxable": false,
+                    "cpfContributable": false,
+                    "isVisible": false,
+                    "categoryDisplayOrder": 0,
+                    "itemDisplayOrder": 0,
+                    "claimants": []
+                },
+                {
+                    "categoryName": "Medical Outpatient Benefit (Click on the item(s) below to submit claim(s))",
+                    "categoryImage": "",
+                    "claimId": "NF-GPSPRmpConNonExec",
+                    "claimName": "",
+                    "isTaxable": false,
+                    "cpfContributable": false,
+                    "isVisible": false,
+                    "categoryDisplayOrder": 0,
+                    "itemDisplayOrder": 0,
+                    "claimants": []
+                },
+                {
+                    "categoryName": "Recreation (Click on the item(s) below to submit claim(s))",
+                    "categoryImage": "",
+                    "claimId": "NF-HOL",
+                    "claimName": "",
+                    "isTaxable": false,
+                    "cpfContributable": false,
+                    "isVisible": false,
+                    "categoryDisplayOrder": 0,
+                    "itemDisplayOrder": 0,
+                    "claimants": []
+                },
+                {
+                    "categoryName": "Recreation (Click on the item(s) below to submit claim(s))",
+                    "categoryImage": "",
+                    "claimId": "NF-HOLSPCHPR",
+                    "claimName": "",
+                    "isTaxable": false,
+                    "cpfContributable": false,
+                    "isVisible": false,
+                    "categoryDisplayOrder": 0,
+                    "itemDisplayOrder": 0,
+                    "claimants": []
+                },
+                {
+                    "categoryName": "Others (Click on the item(s) below to submit claim(s))",
+                    "categoryImage": "",
+                    "claimId": "NF-OTR",
+                    "claimName": "",
+                    "isTaxable": false,
+                    "cpfContributable": false,
+                    "isVisible": false,
+                    "categoryDisplayOrder": 0,
+                    "itemDisplayOrder": 0,
+                    "claimants": []
+                },
+                {
+                    "categoryName": "Outpatient (Click on the item(s) below to submit claim(s))",
+                    "categoryImage": "",
+                    "claimId": "MO-GP",
+                    "claimName": "General Medical Practitioner",
+                    "isTaxable": false,
+                    "cpfContributable": false,
+                    "isVisible": true,
+                    "categoryDisplayOrder": 0,
+                    "itemDisplayOrder": 1,
+                    "claimants": [
+                        {
+                            "claimantKey": 3,
+                            "fullName": "testfullname 3",
+                            "type": "Employee"
+                        },
+                        {
+                            "claimantKey": 27,
+                            "fullName": "testdep fullname 27",
+                            "type": "Dependant"
+                        },
+                        {
+                            "claimantKey": 28,
+                            "fullName": "testdep fullname 28",
+                            "type": "Dependant"
+                        },
+                        {
+                            "claimantKey": 29,
+                            "fullName": "testdep fullname 29",
+                            "type": "Dependant"
+                        },
+                        {
+                            "claimantKey": 30,
+                            "fullName": "testdep fullname 30",
+                            "type": "Dependant"
+                        },
+                        {
+                            "claimantKey": 68,
+                            "fullName": "testdep fullname 68",
+                            "type": "Dependant"
+                        }
+                    ]
+                },
+                {
+                    "categoryName": "Outpatient (Click on the item(s) below to submit claim(s))",
+                    "categoryImage": "",
+                    "claimId": "MO-SP",
+                    "claimName": "Specialist Consultation",
+                    "isTaxable": false,
+                    "cpfContributable": false,
+                    "isVisible": true,
+                    "categoryDisplayOrder": 0,
+                    "itemDisplayOrder": 2,
+                    "claimants": [
+                        {
+                            "claimantKey": 3,
+                            "fullName": "testfullname 3",
+                            "type": "Employee"
+                        },
+                        {
+                            "claimantKey": 27,
+                            "fullName": "testdep fullname 27",
+                            "type": "Dependant"
+                        },
+                        {
+                            "claimantKey": 28,
+                            "fullName": "testdep fullname 28",
+                            "type": "Dependant"
+                        },
+                        {
+                            "claimantKey": 29,
+                            "fullName": "testdep fullname 29",
+                            "type": "Dependant"
+                        },
+                        {
+                            "claimantKey": 30,
+                            "fullName": "testdep fullname 30",
+                            "type": "Dependant"
+                        },
+                        {
+                            "claimantKey": 68,
+                            "fullName": "testdep fullname 68",
+                            "type": "Dependant"
+                        }
+                    ]
+                },
+                {
+                    "categoryName": "Outpatient Specialist (Click on the item(s) below to submit claim(s))",
+                    "categoryImage": "",
+                    "claimId": "MO-POPTT",
+                    "claimName": "Physiotherapy",
+                    "isTaxable": false,
+                    "cpfContributable": false,
+                    "isVisible": true,
+                    "categoryDisplayOrder": 0,
+                    "itemDisplayOrder": 13,
+                    "claimants": [
+                        {
+                            "claimantKey": 3,
+                            "fullName": "testfullname 3",
+                            "type": "Employee"
+                        },
+                        {
+                            "claimantKey": 27,
+                            "fullName": "testdep fullname 27",
+                            "type": "Dependant"
+                        },
+                        {
+                            "claimantKey": 28,
+                            "fullName": "testdep fullname 28",
+                            "type": "Dependant"
+                        },
+                        {
+                            "claimantKey": 29,
+                            "fullName": "testdep fullname 29",
+                            "type": "Dependant"
+                        },
+                        {
+                            "claimantKey": 30,
+                            "fullName": "testdep fullname 30",
+                            "type": "Dependant"
+                        },
+                        {
+                            "claimantKey": 68,
+                            "fullName": "testdep fullname 68",
+                            "type": "Dependant"
+                        }
+                    ]
+                },
+                {
+                    "categoryName": "Outpatient General Practitioner (Click on the item(s) below to submit claim(s))",
+                    "categoryImage": "",
+                    "claimId": "MO-POLY",
+                    "claimName": "Mental Illness & Emotional Disorder",
+                    "isTaxable": false,
+                    "cpfContributable": false,
+                    "isVisible": true,
+                    "categoryDisplayOrder": 0,
+                    "itemDisplayOrder": 14,
+                    "claimants": [
+                        {
+                            "claimantKey": 3,
+                            "fullName": "testfullname 3",
+                            "type": "Employee"
+                        },
+                        {
+                            "claimantKey": 27,
+                            "fullName": "testdep fullname 27",
+                            "type": "Dependant"
+                        },
+                        {
+                            "claimantKey": 28,
+                            "fullName": "testdep fullname 28",
+                            "type": "Dependant"
+                        },
+                        {
+                            "claimantKey": 29,
+                            "fullName": "testdep fullname 29",
+                            "type": "Dependant"
+                        },
+                        {
+                            "claimantKey": 30,
+                            "fullName": "testdep fullname 30",
+                            "type": "Dependant"
+                        },
+                        {
+                            "claimantKey": 68,
+                            "fullName": "testdep fullname 68",
+                            "type": "Dependant"
+                        }
+                    ]
+                },
+                {
+                    "categoryName": "Outpatient General Practitioner (Click on the item(s) below to submit claim(s))",
+                    "categoryImage": "",
+                    "claimId": "MO-NPGP",
+                    "claimName": "Medication Purchased outside doctor's clinic",
+                    "isTaxable": false,
+                    "cpfContributable": false,
+                    "isVisible": true,
+                    "categoryDisplayOrder": 0,
+                    "itemDisplayOrder": 15,
+                    "claimants": [
+                        {
+                            "claimantKey": 3,
+                            "fullName": "testfullname 3",
+                            "type": "Employee"
+                        },
+                        {
+                            "claimantKey": 27,
+                            "fullName": "testdep fullname 27",
+                            "type": "Dependant"
+                        },
+                        {
+                            "claimantKey": 28,
+                            "fullName": "testdep fullname 28",
+                            "type": "Dependant"
+                        },
+                        {
+                            "claimantKey": 29,
+                            "fullName": "testdep fullname 29",
+                            "type": "Dependant"
+                        },
+                        {
+                            "claimantKey": 30,
+                            "fullName": "testdep fullname 30",
+                            "type": "Dependant"
+                        },
+                        {
+                            "claimantKey": 68,
+                            "fullName": "testdep fullname 68",
+                            "type": "Dependant"
+                        }
+                    ]
+                },
+                {
+                    "categoryName": "Outpatient Specialist (Click on the item(s) below to submit claim(s))",
+                    "categoryImage": "",
+                    "claimId": "MO-PLAB",
+                    "claimName": "Diagnostic X-Ray & Laboratory tests and imaging",
+                    "isTaxable": false,
+                    "cpfContributable": false,
+                    "isVisible": true,
+                    "categoryDisplayOrder": 0,
+                    "itemDisplayOrder": 16,
+                    "claimants": [
+                        {
+                            "claimantKey": 3,
+                            "fullName": "testfullname 3",
+                            "type": "Employee"
+                        },
+                        {
+                            "claimantKey": 27,
+                            "fullName": "testdep fullname 27",
+                            "type": "Dependant"
+                        },
+                        {
+                            "claimantKey": 28,
+                            "fullName": "testdep fullname 28",
+                            "type": "Dependant"
+                        },
+                        {
+                            "claimantKey": 29,
+                            "fullName": "testdep fullname 29",
+                            "type": "Dependant"
+                        },
+                        {
+                            "claimantKey": 30,
+                            "fullName": "testdep fullname 30",
+                            "type": "Dependant"
+                        },
+                        {
+                            "claimantKey": 68,
+                            "fullName": "testdep fullname 68",
+                            "type": "Dependant"
+                        }
+                    ]
+                },
+                {
+                    "categoryName": "Outpatient General Practitioner (Click on the item(s) below to submit claim(s))",
+                    "categoryImage": "",
+                    "claimId": "MO-PGP",
+                    "claimName": "GP Clinics - Panel (Cash Payment)",
+                    "isTaxable": false,
+                    "cpfContributable": false,
+                    "isVisible": false,
+                    "categoryDisplayOrder": 0,
+                    "itemDisplayOrder": 101,
+                    "claimants": []
+                },
+                {
+                    "categoryName": "Outpatient General Practitioner (Click on the item(s) below to submit claim(s))",
+                    "categoryImage": "",
+                    "claimId": "MO-ANERESTRU",
+                    "claimName": "Hospital A&E - Restructured Hospitals",
+                    "isTaxable": false,
+                    "cpfContributable": false,
+                    "isVisible": false,
+                    "categoryDisplayOrder": 0,
+                    "itemDisplayOrder": 104,
+                    "claimants": []
+                },
+                {
+                    "categoryName": "Outpatient General Practitioner (Click on the item(s) below to submit claim(s))",
+                    "categoryImage": "",
+                    "claimId": "MO-ANEPRIV",
+                    "claimName": "Hospital A&E - Private Hospitals",
+                    "isTaxable": false,
+                    "cpfContributable": false,
+                    "isVisible": false,
+                    "categoryDisplayOrder": 0,
+                    "itemDisplayOrder": 105,
+                    "claimants": []
+                },
+                {
+                    "categoryName": "Outpatient General Practitioner (Click on the item(s) below to submit claim(s))",
+                    "categoryImage": "",
+                    "claimId": "MO-OVERSEAS",
+                    "claimName": "Overseas GP or Specialists",
+                    "isTaxable": false,
+                    "cpfContributable": false,
+                    "isVisible": false,
+                    "categoryDisplayOrder": 0,
+                    "itemDisplayOrder": 106,
+                    "claimants": []
+                },
+                {
+                    "categoryName": "Outpatient General Practitioner (Click on the item(s) below to submit claim(s))",
+                    "categoryImage": "",
+                    "claimId": "MO-NPTCM",
+                    "claimName": "Traditional Chinese Medicine - Non-Panel",
+                    "isTaxable": false,
+                    "cpfContributable": false,
+                    "isVisible": false,
+                    "categoryDisplayOrder": 0,
+                    "itemDisplayOrder": 107,
+                    "claimants": []
+                },
+                {
+                    "categoryName": "Outpatient Specialist (Click on the item(s) below to submit claim(s))",
+                    "categoryImage": "",
+                    "claimId": "MO-PSP",
+                    "claimName": "Outpatient Specialist - Panel (Cash Payment)",
+                    "isTaxable": false,
+                    "cpfContributable": false,
+                    "isVisible": false,
+                    "categoryDisplayOrder": 0,
+                    "itemDisplayOrder": 109,
+                    "claimants": []
+                },
+                {
+                    "categoryName": "Outpatient Specialist (Click on the item(s) below to submit claim(s))",
+                    "categoryImage": "",
+                    "claimId": "MO-NPSP",
+                    "claimName": "Outpatient Specialists - Non Panel",
+                    "isTaxable": false,
+                    "cpfContributable": false,
+                    "isVisible": false,
+                    "categoryDisplayOrder": 0,
+                    "itemDisplayOrder": 110,
+                    "claimants": []
+                },
+                {
+                    "categoryName": "Outpatient Specialist (Click on the item(s) below to submit claim(s))",
+                    "categoryImage": "",
+                    "claimId": "MO-NPLAB",
+                    "claimName": "Diagnostic X-Ray & Lab Test - Non-Panel",
+                    "isTaxable": false,
+                    "cpfContributable": false,
+                    "isVisible": false,
+                    "categoryDisplayOrder": 0,
+                    "itemDisplayOrder": 112,
+                    "claimants": []
+                },
+                {
+                    "categoryName": "Outpatient Specialist (Click on the item(s) below to submit claim(s))",
+                    "categoryImage": "",
+                    "claimId": "MO-PMRI",
+                    "claimName": "Outpatient MRI & CT Scan - Panel",
+                    "isTaxable": false,
+                    "cpfContributable": false,
+                    "isVisible": false,
+                    "categoryDisplayOrder": 0,
+                    "itemDisplayOrder": 113,
+                    "claimants": []
+                },
+                {
+                    "categoryName": "Outpatient Specialist (Click on the item(s) below to submit claim(s))",
+                    "categoryImage": "",
+                    "claimId": "MO-NPMRI",
+                    "claimName": "Outpatient MRI & CT Scan - Non-Panel",
+                    "isTaxable": false,
+                    "cpfContributable": false,
+                    "isVisible": false,
+                    "categoryDisplayOrder": 0,
+                    "itemDisplayOrder": 114,
+                    "claimants": []
+                },
+                {
+                    "categoryName": "Outpatient Specialist (Click on the item(s) below to submit claim(s))",
+                    "categoryImage": "",
+                    "claimId": "MO-NPOPTT",
+                    "claimName": "Outpatient therapy treatment - Non-Panel",
+                    "isTaxable": false,
+                    "cpfContributable": false,
+                    "isVisible": false,
+                    "categoryDisplayOrder": 0,
+                    "itemDisplayOrder": 118,
+                    "claimants": []
+                },
+                {
+                    "categoryName": "Outpatient Specialist (Click on the item(s) below to submit claim(s))",
+                    "categoryImage": "",
+                    "claimId": "MO-MATBEN",
+                    "claimName": "Outpatient Maternity Benefit",
+                    "isTaxable": false,
+                    "cpfContributable": false,
+                    "isVisible": false,
+                    "categoryDisplayOrder": 0,
+                    "itemDisplayOrder": 119,
+                    "claimants": []
+                },
+                {
+                    "categoryName": "Outpatient Specialist (Click on the item(s) below to submit claim(s))",
+                    "categoryImage": "",
+                    "claimId": "MO-NEWBORN",
+                    "claimName": "New Born Child from 1 day to 14 days old",
+                    "isTaxable": false,
+                    "cpfContributable": false,
+                    "isVisible": false,
+                    "categoryDisplayOrder": 0,
+                    "itemDisplayOrder": 120,
+                    "claimants": []
+                }
+            ]
+        }
+    ],
+    "claimItems": [
+        {
+            "categoryName": "Medical Claims (Insurance) (Click on the item(s) below to submit claim(s))",
+            "categoryImage": "",
+            "claimId": "InsuranceClaim",
+            "claimName": "",
+            "isTaxable": false,
+            "cpfContributable": false,
+            "isVisible": false,
+            "categoryDisplayOrder": 0,
+            "itemDisplayOrder": 0,
+            "claimants": []
+        },
+        {
+            "categoryName": "Medical Claims (Insurance) (Click on the item(s) below to submit claim(s))",
+            "categoryImage": "",
+            "claimId": "GHSClaim",
+            "claimName": "",
+            "isTaxable": false,
+            "cpfContributable": false,
+            "isVisible": false,
+            "categoryDisplayOrder": 0,
+            "itemDisplayOrder": 0,
+            "claimants": []
+        },
+        {
+            "categoryName": "Outpatient Specialist (Click on the item(s) below to submit claim(s))",
+            "categoryImage": "",
+            "claimId": "MO-PSPTCM",
+            "claimName": "",
+            "isTaxable": false,
+            "cpfContributable": false,
+            "isVisible": false,
+            "categoryDisplayOrder": 0,
+            "itemDisplayOrder": 0,
+            "claimants": []
+        },
+        {
+            "categoryName": "Outpatient Specialist (Click on the item(s) below to submit claim(s))",
+            "categoryImage": "",
+            "claimId": "MO-NPSPTCM",
+            "claimName": "",
+            "isTaxable": false,
+            "cpfContributable": false,
+            "isVisible": false,
+            "categoryDisplayOrder": 0,
+            "itemDisplayOrder": 0,
+            "claimants": []
+        },
+        {
+            "categoryName": "Hospitalisation (Click on the item(s) below to submit claim(s))",
+            "categoryImage": "",
+            "claimId": "HS-IPSURG",
+            "claimName": "",
+            "isTaxable": false,
+            "cpfContributable": false,
+            "isVisible": false,
+            "categoryDisplayOrder": 0,
+            "itemDisplayOrder": 0,
+            "claimants": []
+        },
+        {
+            "categoryName": "Hospitalisation (Click on the item(s) below to submit claim(s))",
+            "categoryImage": "",
+            "claimId": "HS-POST",
+            "claimName": "",
+            "isTaxable": false,
+            "cpfContributable": false,
+            "isVisible": false,
+            "categoryDisplayOrder": 0,
+            "itemDisplayOrder": 0,
+            "claimants": []
+        },
+        {
+            "categoryName": "Hospitalisation (Click on the item(s) below to submit claim(s))",
+            "categoryImage": "",
+            "claimId": "HS-PRE",
+            "claimName": "",
+            "isTaxable": false,
+            "cpfContributable": false,
+            "isVisible": false,
+            "categoryDisplayOrder": 0,
+            "itemDisplayOrder": 0,
+            "claimants": []
+        },
+        {
+            "categoryName": "Hospitalisation (Click on the item(s) below to submit claim(s))",
+            "categoryImage": "",
+            "claimId": "HS-EMERGENCY",
+            "claimName": "",
+            "isTaxable": false,
+            "cpfContributable": false,
+            "isVisible": false,
+            "categoryDisplayOrder": 0,
+            "itemDisplayOrder": 0,
+            "claimants": []
+        },
+        {
+            "categoryName": "Hospitalisation (Click on the item(s) below to submit claim(s))",
+            "categoryImage": "",
+            "claimId": "HS-OP",
+            "claimName": "",
+            "isTaxable": false,
+            "cpfContributable": false,
+            "isVisible": false,
+            "categoryDisplayOrder": 0,
+            "itemDisplayOrder": 0,
+            "claimants": []
+        },
+        {
+            "categoryName": "Hospitalisation (Click on the item(s) below to submit claim(s))",
+            "categoryImage": "",
+            "claimId": "HS-MISCARRIAGE",
+            "claimName": "",
+            "isTaxable": false,
+            "cpfContributable": false,
+            "isVisible": false,
+            "categoryDisplayOrder": 0,
+            "itemDisplayOrder": 0,
+            "claimants": []
+        },
+        {
+            "categoryName": "Click on the claim category to submit a claim:",
+            "categoryImage": "",
+            "claimId": "NF-MEDPA",
+            "claimName": "",
+            "isTaxable": false,
+            "cpfContributable": false,
+            "isVisible": false,
+            "categoryDisplayOrder": 0,
+            "itemDisplayOrder": 0,
+            "claimants": []
+        },
+        {
+            "categoryName": "Click on the claim category to submit a claim:",
+            "categoryImage": "",
+            "claimId": "NF-MEDAPP",
+            "claimName": "",
+            "isTaxable": false,
+            "cpfContributable": false,
+            "isVisible": false,
+            "categoryDisplayOrder": 0,
+            "itemDisplayOrder": 0,
+            "claimants": []
+        },
+        {
+            "categoryName": "Click on the claim category to submit a claim:",
+            "categoryImage": "",
+            "claimId": "NF-FTY",
+            "claimName": "",
+            "isTaxable": false,
+            "cpfContributable": false,
+            "isVisible": false,
+            "categoryDisplayOrder": 0,
+            "itemDisplayOrder": 0,
+            "claimants": []
+        },
+        {
+            "categoryName": "Click on the claim category to submit a claim:",
+            "categoryImage": "",
+            "claimId": "NF-LASIK",
+            "claimName": "",
+            "isTaxable": false,
+            "cpfContributable": false,
+            "isVisible": false,
+            "categoryDisplayOrder": 0,
+            "itemDisplayOrder": 0,
+            "claimants": []
+        },
+        {
+            "categoryName": "Family Oriented Benefits (Click on the item(s) below to submit claim(s))",
+            "categoryImage": "",
+            "claimId": "NF-NURSE",
+            "claimName": "",
+            "isTaxable": false,
+            "cpfContributable": false,
+            "isVisible": false,
+            "categoryDisplayOrder": 0,
+            "itemDisplayOrder": 0,
+            "claimants": []
+        },
+        {
+            "categoryName": "Wellness (Click on the item(s) below to submit claim(s))",
+            "categoryImage": "",
+            "claimId": "NF-VACCINE",
+            "claimName": "",
+            "isTaxable": false,
+            "cpfContributable": false,
+            "isVisible": false,
+            "categoryDisplayOrder": 0,
+            "itemDisplayOrder": 0,
+            "claimants": []
+        },
+        {
+            "categoryName": "Wellness (Click on the item(s) below to submit claim(s))",
+            "categoryImage": "",
+            "claimId": "NF-VIT",
+            "claimName": "",
+            "isTaxable": false,
+            "cpfContributable": false,
+            "isVisible": false,
+            "categoryDisplayOrder": 0,
+            "itemDisplayOrder": 0,
+            "claimants": []
+        },
+        {
+            "categoryName": "Wellness (Click on the item(s) below to submit claim(s))",
+            "categoryImage": "",
+            "claimId": "NF-HLTMGMT",
+            "claimName": "",
+            "isTaxable": false,
+            "cpfContributable": false,
+            "isVisible": false,
+            "categoryDisplayOrder": 0,
+            "itemDisplayOrder": 0,
+            "claimants": []
+        },
+        {
+            "categoryName": "Wellness (Click on the item(s) below to submit claim(s))",
+            "categoryImage": "",
+            "claimId": "NF-FITEQ",
+            "claimName": "",
+            "isTaxable": false,
+            "cpfContributable": false,
+            "isVisible": false,
+            "categoryDisplayOrder": 0,
+            "itemDisplayOrder": 0,
+            "claimants": []
+        },
+        {
+            "categoryName": "Wellness (Click on the item(s) below to submit claim(s))",
+            "categoryImage": "",
+            "claimId": "NF-SPA",
+            "claimName": "",
+            "isTaxable": false,
+            "cpfContributable": false,
+            "isVisible": false,
+            "categoryDisplayOrder": 0,
+            "itemDisplayOrder": 0,
+            "claimants": []
+        },
+        {
+            "categoryName": "Wellness (Click on the item(s) below to submit claim(s))",
+            "categoryImage": "",
+            "claimId": "MAG-TAXNCPF",
+            "claimName": "",
+            "isTaxable": false,
+            "cpfContributable": false,
+            "isVisible": false,
+            "categoryDisplayOrder": 0,
+            "itemDisplayOrder": 0,
+            "claimants": []
+        },
+        {
+            "categoryName": "Wellness (Click on the item(s) below to submit claim(s))",
+            "categoryImage": "",
+            "claimId": "MAG-NTAXNCPF",
+            "claimName": "",
+            "isTaxable": false,
+            "cpfContributable": false,
+            "isVisible": false,
+            "categoryDisplayOrder": 0,
+            "itemDisplayOrder": 0,
+            "claimants": []
+        },
+        {
+            "categoryName": "Wellness (Click on the item(s) below to submit claim(s))",
+            "categoryImage": "",
+            "claimId": "MAG-TAXCPF",
+            "claimName": "",
+            "isTaxable": false,
+            "cpfContributable": false,
+            "isVisible": false,
+            "categoryDisplayOrder": 0,
+            "itemDisplayOrder": 0,
+            "claimants": []
+        },
+        {
+            "categoryName": "Wellness (Click on the item(s) below to submit claim(s))",
+            "categoryImage": "",
+            "claimId": "MAG-NTAXCPF",
+            "claimName": "",
+            "isTaxable": false,
+            "cpfContributable": false,
+            "isVisible": false,
+            "categoryDisplayOrder": 0,
+            "itemDisplayOrder": 0,
+            "claimants": []
+        },
+        {
+            "categoryName": "Wellness (Click on the item(s) below to submit claim(s))",
+            "categoryImage": "",
+            "claimId": "NF-ALTMED",
+            "claimName": "",
+            "isTaxable": false,
+            "cpfContributable": false,
+            "isVisible": false,
+            "categoryDisplayOrder": 0,
+            "itemDisplayOrder": 0,
+            "claimants": []
+        },
+        {
+            "categoryName": "Wellness (Click on the item(s) below to submit claim(s))",
+            "categoryImage": "",
+            "claimId": "NF-OPTIC",
+            "claimName": "",
+            "isTaxable": false,
+            "cpfContributable": false,
+            "isVisible": false,
+            "categoryDisplayOrder": 0,
+            "itemDisplayOrder": 0,
+            "claimants": []
+        },
+        {
+            "categoryName": "Wellness (Click on the item(s) below to submit claim(s))",
+            "categoryImage": "",
+            "claimId": "NF-TCMGBEE",
+            "claimName": "",
+            "isTaxable": false,
+            "cpfContributable": false,
+            "isVisible": false,
+            "categoryDisplayOrder": 0,
+            "itemDisplayOrder": 0,
+            "claimants": []
+        },
+        {
+            "categoryName": "Wellness (Click on the item(s) below to submit claim(s))",
+            "categoryImage": "",
+            "claimId": "NF-TCMGBSPCH",
+            "claimName": "",
+            "isTaxable": false,
+            "cpfContributable": false,
+            "isVisible": false,
+            "categoryDisplayOrder": 0,
+            "itemDisplayOrder": 0,
+            "claimants": []
+        },
+        {
+            "categoryName": "Wellness (Click on the item(s) below to submit claim(s))",
+            "categoryImage": "",
+            "claimId": "NF-AMEDTEE",
+            "claimName": "",
+            "isTaxable": false,
+            "cpfContributable": false,
+            "isVisible": false,
+            "categoryDisplayOrder": 0,
+            "itemDisplayOrder": 0,
+            "claimants": []
+        },
+        {
+            "categoryName": "Wellness (Click on the item(s) below to submit claim(s))",
+            "categoryImage": "",
+            "claimId": "NF-AMEDGBEE",
+            "claimName": "",
+            "isTaxable": false,
+            "cpfContributable": false,
+            "isVisible": false,
+            "categoryDisplayOrder": 0,
+            "itemDisplayOrder": 0,
+            "claimants": []
+        },
+        {
+            "categoryName": "Wellness (Click on the item(s) below to submit claim(s))",
+            "categoryImage": "",
+            "claimId": "NF-AMEDTSPCH",
+            "claimName": "",
+            "isTaxable": false,
+            "cpfContributable": false,
+            "isVisible": false,
+            "categoryDisplayOrder": 0,
+            "itemDisplayOrder": 0,
+            "claimants": []
+        },
+        {
+            "categoryName": "Wellness (Click on the item(s) below to submit claim(s))",
+            "categoryImage": "",
+            "claimId": "NF-AMEDGBSPCH",
+            "claimName": "",
+            "isTaxable": false,
+            "cpfContributable": false,
+            "isVisible": false,
+            "categoryDisplayOrder": 0,
+            "itemDisplayOrder": 0,
+            "claimants": []
+        },
+        {
+            "categoryName": "Wellness (Click on the item(s) below to submit claim(s))",
+            "categoryImage": "",
+            "claimId": "NF-OPTICSPCHPR",
+            "claimName": "",
+            "isTaxable": false,
+            "cpfContributable": false,
+            "isVisible": false,
+            "categoryDisplayOrder": 0,
+            "itemDisplayOrder": 0,
+            "claimants": []
+        },
+        {
+            "categoryName": "Wellness (Click on the item(s) below to submit claim(s))",
+            "categoryImage": "",
+            "claimId": "NF-CCCMSF",
+            "claimName": "",
+            "isTaxable": false,
+            "cpfContributable": false,
+            "isVisible": false,
+            "categoryDisplayOrder": 0,
+            "itemDisplayOrder": 0,
+            "claimants": []
+        },
+        {
+            "categoryName": "Wellness (Click on the item(s) below to submit claim(s))",
+            "categoryImage": "",
+            "claimId": "NF-CCCNMSF",
+            "claimName": "",
+            "isTaxable": false,
+            "cpfContributable": false,
+            "isVisible": false,
+            "categoryDisplayOrder": 0,
+            "itemDisplayOrder": 0,
+            "claimants": []
+        },
+        {
+            "categoryName": "Wellness (Click on the item(s) below to submit claim(s))",
+            "categoryImage": "",
+            "claimId": "NF-ELDER",
+            "claimName": "",
+            "isTaxable": false,
+            "cpfContributable": false,
+            "isVisible": false,
+            "categoryDisplayOrder": 0,
+            "itemDisplayOrder": 0,
+            "claimants": []
+        },
+        {
+            "categoryName": "Discretionary (Click on the item(s) below to submit claim(s))",
+            "categoryImage": "",
+            "claimId": "NF-DONATE",
+            "claimName": "",
+            "isTaxable": false,
+            "cpfContributable": false,
+            "isVisible": false,
+            "categoryDisplayOrder": 0,
+            "itemDisplayOrder": 0,
+            "claimants": []
+        },
+        {
+            "categoryName": "Group Dental (Click on the item(s) below to submit claim(s))",
+            "categoryImage": "",
+            "claimId": "MO-NPDEN",
+            "claimName": "",
+            "isTaxable": false,
+            "cpfContributable": false,
+            "isVisible": false,
+            "categoryDisplayOrder": 0,
+            "itemDisplayOrder": 0,
+            "claimants": []
+        },
+        {
+            "categoryName": "Group Maternity (Click on the item(s) below to submit claim(s))",
+            "categoryImage": "",
+            "claimId": "HS-MATNORMAL",
+            "claimName": "",
+            "isTaxable": false,
+            "cpfContributable": false,
+            "isVisible": false,
+            "categoryDisplayOrder": 0,
+            "itemDisplayOrder": 0,
+            "claimants": []
+        },
+        {
+            "categoryName": "Group Maternity (Click on the item(s) below to submit claim(s))",
+            "categoryImage": "",
+            "claimId": "HS-MATCOMPLICATED",
+            "claimName": "",
+            "isTaxable": false,
+            "cpfContributable": false,
+            "isVisible": false,
+            "categoryDisplayOrder": 0,
+            "itemDisplayOrder": 0,
+            "claimants": []
+        },
+        {
+            "categoryName": "Outpatient (Click on the item(s) below to submit claim(s))",
+            "categoryImage": "",
+            "claimId": "MO-GD",
+            "claimName": "",
+            "isTaxable": false,
+            "cpfContributable": false,
+            "isVisible": false,
+            "categoryDisplayOrder": 0,
+            "itemDisplayOrder": 0,
+            "claimants": []
+        },
+        {
+            "categoryName": "Outpatient (Click on the item(s) below to submit claim(s))",
+            "categoryImage": "",
+            "claimId": "MO-SPSSO",
+            "claimName": "",
+            "isTaxable": false,
+            "cpfContributable": false,
+            "isVisible": false,
+            "categoryDisplayOrder": 0,
+            "itemDisplayOrder": 0,
+            "claimants": []
+        },
+        {
+            "categoryName": "Outpatient (Click on the item(s) below to submit claim(s))",
+            "categoryImage": "",
+            "claimId": "MO-GDSSO",
+            "claimName": "",
+            "isTaxable": false,
+            "cpfContributable": false,
+            "isVisible": false,
+            "categoryDisplayOrder": 0,
+            "itemDisplayOrder": 0,
+            "claimants": []
+        },
+        {
+            "categoryName": "Inpatient (Click on the item(s) below to submit claim(s))",
+            "categoryImage": "",
+            "claimId": "HS-HS",
+            "claimName": "",
+            "isTaxable": false,
+            "cpfContributable": false,
+            "isVisible": false,
+            "categoryDisplayOrder": 0,
+            "itemDisplayOrder": 0,
+            "claimants": []
+        },
+        {
+            "categoryName": "Inpatient (Click on the item(s) below to submit claim(s))",
+            "categoryImage": "",
+            "claimId": "HS-GM",
+            "claimName": "",
+            "isTaxable": false,
+            "cpfContributable": false,
+            "isVisible": false,
+            "categoryDisplayOrder": 0,
+            "itemDisplayOrder": 0,
+            "claimants": []
+        },
+        {
+            "categoryName": "Inpatient (Click on the item(s) below to submit claim(s))",
+            "categoryImage": "",
+            "claimId": "HS-HSSSO",
+            "claimName": "",
+            "isTaxable": false,
+            "cpfContributable": false,
+            "isVisible": false,
+            "categoryDisplayOrder": 0,
+            "itemDisplayOrder": 0,
+            "claimants": []
+        },
+        {
+            "categoryName": "Inpatient (Click on the item(s) below to submit claim(s))",
+            "categoryImage": "",
+            "claimId": "HS-GMSSO",
+            "claimName": "",
+            "isTaxable": false,
+            "cpfContributable": false,
+            "isVisible": false,
+            "categoryDisplayOrder": 0,
+            "itemDisplayOrder": 0,
+            "claimants": []
+        },
+        {
+            "categoryName": "Healthcare (Click on the item(s) below to submit claim(s))",
+            "categoryImage": "",
+            "claimId": "NF-DEN",
+            "claimName": "",
+            "isTaxable": false,
+            "cpfContributable": false,
+            "isVisible": false,
+            "categoryDisplayOrder": 0,
+            "itemDisplayOrder": 0,
+            "claimants": []
+        },
+        {
+            "categoryName": "Healthcare (Click on the item(s) below to submit claim(s))",
+            "categoryImage": "",
+            "claimId": "NF-DEN2",
+            "claimName": "",
+            "isTaxable": false,
+            "cpfContributable": false,
+            "isVisible": false,
+            "categoryDisplayOrder": 0,
+            "itemDisplayOrder": 0,
+            "claimants": []
+        },
+        {
+            "categoryName": "Healthcare (Click on the item(s) below to submit claim(s))",
+            "categoryImage": "",
+            "claimId": "NF-BEYHNS",
+            "claimName": "",
+            "isTaxable": false,
+            "cpfContributable": false,
+            "isVisible": false,
+            "categoryDisplayOrder": 0,
+            "itemDisplayOrder": 0,
+            "claimants": []
+        },
+        {
+            "categoryName": "Healthcare (Click on the item(s) below to submit claim(s))",
+            "categoryImage": "",
+            "claimId": "NF-NCHNS",
+            "claimName": "",
+            "isTaxable": false,
+            "cpfContributable": false,
+            "isVisible": false,
+            "categoryDisplayOrder": 0,
+            "itemDisplayOrder": 0,
+            "claimants": []
+        },
+        {
+            "categoryName": "Healthcare (Click on the item(s) below to submit claim(s))",
+            "categoryImage": "",
+            "claimId": "NF-HS",
+            "claimName": "",
+            "isTaxable": false,
+            "cpfContributable": false,
+            "isVisible": false,
+            "categoryDisplayOrder": 0,
+            "itemDisplayOrder": 0,
+            "claimants": []
+        },
+        {
+            "categoryName": "Healthcare (Click on the item(s) below to submit claim(s))",
+            "categoryImage": "",
+            "claimId": "NF-HSPA",
+            "claimName": "",
+            "isTaxable": false,
+            "cpfContributable": false,
+            "isVisible": false,
+            "categoryDisplayOrder": 0,
+            "itemDisplayOrder": 0,
+            "claimants": []
+        },
+        {
+            "categoryName": "Healthcare (Click on the item(s) below to submit claim(s))",
+            "categoryImage": "",
+            "claimId": "NF-MAT",
+            "claimName": "",
+            "isTaxable": false,
+            "cpfContributable": false,
+            "isVisible": false,
+            "categoryDisplayOrder": 0,
+            "itemDisplayOrder": 0,
+            "claimants": []
+        },
+        {
+            "categoryName": "Healthcare (Click on the item(s) below to submit claim(s))",
+            "categoryImage": "",
+            "claimId": "NF-MAT2",
+            "claimName": "",
+            "isTaxable": false,
+            "cpfContributable": false,
+            "isVisible": false,
+            "categoryDisplayOrder": 0,
+            "itemDisplayOrder": 0,
+            "claimants": []
+        },
+        {
+            "categoryName": "Healthcare (Click on the item(s) below to submit claim(s))",
+            "categoryImage": "",
+            "claimId": "NF-DENDP",
+            "claimName": "",
+            "isTaxable": false,
+            "cpfContributable": false,
+            "isVisible": false,
+            "categoryDisplayOrder": 0,
+            "itemDisplayOrder": 0,
+            "claimants": []
+        },
+        {
+            "categoryName": "Healthcare (Click on the item(s) below to submit claim(s))",
+            "categoryImage": "",
+            "claimId": "NF-HSSC",
+            "claimName": "",
+            "isTaxable": false,
+            "cpfContributable": false,
+            "isVisible": false,
+            "categoryDisplayOrder": 0,
+            "itemDisplayOrder": 0,
+            "claimants": []
+        },
+        {
+            "categoryName": "Healthcare (Click on the item(s) below to submit claim(s))",
+            "categoryImage": "",
+            "claimId": "NF-DENFR",
+            "claimName": "",
+            "isTaxable": false,
+            "cpfContributable": false,
+            "isVisible": false,
+            "categoryDisplayOrder": 0,
+            "itemDisplayOrder": 0,
+            "claimants": []
+        },
+        {
+            "categoryName": "Healthcare (Click on the item(s) below to submit claim(s))",
+            "categoryImage": "",
+            "claimId": "NF-DENSPCH",
+            "claimName": "",
+            "isTaxable": false,
+            "cpfContributable": false,
+            "isVisible": false,
+            "categoryDisplayOrder": 0,
+            "itemDisplayOrder": 0,
+            "claimants": []
+        },
+        {
+            "categoryName": "Healthcare (Click on the item(s) below to submit claim(s))",
+            "categoryImage": "",
+            "claimId": "NF-HSSPCH",
+            "claimName": "",
+            "isTaxable": false,
+            "cpfContributable": false,
+            "isVisible": false,
+            "categoryDisplayOrder": 0,
+            "itemDisplayOrder": 0,
+            "claimants": []
+        },
+        {
+            "categoryName": "Healthcare (Click on the item(s) below to submit claim(s))",
+            "categoryImage": "",
+            "claimId": "NF-NFDEN",
+            "claimName": "",
+            "isTaxable": false,
+            "cpfContributable": false,
+            "isVisible": false,
+            "categoryDisplayOrder": 0,
+            "itemDisplayOrder": 0,
+            "claimants": []
+        },
+        {
+            "categoryName": "Healthcare (Click on the item(s) below to submit claim(s))",
+            "categoryImage": "",
+            "claimId": "NF-NFDENFR",
+            "claimName": "",
+            "isTaxable": false,
+            "cpfContributable": false,
+            "isVisible": false,
+            "categoryDisplayOrder": 0,
+            "itemDisplayOrder": 0,
+            "claimants": []
+        },
+        {
+            "categoryName": "Healthcare (Click on the item(s) below to submit claim(s))",
+            "categoryImage": "",
+            "claimId": "NF-NFDEN2",
+            "claimName": "",
+            "isTaxable": false,
+            "cpfContributable": false,
+            "isVisible": false,
+            "categoryDisplayOrder": 0,
+            "itemDisplayOrder": 0,
+            "claimants": []
+        },
+        {
+            "categoryName": "Healthcare (Click on the item(s) below to submit claim(s))",
+            "categoryImage": "",
+            "claimId": "NF-NFHNS",
+            "claimName": "",
+            "isTaxable": false,
+            "cpfContributable": false,
+            "isVisible": false,
+            "categoryDisplayOrder": 0,
+            "itemDisplayOrder": 0,
+            "claimants": []
+        },
+        {
+            "categoryName": "Healthcare (Click on the item(s) below to submit claim(s))",
+            "categoryImage": "",
+            "claimId": "NF-TCM",
+            "claimName": "",
+            "isTaxable": false,
+            "cpfContributable": false,
+            "isVisible": false,
+            "categoryDisplayOrder": 0,
+            "itemDisplayOrder": 0,
+            "claimants": []
+        },
+        {
+            "categoryName": "Healthcare (Click on the item(s) below to submit claim(s))",
+            "categoryImage": "",
+            "claimId": "NF-TCMNREE",
+            "claimName": "",
+            "isTaxable": false,
+            "cpfContributable": false,
+            "isVisible": false,
+            "categoryDisplayOrder": 0,
+            "itemDisplayOrder": 0,
+            "claimants": []
+        },
+        {
+            "categoryName": "Healthcare (Click on the item(s) below to submit claim(s))",
+            "categoryImage": "",
+            "claimId": "NF-TCMSPCH",
+            "claimName": "",
+            "isTaxable": false,
+            "cpfContributable": false,
+            "isVisible": false,
+            "categoryDisplayOrder": 0,
+            "itemDisplayOrder": 0,
+            "claimants": []
+        },
+        {
+            "categoryName": "Healthcare (Click on the item(s) below to submit claim(s))",
+            "categoryImage": "",
+            "claimId": "NF-TCMNRSPCH",
+            "claimName": "",
+            "isTaxable": false,
+            "cpfContributable": false,
+            "isVisible": false,
+            "categoryDisplayOrder": 0,
+            "itemDisplayOrder": 0,
+            "claimants": []
+        },
+        {
+            "categoryName": "Healthcare (Click on the item(s) below to submit claim(s))",
+            "categoryImage": "",
+            "claimId": "NF-NFDENExec",
+            "claimName": "",
+            "isTaxable": false,
+            "cpfContributable": false,
+            "isVisible": false,
+            "categoryDisplayOrder": 0,
+            "itemDisplayOrder": 0,
+            "claimants": []
+        },
+        {
+            "categoryName": "Healthcare (Click on the item(s) below to submit claim(s))",
+            "categoryImage": "",
+            "claimId": "NF-NFDENNonExec",
+            "claimName": "",
+            "isTaxable": false,
+            "cpfContributable": false,
+            "isVisible": false,
+            "categoryDisplayOrder": 0,
+            "itemDisplayOrder": 0,
+            "claimants": []
+        },
+        {
+            "categoryName": "Healthcare (Click on the item(s) below to submit claim(s))",
+            "categoryImage": "",
+            "claimId": "NF-NFDENCONExec",
+            "claimName": "",
+            "isTaxable": false,
+            "cpfContributable": false,
+            "isVisible": false,
+            "categoryDisplayOrder": 0,
+            "itemDisplayOrder": 0,
+            "claimants": []
+        },
+        {
+            "categoryName": "Healthcare (Click on the item(s) below to submit claim(s))",
+            "categoryImage": "",
+            "claimId": "NF-NFDENCONNonExec",
+            "claimName": "",
+            "isTaxable": false,
+            "cpfContributable": false,
+            "isVisible": false,
+            "categoryDisplayOrder": 0,
+            "itemDisplayOrder": 0,
+            "claimants": []
+        },
+        {
+            "categoryName": "Healthcare (Click on the item(s) below to submit claim(s))",
+            "categoryImage": "",
+            "claimId": "NF-NFDENExec2",
+            "claimName": "",
+            "isTaxable": false,
+            "cpfContributable": false,
+            "isVisible": false,
+            "categoryDisplayOrder": 0,
+            "itemDisplayOrder": 0,
+            "claimants": []
+        },
+        {
+            "categoryName": "Healthcare (Click on the item(s) below to submit claim(s))",
+            "categoryImage": "",
+            "claimId": "NF-NFDENNonExec2",
+            "claimName": "",
+            "isTaxable": false,
+            "cpfContributable": false,
+            "isVisible": false,
+            "categoryDisplayOrder": 0,
+            "itemDisplayOrder": 0,
+            "claimants": []
+        },
+        {
+            "categoryName": "Healthcare (Click on the item(s) below to submit claim(s))",
+            "categoryImage": "",
+            "claimId": "NF-NFDENCONExec2",
+            "claimName": "",
+            "isTaxable": false,
+            "cpfContributable": false,
+            "isVisible": false,
+            "categoryDisplayOrder": 0,
+            "itemDisplayOrder": 0,
+            "claimants": []
+        },
+        {
+            "categoryName": "Healthcare (Click on the item(s) below to submit claim(s))",
+            "categoryImage": "",
+            "claimId": "NF-NFDENCONNonExec2",
+            "claimName": "",
+            "isTaxable": false,
+            "cpfContributable": false,
+            "isVisible": false,
+            "categoryDisplayOrder": 0,
+            "itemDisplayOrder": 0,
+            "claimants": []
+        },
+        {
+            "categoryName": "Healthcare (Click on the item(s) below to submit claim(s))",
+            "categoryImage": "",
+            "claimId": "NF-NFHS",
+            "claimName": "",
+            "isTaxable": false,
+            "cpfContributable": false,
+            "isVisible": false,
+            "categoryDisplayOrder": 0,
+            "itemDisplayOrder": 0,
+            "claimants": []
+        },
+        {
+            "categoryName": "Healthcare (Click on the item(s) below to submit claim(s))",
+            "categoryImage": "",
+            "claimId": "NF-NFGPNonPanel",
+            "claimName": "",
+            "isTaxable": false,
+            "cpfContributable": false,
+            "isVisible": false,
+            "categoryDisplayOrder": 0,
+            "itemDisplayOrder": 0,
+            "claimants": []
+        },
+        {
+            "categoryName": "Healthcare (Click on the item(s) below to submit claim(s))",
+            "categoryImage": "",
+            "claimId": "NF-NFSPPrivate",
+            "claimName": "",
+            "isTaxable": false,
+            "cpfContributable": false,
+            "isVisible": false,
+            "categoryDisplayOrder": 0,
+            "itemDisplayOrder": 0,
+            "claimants": []
+        },
+        {
+            "categoryName": "Healthcare (Click on the item(s) below to submit claim(s))",
+            "categoryImage": "",
+            "claimId": "NF-NFSPGvtHspt",
+            "claimName": "",
+            "isTaxable": false,
+            "cpfContributable": false,
+            "isVisible": false,
+            "categoryDisplayOrder": 0,
+            "itemDisplayOrder": 0,
+            "claimants": []
+        },
+        {
+            "categoryName": "Healthcare (Click on the item(s) below to submit claim(s))",
+            "categoryImage": "",
+            "claimId": "NF-NFGPPoly",
+            "claimName": "",
+            "isTaxable": false,
+            "cpfContributable": false,
+            "isVisible": false,
+            "categoryDisplayOrder": 0,
+            "itemDisplayOrder": 0,
+            "claimants": []
+        },
+        {
+            "categoryName": "Healthcare (Click on the item(s) below to submit claim(s))",
+            "categoryImage": "",
+            "claimId": "NF-NFGPNonPanel2",
+            "claimName": "",
+            "isTaxable": false,
+            "cpfContributable": false,
+            "isVisible": false,
+            "categoryDisplayOrder": 0,
+            "itemDisplayOrder": 0,
+            "claimants": []
+        },
+        {
+            "categoryName": "Healthcare (Click on the item(s) below to submit claim(s))",
+            "categoryImage": "",
+            "claimId": "NF-NFGPPoly2",
+            "claimName": "",
+            "isTaxable": false,
+            "cpfContributable": false,
+            "isVisible": false,
+            "categoryDisplayOrder": 0,
+            "itemDisplayOrder": 0,
+            "claimants": []
+        },
+        {
+            "categoryName": "Healthcare (Click on the item(s) below to submit claim(s))",
+            "categoryImage": "",
+            "claimId": "NF-NFSPPrivate2",
+            "claimName": "",
+            "isTaxable": false,
+            "cpfContributable": false,
+            "isVisible": false,
+            "categoryDisplayOrder": 0,
+            "itemDisplayOrder": 0,
+            "claimants": []
+        },
+        {
+            "categoryName": "Healthcare (Click on the item(s) below to submit claim(s))",
+            "categoryImage": "",
+            "claimId": "NF-NFSPGvtHspt2",
+            "claimName": "",
+            "isTaxable": false,
+            "cpfContributable": false,
+            "isVisible": false,
+            "categoryDisplayOrder": 0,
+            "itemDisplayOrder": 0,
+            "claimants": []
+        },
+        {
+            "categoryName": "Personal and Work Life Enhancement (Click on the item(s) below to submit claim(s))",
+            "categoryImage": "",
+            "claimId": "NF-LOAN",
+            "claimName": "",
+            "isTaxable": false,
+            "cpfContributable": false,
+            "isVisible": false,
+            "categoryDisplayOrder": 0,
+            "itemDisplayOrder": 0,
+            "claimants": []
+        },
+        {
+            "categoryName": "Personal and Work Life Enhancement (Click on the item(s) below to submit claim(s))",
+            "categoryImage": "",
+            "claimId": "NF-INCTAX",
+            "claimName": "",
+            "isTaxable": false,
+            "cpfContributable": false,
+            "isVisible": false,
+            "categoryDisplayOrder": 0,
+            "itemDisplayOrder": 0,
+            "claimants": []
+        },
+        {
+            "categoryName": "Personal and Work Life Enhancement (Click on the item(s) below to submit claim(s))",
+            "categoryImage": "",
+            "claimId": "NF-PROPTAX",
+            "claimName": "",
+            "isTaxable": false,
+            "cpfContributable": false,
+            "isVisible": false,
+            "categoryDisplayOrder": 0,
+            "itemDisplayOrder": 0,
+            "claimants": []
+        },
+        {
+            "categoryName": "Personal and Work Life Enhancement (Click on the item(s) below to submit claim(s))",
+            "categoryImage": "",
+            "claimId": "NF-EDUEE",
+            "claimName": "",
+            "isTaxable": false,
+            "cpfContributable": false,
+            "isVisible": false,
+            "categoryDisplayOrder": 0,
+            "itemDisplayOrder": 0,
+            "claimants": []
+        },
+        {
+            "categoryName": "Family Wellness (Click on the item(s) below to submit claim(s))",
+            "categoryImage": "",
+            "claimId": "NF-EDUCH",
+            "claimName": "",
+            "isTaxable": false,
+            "cpfContributable": false,
+            "isVisible": false,
+            "categoryDisplayOrder": 0,
+            "itemDisplayOrder": 0,
+            "claimants": []
+        },
+        {
+            "categoryName": "Family Wellness (Click on the item(s) below to submit claim(s))",
+            "categoryImage": "",
+            "claimId": "NF-GADGET",
+            "claimName": "",
+            "isTaxable": false,
+            "cpfContributable": false,
+            "isVisible": false,
+            "categoryDisplayOrder": 0,
+            "itemDisplayOrder": 0,
+            "claimants": []
+        },
+        {
+            "categoryName": "Family Wellness (Click on the item(s) below to submit claim(s))",
+            "categoryImage": "",
+            "claimId": "NF-INSPREM",
+            "claimName": "",
+            "isTaxable": false,
+            "cpfContributable": false,
+            "isVisible": false,
+            "categoryDisplayOrder": 0,
+            "itemDisplayOrder": 0,
+            "claimants": []
+        },
+        {
+            "categoryName": "Medical Outpatient Benefit (Click on the item(s) below to submit claim(s))",
+            "categoryImage": "",
+            "claimId": "NF-GP",
+            "claimName": "",
+            "isTaxable": false,
+            "cpfContributable": false,
+            "isVisible": false,
+            "categoryDisplayOrder": 0,
+            "itemDisplayOrder": 0,
+            "claimants": []
+        },
+        {
+            "categoryName": "Medical Outpatient Benefit (Click on the item(s) below to submit claim(s))",
+            "categoryImage": "",
+            "claimId": "NF-SP",
+            "claimName": "",
+            "isTaxable": false,
+            "cpfContributable": false,
+            "isVisible": false,
+            "categoryDisplayOrder": 0,
+            "itemDisplayOrder": 0,
+            "claimants": []
+        },
+        {
+            "categoryName": "Medical Outpatient Benefit (Click on the item(s) below to submit claim(s))",
+            "categoryImage": "",
+            "claimId": "NF-GPSP",
+            "claimName": "",
+            "isTaxable": false,
+            "cpfContributable": false,
+            "isVisible": false,
+            "categoryDisplayOrder": 0,
+            "itemDisplayOrder": 0,
+            "claimants": []
+        },
+        {
+            "categoryName": "Medical Outpatient Benefit (Click on the item(s) below to submit claim(s))",
+            "categoryImage": "",
+            "claimId": "NF-HNS",
+            "claimName": "",
+            "isTaxable": false,
+            "cpfContributable": false,
+            "isVisible": false,
+            "categoryDisplayOrder": 0,
+            "itemDisplayOrder": 0,
+            "claimants": []
+        },
+        {
+            "categoryName": "Medical Outpatient Benefit (Click on the item(s) below to submit claim(s))",
+            "categoryImage": "",
+            "claimId": "NF-GPSPDP",
+            "claimName": "",
+            "isTaxable": false,
+            "cpfContributable": false,
+            "isVisible": false,
+            "categoryDisplayOrder": 0,
+            "itemDisplayOrder": 0,
+            "claimants": []
+        },
+        {
+            "categoryName": "Medical Outpatient Benefit (Click on the item(s) below to submit claim(s))",
+            "categoryImage": "",
+            "claimId": "NF-GPSPPT",
+            "claimName": "",
+            "isTaxable": false,
+            "cpfContributable": false,
+            "isVisible": false,
+            "categoryDisplayOrder": 0,
+            "itemDisplayOrder": 0,
+            "claimants": []
+        },
+        {
+            "categoryName": "Medical Outpatient Benefit (Click on the item(s) below to submit claim(s))",
+            "categoryImage": "",
+            "claimId": "NF-NFGPSP",
+            "claimName": "",
+            "isTaxable": false,
+            "cpfContributable": false,
+            "isVisible": false,
+            "categoryDisplayOrder": 0,
+            "itemDisplayOrder": 0,
+            "claimants": []
+        },
+        {
+            "categoryName": "Medical Outpatient Benefit (Click on the item(s) below to submit claim(s))",
+            "categoryImage": "",
+            "claimId": "NF-GPSPFusion",
+            "claimName": "",
+            "isTaxable": false,
+            "cpfContributable": false,
+            "isVisible": false,
+            "categoryDisplayOrder": 0,
+            "itemDisplayOrder": 0,
+            "claimants": []
+        },
+        {
+            "categoryName": "Medical Outpatient Benefit (Click on the item(s) below to submit claim(s))",
+            "categoryImage": "",
+            "claimId": "NF-HNSFusion",
+            "claimName": "",
+            "isTaxable": false,
+            "cpfContributable": false,
+            "isVisible": false,
+            "categoryDisplayOrder": 0,
+            "itemDisplayOrder": 0,
+            "claimants": []
+        },
+        {
+            "categoryName": "Medical Outpatient Benefit (Click on the item(s) below to submit claim(s))",
+            "categoryImage": "",
+            "claimId": "NF-GPSPRmpConExec",
+            "claimName": "",
+            "isTaxable": false,
+            "cpfContributable": false,
+            "isVisible": false,
+            "categoryDisplayOrder": 0,
+            "itemDisplayOrder": 0,
+            "claimants": []
+        },
+        {
+            "categoryName": "Medical Outpatient Benefit (Click on the item(s) below to submit claim(s))",
+            "categoryImage": "",
+            "claimId": "NF-GPSPRmpConNonExec",
+            "claimName": "",
+            "isTaxable": false,
+            "cpfContributable": false,
+            "isVisible": false,
+            "categoryDisplayOrder": 0,
+            "itemDisplayOrder": 0,
+            "claimants": []
+        },
+        {
+            "categoryName": "Recreation (Click on the item(s) below to submit claim(s))",
+            "categoryImage": "",
+            "claimId": "NF-HOL",
+            "claimName": "",
+            "isTaxable": false,
+            "cpfContributable": false,
+            "isVisible": false,
+            "categoryDisplayOrder": 0,
+            "itemDisplayOrder": 0,
+            "claimants": []
+        },
+        {
+            "categoryName": "Recreation (Click on the item(s) below to submit claim(s))",
+            "categoryImage": "",
+            "claimId": "NF-HOLSPCHPR",
+            "claimName": "",
+            "isTaxable": false,
+            "cpfContributable": false,
+            "isVisible": false,
+            "categoryDisplayOrder": 0,
+            "itemDisplayOrder": 0,
+            "claimants": []
+        },
+        {
+            "categoryName": "Others (Click on the item(s) below to submit claim(s))",
+            "categoryImage": "",
+            "claimId": "NF-OTR",
+            "claimName": "",
+            "isTaxable": false,
+            "cpfContributable": false,
+            "isVisible": false,
+            "categoryDisplayOrder": 0,
+            "itemDisplayOrder": 0,
+            "claimants": []
+        },
+        {
+            "categoryName": "Outpatient (Click on the item(s) below to submit claim(s))",
+            "categoryImage": "",
+            "claimId": "MO-GP",
+            "claimName": "General Medical Practitioner",
+            "isTaxable": false,
+            "cpfContributable": false,
+            "isVisible": true,
+            "categoryDisplayOrder": 0,
+            "itemDisplayOrder": 1,
+            "claimants": [
+                {
+                    "claimantKey": 3,
+                    "fullName": "testfullname 3",
+                    "type": "Employee"
+                },
+                {
+                    "claimantKey": 27,
+                    "fullName": "testdep fullname 27",
+                    "type": "Dependant"
+                },
+                {
+                    "claimantKey": 28,
+                    "fullName": "testdep fullname 28",
+                    "type": "Dependant"
+                },
+                {
+                    "claimantKey": 29,
+                    "fullName": "testdep fullname 29",
+                    "type": "Dependant"
+                },
+                {
+                    "claimantKey": 30,
+                    "fullName": "testdep fullname 30",
+                    "type": "Dependant"
+                },
+                {
+                    "claimantKey": 68,
+                    "fullName": "testdep fullname 68",
+                    "type": "Dependant"
+                }
+            ]
+        },
+        {
+            "categoryName": "Outpatient (Click on the item(s) below to submit claim(s))",
+            "categoryImage": "",
+            "claimId": "MO-SP",
+            "claimName": "Specialist Consultation",
+            "isTaxable": false,
+            "cpfContributable": false,
+            "isVisible": true,
+            "categoryDisplayOrder": 0,
+            "itemDisplayOrder": 2,
+            "claimants": [
+                {
+                    "claimantKey": 3,
+                    "fullName": "testfullname 3",
+                    "type": "Employee"
+                },
+                {
+                    "claimantKey": 27,
+                    "fullName": "testdep fullname 27",
+                    "type": "Dependant"
+                },
+                {
+                    "claimantKey": 28,
+                    "fullName": "testdep fullname 28",
+                    "type": "Dependant"
+                },
+                {
+                    "claimantKey": 29,
+                    "fullName": "testdep fullname 29",
+                    "type": "Dependant"
+                },
+                {
+                    "claimantKey": 30,
+                    "fullName": "testdep fullname 30",
+                    "type": "Dependant"
+                },
+                {
+                    "claimantKey": 68,
+                    "fullName": "testdep fullname 68",
+                    "type": "Dependant"
+                }
+            ]
+        },
+        {
+            "categoryName": "Outpatient Specialist (Click on the item(s) below to submit claim(s))",
+            "categoryImage": "",
+            "claimId": "MO-POPTT",
+            "claimName": "Physiotherapy",
+            "isTaxable": false,
+            "cpfContributable": false,
+            "isVisible": true,
+            "categoryDisplayOrder": 0,
+            "itemDisplayOrder": 13,
+            "claimants": [
+                {
+                    "claimantKey": 3,
+                    "fullName": "testfullname 3",
+                    "type": "Employee"
+                },
+                {
+                    "claimantKey": 27,
+                    "fullName": "testdep fullname 27",
+                    "type": "Dependant"
+                },
+                {
+                    "claimantKey": 28,
+                    "fullName": "testdep fullname 28",
+                    "type": "Dependant"
+                },
+                {
+                    "claimantKey": 29,
+                    "fullName": "testdep fullname 29",
+                    "type": "Dependant"
+                },
+                {
+                    "claimantKey": 30,
+                    "fullName": "testdep fullname 30",
+                    "type": "Dependant"
+                },
+                {
+                    "claimantKey": 68,
+                    "fullName": "testdep fullname 68",
+                    "type": "Dependant"
+                }
+            ]
+        },
+        {
+            "categoryName": "Outpatient General Practitioner (Click on the item(s) below to submit claim(s))",
+            "categoryImage": "",
+            "claimId": "MO-POLY",
+            "claimName": "Mental Illness & Emotional Disorder",
+            "isTaxable": false,
+            "cpfContributable": false,
+            "isVisible": true,
+            "categoryDisplayOrder": 0,
+            "itemDisplayOrder": 14,
+            "claimants": [
+                {
+                    "claimantKey": 3,
+                    "fullName": "testfullname 3",
+                    "type": "Employee"
+                },
+                {
+                    "claimantKey": 27,
+                    "fullName": "testdep fullname 27",
+                    "type": "Dependant"
+                },
+                {
+                    "claimantKey": 28,
+                    "fullName": "testdep fullname 28",
+                    "type": "Dependant"
+                },
+                {
+                    "claimantKey": 29,
+                    "fullName": "testdep fullname 29",
+                    "type": "Dependant"
+                },
+                {
+                    "claimantKey": 30,
+                    "fullName": "testdep fullname 30",
+                    "type": "Dependant"
+                },
+                {
+                    "claimantKey": 68,
+                    "fullName": "testdep fullname 68",
+                    "type": "Dependant"
+                }
+            ]
+        },
+        {
+            "categoryName": "Outpatient General Practitioner (Click on the item(s) below to submit claim(s))",
+            "categoryImage": "",
+            "claimId": "MO-NPGP",
+            "claimName": "Medication Purchased outside doctor's clinic",
+            "isTaxable": false,
+            "cpfContributable": false,
+            "isVisible": true,
+            "categoryDisplayOrder": 0,
+            "itemDisplayOrder": 15,
+            "claimants": [
+                {
+                    "claimantKey": 3,
+                    "fullName": "testfullname 3",
+                    "type": "Employee"
+                },
+                {
+                    "claimantKey": 27,
+                    "fullName": "testdep fullname 27",
+                    "type": "Dependant"
+                },
+                {
+                    "claimantKey": 28,
+                    "fullName": "testdep fullname 28",
+                    "type": "Dependant"
+                },
+                {
+                    "claimantKey": 29,
+                    "fullName": "testdep fullname 29",
+                    "type": "Dependant"
+                },
+                {
+                    "claimantKey": 30,
+                    "fullName": "testdep fullname 30",
+                    "type": "Dependant"
+                },
+                {
+                    "claimantKey": 68,
+                    "fullName": "testdep fullname 68",
+                    "type": "Dependant"
+                }
+            ]
+        },
+        {
+            "categoryName": "Outpatient Specialist (Click on the item(s) below to submit claim(s))",
+            "categoryImage": "",
+            "claimId": "MO-PLAB",
+            "claimName": "Diagnostic X-Ray & Laboratory tests and imaging",
+            "isTaxable": false,
+            "cpfContributable": false,
+            "isVisible": true,
+            "categoryDisplayOrder": 0,
+            "itemDisplayOrder": 16,
+            "claimants": [
+                {
+                    "claimantKey": 3,
+                    "fullName": "testfullname 3",
+                    "type": "Employee"
+                },
+                {
+                    "claimantKey": 27,
+                    "fullName": "testdep fullname 27",
+                    "type": "Dependant"
+                },
+                {
+                    "claimantKey": 28,
+                    "fullName": "testdep fullname 28",
+                    "type": "Dependant"
+                },
+                {
+                    "claimantKey": 29,
+                    "fullName": "testdep fullname 29",
+                    "type": "Dependant"
+                },
+                {
+                    "claimantKey": 30,
+                    "fullName": "testdep fullname 30",
+                    "type": "Dependant"
+                },
+                {
+                    "claimantKey": 68,
+                    "fullName": "testdep fullname 68",
+                    "type": "Dependant"
+                }
+            ]
+        },
+        {
+            "categoryName": "Outpatient General Practitioner (Click on the item(s) below to submit claim(s))",
+            "categoryImage": "",
+            "claimId": "MO-PGP",
+            "claimName": "GP Clinics - Panel (Cash Payment)",
+            "isTaxable": false,
+            "cpfContributable": false,
+            "isVisible": false,
+            "categoryDisplayOrder": 0,
+            "itemDisplayOrder": 101,
+            "claimants": []
+        },
+        {
+            "categoryName": "Outpatient General Practitioner (Click on the item(s) below to submit claim(s))",
+            "categoryImage": "",
+            "claimId": "MO-ANERESTRU",
+            "claimName": "Hospital A&E - Restructured Hospitals",
+            "isTaxable": false,
+            "cpfContributable": false,
+            "isVisible": false,
+            "categoryDisplayOrder": 0,
+            "itemDisplayOrder": 104,
+            "claimants": []
+        },
+        {
+            "categoryName": "Outpatient General Practitioner (Click on the item(s) below to submit claim(s))",
+            "categoryImage": "",
+            "claimId": "MO-ANEPRIV",
+            "claimName": "Hospital A&E - Private Hospitals",
+            "isTaxable": false,
+            "cpfContributable": false,
+            "isVisible": false,
+            "categoryDisplayOrder": 0,
+            "itemDisplayOrder": 105,
+            "claimants": []
+        },
+        {
+            "categoryName": "Outpatient General Practitioner (Click on the item(s) below to submit claim(s))",
+            "categoryImage": "",
+            "claimId": "MO-OVERSEAS",
+            "claimName": "Overseas GP or Specialists",
+            "isTaxable": false,
+            "cpfContributable": false,
+            "isVisible": false,
+            "categoryDisplayOrder": 0,
+            "itemDisplayOrder": 106,
+            "claimants": []
+        },
+        {
+            "categoryName": "Outpatient General Practitioner (Click on the item(s) below to submit claim(s))",
+            "categoryImage": "",
+            "claimId": "MO-NPTCM",
+            "claimName": "Traditional Chinese Medicine - Non-Panel",
+            "isTaxable": false,
+            "cpfContributable": false,
+            "isVisible": false,
+            "categoryDisplayOrder": 0,
+            "itemDisplayOrder": 107,
+            "claimants": []
+        },
+        {
+            "categoryName": "Outpatient Specialist (Click on the item(s) below to submit claim(s))",
+            "categoryImage": "",
+            "claimId": "MO-PSP",
+            "claimName": "Outpatient Specialist - Panel (Cash Payment)",
+            "isTaxable": false,
+            "cpfContributable": false,
+            "isVisible": false,
+            "categoryDisplayOrder": 0,
+            "itemDisplayOrder": 109,
+            "claimants": []
+        },
+        {
+            "categoryName": "Outpatient Specialist (Click on the item(s) below to submit claim(s))",
+            "categoryImage": "",
+            "claimId": "MO-NPSP",
+            "claimName": "Outpatient Specialists - Non Panel",
+            "isTaxable": false,
+            "cpfContributable": false,
+            "isVisible": false,
+            "categoryDisplayOrder": 0,
+            "itemDisplayOrder": 110,
+            "claimants": []
+        },
+        {
+            "categoryName": "Outpatient Specialist (Click on the item(s) below to submit claim(s))",
+            "categoryImage": "",
+            "claimId": "MO-NPLAB",
+            "claimName": "Diagnostic X-Ray & Lab Test - Non-Panel",
+            "isTaxable": false,
+            "cpfContributable": false,
+            "isVisible": false,
+            "categoryDisplayOrder": 0,
+            "itemDisplayOrder": 112,
+            "claimants": []
+        },
+        {
+            "categoryName": "Outpatient Specialist (Click on the item(s) below to submit claim(s))",
+            "categoryImage": "",
+            "claimId": "MO-PMRI",
+            "claimName": "Outpatient MRI & CT Scan - Panel",
+            "isTaxable": false,
+            "cpfContributable": false,
+            "isVisible": false,
+            "categoryDisplayOrder": 0,
+            "itemDisplayOrder": 113,
+            "claimants": []
+        },
+        {
+            "categoryName": "Outpatient Specialist (Click on the item(s) below to submit claim(s))",
+            "categoryImage": "",
+            "claimId": "MO-NPMRI",
+            "claimName": "Outpatient MRI & CT Scan - Non-Panel",
+            "isTaxable": false,
+            "cpfContributable": false,
+            "isVisible": false,
+            "categoryDisplayOrder": 0,
+            "itemDisplayOrder": 114,
+            "claimants": []
+        },
+        {
+            "categoryName": "Outpatient Specialist (Click on the item(s) below to submit claim(s))",
+            "categoryImage": "",
+            "claimId": "MO-NPOPTT",
+            "claimName": "Outpatient therapy treatment - Non-Panel",
+            "isTaxable": false,
+            "cpfContributable": false,
+            "isVisible": false,
+            "categoryDisplayOrder": 0,
+            "itemDisplayOrder": 118,
+            "claimants": []
+        },
+        {
+            "categoryName": "Outpatient Specialist (Click on the item(s) below to submit claim(s))",
+            "categoryImage": "",
+            "claimId": "MO-MATBEN",
+            "claimName": "Outpatient Maternity Benefit",
+            "isTaxable": false,
+            "cpfContributable": false,
+            "isVisible": false,
+            "categoryDisplayOrder": 0,
+            "itemDisplayOrder": 119,
+            "claimants": []
+        },
+        {
+            "categoryName": "Outpatient Specialist (Click on the item(s) below to submit claim(s))",
+            "categoryImage": "",
+            "claimId": "MO-NEWBORN",
+            "claimName": "New Born Child from 1 day to 14 days old",
+            "isTaxable": false,
+            "cpfContributable": false,
+            "isVisible": false,
+            "categoryDisplayOrder": 0,
+            "itemDisplayOrder": 120,
+            "claimants": []
+        }
+    ],
+    "claimNotes": "<br>",
+    "isCPFEnabled": true
+}

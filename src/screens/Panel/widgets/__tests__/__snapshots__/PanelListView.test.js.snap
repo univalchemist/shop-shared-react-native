@@ -1,0 +1,676 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PanelListView should match snapshot 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <RNCSafeAreaView
+    onInsetsChange={[Function]}
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <View
+      onLayout={[Function]}
+      style={
+        Object {
+          "flex": 1,
+          "overflow": "hidden",
+        }
+      }
+    >
+      <View
+        pointerEvents="box-none"
+        style={
+          Object {
+            "bottom": 0,
+            "left": 0,
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+          }
+        }
+      >
+        <View
+          accessibilityElementsHidden={false}
+          closing={false}
+          gestureVelocityImpact={0.3}
+          importantForAccessibility="auto"
+          onClose={[Function]}
+          onGestureBegin={[Function]}
+          onGestureCanceled={[Function]}
+          onOpen={[Function]}
+          onTransitionStart={[Function]}
+          pointerEvents="box-none"
+          style={
+            Object {
+              "bottom": 0,
+              "left": 0,
+              "position": "absolute",
+              "right": 0,
+              "top": 0,
+            }
+          }
+          transitionSpec={
+            Object {
+              "close": Object {
+                "animation": "spring",
+                "config": Object {
+                  "damping": 500,
+                  "mass": 3,
+                  "overshootClamping": true,
+                  "restDisplacementThreshold": 0.01,
+                  "restSpeedThreshold": 0.01,
+                  "stiffness": 1000,
+                },
+              },
+              "open": Object {
+                "animation": "spring",
+                "config": Object {
+                  "damping": 500,
+                  "mass": 3,
+                  "overshootClamping": true,
+                  "restDisplacementThreshold": 0.01,
+                  "restSpeedThreshold": 0.01,
+                  "stiffness": 1000,
+                },
+              },
+            }
+          }
+        >
+          <View
+            pointerEvents="box-none"
+            style={
+              Object {
+                "flex": 1,
+              }
+            }
+          >
+            <View
+              enabled={false}
+              hitSlop={
+                Object {
+                  "right": -700,
+                }
+              }
+              maxDeltaY={20}
+              minOffsetX={5}
+              onHandlerStateChange={[Function]}
+            >
+              <View
+                style={
+                  Object {
+                    "flex": 1,
+                    "transform": Array [
+                      Object {
+                        "translateX": 0,
+                      },
+                      Object {
+                        "translateX": 0,
+                      },
+                    ],
+                  }
+                }
+              >
+                <View
+                  pointerEvents="none"
+                  style={
+                    Object {
+                      "backgroundColor": "#fff",
+                      "bottom": 0,
+                      "left": 0,
+                      "position": "absolute",
+                      "shadowColor": "#000",
+                      "shadowOffset": Object {
+                        "height": 1,
+                        "width": -1,
+                      },
+                      "shadowOpacity": 0.3,
+                      "shadowRadius": 5,
+                      "top": 0,
+                      "width": 3,
+                    }
+                  }
+                />
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "flex": 1,
+                        "overflow": "hidden",
+                      },
+                      Array [
+                        Object {
+                          "backgroundColor": "rgb(242, 242, 242)",
+                        },
+                        undefined,
+                      ],
+                    ]
+                  }
+                >
+                  <View
+                    style={
+                      Object {
+                        "flex": 1,
+                        "flexDirection": "column-reverse",
+                      }
+                    }
+                  >
+                    <View
+                      style={
+                        Object {
+                          "flex": 1,
+                        }
+                      }
+                    >
+                      <View
+                        style={
+                          Array [
+                            Object {},
+                            Object {
+                              "backgroundColor": "#f9f9f9",
+                            },
+                          ]
+                        }
+                      >
+                        <RCTScrollView
+                          ListHeaderComponent={
+                            <ForwardRef
+                              backgroundColor="gray.7"
+                              pb={2}
+                              pt={3}
+                              px={4}
+                            >
+                              <SectionHeadingText
+                                accessibilityLabel="Number of Clinics Found"
+                              >
+                                2 Clinics / Doctors found
+                              </SectionHeadingText>
+                            </ForwardRef>
+                          }
+                          data={
+                            Array [
+                              Object {
+                                "address": "CommonWealth MRT",
+                                "contactNumber1": "2223 2231",
+                                "id": 1,
+                                "name": "Dr abc",
+                                "specialty": "General Practice",
+                              },
+                              Object {
+                                "address": "City Hall MRT",
+                                "contactNumber1": "2223 2232",
+                                "contactNumber2": "2223 2233",
+                                "contactNumber3": "2223 2234",
+                                "id": 2,
+                                "name": "Dr xyz",
+                                "specialty": "General Surgery",
+                              },
+                            ]
+                          }
+                          disableVirtualization={false}
+                          getItem={[Function]}
+                          getItemCount={[Function]}
+                          horizontal={false}
+                          initialNumToRender={100}
+                          keyExtractor={[Function]}
+                          maxToRenderPerBatch={10}
+                          numColumns={1}
+                          onContentSizeChange={[Function]}
+                          onEndReachedThreshold={0.5}
+                          onLayout={[Function]}
+                          onMomentumScrollEnd={[Function]}
+                          onScroll={[Function]}
+                          onScrollBeginDrag={[Function]}
+                          onScrollEndDrag={[Function]}
+                          removeClippedSubviews={false}
+                          renderItem={[Function]}
+                          scrollEventThrottle={50}
+                          stickyHeaderIndices={
+                            Array [
+                              0,
+                            ]
+                          }
+                          updateCellsBatchingPeriod={50}
+                          viewabilityConfigCallbackPairs={Array []}
+                          windowSize={21}
+                        >
+                          <View>
+                            <View
+                              onLayout={[Function]}
+                            >
+                              <View
+                                backgroundColor="gray.7"
+                                pb={2}
+                                pt={3}
+                                px={4}
+                                style={
+                                  Array [
+                                    Object {
+                                      "backgroundColor": "#f9f9f9",
+                                      "paddingBottom": 8,
+                                      "paddingLeft": 32,
+                                      "paddingRight": 32,
+                                      "paddingTop": 16,
+                                    },
+                                  ]
+                                }
+                              >
+                                <Text
+                                  accessibilityLabel="Number of Clinics Found"
+                                  color="gray.0"
+                                  fontFamily="default"
+                                  fontSize={16}
+                                  fontWeight="bold"
+                                  lineHeight={22}
+                                  style={
+                                    Array [
+                                      Object {
+                                        "color": "#212121",
+                                        "fontFamily": "Arial",
+                                        "fontSize": 16,
+                                        "fontWeight": "700",
+                                        "lineHeight": 22,
+                                      },
+                                    ]
+                                  }
+                                >
+                                  2 Clinics / Doctors found
+                                </Text>
+                              </View>
+                            </View>
+                            <View
+                              onLayout={[Function]}
+                              style={null}
+                            >
+                              <View
+                                accessibilityLabel="Dr abc"
+                                accessible={true}
+                                focusable={true}
+                                isTVSelectable={true}
+                                onClick={[Function]}
+                                onResponderGrant={[Function]}
+                                onResponderMove={[Function]}
+                                onResponderRelease={[Function]}
+                                onResponderTerminate={[Function]}
+                                onResponderTerminationRequest={[Function]}
+                                onStartShouldSetResponder={[Function]}
+                                style={null}
+                              >
+                                <View
+                                  alignItems="center"
+                                  flexDirection="row"
+                                  px={4}
+                                  py={24}
+                                  style={
+                                    Array [
+                                      Object {
+                                        "alignItems": "center",
+                                        "flexDirection": "row",
+                                        "paddingBottom": 24,
+                                        "paddingLeft": 32,
+                                        "paddingRight": 32,
+                                        "paddingTop": 24,
+                                      },
+                                    ]
+                                  }
+                                >
+                                  <View
+                                    flex={1}
+                                    style={
+                                      Array [
+                                        Object {
+                                          "flexBasis": 0,
+                                          "flexGrow": 1,
+                                          "flexShrink": 1,
+                                        },
+                                      ]
+                                    }
+                                  >
+                                    <Text
+                                      color="gray.1"
+                                      fontFamily="default"
+                                      fontSize={16}
+                                      fontWeight="bold"
+                                      lineHeight={22}
+                                      numberOfLines={1}
+                                      style={
+                                        Array [
+                                          Object {
+                                            "color": "#646464",
+                                            "fontFamily": "Arial",
+                                            "fontSize": 16,
+                                            "fontWeight": "700",
+                                            "lineHeight": 22,
+                                          },
+                                        ]
+                                      }
+                                    >
+                                      Dr abc
+                                    </Text>
+                                    <Text
+                                      color="gray.1"
+                                      fontFamily="default"
+                                      fontSize={16}
+                                      lineHeight={22}
+                                      numberOfLines={1}
+                                      style={
+                                        Array [
+                                          Object {
+                                            "color": "#646464",
+                                            "fontFamily": "Arial",
+                                            "fontSize": 16,
+                                            "lineHeight": 22,
+                                          },
+                                          Object {
+                                            "textTransform": "capitalize",
+                                          },
+                                        ]
+                                      }
+                                    >
+                                      General Practice
+                                    </Text>
+                                    <Text
+                                      color="gray.1"
+                                      fontFamily="default"
+                                      fontSize={16}
+                                      lineHeight={22}
+                                      numberOfLines={1}
+                                      style={
+                                        Array [
+                                          Object {
+                                            "color": "#646464",
+                                            "fontFamily": "Arial",
+                                            "fontSize": 16,
+                                            "lineHeight": 22,
+                                          },
+                                        ]
+                                      }
+                                    >
+                                      2223 2231
+                                    </Text>
+                                    <Text
+                                      color="gray.1"
+                                      fontFamily="default"
+                                      fontSize={16}
+                                      lineHeight={22}
+                                      numberOfLines={2}
+                                      style={
+                                        Array [
+                                          Object {
+                                            "color": "#646464",
+                                            "fontFamily": "Arial",
+                                            "fontSize": 16,
+                                            "lineHeight": 22,
+                                          },
+                                        ]
+                                      }
+                                    >
+                                      CommonWealth MRT
+                                    </Text>
+                                  </View>
+                                  <View
+                                    marginLeft={3}
+                                    style={
+                                      Array [
+                                        Object {
+                                          "marginLeft": 16,
+                                        },
+                                      ]
+                                    }
+                                  >
+                                    <Image
+                                      size={30}
+                                      source={
+                                        Object {
+                                          "testUri": "../../@cxa-rn/components/src/ListItemWithRightChevron/images/angleRight.png",
+                                        }
+                                      }
+                                      style={
+                                        Array [
+                                          Object {
+                                            "height": 30,
+                                            "width": 30,
+                                          },
+                                        ]
+                                      }
+                                    />
+                                  </View>
+                                </View>
+                                <View
+                                  pl={4}
+                                  pr={4}
+                                  style={
+                                    Array [
+                                      Object {
+                                        "paddingLeft": 32,
+                                        "paddingRight": 32,
+                                      },
+                                    ]
+                                  }
+                                >
+                                  <View
+                                    backgroundColor="gray.5"
+                                    height={1}
+                                    style={
+                                      Array [
+                                        Object {
+                                          "backgroundColor": "#e3e3e3",
+                                          "height": 1,
+                                          "width": "100%",
+                                        },
+                                      ]
+                                    }
+                                    width="100%"
+                                  />
+                                </View>
+                              </View>
+                            </View>
+                            <View
+                              onLayout={[Function]}
+                              style={null}
+                            >
+                              <View
+                                accessibilityLabel="Dr xyz"
+                                accessible={true}
+                                focusable={true}
+                                isTVSelectable={true}
+                                onClick={[Function]}
+                                onResponderGrant={[Function]}
+                                onResponderMove={[Function]}
+                                onResponderRelease={[Function]}
+                                onResponderTerminate={[Function]}
+                                onResponderTerminationRequest={[Function]}
+                                onStartShouldSetResponder={[Function]}
+                                style={null}
+                              >
+                                <View
+                                  alignItems="center"
+                                  flexDirection="row"
+                                  px={4}
+                                  py={24}
+                                  style={
+                                    Array [
+                                      Object {
+                                        "alignItems": "center",
+                                        "flexDirection": "row",
+                                        "paddingBottom": 24,
+                                        "paddingLeft": 32,
+                                        "paddingRight": 32,
+                                        "paddingTop": 24,
+                                      },
+                                    ]
+                                  }
+                                >
+                                  <View
+                                    flex={1}
+                                    style={
+                                      Array [
+                                        Object {
+                                          "flexBasis": 0,
+                                          "flexGrow": 1,
+                                          "flexShrink": 1,
+                                        },
+                                      ]
+                                    }
+                                  >
+                                    <Text
+                                      color="gray.1"
+                                      fontFamily="default"
+                                      fontSize={16}
+                                      fontWeight="bold"
+                                      lineHeight={22}
+                                      numberOfLines={1}
+                                      style={
+                                        Array [
+                                          Object {
+                                            "color": "#646464",
+                                            "fontFamily": "Arial",
+                                            "fontSize": 16,
+                                            "fontWeight": "700",
+                                            "lineHeight": 22,
+                                          },
+                                        ]
+                                      }
+                                    >
+                                      Dr xyz
+                                    </Text>
+                                    <Text
+                                      color="gray.1"
+                                      fontFamily="default"
+                                      fontSize={16}
+                                      lineHeight={22}
+                                      numberOfLines={1}
+                                      style={
+                                        Array [
+                                          Object {
+                                            "color": "#646464",
+                                            "fontFamily": "Arial",
+                                            "fontSize": 16,
+                                            "lineHeight": 22,
+                                          },
+                                          Object {
+                                            "textTransform": "capitalize",
+                                          },
+                                        ]
+                                      }
+                                    >
+                                      General Surgery
+                                    </Text>
+                                    <Text
+                                      color="gray.1"
+                                      fontFamily="default"
+                                      fontSize={16}
+                                      lineHeight={22}
+                                      numberOfLines={1}
+                                      style={
+                                        Array [
+                                          Object {
+                                            "color": "#646464",
+                                            "fontFamily": "Arial",
+                                            "fontSize": 16,
+                                            "lineHeight": 22,
+                                          },
+                                        ]
+                                      }
+                                    >
+                                      2223 2232, 2223 2233, 2223 2234
+                                    </Text>
+                                    <Text
+                                      color="gray.1"
+                                      fontFamily="default"
+                                      fontSize={16}
+                                      lineHeight={22}
+                                      numberOfLines={2}
+                                      style={
+                                        Array [
+                                          Object {
+                                            "color": "#646464",
+                                            "fontFamily": "Arial",
+                                            "fontSize": 16,
+                                            "lineHeight": 22,
+                                          },
+                                        ]
+                                      }
+                                    >
+                                      City Hall MRT
+                                    </Text>
+                                  </View>
+                                  <View
+                                    marginLeft={3}
+                                    style={
+                                      Array [
+                                        Object {
+                                          "marginLeft": 16,
+                                        },
+                                      ]
+                                    }
+                                  >
+                                    <Image
+                                      size={30}
+                                      source={
+                                        Object {
+                                          "testUri": "../../@cxa-rn/components/src/ListItemWithRightChevron/images/angleRight.png",
+                                        }
+                                      }
+                                      style={
+                                        Array [
+                                          Object {
+                                            "height": 30,
+                                            "width": 30,
+                                          },
+                                        ]
+                                      }
+                                    />
+                                  </View>
+                                </View>
+                                <View
+                                  pl={4}
+                                  pr={4}
+                                  style={
+                                    Array [
+                                      Object {
+                                        "paddingLeft": 32,
+                                        "paddingRight": 32,
+                                      },
+                                    ]
+                                  }
+                                >
+                                  <View
+                                    backgroundColor="gray.5"
+                                    height={1}
+                                    style={
+                                      Array [
+                                        Object {
+                                          "backgroundColor": "#e3e3e3",
+                                          "height": 1,
+                                          "width": "100%",
+                                        },
+                                      ]
+                                    }
+                                    width="100%"
+                                  />
+                                </View>
+                              </View>
+                            </View>
+                          </View>
+                        </RCTScrollView>
+                      </View>
+                    </View>
+                  </View>
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </RNCSafeAreaView>
+</View>
+`;

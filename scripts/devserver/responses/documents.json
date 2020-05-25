@@ -1,0 +1,23 @@
+[
+  {
+    "id": "HS",
+    "categoryId": "claimForm",
+    "title": "HSBC HealthPlus - Hospitalisation & Surgical Claim Form",
+    "displayOrder": 2,
+    "url": "/Clients/cxadevclient1/Documents/healthplushospitalisationandsurgicalclaimform_eng_20190626.pdf"
+  },
+  {
+    "id": "MA",
+    "categoryId": "claimForm",
+    "title": "HSBC HealthPlus - Maternity Subsidy Claim Form",
+    "displayOrder": 3,
+    "url": "/Clients/cxadevclient1/Documents/healthplusmaternityclaimform_eng_20190626.pdf"
+  },
+  {
+    "id": "OP",
+    "categoryId": "claimForm",
+    "title": "HSBC HealthPlus – Outpatient Benefit / Wellness Claims Claim Form",
+    "displayOrder": 1,
+    "url": "/Clients/cxadevclient1/Documents/healthplusopwellnessclaimform_eng_20190626.pdf"
+  }
+]

@@ -1,0 +1,11 @@
+{
+  "bmiScore": 37.0,
+  "bmiClass": "Obese",
+  "diabetesRisk": "VeryHigh",
+  "nutritionRisk": "Moderate",
+  "alcoholRisk": "RegularDrinker",
+  "tobaccoRisk": "Smoker",
+  "exerciseRisk": "VeryLow",
+  "sleepRisk": "Good",
+  "mindAndStressRisk": "Normal"
+}

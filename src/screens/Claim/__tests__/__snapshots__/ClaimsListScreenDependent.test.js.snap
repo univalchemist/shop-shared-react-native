@@ -1,0 +1,788 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ClaimsListScreenDependent should render History claims section list when there are approved claims data available 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <RNCSafeAreaView
+    onInsetsChange={[Function]}
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <View
+      onLayout={[Function]}
+      style={
+        Object {
+          "flex": 1,
+          "overflow": "hidden",
+        }
+      }
+    >
+      <View
+        pointerEvents="box-none"
+        style={
+          Object {
+            "bottom": 0,
+            "left": 0,
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+          }
+        }
+      >
+        <View
+          accessibilityElementsHidden={false}
+          closing={false}
+          gestureVelocityImpact={0.3}
+          importantForAccessibility="auto"
+          onClose={[Function]}
+          onGestureBegin={[Function]}
+          onGestureCanceled={[Function]}
+          onOpen={[Function]}
+          onTransitionStart={[Function]}
+          pointerEvents="box-none"
+          style={
+            Object {
+              "bottom": 0,
+              "left": 0,
+              "position": "absolute",
+              "right": 0,
+              "top": 0,
+            }
+          }
+          transitionSpec={
+            Object {
+              "close": Object {
+                "animation": "spring",
+                "config": Object {
+                  "damping": 500,
+                  "mass": 3,
+                  "overshootClamping": true,
+                  "restDisplacementThreshold": 0.01,
+                  "restSpeedThreshold": 0.01,
+                  "stiffness": 1000,
+                },
+              },
+              "open": Object {
+                "animation": "spring",
+                "config": Object {
+                  "damping": 500,
+                  "mass": 3,
+                  "overshootClamping": true,
+                  "restDisplacementThreshold": 0.01,
+                  "restSpeedThreshold": 0.01,
+                  "stiffness": 1000,
+                },
+              },
+            }
+          }
+        >
+          <View
+            pointerEvents="box-none"
+            style={
+              Object {
+                "flex": 1,
+              }
+            }
+          >
+            <View
+              enabled={false}
+              hitSlop={
+                Object {
+                  "right": -700,
+                }
+              }
+              maxDeltaY={20}
+              minOffsetX={5}
+              onHandlerStateChange={[Function]}
+            >
+              <View
+                style={
+                  Object {
+                    "flex": 1,
+                    "transform": Array [
+                      Object {
+                        "translateX": 0,
+                      },
+                      Object {
+                        "translateX": 0,
+                      },
+                    ],
+                  }
+                }
+              >
+                <View
+                  pointerEvents="none"
+                  style={
+                    Object {
+                      "backgroundColor": "#fff",
+                      "bottom": 0,
+                      "left": 0,
+                      "position": "absolute",
+                      "shadowColor": "#000",
+                      "shadowOffset": Object {
+                        "height": 1,
+                        "width": -1,
+                      },
+                      "shadowOpacity": 0.3,
+                      "shadowRadius": 5,
+                      "top": 0,
+                      "width": 3,
+                    }
+                  }
+                />
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "flex": 1,
+                        "overflow": "hidden",
+                      },
+                      Array [
+                        Object {
+                          "backgroundColor": "rgb(242, 242, 242)",
+                        },
+                        undefined,
+                      ],
+                    ]
+                  }
+                >
+                  <View
+                    style={
+                      Object {
+                        "flex": 1,
+                        "flexDirection": "column-reverse",
+                      }
+                    }
+                  >
+                    <View
+                      style={
+                        Object {
+                          "flex": 1,
+                        }
+                      }
+                    >
+                      <RCTSafeAreaView
+                        backgroundColor="gray.7"
+                        emulateUnlessSupported={true}
+                        flex={1}
+                        style={
+                          Array [
+                            Object {
+                              "backgroundColor": "#f9f9f9",
+                              "flexBasis": 0,
+                              "flexGrow": 1,
+                              "flexShrink": 1,
+                            },
+                          ]
+                        }
+                      >
+                        <View
+                          style={
+                            Array [
+                              Object {},
+                            ]
+                          }
+                        >
+                          <RCTScrollView
+                            ListFooterComponent={
+                              <ForwardRef
+                                pb={24}
+                              />
+                            }
+                            ListHeaderComponent={
+                              <DependentText
+                                textAlign="left"
+                                top={true}
+                              />
+                            }
+                            data={
+                              Array [
+                                Object {
+                                  "data": Array [
+                                    Object {
+                                      "amount": 5,
+                                      "approvedAmount": 5,
+                                      "categoryCode": "General Medical Practitioner",
+                                      "claimId": "1",
+                                      "claimantId": "3",
+                                      "claimantName": "Employee 3",
+                                      "createdOn": "2019-04-23T06:20:30.61Z",
+                                      "documents": Object {
+                                        "receipts": Array [],
+                                        "referrals": Array [],
+                                      },
+                                      "memberId": undefined,
+                                      "receiptDate": "2019-12-04T06:20:30.61Z",
+                                      "status": "Approved",
+                                      "statusCode": "APPROVED",
+                                    },
+                                  ],
+                                  "title": "history",
+                                },
+                              ]
+                            }
+                            disableVirtualization={false}
+                            getItem={[Function]}
+                            getItemCount={[Function]}
+                            horizontal={false}
+                            initialNumToRender={100}
+                            keyExtractor={[Function]}
+                            maxToRenderPerBatch={10}
+                            onContentSizeChange={[Function]}
+                            onEndReachedThreshold={0.5}
+                            onLayout={[Function]}
+                            onMomentumScrollEnd={[Function]}
+                            onRefresh={[Function]}
+                            onScroll={[Function]}
+                            onScrollBeginDrag={[Function]}
+                            onScrollEndDrag={[Function]}
+                            refreshControl={
+                              <RefreshControlMock
+                                onRefresh={[Function]}
+                                refreshing={false}
+                              />
+                            }
+                            refreshing={false}
+                            renderItem={[Function]}
+                            renderSectionFooter={[Function]}
+                            renderSectionHeader={[Function]}
+                            scrollEventThrottle={50}
+                            sections={
+                              Array [
+                                Object {
+                                  "data": Array [
+                                    Object {
+                                      "amount": 5,
+                                      "approvedAmount": 5,
+                                      "categoryCode": "General Medical Practitioner",
+                                      "claimId": "1",
+                                      "claimantId": "3",
+                                      "claimantName": "Employee 3",
+                                      "createdOn": "2019-04-23T06:20:30.61Z",
+                                      "documents": Object {
+                                        "receipts": Array [],
+                                        "referrals": Array [],
+                                      },
+                                      "memberId": undefined,
+                                      "receiptDate": "2019-12-04T06:20:30.61Z",
+                                      "status": "Approved",
+                                      "statusCode": "APPROVED",
+                                    },
+                                  ],
+                                  "title": "history",
+                                },
+                              ]
+                            }
+                            stickyHeaderIndices={
+                              Array [
+                                1,
+                              ]
+                            }
+                            stickySectionHeadersEnabled={true}
+                            updateCellsBatchingPeriod={50}
+                            windowSize={21}
+                          >
+                            <RCTRefreshControl />
+                            <View>
+                              <View
+                                onLayout={[Function]}
+                              >
+                                <View
+                                  marginBottom={16}
+                                  marginTop={24}
+                                  mx={32}
+                                  style={
+                                    Array [
+                                      Object {
+                                        "marginBottom": 16,
+                                        "marginLeft": 32,
+                                        "marginRight": 32,
+                                        "marginTop": 24,
+                                      },
+                                    ]
+                                  }
+                                >
+                                  <View
+                                    style={
+                                      Array [
+                                        Object {},
+                                      ]
+                                    }
+                                  >
+                                    <Text
+                                      color="gray.1"
+                                      fontFamily="default"
+                                      fontSize={16}
+                                      letterSpacing={0.3}
+                                      lineHeight={22}
+                                      style={
+                                        Array [
+                                          Object {
+                                            "color": "#646464",
+                                            "fontFamily": "Arial",
+                                            "fontSize": 16,
+                                            "letterSpacing": 0.3,
+                                            "lineHeight": 22,
+                                            "textAlign": "left",
+                                          },
+                                        ]
+                                      }
+                                      textAlign="left"
+                                    >
+                                      <Text>
+                                        Online claims submission is not available for you. Please ask your spouse/parent to make an online claim on your behalf.
+                                      </Text>
+                                    </Text>
+                                  </View>
+                                </View>
+                              </View>
+                              <View
+                                onLayout={[Function]}
+                                style={null}
+                              >
+                                <View
+                                  backgroundColor="gray.7"
+                                  pb={2}
+                                  pt={24}
+                                  px={4}
+                                  style={
+                                    Array [
+                                      Object {
+                                        "backgroundColor": "#f9f9f9",
+                                        "paddingBottom": 8,
+                                        "paddingLeft": 32,
+                                        "paddingRight": 32,
+                                        "paddingTop": 24,
+                                      },
+                                    ]
+                                  }
+                                >
+                                  <Text
+                                    color="gray.0"
+                                    fontFamily="default"
+                                    fontSize={16}
+                                    fontWeight="bold"
+                                    lineHeight={22}
+                                    style={
+                                      Array [
+                                        Object {
+                                          "color": "#212121",
+                                          "fontFamily": "Arial",
+                                          "fontSize": 16,
+                                          "fontWeight": "700",
+                                          "lineHeight": 22,
+                                        },
+                                      ]
+                                    }
+                                  >
+                                    <Text>
+                                      Claims History
+                                    </Text>
+                                  </Text>
+                                </View>
+                              </View>
+                              <View
+                                onLayout={[Function]}
+                                style={null}
+                              >
+                                <View
+                                  accessible={true}
+                                  focusable={true}
+                                  isTVSelectable={true}
+                                  onClick={[Function]}
+                                  onResponderGrant={[Function]}
+                                  onResponderMove={[Function]}
+                                  onResponderRelease={[Function]}
+                                  onResponderTerminate={[Function]}
+                                  onResponderTerminationRequest={[Function]}
+                                  onStartShouldSetResponder={[Function]}
+                                  style={null}
+                                >
+                                  <View
+                                    alignItems="center"
+                                    flexDirection="row"
+                                    px={4}
+                                    py={24}
+                                    style={
+                                      Array [
+                                        Object {
+                                          "alignItems": "center",
+                                          "flexDirection": "row",
+                                          "paddingBottom": 24,
+                                          "paddingLeft": 32,
+                                          "paddingRight": 32,
+                                          "paddingTop": 24,
+                                        },
+                                      ]
+                                    }
+                                  >
+                                    <View
+                                      accessibilityLabel="Approved"
+                                      marginRight={3}
+                                      style={
+                                        Array [
+                                          Object {
+                                            "marginRight": 16,
+                                          },
+                                        ]
+                                      }
+                                    >
+                                      <View>
+                                        <View
+                                          replaceTheme={[Function]}
+                                          style={
+                                            Object {
+                                              "alignItems": "center",
+                                              "backgroundColor": "transparent",
+                                              "justifyContent": "center",
+                                            }
+                                          }
+                                          theme={
+                                            Object {
+                                              "colors": Object {
+                                                "disabled": "hsl(208, 8%, 90%)",
+                                                "divider": "#bcbbc1",
+                                                "error": "#ff190c",
+                                                "grey0": "#393e42",
+                                                "grey1": "#43484d",
+                                                "grey2": "#5e6977",
+                                                "grey3": "#86939e",
+                                                "grey4": "#bdc6cf",
+                                                "grey5": "#e1e8ee",
+                                                "greyOutline": "#bbb",
+                                                "platform": Object {
+                                                  "android": Object {
+                                                    "error": "#f44336",
+                                                    "primary": "#2196f3",
+                                                    "secondary": "#9C27B0",
+                                                    "success": "#4caf50",
+                                                    "warning": "#ffeb3b",
+                                                  },
+                                                  "ios": Object {
+                                                    "error": "#ff3b30",
+                                                    "primary": "#007aff",
+                                                    "secondary": "#5856d6",
+                                                    "success": "#4cd964",
+                                                    "warning": "#ffcc00",
+                                                  },
+                                                },
+                                                "primary": "#2089dc",
+                                                "searchBg": "#303337",
+                                                "secondary": "#8F0CE8",
+                                                "success": "#52c41a",
+                                                "warning": "#faad14",
+                                              },
+                                            }
+                                          }
+                                          underlayColor="white"
+                                          updateTheme={[Function]}
+                                        >
+                                          <Text
+                                            allowFontScaling={false}
+                                            style={
+                                              Array [
+                                                Object {
+                                                  "color": "#03A450",
+                                                  "fontSize": 24,
+                                                },
+                                                Object {
+                                                  "backgroundColor": "transparent",
+                                                },
+                                                Object {
+                                                  "fontFamily": "Material Design Icons",
+                                                  "fontStyle": "normal",
+                                                  "fontWeight": "normal",
+                                                },
+                                                Object {},
+                                              ]
+                                            }
+                                            testID="iconIcon"
+                                          >
+                                            
+                                          </Text>
+                                        </View>
+                                      </View>
+                                    </View>
+                                    <View
+                                      flex={1}
+                                      style={
+                                        Array [
+                                          Object {
+                                            "flexBasis": 0,
+                                            "flexGrow": 1,
+                                            "flexShrink": 1,
+                                          },
+                                        ]
+                                      }
+                                    >
+                                      <Text
+                                        color="gray.3"
+                                        fontFamily="default"
+                                        fontSize={16}
+                                        lineHeight={22}
+                                        style={
+                                          Array [
+                                            Object {
+                                              "color": "#9a9a9a",
+                                              "fontFamily": "Arial",
+                                              "fontSize": 16,
+                                              "lineHeight": 22,
+                                            },
+                                          ]
+                                        }
+                                      >
+                                        Dec 4, 2019
+                                      </Text>
+                                      <View
+                                        mt={1}
+                                        style={
+                                          Array [
+                                            Object {
+                                              "marginTop": 4,
+                                            },
+                                          ]
+                                        }
+                                      >
+                                        <Text
+                                          color="gray.1"
+                                          fontFamily="default"
+                                          fontSize={16}
+                                          lineHeight={22}
+                                          numberOfLines={2}
+                                          style={
+                                            Array [
+                                              Object {
+                                                "color": "#646464",
+                                                "fontFamily": "Arial",
+                                                "fontSize": 16,
+                                                "lineHeight": 22,
+                                              },
+                                            ]
+                                          }
+                                        >
+                                          General Medical Practitioner
+                                        </Text>
+                                      </View>
+                                      <View
+                                        mt={1}
+                                        style={
+                                          Array [
+                                            Object {
+                                              "marginTop": 4,
+                                            },
+                                          ]
+                                        }
+                                      >
+                                        <Text
+                                          color="gray.1"
+                                          fontFamily="default"
+                                          fontSize={16}
+                                          lineHeight={22}
+                                          numberOfLines={2}
+                                          style={
+                                            Array [
+                                              Object {
+                                                "color": "#646464",
+                                                "fontFamily": "Arial",
+                                                "fontSize": 16,
+                                                "lineHeight": 22,
+                                              },
+                                            ]
+                                          }
+                                        >
+                                          (Employee 3)
+                                        </Text>
+                                      </View>
+                                      <View
+                                        mt={1}
+                                        style={
+                                          Array [
+                                            Object {
+                                              "marginTop": 4,
+                                            },
+                                          ]
+                                        }
+                                      >
+                                        <Text
+                                          color="gray.1"
+                                          fontFamily="default"
+                                          fontSize={16}
+                                          lineHeight={22}
+                                          style={
+                                            Array [
+                                              Object {
+                                                "color": "#646464",
+                                                "fontFamily": "Arial",
+                                                "fontSize": 16,
+                                                "lineHeight": 22,
+                                              },
+                                            ]
+                                          }
+                                        >
+                                          <Text>
+                                            HK$5.00
+                                          </Text>
+                                           (
+                                          <Text>
+                                            Reimbursed
+                                          </Text>
+                                          )
+                                        </Text>
+                                      </View>
+                                    </View>
+                                    <View
+                                      marginLeft={3}
+                                      style={
+                                        Array [
+                                          Object {
+                                            "marginLeft": 16,
+                                          },
+                                        ]
+                                      }
+                                    >
+                                      <View>
+                                        <View
+                                          replaceTheme={[Function]}
+                                          style={
+                                            Object {
+                                              "alignItems": "center",
+                                              "backgroundColor": "transparent",
+                                              "justifyContent": "center",
+                                            }
+                                          }
+                                          theme={
+                                            Object {
+                                              "colors": Object {
+                                                "disabled": "hsl(208, 8%, 90%)",
+                                                "divider": "#bcbbc1",
+                                                "error": "#ff190c",
+                                                "grey0": "#393e42",
+                                                "grey1": "#43484d",
+                                                "grey2": "#5e6977",
+                                                "grey3": "#86939e",
+                                                "grey4": "#bdc6cf",
+                                                "grey5": "#e1e8ee",
+                                                "greyOutline": "#bbb",
+                                                "platform": Object {
+                                                  "android": Object {
+                                                    "error": "#f44336",
+                                                    "primary": "#2196f3",
+                                                    "secondary": "#9C27B0",
+                                                    "success": "#4caf50",
+                                                    "warning": "#ffeb3b",
+                                                  },
+                                                  "ios": Object {
+                                                    "error": "#ff3b30",
+                                                    "primary": "#007aff",
+                                                    "secondary": "#5856d6",
+                                                    "success": "#4cd964",
+                                                    "warning": "#ffcc00",
+                                                  },
+                                                },
+                                                "primary": "#2089dc",
+                                                "searchBg": "#303337",
+                                                "secondary": "#8F0CE8",
+                                                "success": "#52c41a",
+                                                "warning": "#faad14",
+                                              },
+                                            }
+                                          }
+                                          underlayColor="white"
+                                          updateTheme={[Function]}
+                                        >
+                                          <Text
+                                            allowFontScaling={false}
+                                            style={
+                                              Array [
+                                                Object {
+                                                  "color": "#9a9a9a",
+                                                  "fontSize": 24,
+                                                },
+                                                Object {
+                                                  "backgroundColor": "transparent",
+                                                },
+                                                Object {
+                                                  "fontFamily": "Material Icons",
+                                                  "fontStyle": "normal",
+                                                  "fontWeight": "normal",
+                                                },
+                                                Object {},
+                                              ]
+                                            }
+                                            testID="iconIcon"
+                                          >
+                                            
+                                          </Text>
+                                        </View>
+                                      </View>
+                                    </View>
+                                  </View>
+                                  <View
+                                    backgroundColor="gray.5"
+                                    height={1}
+                                    style={
+                                      Array [
+                                        Object {
+                                          "backgroundColor": "#e3e3e3",
+                                          "height": 1,
+                                          "width": "100%",
+                                        },
+                                      ]
+                                    }
+                                    width="100%"
+                                  />
+                                </View>
+                              </View>
+                              <View
+                                onLayout={[Function]}
+                                style={null}
+                              >
+                                <View
+                                  pb={2}
+                                  style={
+                                    Array [
+                                      Object {
+                                        "paddingBottom": 8,
+                                      },
+                                    ]
+                                  }
+                                />
+                              </View>
+                              <View
+                                onLayout={[Function]}
+                              >
+                                <View
+                                  pb={24}
+                                  style={
+                                    Array [
+                                      Object {
+                                        "paddingBottom": 24,
+                                      },
+                                    ]
+                                  }
+                                />
+                              </View>
+                            </View>
+                          </RCTScrollView>
+                        </View>
+                      </RCTSafeAreaView>
+                    </View>
+                  </View>
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </RNCSafeAreaView>
+</View>
+`;

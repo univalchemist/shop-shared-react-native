@@ -1,0 +1,11 @@
+//
+//  Config.xcconfig
+//  EmployeeFrontend
+//
+//  Created by sandeshd on 01/08/19.
+//  Copyright © 2019 CXAGroup. All rights reserved.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+#include? "tmp.xcconfig"

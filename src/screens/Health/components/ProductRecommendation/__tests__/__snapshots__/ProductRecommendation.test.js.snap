@@ -1,0 +1,1484 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Product Recommendations should match snapshot 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <RNCSafeAreaView
+    onInsetsChange={[Function]}
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <View
+      onLayout={[Function]}
+      style={
+        Object {
+          "flex": 1,
+          "overflow": "hidden",
+        }
+      }
+    >
+      <View
+        pointerEvents="box-none"
+        style={
+          Object {
+            "bottom": 0,
+            "left": 0,
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+          }
+        }
+      >
+        <View
+          accessibilityElementsHidden={false}
+          closing={false}
+          gestureVelocityImpact={0.3}
+          importantForAccessibility="auto"
+          onClose={[Function]}
+          onGestureBegin={[Function]}
+          onGestureCanceled={[Function]}
+          onOpen={[Function]}
+          onTransitionStart={[Function]}
+          pointerEvents="box-none"
+          style={
+            Object {
+              "bottom": 0,
+              "left": 0,
+              "position": "absolute",
+              "right": 0,
+              "top": 0,
+            }
+          }
+          transitionSpec={
+            Object {
+              "close": Object {
+                "animation": "spring",
+                "config": Object {
+                  "damping": 500,
+                  "mass": 3,
+                  "overshootClamping": true,
+                  "restDisplacementThreshold": 0.01,
+                  "restSpeedThreshold": 0.01,
+                  "stiffness": 1000,
+                },
+              },
+              "open": Object {
+                "animation": "spring",
+                "config": Object {
+                  "damping": 500,
+                  "mass": 3,
+                  "overshootClamping": true,
+                  "restDisplacementThreshold": 0.01,
+                  "restSpeedThreshold": 0.01,
+                  "stiffness": 1000,
+                },
+              },
+            }
+          }
+        >
+          <View
+            pointerEvents="box-none"
+            style={
+              Object {
+                "flex": 1,
+              }
+            }
+          >
+            <View
+              enabled={false}
+              hitSlop={
+                Object {
+                  "right": -700,
+                }
+              }
+              maxDeltaY={20}
+              minOffsetX={5}
+              onHandlerStateChange={[Function]}
+            >
+              <View
+                style={
+                  Object {
+                    "flex": 1,
+                    "transform": Array [
+                      Object {
+                        "translateX": 0,
+                      },
+                      Object {
+                        "translateX": 0,
+                      },
+                    ],
+                  }
+                }
+              >
+                <View
+                  pointerEvents="none"
+                  style={
+                    Object {
+                      "backgroundColor": "#fff",
+                      "bottom": 0,
+                      "left": 0,
+                      "position": "absolute",
+                      "shadowColor": "#000",
+                      "shadowOffset": Object {
+                        "height": 1,
+                        "width": -1,
+                      },
+                      "shadowOpacity": 0.3,
+                      "shadowRadius": 5,
+                      "top": 0,
+                      "width": 3,
+                    }
+                  }
+                />
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "flex": 1,
+                        "overflow": "hidden",
+                      },
+                      Array [
+                        Object {
+                          "backgroundColor": "rgb(242, 242, 242)",
+                        },
+                        undefined,
+                      ],
+                    ]
+                  }
+                >
+                  <View
+                    style={
+                      Object {
+                        "flex": 1,
+                        "flexDirection": "column-reverse",
+                      }
+                    }
+                  >
+                    <View
+                      style={
+                        Object {
+                          "flex": 1,
+                        }
+                      }
+                    >
+                      <View
+                        mb={72}
+                        style={
+                          Array [
+                            Object {
+                              "marginBottom": 72,
+                            },
+                          ]
+                        }
+                      >
+                        <View
+                          mb={16}
+                          mx={4}
+                          style={
+                            Array [
+                              Object {
+                                "marginBottom": 16,
+                                "marginLeft": 32,
+                                "marginRight": 32,
+                              },
+                            ]
+                          }
+                        >
+                          <Text
+                            accessibilityLabel="some-title"
+                            accessible={true}
+                            color="gray.0"
+                            fontFamily="default"
+                            fontSize={16}
+                            fontWeight="bold"
+                            lineHeight={22}
+                            style={
+                              Array [
+                                Object {
+                                  "color": "#212121",
+                                  "fontFamily": "Arial",
+                                  "fontSize": 16,
+                                  "fontWeight": "700",
+                                  "lineHeight": 22,
+                                },
+                              ]
+                            }
+                          >
+                            some-title
+                          </Text>
+                        </View>
+                        <RCTScrollView
+                          actionParams={
+                            Object {
+                              "action": "Horizontal scroll of product recomm",
+                              "category": "My lifestyle overview",
+                            }
+                          }
+                          activeAnimationOptions={null}
+                          activeAnimationType="timing"
+                          activeSlideAlignment="center"
+                          activeSlideOffset={20}
+                          apparitionDelay={0}
+                          automaticallyAdjustContentInsets={false}
+                          autoplay={false}
+                          autoplayDelay={1000}
+                          autoplayInterval={3000}
+                          callbackOffsetMargin={5}
+                          containerCustomStyle={Object {}}
+                          contentContainerCustomStyle={Object {}}
+                          contentContainerStyle={
+                            Array [
+                              Object {
+                                "paddingLeft": 24,
+                                "paddingRight": 24,
+                              },
+                              Object {},
+                            ]
+                          }
+                          data={
+                            Array [
+                              Object {
+                                "currency": "HKD",
+                                "discount": 99,
+                                "id": "1",
+                                "imageUrl": "https://choices.cxapalawan.com/pub/media/catalog/product/cache/image/700x560/e9c3970ab036de70892d86c6d221abfe/7/1/71wrw4r2nel._sx466_.jpg",
+                                "name": "Yaw Tennis Racquet",
+                                "price": 100,
+                                "provider": "Yawtennis",
+                                "rating": 2,
+                                "reviewCount": 239,
+                                "specialPrice": 1,
+                                "url": "https://choices.cxapalawan.com/cxadevclient1/catalog/product/view/id/1/s/yaw-tennis-racquet/?pos=1",
+                              },
+                              Object {
+                                "currency": "HKD",
+                                "discount": 90,
+                                "id": "2",
+                                "imageUrl": "https://choices.cxapalawan.com/pub/media/catalog/product/cache/image/700x560/e9c3970ab036de70892d86c6d221abfe/r/o/roger-federer-wimbledon-sf-backhand_3323898.jpg",
+                                "name": "Product 2",
+                                "price": 90,
+                                "provider": "Provider A",
+                                "rating": 4.5,
+                                "reviewCount": 29,
+                                "specialPrice": 9,
+                                "url": "https://choices.cxapalawan.com/cxadevclient1/catalog/product/view/id/2/s/roger-winbledon/?pos=2",
+                              },
+                              Object {
+                                "currency": "HKD",
+                                "discount": 10,
+                                "id": "3",
+                                "imageUrl": null,
+                                "name": "Product 3",
+                                "price": 10.5,
+                                "provider": "Provider A",
+                                "rating": 5,
+                                "reviewCount": 2,
+                                "specialPrice": 9.9,
+                                "url": "https://cxagroup.com/products/3",
+                              },
+                              Object {
+                                "currency": "HKD",
+                                "discount": 10,
+                                "id": "4",
+                                "imageUrl": "https://someinvalid.co",
+                                "name": "Product 4",
+                                "price": 10.5,
+                                "provider": "Provider A",
+                                "rating": 0.5,
+                                "reviewCount": 12,
+                                "specialPrice": null,
+                                "url": "https://cxagroup.com/products/4",
+                              },
+                            ]
+                          }
+                          decelerationRate="fast"
+                          directionalLockEnabled={true}
+                          disableVirtualization={false}
+                          enableMomentum={false}
+                          enableSnap={true}
+                          firstItem={0}
+                          getItem={[Function]}
+                          getItemCount={[Function]}
+                          hasParallaxImages={false}
+                          horizontal={true}
+                          inactiveSlideOpacity={1}
+                          inactiveSlideScale={1}
+                          inactiveSlideShift={0}
+                          initialNumToRender={7}
+                          invertStickyHeaders={false}
+                          inverted={false}
+                          itemWidth={702}
+                          keyExtractor={[Function]}
+                          layout="default"
+                          lockScrollTimeoutDuration={1000}
+                          lockScrollWhileSnapping={false}
+                          loop={false}
+                          loopClonesPerSide={3}
+                          maxToRenderPerBatch={15}
+                          numColumns={1}
+                          onContentSizeChange={[Function]}
+                          onEndReachedThreshold={2}
+                          onLayout={[Function]}
+                          onMomentumScrollEnd={[Function]}
+                          onResponderRelease={[Function]}
+                          onScroll={[Function]}
+                          onScrollBeginDrag={[Function]}
+                          onScrollEndDrag={[Function]}
+                          onSnapToItem={[Function]}
+                          onStartShouldSetResponderCapture={[Function]}
+                          onTouchEnd={[Function]}
+                          onTouchStart={[Function]}
+                          overScrollMode="never"
+                          pinchGestureEnabled={false}
+                          removeClippedSubviews={true}
+                          renderItem={[Function]}
+                          scrollEnabled={true}
+                          scrollEventThrottle={1}
+                          scrollsToTop={false}
+                          shouldOptimizeUpdates={true}
+                          showsHorizontalScrollIndicator={false}
+                          showsVerticalScrollIndicator={false}
+                          slideStyle={Object {}}
+                          sliderWidth={750}
+                          stickyHeaderIndices={Array []}
+                          style={
+                            Object {
+                              "flexDirection": "row",
+                              "opacity": 0,
+                              "width": 750,
+                            }
+                          }
+                          swipeThreshold={20}
+                          updateCellsBatchingPeriod={50}
+                          useScrollView={false}
+                          vertical={false}
+                          viewabilityConfigCallbackPairs={Array []}
+                          windowSize={15}
+                        >
+                          <View>
+                            <View
+                              onLayout={[Function]}
+                              style={
+                                Array [
+                                  Object {
+                                    "flexDirection": "row",
+                                  },
+                                  null,
+                                ]
+                              }
+                            >
+                              <View
+                                pointerEvents="box-none"
+                                style={
+                                  Array [
+                                    Object {
+                                      "width": 702,
+                                    },
+                                    Object {},
+                                    Object {},
+                                  ]
+                                }
+                              >
+                                <View
+                                  flexGrow={1}
+                                  px={5.333333333333333}
+                                  style={
+                                    Array [
+                                      Object {
+                                        "paddingLeft": 5.333333333333333,
+                                        "paddingRight": 5.333333333333333,
+                                      },
+                                    ]
+                                  }
+                                >
+                                  <View
+                                    accessibilityRole="button"
+                                    accessible={true}
+                                    focusable={true}
+                                    isTVSelectable={true}
+                                    onClick={[Function]}
+                                    onResponderGrant={[Function]}
+                                    onResponderMove={[Function]}
+                                    onResponderRelease={[Function]}
+                                    onResponderTerminate={[Function]}
+                                    onResponderTerminationRequest={[Function]}
+                                    onStartShouldSetResponder={[Function]}
+                                    style={
+                                      Array [
+                                        Object {
+                                          "borderRadius": 4,
+                                        },
+                                      ]
+                                    }
+                                  >
+                                    <View
+                                      bg="white"
+                                      flexGrow={1}
+                                      style={
+                                        Array [
+                                          Object {
+                                            "backgroundColor": "#ffffff",
+                                            "borderRadius": 4,
+                                            "shadowColor": "#000",
+                                            "shadowOffset": Object {
+                                              "height": 2,
+                                              "width": 0,
+                                            },
+                                            "shadowOpacity": 0.05,
+                                            "shadowRadius": 3,
+                                          },
+                                          null,
+                                        ]
+                                      }
+                                    >
+                                      <Image
+                                        accessibilityLabel="Yaw Tennis Racquet"
+                                        accessible={true}
+                                        onError={[Function]}
+                                        source={
+                                          Object {
+                                            "uri": "https://choices.cxapalawan.com/pub/media/catalog/product/cache/image/700x560/e9c3970ab036de70892d86c6d221abfe/7/1/71wrw4r2nel._sx466_.jpg",
+                                          }
+                                        }
+                                        style={
+                                          Array [
+                                            Object {},
+                                            Object {
+                                              "aspectRatio": 1.7,
+                                              "resizeMode": "contain",
+                                              "width": "100%",
+                                            },
+                                          ]
+                                        }
+                                      />
+                                      <View
+                                        height={64}
+                                        mt={4}
+                                        mx={24}
+                                        style={
+                                          Array [
+                                            Object {
+                                              "height": 64,
+                                              "marginLeft": 24,
+                                              "marginRight": 24,
+                                              "marginTop": 32,
+                                            },
+                                          ]
+                                        }
+                                      >
+                                        <Text
+                                          accessibilityLabel="Yaw Tennis Racquet"
+                                          accessible={true}
+                                          color="gray.0"
+                                          fontFamily="default"
+                                          fontSize={16}
+                                          fontWeight="bold"
+                                          lineHeight={22}
+                                          numberOfLines={2}
+                                          style={
+                                            Array [
+                                              Object {
+                                                "color": "#212121",
+                                                "fontFamily": "Arial",
+                                                "fontSize": 16,
+                                                "fontWeight": "700",
+                                                "lineHeight": 22,
+                                              },
+                                            ]
+                                          }
+                                        >
+                                          Yaw Tennis Racquet
+                                        </Text>
+                                        <Text
+                                          accessibilityLabel="Yawtennis"
+                                          accessible={true}
+                                          color="gray.1"
+                                          fontFamily="default"
+                                          fontSize={16}
+                                          lineHeight={22}
+                                          style={
+                                            Array [
+                                              Object {
+                                                "color": "#646464",
+                                                "fontFamily": "Arial",
+                                                "fontSize": 16,
+                                                "lineHeight": 22,
+                                              },
+                                            ]
+                                          }
+                                        >
+                                          Yawtennis
+                                        </Text>
+                                      </View>
+                                      <View
+                                        mb={32}
+                                        mt={24}
+                                        mx={24}
+                                        style={
+                                          Array [
+                                            Object {
+                                              "marginBottom": 32,
+                                              "marginLeft": 24,
+                                              "marginRight": 24,
+                                              "marginTop": 24,
+                                            },
+                                          ]
+                                        }
+                                      >
+                                        <View
+                                          style={
+                                            Array [
+                                              Object {},
+                                            ]
+                                          }
+                                        >
+                                          <Text
+                                            accessibilityLabel="HK$ 100.00"
+                                            accessible={true}
+                                            color="gray.1"
+                                            fontFamily="default"
+                                            fontSize={16}
+                                            letterSpacing={0.3}
+                                            lineHeight={22}
+                                            style={
+                                              Array [
+                                                Object {
+                                                  "color": "#646464",
+                                                  "fontFamily": "Arial",
+                                                  "fontSize": 16,
+                                                  "letterSpacing": 0.3,
+                                                  "lineHeight": 22,
+                                                },
+                                                Object {
+                                                  "color": "#666666",
+                                                  "textDecorationLine": "line-through",
+                                                  "textDecorationStyle": "solid",
+                                                },
+                                              ]
+                                            }
+                                          >
+                                            HK$ 100.00
+                                          </Text>
+                                          <Text
+                                            accessibilityLabel="HK$ 1.00"
+                                            accessible={true}
+                                            color="gray.0"
+                                            fontFamily="default"
+                                            fontSize={16}
+                                            fontWeight="bold"
+                                            lineHeight={22}
+                                            style={
+                                              Array [
+                                                Object {
+                                                  "color": "#212121",
+                                                  "fontFamily": "Arial",
+                                                  "fontSize": 16,
+                                                  "fontWeight": "700",
+                                                  "lineHeight": 22,
+                                                },
+                                              ]
+                                            }
+                                          >
+                                            HK$ 1.00
+                                          </Text>
+                                        </View>
+                                      </View>
+                                    </View>
+                                  </View>
+                                </View>
+                              </View>
+                            </View>
+                            <View
+                              onLayout={[Function]}
+                              style={
+                                Array [
+                                  Object {
+                                    "flexDirection": "row",
+                                  },
+                                  null,
+                                ]
+                              }
+                            >
+                              <View
+                                pointerEvents="box-none"
+                                style={
+                                  Array [
+                                    Object {
+                                      "width": 702,
+                                    },
+                                    Object {},
+                                    Object {},
+                                  ]
+                                }
+                              >
+                                <View
+                                  flexGrow={1}
+                                  px={5.333333333333333}
+                                  style={
+                                    Array [
+                                      Object {
+                                        "paddingLeft": 5.333333333333333,
+                                        "paddingRight": 5.333333333333333,
+                                      },
+                                    ]
+                                  }
+                                >
+                                  <View
+                                    accessibilityRole="button"
+                                    accessible={true}
+                                    focusable={true}
+                                    isTVSelectable={true}
+                                    onClick={[Function]}
+                                    onResponderGrant={[Function]}
+                                    onResponderMove={[Function]}
+                                    onResponderRelease={[Function]}
+                                    onResponderTerminate={[Function]}
+                                    onResponderTerminationRequest={[Function]}
+                                    onStartShouldSetResponder={[Function]}
+                                    style={
+                                      Array [
+                                        Object {
+                                          "borderRadius": 4,
+                                        },
+                                      ]
+                                    }
+                                  >
+                                    <View
+                                      bg="white"
+                                      flexGrow={1}
+                                      style={
+                                        Array [
+                                          Object {
+                                            "backgroundColor": "#ffffff",
+                                            "borderRadius": 4,
+                                            "shadowColor": "#000",
+                                            "shadowOffset": Object {
+                                              "height": 2,
+                                              "width": 0,
+                                            },
+                                            "shadowOpacity": 0.05,
+                                            "shadowRadius": 3,
+                                          },
+                                          null,
+                                        ]
+                                      }
+                                    >
+                                      <Image
+                                        accessibilityLabel="Product 2"
+                                        accessible={true}
+                                        onError={[Function]}
+                                        source={
+                                          Object {
+                                            "uri": "https://choices.cxapalawan.com/pub/media/catalog/product/cache/image/700x560/e9c3970ab036de70892d86c6d221abfe/r/o/roger-federer-wimbledon-sf-backhand_3323898.jpg",
+                                          }
+                                        }
+                                        style={
+                                          Array [
+                                            Object {},
+                                            Object {
+                                              "aspectRatio": 1.7,
+                                              "resizeMode": "contain",
+                                              "width": "100%",
+                                            },
+                                          ]
+                                        }
+                                      />
+                                      <View
+                                        height={64}
+                                        mt={4}
+                                        mx={24}
+                                        style={
+                                          Array [
+                                            Object {
+                                              "height": 64,
+                                              "marginLeft": 24,
+                                              "marginRight": 24,
+                                              "marginTop": 32,
+                                            },
+                                          ]
+                                        }
+                                      >
+                                        <Text
+                                          accessibilityLabel="Product 2"
+                                          accessible={true}
+                                          color="gray.0"
+                                          fontFamily="default"
+                                          fontSize={16}
+                                          fontWeight="bold"
+                                          lineHeight={22}
+                                          numberOfLines={2}
+                                          style={
+                                            Array [
+                                              Object {
+                                                "color": "#212121",
+                                                "fontFamily": "Arial",
+                                                "fontSize": 16,
+                                                "fontWeight": "700",
+                                                "lineHeight": 22,
+                                              },
+                                            ]
+                                          }
+                                        >
+                                          Product 2
+                                        </Text>
+                                        <Text
+                                          accessibilityLabel="Provider A"
+                                          accessible={true}
+                                          color="gray.1"
+                                          fontFamily="default"
+                                          fontSize={16}
+                                          lineHeight={22}
+                                          style={
+                                            Array [
+                                              Object {
+                                                "color": "#646464",
+                                                "fontFamily": "Arial",
+                                                "fontSize": 16,
+                                                "lineHeight": 22,
+                                              },
+                                            ]
+                                          }
+                                        >
+                                          Provider A
+                                        </Text>
+                                      </View>
+                                      <View
+                                        mb={32}
+                                        mt={24}
+                                        mx={24}
+                                        style={
+                                          Array [
+                                            Object {
+                                              "marginBottom": 32,
+                                              "marginLeft": 24,
+                                              "marginRight": 24,
+                                              "marginTop": 24,
+                                            },
+                                          ]
+                                        }
+                                      >
+                                        <View
+                                          style={
+                                            Array [
+                                              Object {},
+                                            ]
+                                          }
+                                        >
+                                          <Text
+                                            accessibilityLabel="HK$ 90.00"
+                                            accessible={true}
+                                            color="gray.1"
+                                            fontFamily="default"
+                                            fontSize={16}
+                                            letterSpacing={0.3}
+                                            lineHeight={22}
+                                            style={
+                                              Array [
+                                                Object {
+                                                  "color": "#646464",
+                                                  "fontFamily": "Arial",
+                                                  "fontSize": 16,
+                                                  "letterSpacing": 0.3,
+                                                  "lineHeight": 22,
+                                                },
+                                                Object {
+                                                  "color": "#666666",
+                                                  "textDecorationLine": "line-through",
+                                                  "textDecorationStyle": "solid",
+                                                },
+                                              ]
+                                            }
+                                          >
+                                            HK$ 90.00
+                                          </Text>
+                                          <Text
+                                            accessibilityLabel="HK$ 9.00"
+                                            accessible={true}
+                                            color="gray.0"
+                                            fontFamily="default"
+                                            fontSize={16}
+                                            fontWeight="bold"
+                                            lineHeight={22}
+                                            style={
+                                              Array [
+                                                Object {
+                                                  "color": "#212121",
+                                                  "fontFamily": "Arial",
+                                                  "fontSize": 16,
+                                                  "fontWeight": "700",
+                                                  "lineHeight": 22,
+                                                },
+                                              ]
+                                            }
+                                          >
+                                            HK$ 9.00
+                                          </Text>
+                                        </View>
+                                      </View>
+                                    </View>
+                                  </View>
+                                </View>
+                              </View>
+                            </View>
+                            <View
+                              onLayout={[Function]}
+                              style={
+                                Array [
+                                  Object {
+                                    "flexDirection": "row",
+                                  },
+                                  null,
+                                ]
+                              }
+                            >
+                              <View
+                                pointerEvents="box-none"
+                                style={
+                                  Array [
+                                    Object {
+                                      "width": 702,
+                                    },
+                                    Object {},
+                                    Object {},
+                                  ]
+                                }
+                              >
+                                <View
+                                  flexGrow={1}
+                                  px={5.333333333333333}
+                                  style={
+                                    Array [
+                                      Object {
+                                        "paddingLeft": 5.333333333333333,
+                                        "paddingRight": 5.333333333333333,
+                                      },
+                                    ]
+                                  }
+                                >
+                                  <View
+                                    accessibilityRole="button"
+                                    accessible={true}
+                                    focusable={true}
+                                    isTVSelectable={true}
+                                    onClick={[Function]}
+                                    onResponderGrant={[Function]}
+                                    onResponderMove={[Function]}
+                                    onResponderRelease={[Function]}
+                                    onResponderTerminate={[Function]}
+                                    onResponderTerminationRequest={[Function]}
+                                    onStartShouldSetResponder={[Function]}
+                                    style={
+                                      Array [
+                                        Object {
+                                          "borderRadius": 4,
+                                        },
+                                      ]
+                                    }
+                                  >
+                                    <View
+                                      bg="white"
+                                      flexGrow={1}
+                                      style={
+                                        Array [
+                                          Object {
+                                            "backgroundColor": "#ffffff",
+                                            "borderRadius": 4,
+                                            "shadowColor": "#000",
+                                            "shadowOffset": Object {
+                                              "height": 2,
+                                              "width": 0,
+                                            },
+                                            "shadowOpacity": 0.05,
+                                            "shadowRadius": 3,
+                                          },
+                                          null,
+                                        ]
+                                      }
+                                    >
+                                      <View
+                                        accessibilityLabel="Unable to load image"
+                                        accessible={true}
+                                        alignItems="center"
+                                        aspectRatio={1.7}
+                                        backgroundColor="gray.6"
+                                        borderBottomLeftRadius={0}
+                                        borderBottomRightRadius={0}
+                                        borderRadius={2}
+                                        justifyContent="center"
+                                        px={3}
+                                        style={
+                                          Array [
+                                            Object {
+                                              "alignItems": "center",
+                                              "backgroundColor": "#f0f0f0",
+                                              "borderRadius": 4,
+                                              "justifyContent": "center",
+                                              "paddingLeft": 16,
+                                              "paddingRight": 16,
+                                              "width": "100%",
+                                            },
+                                          ]
+                                        }
+                                        width="100%"
+                                      >
+                                        <Text
+                                          color="gray.3"
+                                          fontFamily="default"
+                                          fontSize={16}
+                                          lineHeight={22}
+                                          style={
+                                            Array [
+                                              Object {
+                                                "color": "#9a9a9a",
+                                                "fontFamily": "Arial",
+                                                "fontSize": 16,
+                                                "lineHeight": 22,
+                                                "textAlign": "center",
+                                              },
+                                            ]
+                                          }
+                                          textAlign="center"
+                                        >
+                                          <Text>
+                                            Unable to load image
+                                          </Text>
+                                        </Text>
+                                      </View>
+                                      <View
+                                        height={64}
+                                        mt={4}
+                                        mx={24}
+                                        style={
+                                          Array [
+                                            Object {
+                                              "height": 64,
+                                              "marginLeft": 24,
+                                              "marginRight": 24,
+                                              "marginTop": 32,
+                                            },
+                                          ]
+                                        }
+                                      >
+                                        <Text
+                                          accessibilityLabel="Product 3"
+                                          accessible={true}
+                                          color="gray.0"
+                                          fontFamily="default"
+                                          fontSize={16}
+                                          fontWeight="bold"
+                                          lineHeight={22}
+                                          numberOfLines={2}
+                                          style={
+                                            Array [
+                                              Object {
+                                                "color": "#212121",
+                                                "fontFamily": "Arial",
+                                                "fontSize": 16,
+                                                "fontWeight": "700",
+                                                "lineHeight": 22,
+                                              },
+                                            ]
+                                          }
+                                        >
+                                          Product 3
+                                        </Text>
+                                        <Text
+                                          accessibilityLabel="Provider A"
+                                          accessible={true}
+                                          color="gray.1"
+                                          fontFamily="default"
+                                          fontSize={16}
+                                          lineHeight={22}
+                                          style={
+                                            Array [
+                                              Object {
+                                                "color": "#646464",
+                                                "fontFamily": "Arial",
+                                                "fontSize": 16,
+                                                "lineHeight": 22,
+                                              },
+                                            ]
+                                          }
+                                        >
+                                          Provider A
+                                        </Text>
+                                      </View>
+                                      <View
+                                        mb={32}
+                                        mt={24}
+                                        mx={24}
+                                        style={
+                                          Array [
+                                            Object {
+                                              "marginBottom": 32,
+                                              "marginLeft": 24,
+                                              "marginRight": 24,
+                                              "marginTop": 24,
+                                            },
+                                          ]
+                                        }
+                                      >
+                                        <View
+                                          style={
+                                            Array [
+                                              Object {},
+                                            ]
+                                          }
+                                        >
+                                          <Text
+                                            accessibilityLabel="HK$ 10.50"
+                                            accessible={true}
+                                            color="gray.1"
+                                            fontFamily="default"
+                                            fontSize={16}
+                                            letterSpacing={0.3}
+                                            lineHeight={22}
+                                            style={
+                                              Array [
+                                                Object {
+                                                  "color": "#646464",
+                                                  "fontFamily": "Arial",
+                                                  "fontSize": 16,
+                                                  "letterSpacing": 0.3,
+                                                  "lineHeight": 22,
+                                                },
+                                                Object {
+                                                  "color": "#666666",
+                                                  "textDecorationLine": "line-through",
+                                                  "textDecorationStyle": "solid",
+                                                },
+                                              ]
+                                            }
+                                          >
+                                            HK$ 10.50
+                                          </Text>
+                                          <Text
+                                            accessibilityLabel="HK$ 9.90"
+                                            accessible={true}
+                                            color="gray.0"
+                                            fontFamily="default"
+                                            fontSize={16}
+                                            fontWeight="bold"
+                                            lineHeight={22}
+                                            style={
+                                              Array [
+                                                Object {
+                                                  "color": "#212121",
+                                                  "fontFamily": "Arial",
+                                                  "fontSize": 16,
+                                                  "fontWeight": "700",
+                                                  "lineHeight": 22,
+                                                },
+                                              ]
+                                            }
+                                          >
+                                            HK$ 9.90
+                                          </Text>
+                                        </View>
+                                      </View>
+                                    </View>
+                                  </View>
+                                </View>
+                              </View>
+                            </View>
+                            <View
+                              onLayout={[Function]}
+                              style={
+                                Array [
+                                  Object {
+                                    "flexDirection": "row",
+                                  },
+                                  null,
+                                ]
+                              }
+                            >
+                              <View
+                                pointerEvents="box-none"
+                                style={
+                                  Array [
+                                    Object {
+                                      "width": 702,
+                                    },
+                                    Object {},
+                                    Object {},
+                                  ]
+                                }
+                              >
+                                <View
+                                  flexGrow={1}
+                                  px={5.333333333333333}
+                                  style={
+                                    Array [
+                                      Object {
+                                        "paddingLeft": 5.333333333333333,
+                                        "paddingRight": 5.333333333333333,
+                                      },
+                                    ]
+                                  }
+                                >
+                                  <View
+                                    accessibilityRole="button"
+                                    accessible={true}
+                                    focusable={true}
+                                    isTVSelectable={true}
+                                    onClick={[Function]}
+                                    onResponderGrant={[Function]}
+                                    onResponderMove={[Function]}
+                                    onResponderRelease={[Function]}
+                                    onResponderTerminate={[Function]}
+                                    onResponderTerminationRequest={[Function]}
+                                    onStartShouldSetResponder={[Function]}
+                                    style={
+                                      Array [
+                                        Object {
+                                          "borderRadius": 4,
+                                        },
+                                      ]
+                                    }
+                                  >
+                                    <View
+                                      bg="white"
+                                      flexGrow={1}
+                                      style={
+                                        Array [
+                                          Object {
+                                            "backgroundColor": "#ffffff",
+                                            "borderRadius": 4,
+                                            "shadowColor": "#000",
+                                            "shadowOffset": Object {
+                                              "height": 2,
+                                              "width": 0,
+                                            },
+                                            "shadowOpacity": 0.05,
+                                            "shadowRadius": 3,
+                                          },
+                                          null,
+                                        ]
+                                      }
+                                    >
+                                      <Image
+                                        accessibilityLabel="Product 4"
+                                        accessible={true}
+                                        onError={[Function]}
+                                        source={
+                                          Object {
+                                            "uri": "https://someinvalid.co",
+                                          }
+                                        }
+                                        style={
+                                          Array [
+                                            Object {},
+                                            Object {
+                                              "aspectRatio": 1.7,
+                                              "resizeMode": "contain",
+                                              "width": "100%",
+                                            },
+                                          ]
+                                        }
+                                      />
+                                      <View
+                                        height={64}
+                                        mt={4}
+                                        mx={24}
+                                        style={
+                                          Array [
+                                            Object {
+                                              "height": 64,
+                                              "marginLeft": 24,
+                                              "marginRight": 24,
+                                              "marginTop": 32,
+                                            },
+                                          ]
+                                        }
+                                      >
+                                        <Text
+                                          accessibilityLabel="Product 4"
+                                          accessible={true}
+                                          color="gray.0"
+                                          fontFamily="default"
+                                          fontSize={16}
+                                          fontWeight="bold"
+                                          lineHeight={22}
+                                          numberOfLines={2}
+                                          style={
+                                            Array [
+                                              Object {
+                                                "color": "#212121",
+                                                "fontFamily": "Arial",
+                                                "fontSize": 16,
+                                                "fontWeight": "700",
+                                                "lineHeight": 22,
+                                              },
+                                            ]
+                                          }
+                                        >
+                                          Product 4
+                                        </Text>
+                                        <Text
+                                          accessibilityLabel="Provider A"
+                                          accessible={true}
+                                          color="gray.1"
+                                          fontFamily="default"
+                                          fontSize={16}
+                                          lineHeight={22}
+                                          style={
+                                            Array [
+                                              Object {
+                                                "color": "#646464",
+                                                "fontFamily": "Arial",
+                                                "fontSize": 16,
+                                                "lineHeight": 22,
+                                              },
+                                            ]
+                                          }
+                                        >
+                                          Provider A
+                                        </Text>
+                                      </View>
+                                      <View
+                                        mb={32}
+                                        mt={24}
+                                        mx={24}
+                                        style={
+                                          Array [
+                                            Object {
+                                              "marginBottom": 32,
+                                              "marginLeft": 24,
+                                              "marginRight": 24,
+                                              "marginTop": 24,
+                                            },
+                                          ]
+                                        }
+                                      >
+                                        <View
+                                          pt={22}
+                                          style={
+                                            Array [
+                                              Object {
+                                                "paddingTop": 22,
+                                              },
+                                            ]
+                                          }
+                                        >
+                                          <Text
+                                            accessibilityLabel="HK$ 10.50"
+                                            accessible={true}
+                                            color="gray.0"
+                                            fontFamily="default"
+                                            fontSize={16}
+                                            fontWeight="bold"
+                                            lineHeight={22}
+                                            style={
+                                              Array [
+                                                Object {
+                                                  "color": "#212121",
+                                                  "fontFamily": "Arial",
+                                                  "fontSize": 16,
+                                                  "fontWeight": "700",
+                                                  "lineHeight": 22,
+                                                },
+                                              ]
+                                            }
+                                          >
+                                            HK$ 10.50
+                                          </Text>
+                                        </View>
+                                      </View>
+                                    </View>
+                                  </View>
+                                </View>
+                              </View>
+                            </View>
+                          </View>
+                        </RCTScrollView>
+                        <View
+                          accessible={false}
+                          pointerEvents="box-none"
+                          style={
+                            Array [
+                              Object {
+                                "alignItems": "center",
+                                "justifyContent": "center",
+                                "paddingHorizontal": 20,
+                                "paddingVertical": 30,
+                              },
+                              Object {
+                                "flexDirection": "row",
+                              },
+                              Object {
+                                "paddingBottom": 24,
+                                "paddingVertical": 15,
+                              },
+                            ]
+                          }
+                        >
+                          <View
+                            accessible={false}
+                            focusable={false}
+                            isTVSelectable={true}
+                            onClick={[Function]}
+                            onResponderGrant={[Function]}
+                            onResponderMove={[Function]}
+                            onResponderRelease={[Function]}
+                            onResponderTerminate={[Function]}
+                            onResponderTerminationRequest={[Function]}
+                            onStartShouldSetResponder={[Function]}
+                            style={
+                              Object {
+                                "alignItems": "center",
+                                "justifyContent": "center",
+                                "marginHorizontal": 8,
+                                "opacity": 1,
+                              }
+                            }
+                          >
+                            <View
+                              style={
+                                Object {
+                                  "backgroundColor": "rgba(0, 0, 0, 0.75)",
+                                  "borderRadius": 3.5,
+                                  "height": 7,
+                                  "opacity": 0.5,
+                                  "transform": Array [
+                                    Object {
+                                      "scale": 1,
+                                    },
+                                  ],
+                                  "width": 7,
+                                }
+                              }
+                            />
+                          </View>
+                          <View
+                            accessible={false}
+                            focusable={false}
+                            isTVSelectable={true}
+                            onClick={[Function]}
+                            onResponderGrant={[Function]}
+                            onResponderMove={[Function]}
+                            onResponderRelease={[Function]}
+                            onResponderTerminate={[Function]}
+                            onResponderTerminationRequest={[Function]}
+                            onStartShouldSetResponder={[Function]}
+                            style={
+                              Object {
+                                "alignItems": "center",
+                                "justifyContent": "center",
+                                "marginHorizontal": 8,
+                                "opacity": 1,
+                              }
+                            }
+                          >
+                            <View
+                              style={
+                                Object {
+                                  "backgroundColor": "rgba(0, 0, 0, 0.75)",
+                                  "borderRadius": 3.5,
+                                  "height": 7,
+                                  "opacity": 0.5,
+                                  "transform": Array [
+                                    Object {
+                                      "scale": 1,
+                                    },
+                                  ],
+                                  "width": 7,
+                                }
+                              }
+                            />
+                          </View>
+                          <View
+                            accessible={false}
+                            focusable={false}
+                            isTVSelectable={true}
+                            onClick={[Function]}
+                            onResponderGrant={[Function]}
+                            onResponderMove={[Function]}
+                            onResponderRelease={[Function]}
+                            onResponderTerminate={[Function]}
+                            onResponderTerminationRequest={[Function]}
+                            onStartShouldSetResponder={[Function]}
+                            style={
+                              Object {
+                                "alignItems": "center",
+                                "justifyContent": "center",
+                                "marginHorizontal": 8,
+                                "opacity": 1,
+                              }
+                            }
+                          >
+                            <View
+                              style={
+                                Object {
+                                  "backgroundColor": "rgba(0, 0, 0, 0.75)",
+                                  "borderRadius": 3.5,
+                                  "height": 7,
+                                  "opacity": 0.5,
+                                  "transform": Array [
+                                    Object {
+                                      "scale": 1,
+                                    },
+                                  ],
+                                  "width": 7,
+                                }
+                              }
+                            />
+                          </View>
+                          <View
+                            accessible={false}
+                            focusable={false}
+                            isTVSelectable={true}
+                            onClick={[Function]}
+                            onResponderGrant={[Function]}
+                            onResponderMove={[Function]}
+                            onResponderRelease={[Function]}
+                            onResponderTerminate={[Function]}
+                            onResponderTerminationRequest={[Function]}
+                            onStartShouldSetResponder={[Function]}
+                            style={
+                              Object {
+                                "alignItems": "center",
+                                "justifyContent": "center",
+                                "marginHorizontal": 8,
+                                "opacity": 1,
+                              }
+                            }
+                          >
+                            <View
+                              style={
+                                Object {
+                                  "backgroundColor": "rgba(0, 0, 0, 0.75)",
+                                  "borderRadius": 3.5,
+                                  "height": 7,
+                                  "opacity": 0.5,
+                                  "transform": Array [
+                                    Object {
+                                      "scale": 1,
+                                    },
+                                  ],
+                                  "width": 7,
+                                }
+                              }
+                            />
+                          </View>
+                        </View>
+                      </View>
+                    </View>
+                  </View>
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </RNCSafeAreaView>
+</View>
+`;

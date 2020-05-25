@@ -1,0 +1,16 @@
+{
+  "pkDigitalContent": 16,
+  "fkClient": 10114,
+  "createOn": "2019-05-02T11:53:30.7494855Z",
+  "createBy": "OCBCNH205a",
+  "lastModifyOn": "2019-05-02T11:53:30.7494855Z",
+  "lastModifyBy": "OCBCNH205a",
+  "fkEmployee": 28,
+  "service": "Claim",
+  "field": "Receipt",
+  "fkReferenceKey": 0,
+  "contentType": "image/png",
+  "uploadOn": "2019-05-02T11:53:30.7494855Z",
+  "uploadBy": "OCBCNH205a",
+  "fileName": "cxa_jenkins_plugin.png"
+}

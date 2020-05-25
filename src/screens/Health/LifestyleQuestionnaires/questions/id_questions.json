@@ -1,0 +1,643 @@
+{
+  "name": "My Lifestyle",
+  "version": 1,
+  "questionGroups": {
+    "choices": [
+      {
+        "questionOrder": "1",
+        "questionId": "choices_2.1",
+        "dependentQuestion": false,
+        "name": "smokingBehaviour",
+        "type": "radio",
+        "text": "Apa kebiasaan merokok Anda saat ini (termasuk rokok linting tangan dan vaping)?",
+        "defaultValue": "NonSmoker",
+        "section": "choices",
+        "options": [
+          {
+            "label": "Bukan perokok",
+            "value": "NonSmoker"
+          },
+          {
+            "label": "Mantan perokok",
+            "value": "ExSmoker"
+          },
+          {
+            "label": "Perokok sesekali (kurang dari satu batang per hari)",
+            "value": "OccasionalSmoker"
+          },
+          {
+            "label": "Perokok harian (setidaknya satu batang rokok per hari)",
+            "value": "DailySmoker"
+          }
+        ]
+      },
+      {
+        "questionOrder": "2",
+        "questionId": "choices_2.2",
+        "dependentQuestion": false,
+        "name": "alcoholConsumptionFrequency",
+        "type": "radio",
+        "text": "Seberapa sering Anda meminum minuman yang mengandung alkohol? 12,5 gram alkohol per minuman - Bir - 12 oz (355ml), Anggur - 5 oz (148ml), Spirits - 1,5 oz (44ml).",
+        "section": "choices",
+        "defaultValue": "Never",
+        "options": [
+          {
+            "label": "Tidak pernah",
+            "value": "Never"
+          },
+          {
+            "label": "Bulanan atau kurang",
+            "value": "MonthlyOrLess"
+          },
+          {
+            "label": "2 - 4 kali sebulan",
+            "value": "TwoToFourTimesAMonth"
+          },
+          {
+            "label": "2 - 3 kali seminggu",
+            "value": "TwoToThreeTimesAWeek"
+          },
+          {
+            "label": "4 kali atau lebih dalam seminggu",
+            "value": "FourOrMoreTimesAWeek"
+          }
+        ]
+      },
+      {
+        "questionOrder": "3",
+        "questionId": "choices_2.2.1",
+        "name": "alcoholConsumptionAmount",
+        "section": "choices",
+        "type": "radio",
+        "defaultValue": "OneOrTwo",
+        "text": "Berapa banyak minuman yang mengandung alkohol yang Anda miliki pada hari-hari biasa ketika Anda minum?",
+        "parentQuestionId": "choices_2.2",
+        "dependentQuestion": true,
+        "activationAnswer": [
+          "MonthlyOrLess",
+          "TwoToFourTimesAMonth",
+          "TwoToThreeTimesAWeek",
+          "FourOrMoreTimesAWeek"
+        ],
+        "hasDefaultValue": true,
+        "options": [
+          {
+            "label": "1 atau 2",
+            "value": "OneOrTwo"
+          },
+          {
+            "label": "3 atau 4",
+            "value": "ThreeOrFour"
+          },
+          {
+            "label": "5 atau 6",
+            "value": "FiveOrSix"
+          },
+          {
+            "label": "7, 8 atau 9",
+            "value": "SevenOrEightOrNine"
+          },
+          {
+            "label": "10 atau lebih",
+            "value": "TenOrMore"
+          }
+        ]
+      },
+      {
+        "questionOrder": "4",
+        "questionId": "choices_2.3",
+        "dependentQuestion": false,
+        "name": "exerciseFrequency",
+        "type": "singleSelect",
+        "titleLabel": "Frekuensi",
+        "selectFieldLabel": "Frekuensi",
+        "text": "Selama 7 hari terakhir, berapa hari Anda berjalan 10 menit atau lebih pada satu waktu atau setidaknya melakukan aktivitas fisik moderat yang membuat Anda bernapas agak lebih keras dari biasanya?",
+        "defaultValue": "0",
+        "section": "choices",
+        "options": [
+          {
+            "label": "0 hari",
+            "value": "0"
+          },
+          {
+            "label": "1 hari",
+            "value": "1"
+          },
+          {
+            "label": "2 hari",
+            "value": "2"
+          },
+          {
+            "label": "3 hari",
+            "value": "3"
+          },
+          {
+            "label": "4 hari",
+            "value": "4"
+          },
+          {
+            "label": "5 hari",
+            "value": "5"
+          },
+          {
+            "label": "6 hari",
+            "value": "6"
+          },
+          {
+            "label": "7 hari",
+            "value": "7"
+          }
+        ]
+      },
+      {
+        "questionOrder": "5",
+        "questionId": "choices_2.3.1",
+        "name": "exerciseMinuteFrequency",
+        "dependentQuestion": true,
+        "parentQuestionId": "choices_2.3",
+        "section": "choices",
+        "type": "singleSelect",
+        "titleLabel": "Duration",
+        "selectFieldLabel": "Duration",
+        "defaultValue": "UpToFifteenMins",
+        "activationAnswer": ["1", "2", "3", "4", "5", "6", "7"],
+        "text": "Pada hari-hari itu, berapa banyak waktu yang biasanya Anda habiskan untuk melakukannya?",
+        "hasDefaultValue": true,
+        "options": [
+          {
+            "label": "Hingga 15 menit",
+            "value": "UpToFifteenMins"
+          },
+          {
+            "label": "15-20 menit",
+            "value": "FifteenToTwentyMins"
+          },
+          {
+            "label": "20-25 menit",
+            "value": "TwentyToTwentyFiveMins"
+          },
+          {
+            "label": "25-30 menit",
+            "value": "TwentyFiveToThirtyMins"
+          },
+          {
+            "label": "30-40 menit",
+            "value": "ThirtyToFortyMins"
+          },
+          {
+            "label": "40 menit sampai 1.5 jam",
+            "value": "FortyMinsToOneAndHalfHour"
+          },
+          {
+            "label": "lebih dari 1.5 jam",
+            "value": "MoreThanOneAndHalfHour"
+          }
+        ]
+      },
+      {
+        "questionOrder": "6",
+        "questionId": "choices_2.4",
+        "dependentQuestion": false,
+        "name": "temptingFoodItems",
+        "text": "Apakah Anda menemukan salah satu dari makanan ini menggoda (yaitu, apakah Anda ingin makan lebih banyak dari yang Anda pikir seharusnya)?",
+        "section": "choices",
+        "titleLabel": "Food",
+        "type": "multiselect",
+        "selectFieldLabel": "Pilih makanan",
+        "hasDefaultValue": true,
+        "defaultValue": [],
+        "buttonLabel": "Pilih makanan",
+        "options": [
+          {
+            "value": "Chocolate",
+            "label": "cokelat"
+          },
+          {
+            "value": "PotatoChips",
+            "label": "Keripik kentang"
+          },
+          {
+            "value": "FrenchFries",
+            "label": "Kentang goreng"
+          },
+          {
+            "value": "Cakes",
+            "label": "Cake"
+          },
+          {
+            "value": "IceCream",
+            "label": "Es krim"
+          },
+          {
+            "value": "BreadOrToast",
+            "label": "Roti atau roti panggang"
+          },
+          {
+            "value": "SugaryDrinks",
+            "label": "Minuman manis"
+          },
+          {
+            "value": "CookiesOrBiscuits",
+            "label": "Kue atau biskuit"
+          },
+          {
+            "value": "DessertsOrSweets",
+            "label": "Makanan penutup atau permen"
+          },
+          {
+            "value": "BubbleTea",
+            "label": "Teh gelembung"
+          },
+          {
+            "value": "Pastries",
+            "label": "Kue kering"
+          },
+          {
+            "value": "InstantNoodles",
+            "label": "Mie instan"
+          },
+          {
+            "value": "FriedFood",
+            "label": "Gorengan"
+          },
+          {
+            "value": "Other",
+            "label": "Lain-lain"
+          },
+          {
+            "value": "NoneTempting",
+            "label": "Saya tidak menemukan makanan yang menggoda",
+            "hasInversion": true
+          }
+        ]
+      },
+      {
+        "questionOrder": "7",
+        "questionId": "choices_2.4.1",
+        "dependentQuestion": true,
+        "parentQuestionId": "choices_2.4",
+        "name": "avoidingTemptingFood",
+        "type": "radio",
+        "section": "choices",
+        "text": "Apakah Anda ingin menghindari makan terlalu banyak makanan yang Anda rasa menggoda di atas?",
+        "defaultValue": "Yes",
+        "options": [
+          {
+            "value": "Yes",
+            "label": "Ya"
+          },
+          {
+            "value": "No",
+            "label": "Tidak"
+          }
+        ],
+        "activationAnswer": [
+          "Chocolate",
+          "PotatoChips",
+          "FrenchFries",
+          "Cakes",
+          "IceCream",
+          "BreadOrToast",
+          "SugaryDrinks",
+          "CookiesOrBiscuits",
+          "DessertsOrSweets",
+          "BubbleTea",
+          "Pastries",
+          "InstantNoodles",
+          "FriedFood",
+          "Other",
+          "NoneTempting"
+        ]
+      },
+      {
+        "questionOrder": "8",
+        "questionId": "choices_2.5",
+        "dependentQuestion": false,
+        "name": "healthyDietIntention",
+        "type": "radio",
+        "text": "Apakah Anda berniat melakukan diet sehat?",
+        "defaultValue": "Yes",
+        "section": "choices",
+        "options": [
+          {
+            "label": "Ya",
+            "value": "Yes"
+          },
+          {
+            "label": "Tidak",
+            "value": "No"
+          }
+        ]
+      },
+      {
+        "questionOrder": "9",
+        "questionId": "choices_2.6",
+        "dependentQuestion": false,
+        "name": "eatingIntentionPerseverance",
+        "type": "radio",
+        "text": "Saya terlalu mudah menyerah pada niat makan saya.",
+        "defaultValue": "Always",
+        "section": "choices",
+        "options": [
+          {
+            "label": "Selalu",
+            "value": "Always"
+          },
+          {
+            "label": "Sering",
+            "value": "Often"
+          },
+          {
+            "label": "Terkadang",
+            "value": "Sometimes"
+          },
+          {
+            "label": "Jarang",
+            "value": "Rarely"
+          },
+          {
+            "label": "Tidak pernah",
+            "value": "Never"
+          }
+        ]
+      },
+      {
+        "questionOrder": "10",
+        "questionId": "choices_2.7",
+        "dependentQuestion": false,
+        "name": "resistingTemptingFood",
+        "type": "radio",
+        "text": "Saya pandai menolak makanan yang menggoda.",
+        "defaultValue": "Always",
+        "section": "choices",
+        "options": [
+          {
+            "label": "Selalu",
+            "value": "Always"
+          },
+          {
+            "label": "Sering",
+            "value": "Often"
+          },
+          {
+            "label": "Terkadang",
+            "value": "Sometimes"
+          },
+          {
+            "label": "Jarang",
+            "value": "Rarely"
+          },
+          {
+            "label": "Tidak pernah",
+            "value": "Never"
+          }
+        ]
+      },
+      {
+        "questionOrder": "11",
+        "questionId": "choices_2.8",
+        "dependentQuestion": false,
+        "name": "distractedFromTheWayIWantToEat",
+        "type": "radio",
+        "text": "Saya dengan mudah teralihkan dari cara saya ingin makan.",
+        "defaultValue": "Always",
+        "section": "choices",
+        "options": [
+          {
+            "label": "Selalu",
+            "value": "Always"
+          },
+          {
+            "label": "Sering",
+            "value": "Often"
+          },
+          {
+            "label": "Terkadang",
+            "value": "Sometimes"
+          },
+          {
+            "label": "Jarang",
+            "value": "Rarely"
+          },
+          {
+            "label": "Tidak pernah",
+            "value": "Never"
+          }
+        ]
+      },
+      {
+        "questionOrder": "12",
+        "questionId": "choices_2.9",
+        "dependentQuestion": false,
+        "name": "acceptanceToChangingEatingBehaviour",
+        "type": "radio",
+        "text": "Jika saya tidak makan dengan cara yang saya inginkan, saya membuat perubahan.",
+        "defaultValue": "Always",
+        "section": "choices",
+        "options": [
+          {
+            "label": "Selalu",
+            "value": "Always"
+          },
+          {
+            "label": "Sering",
+            "value": "Often"
+          },
+          {
+            "label": "Terkadang",
+            "value": "Sometimes"
+          },
+          {
+            "label": "Jarang",
+            "value": "Rarely"
+          },
+          {
+            "label": "Tidak pernah",
+            "value": "Never"
+          }
+        ]
+      },
+      {
+        "questionOrder": "13",
+        "questionId": "choices_2.10",
+        "dependentQuestion": false,
+        "name": "rememberFoodConsumed",
+        "type": "radio",
+        "text": "Saya merasa sulit untuk mengingat apa yang telah saya makan sepanjang hari.",
+        "defaultValue": "Always",
+        "section": "choices",
+        "options": [
+          {
+            "label": "Selalu",
+            "value": "Always"
+          },
+          {
+            "questionOrder": "13",
+            "label": "Sering",
+            "value": "Often"
+          },
+          {
+            "label": "Terkadang",
+            "value": "Sometimes"
+          },
+          {
+            "label": "Jarang",
+            "value": "Rarely"
+          },
+          {
+            "label": "Tidak pernah",
+            "value": "Never"
+          }
+        ]
+      }
+    ],
+    "health": [
+      {
+        "questionOrder": "1",
+        "questionId": "health_3.1",
+        "dependentQuestion": false,
+        "name": "hereditaryDiabetes",
+        "type": "radio",
+        "text": "Adakah orang tua atau saudara Anda yang didiagnosis menderita diabetes?",
+        "defaultValue": "Yes",
+        "options": [
+          {
+            "label": "Ya",
+            "value": "Yes"
+          },
+          {
+            "label": "Tidak",
+            "value": "No"
+          }
+        ]
+      },
+      {
+        "questionOrder": "2",
+        "questionId": "health_3.2",
+        "dependentQuestion": false,
+        "name": "highBloodPressure",
+        "type": "radio",
+        "text": "Pernahkah seorang dokter memberi tahu Anda sebelumnya bahwa Anda menderita tekanan darah tinggi atau sedang dalam pengobatan untuk tekanan darah tinggi?",
+        "defaultValue": "Yes",
+        "options": [
+          {
+            "label": "Ya",
+            "value": "Yes"
+          },
+          {
+            "label": "Tidak",
+            "value": "No"
+          }
+        ]
+      },
+      {
+        "questionOrder": "3",
+        "questionId": "health_3.3",
+        "dependentQuestion": false,
+        "name": "uninterestFrequency",
+        "type": "radio",
+        "text": "Selama 2 minggu terakhir, seberapa sering Anda merasa kurang minat atau kurang senang dalam melakukan sesuatu?",
+        "defaultValue": "Never",
+        "options": [
+          {
+            "label": "Tidak semua",
+            "value": "Never"
+          },
+          {
+            "label": "Beberapa hari",
+            "value": "Sometimes"
+          },
+          {
+            "label": "More than half the days",
+            "value": "Often"
+          },
+          {
+            "label": "Hampir setiap hari",
+            "value": "Regularly"
+          }
+        ]
+      },
+      {
+        "questionOrder": "4",
+        "questionId": "health_3.4",
+        "dependentQuestion": false,
+        "name": "depressionFrequency",
+        "type": "radio",
+        "text": "Selama 2 minggu terakhir, seberapa sering Anda merasa sedih, tertekan, atau putus asa?",
+        "defaultValue": "Never",
+        "options": [
+          {
+            "label": "Tidak semua",
+            "value": "Never"
+          },
+          {
+            "label": "Beberapa hari",
+            "value": "Sometimes"
+          },
+          {
+            "label": "More than half the days",
+            "value": "Often"
+          },
+          {
+            "label": "Hampir setiap hari",
+            "value": "Regularly"
+          }
+        ]
+      },
+      {
+        "questionOrder": "5",
+        "questionId": "health_3.5",
+        "dependentQuestion": false,
+        "name": "drowsinessFrequency",
+        "type": "radio",
+        "text": "Selama sebulan terakhir, seberapa sering Anda mengalami kesulitan untuk tetap terjaga saat mengemudi, makan, atau terlibat dalam kegiatan sosial?",
+        "defaultValue": "Never",
+        "options": [
+          {
+            "label": "Tidak selama bulan lalu",
+            "value": "Never"
+          },
+          {
+            "label": "Kurang dari sekali dalam satu minggu",
+            "value": "Sometimes"
+          },
+          {
+            "label": "1-2 kali dalam satu minggu",
+            "value": "Often"
+          },
+          {
+            "label": "3 kali atau lebih dalam satu minggu",
+            "value": "Regularly"
+          }
+        ]
+      },
+      {
+        "questionOrder": "6",
+        "questionId": "health_3.6",
+        "dependentQuestion": false,
+        "name": "sleepDuration",
+        "type": "radio",
+        "text": "Rata-rata, berapa jam tidur yang Anda dapatkan per malam?",
+        "defaultValue": "Brief",
+        "options": [
+          {
+            "label": "Kurang dari 5 jam",
+            "value": "Brief"
+          },
+          {
+            "label": "5 - 6 jam",
+            "value": "Short"
+          },
+          {
+            "label": "6 - 7 jam",
+            "value": "Long"
+          },
+          {
+            "label": "Lebih dari 7 hari",
+            "value": "VeryLong"
+          }
+        ]
+      }
+    ]
+  }
+}

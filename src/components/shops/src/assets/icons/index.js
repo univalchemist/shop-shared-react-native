@@ -1,0 +1,15 @@
+export { default as check } from './check.png';
+export { default as cart } from './cart.png';
+export { default as menu } from './menu.png';
+export { default as search } from './search.png';
+export { default as shop } from './shop.png';
+export { default as order } from './order.png';
+export { default as xmark } from './xmark.png';
+export { default as checkboxActive } from './checkboxActive.png';
+export { default as checkboxInactive } from './checkboxInactive.png';
+export { default as icEdit } from './edit.png';
+export { default as icDelete } from './delete.png';
+export { default as delivery } from './delivery.png';
+export { default as deliveryGrey } from './deliveryGrey.png';
+export { default as credit } from './credit.png';
+export { default as reviewSubmitted } from './reviewSubmitted.png';

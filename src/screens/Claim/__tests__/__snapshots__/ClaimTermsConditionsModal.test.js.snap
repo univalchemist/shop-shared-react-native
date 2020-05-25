@@ -1,0 +1,351 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ClaimTermsConditionsModal should render correctly 1`] = `
+<View
+  flex={1}
+  style={
+    Array [
+      Object {
+        "flexBasis": 0,
+        "flexGrow": 1,
+        "flexShrink": 1,
+      },
+    ]
+  }
+>
+  <View
+    flex={1}
+    onLayout={[Function]}
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#f9f9f9",
+          "flexBasis": 0,
+          "flexGrow": 1,
+          "flexShrink": 1,
+        },
+      ]
+    }
+  >
+    <RCTScrollView
+      automaticallyAdjustContentInsets={false}
+      contentInset={
+        Object {
+          "bottom": 0,
+        }
+      }
+      enableAutomaticScroll={true}
+      enableOnAndroid={false}
+      enableResetScrollToCoords={true}
+      extraHeight={75}
+      extraScrollHeight={0}
+      getScrollResponder={[Function]}
+      handleOnScroll={[Function]}
+      innerRef={[Function]}
+      keyboardDismissMode="on-drag"
+      keyboardOpeningTime={250}
+      keyboardShouldPersistTaps="handled"
+      keyboardSpace={0}
+      onScroll={[Function]}
+      onScrollBeginDrag={null}
+      resetKeyboardSpace={[Function]}
+      scrollEventThrottle={16}
+      scrollForExtraHeightOnAndroid={[Function]}
+      scrollIntoView={[Function]}
+      scrollToEnd={[Function]}
+      scrollToFocusedInput={[Function]}
+      scrollToPosition={[Function]}
+      showsVerticalScrollIndicator={true}
+      update={[Function]}
+      viewIsInsideTabBar={false}
+    >
+      <View>
+        <View
+          style={
+            Array [
+              Object {
+                "backgroundColor": "#f9f9f9",
+                "flexBasis": 0,
+                "flexGrow": 1,
+                "flexShrink": 1,
+                "paddingBottom": 0,
+                "paddingLeft": 32,
+                "paddingRight": 32,
+                "paddingTop": 32,
+              },
+            ]
+          }
+        >
+          <View
+            marginBottom={32}
+            style={
+              Array [
+                Object {
+                  "marginBottom": 32,
+                },
+              ]
+            }
+          >
+            <Text
+              color="gray.1"
+              fontFamily="default"
+              fontSize={16}
+              letterSpacing={0.3}
+              lineHeight={22}
+              style={
+                Array [
+                  Object {
+                    "color": "#646464",
+                    "fontFamily": "Open Sans",
+                    "fontSize": 16,
+                    "letterSpacing": 0.3,
+                    "lineHeight": 22,
+                  },
+                ]
+              }
+            >
+              PERSONAL INFORMATION COLLECTION STATEMENT
+
+AXA General Insurance Hong Kong Limited (referred to hereinafter as the “Company”) recognises its responsibilities in relation to the collection, holding, processing, use and/or transfer of personal data under the Personal Data (Privacy) Ordinance (Cap. 486) (“PDPO”).  Personal data will be collected only for lawful and relevant purposes and all practicable steps will be taken to ensure that personal data held by the Company is accurate.  The Company will take all practicable steps to ensure security of the personal data and to avoid unauthorised or accidental access, erasure or other use.
+
+Please note that if you do not provide us with your personal data, we may not be able to provide the information, products or services you need or process your request.
+
+PURPOSE:  From time to time it is necessary for the Company to collect your personal data which may be used, stored, processed, transferred, disclosed or shared by us for purposes (“Purposes”), including:
+
+1. processing and evaluating any applications or requests made by you for products/services offered by the Company and other companies of the AXA Group (“our affiliates”); 
+
+2. providing subsequent services to you, including but not limited to administering the policies issued; 
+
+3. any purposes in connection with any claims made by or against or otherwise involving you in respect of any products/services provided by the Company and/or our affiliates, including investigation of claims; 
+
+4. evaluating your financial needs; 
+
+5. designing products/services for customers; 
+
+6. conducting market research for statistical or other purposes; 
+
+7. matching any data held which relates to you from time to time for any of the purposes listed herein; 
+
+8. making disclosure as required by any applicable law, rules, regulations, codes of practice or guidelines or to assist in law enforcement purposes, investigations by police or other government or regulatory authorities in Hong Kong or elsewhere; 
+
+9. conducting identity and/or credit checks and/or debt collection; 
+
+10. complying with the laws of any applicable jurisdiction; 
+
+11. carrying out other services in connection with the operation of the Company’s business; and 
+
+12. other purposes directly relating to any of the above. 
+
+TRANSFER OF PERSONAL DATA:  Personal data will be kept confidential but, subject to the provisions of any applicable law, may be provided to:
+
+1. any of our affiliates, any person associated with the Company, any reinsurance company, claims investigation company, your broker, industry association or federation, fund management company or financial institution in Hong Kong or elsewhere and in this regard you consent to the transfer of your data outside of Hong Kong; 
+
+2. *The Hong Kong and Shanghai Banking Corporation Limited (“HSBC”) for any of the Purposes and for the following additional bank related purposes: ensuring ongoing credit worthiness of customers, creating and maintaining credit and risk related models, providing the personal data to credit reference agencies for the purposes of conducting credit checks and other directly related purposes, determining the amount of indebtedness owed to or by customers and collection of amounts outstanding from customers and those providing security for customers’ obligations; 
+
+3. any person (including private investigators) in connection with any claims made by or against or otherwise involving you in respect of any products/services provided by the Company and/or our affiliates; 
+
+4. any agent, contractor or third party who provides administrative, technology or other services to the Company and/or our affiliates in Hong Kong or elsewhere and who has a duty of confidentiality to the same; 
+
+5. credit reference agencies or, in the event of default, debt collection agencies; 
+
+6. any actual or proposed assignee, transferee, participant or sub-participant of our rights or business; and 
+
+7. any government department or other appropriate governmental or regulatory authority in Hong Kong or elsewhere. 
+
+Transfer of your personal data will only be made for one or more of the Purposes specified above. 
+
+ACCESS AND CORRECTION OF PERSONAL DATA: Under the PDPO, you have the right to ascertain whether the Company holds your personal data, to obtain a copy of the data, and to correct any data that is inaccurate. You may also request the Company to inform you of the type of personal data held by it. 
+
+Requests for access and correction or for information regarding policies and practices and kinds of data held by the Company should be addressed in writing to: 
+
+Data Privacy Officer - Employee Benefits
+
+AXA China Region Insurance Company Limited / AXA General Insurance Hong Kong Limited, 
+
+Unit 2201 – 2206, 22/F Manhattan Place, 23 Wang Tai Road, Kowloon Bay, Hong Kong
+
+A reasonable fee may be charged to offset the Company’s administrative and actual costs incurred in complying with your data access requests.
+
+Declaration and authorisation
+
+I/WE ACKNOWLEDGE AND CONFIRM that I/we have read and understood the Personal Information Collection Statement (“PICS”).  I/We confirm that I/we have been advised to read carefully the PICS, and I/we have read it carefully its effect and impact in respect of my/our personal data collected or held by the Company (whether contained in this application or otherwise).  Based on the foregoing, I/we hereby give my/our acknowledgement and agree to the use and transfer of my/our personal data by AXA General Insurance Hong Kong Limited in accordance with the PICS.
+
+I/WE HEREBY DECLARE AND AGREE on behalf of myself or other person referred to in this e-submission that all statements and answers to all questions are to the best of my/our knowledge and belief complete and true.
+
+I/WE HEREBY AUTHORISE that (1) any employer, registered medical practitioner, hospital, clinic, insurance company, bank, government institution, or other organization, institution or person, that has any records or knowledge of me/us to disclose such information to the Company as the Company may request; (2) the Company or any of its appointed medical examiners or laboratories to perform the necessary medical assessment and tests to evaluate the health status of myself/ourselves in relation to this application and any claim arising therefrom.  This authorization shall bind the successors an assignees of the Relevant Persons and remains valid notwithstanding death or incapacity.
+
+I/WE HEREBY AGREE that the company or any of its appointed representatives reserves the right to request for the original receipt within 6 months as of the completion date of the claims result.  I/We will submit the original receipt within 10 working days upon receipt of the company or authorized representative’s request.  If the company to the authorized representative does to receive the original receipt as requested within the required timeline, then the Company reserves the right to request for a refund of the payment or reverse such payment against future claims.
+
+In the event of inconsistency between the English version and the Chinese version, the English version shall prevail.
+            </Text>
+          </View>
+        </View>
+      </View>
+    </RCTScrollView>
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "borderTopColor": "#e3e3e3",
+          "borderTopWidth": 1,
+          "flexDirection": undefined,
+          "paddingBottom": 16,
+          "paddingLeft": 32,
+          "paddingRight": 32,
+          "paddingTop": 16,
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        Object {
+          "borderRadius": 3,
+        }
+      }
+    >
+      <View
+        accessibilityLabel="Accept Terms & Conditions"
+        accessible={true}
+        clickable={true}
+        isTVSelectable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#50ABAD",
+              "borderColor": "#2089dc",
+              "borderRadius": 3,
+              "borderWidth": 0,
+              "flexDirection": "row",
+              "height": 48,
+              "justifyContent": "center",
+              "padding": 8,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "white",
+                "fontFamily": "Open Sans",
+                "fontSize": 16,
+                "lineHeight": 20,
+                "paddingBottom": 1,
+                "paddingTop": 2,
+                "textAlign": "center",
+              }
+            }
+          >
+            Accept Terms & Conditions
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`ClaimTermsConditionsModal should render loading screen 1`] = `
+<Modal
+  hardwareAccelerated={false}
+  visible={true}
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "justifyContent": "center",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#9a9a9a",
+            "fontSize": 128,
+            "letterSpacing": -20,
+            "marginTop": -20,
+            "opacity": 0.4,
+          }
+        }
+      >
+         
+        .
+      </Text>
+      <Text
+        style={
+          Object {
+            "color": "#9a9a9a",
+            "fontSize": 128,
+            "letterSpacing": -20,
+            "marginTop": -20,
+            "opacity": 0.4,
+          }
+        }
+      >
+         
+        .
+      </Text>
+      <Text
+        style={
+          Object {
+            "color": "#9a9a9a",
+            "fontSize": 128,
+            "letterSpacing": -20,
+            "marginTop": -20,
+            "opacity": 0.4,
+          }
+        }
+      >
+         
+        .
+      </Text>
+    </View>
+    <Text
+      color="gray.1"
+      fontFamily="default"
+      fontSize={16}
+      lineHeight={22}
+      style={
+        Array [
+          Object {
+            "color": "#646464",
+            "fontFamily": "Open Sans",
+            "fontSize": 16,
+            "lineHeight": 22,
+          },
+          Object {
+            "color": "#646464",
+            "fontSize": 16,
+          },
+        ]
+      }
+    >
+      Submitting your claim...
+    </Text>
+  </View>
+</Modal>
+`;

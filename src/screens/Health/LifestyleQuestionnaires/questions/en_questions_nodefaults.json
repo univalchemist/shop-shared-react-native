@@ -1,0 +1,624 @@
+{
+  "name": "My Lifestyle",
+  "version": 1,
+  "questionGroups": {
+    "choices": [
+      {
+        "questionOrder": "1",
+        "questionId": "choices_2.1",
+        "dependentQuestion": false,
+        "name": "smokingBehaviour",
+        "type": "radio",
+        "text": "What is your current cigarettes (including hand-rolled cigarettes) smoking behaviour?",
+        "section": "choices",
+        "options": [
+          {
+            "label": "Non-smoker",
+            "value": "NonSmoker"
+          },
+          {
+            "label": "Ex-smoker",
+            "value": "ExSmoker"
+          },
+          {
+            "label": "Occasional smoker (less than one cigarette per day)",
+            "value": "OccasionalSmoker"
+          },
+          {
+            "label": "Daily smoker (at least one cigarette per day)",
+            "value": "DailySmoker"
+          }
+        ]
+      },
+      {
+        "questionOrder": "2",
+        "questionId": "choices_2.2",
+        "dependentQuestion": false,
+        "name": "alcoholConsumptionFrequency",
+        "type": "radio",
+        "text": "How often do you drink alcohol? 12.5 grams of alcohol per drink - Beer - 12oz (355ml), Wine - 5 oz (148ml), Spirits - 1.5 oz (44ml).",
+        "section": "choices",
+        "options": [
+          {
+            "label": "Never",
+            "value": "Never"
+          },
+          {
+            "label": "Monthly or less",
+            "value": "MonthlyOrLess"
+          },
+          {
+            "label": "2 - 4 times a month",
+            "value": "TwoToFourTimesAMonth"
+          },
+          {
+            "label": "2 - 3 times a week",
+            "value": "TwoToThreeTimesAWeek"
+          },
+          {
+            "label": "4 or more times a week",
+            "value": "FourOrMoreTimesAWeek"
+          }
+        ]
+      },
+      {
+        "questionOrder": "3",
+        "questionId": "choices_2.2.1",
+        "name": "alcoholConsumptionAmount",
+        "section": "choices",
+        "type": "radio",
+        "text": "How many drinks containing alcohol do you have on a typical day when you are drinking?",
+        "parentQuestionId": "choices_2.2",
+        "dependentQuestion": true,
+        "activationAnswer": [
+          "MonthlyOrLess",
+          "TwoToFourTimesAMonth",
+          "TwoToThreeTimesAWeek",
+          "FourOrMoreTimesAWeek"
+        ],
+        "hasDefaultValue": true,
+        "options": [
+          {
+            "label": "1 or 2",
+            "value": "OneOrTwo"
+          },
+          {
+            "label": "3 or 4",
+            "value": "ThreeOrFour"
+          },
+          {
+            "label": "5 or 6",
+            "value": "FiveOrSix"
+          },
+          {
+            "label": "7, 8 or 9",
+            "value": "SevenOrEightOrNine"
+          },
+          {
+            "label": "10 or more",
+            "value": "TenOrMore"
+          }
+        ]
+      },
+      {
+        "questionOrder": "4",
+        "questionId": "choices_2.3",
+        "dependentQuestion": false,
+        "name": "exerciseFrequency",
+        "type": "singleSelect",
+        "titleLabel": "Frequency",
+        "selectFieldLabel": "Frequency",
+        "text": "During the last 7 days, how many days did you walk 10 minutes or more at a time or do at least moderate physical activities that made you breathe somewhat harder than normal?",
+        "section": "choices",
+        "options": [
+          {
+            "label": "0 days",
+            "value": "0"
+          },
+          {
+            "label": "1 day",
+            "value": "1"
+          },
+          {
+            "label": "2 days",
+            "value": "2"
+          },
+          {
+            "label": "3 days",
+            "value": "3"
+          },
+          {
+            "label": "4 days",
+            "value": "4"
+          },
+          {
+            "label": "5 days",
+            "value": "5"
+          },
+          {
+            "label": "6 days",
+            "value": "6"
+          },
+          {
+            "label": "7 days",
+            "value": "7"
+          }
+        ]
+      },
+      {
+        "questionOrder": "5",
+        "questionId": "choices_2.3.1",
+        "name": "exerciseMinuteFrequency",
+        "dependentQuestion": true,
+        "parentQuestionId": "choices_2.3",
+        "section": "choices",
+        "type": "singleSelect",
+        "titleLabel": "Duration",
+        "selectFieldLabel": "Duration",
+        "activationAnswer": ["1", "2", "3", "4", "5", "6", "7"],
+        "text": "On those days, how much time did you usually spend completing the activity?",
+        "hasDefaultValue": true,
+        "options": [
+          {
+            "label": "Up to 15 mins",
+            "value": "UpToFifteenMins"
+          },
+          {
+            "label": "15 - 20 mins",
+            "value": "FifteenToTwentyMins"
+          },
+          {
+            "label": "20 - 25 mins",
+            "value": "TwentyToTwentyFiveMins"
+          },
+          {
+            "label": "25 - 30 mins",
+            "value": "TwentyFiveToThirtyMins"
+          },
+          {
+            "label": "30 - 40 mins",
+            "value": "ThirtyToFortyMins"
+          },
+          {
+            "label": "40 mins to 1.5 hour",
+            "value": "FortyMinsToOneAndHalfHour"
+          },
+          {
+            "label": "More than 1.5 hour",
+            "value": "MoreThanOneAndHalfHour"
+          }
+        ]
+      },
+      {
+        "questionOrder": "6",
+        "questionId": "choices_2.4",
+        "dependentQuestion": false,
+        "name": "temptingFoodItems",
+        "text": "Do you find any of these foods tempting (that is, do you want to eat more of them than you think you should)?",
+        "section": "choices",
+        "titleLabel": "Food",
+        "type": "multiselect",
+        "selectFieldLabel": "Select Food",
+        "hasDefaultValue": true,
+        "buttonLabel": "Select food",
+        "options": [
+          {
+            "value": "Chocolate",
+            "label": "Chocolate"
+          },
+          {
+            "value": "PotatoChips",
+            "label": "Potato chips"
+          },
+          {
+            "value": "FrenchFries",
+            "label": "French fries"
+          },
+          {
+            "value": "Cakes",
+            "label": "Cakes"
+          },
+          {
+            "value": "IceCream",
+            "label": "Ice cream"
+          },
+          {
+            "value": "BreadOrToast",
+            "label": "Bread or toast"
+          },
+          {
+            "value": "SugaryDrinks",
+            "label": "Sugary drinks"
+          },
+          {
+            "value": "CookiesOrBiscuits",
+            "label": "Cookies or biscuits"
+          },
+          {
+            "value": "DessertsOrSweets",
+            "label": "Desserts or sweets"
+          },
+          {
+            "value": "BubbleTea",
+            "label": "Bubble tea"
+          },
+          {
+            "value": "Pastries",
+            "label": "Pastries"
+          },
+          {
+            "value": "InstantNoodles",
+            "label": "Instant noodles"
+          },
+          {
+            "value": "FriedFood",
+            "label": "Fried food"
+          },
+          {
+            "value": "Other",
+            "label": "Other"
+          },
+          {
+            "value": "NoneTempting",
+            "label": "I don't find any food tempting",
+            "hasInversion": true
+          }
+        ]
+      },
+      {
+        "questionOrder": "7",
+        "questionId": "choices_2.4.1",
+        "dependentQuestion": true,
+        "parentQuestionId": "choices_2.4",
+        "name": "avoidingTemptingFood",
+        "type": "radio",
+        "section": "choices",
+        "text": "Do you want to avoid eating too much of the foods you find tempting above?",
+        "options": [
+          {
+            "value": "Yes",
+            "label": "Yes"
+          },
+          {
+            "value": "No",
+            "label": "No"
+          }
+        ],
+        "activationAnswer": [
+          "Chocolate",
+          "PotatoChips",
+          "FrenchFries",
+          "Cakes",
+          "IceCream",
+          "BreadOrToast",
+          "SugaryDrinks",
+          "CookiesOrBiscuits",
+          "DessertsOrSweets",
+          "BubbleTea",
+          "Pastries",
+          "InstantNoodles",
+          "FriedFood",
+          "Other",
+          "NoneTempting"
+        ]
+      },
+      {
+        "questionOrder": "8",
+        "questionId": "choices_2.5",
+        "dependentQuestion": false,
+        "name": "healthyDietIntention",
+        "type": "radio",
+        "text": "Do you intend to have a healthy diet?",
+        "section": "choices",
+        "options": [
+          {
+            "label": "Yes",
+            "value": "Yes"
+          },
+          {
+            "label": "No",
+            "value": "No"
+          }
+        ]
+      },
+      {
+        "questionOrder": "9",
+        "questionId": "choices_2.6",
+        "dependentQuestion": false,
+        "name": "eatingIntentionPerseverance",
+        "type": "radio",
+        "text": "I give up too easily on my eating intentions.",
+        "section": "choices",
+        "options": [
+          {
+            "label": "Always",
+            "value": "Always"
+          },
+          {
+            "label": "Often",
+            "value": "Often"
+          },
+          {
+            "label": "Sometimes",
+            "value": "Sometimes"
+          },
+          {
+            "label": "Rarely",
+            "value": "Rarely"
+          },
+          {
+            "label": "Never",
+            "value": "Never"
+          }
+        ]
+      },
+      {
+        "questionOrder": "10",
+        "questionId": "choices_2.7",
+        "dependentQuestion": false,
+        "name": "resistingTemptingFood",
+        "type": "radio",
+        "text": "I’m good at resisting tempting food.",
+        "section": "choices",
+        "options": [
+          {
+            "label": "Always",
+            "value": "Always"
+          },
+          {
+            "label": "Often",
+            "value": "Often"
+          },
+          {
+            "label": "Sometimes",
+            "value": "Sometimes"
+          },
+          {
+            "label": "Rarely",
+            "value": "Rarely"
+          },
+          {
+            "label": "Never",
+            "value": "Never"
+          }
+        ]
+      },
+      {
+        "questionOrder": "11",
+        "questionId": "choices_2.8",
+        "dependentQuestion": false,
+        "name": "distractedFromTheWayIWantToEat",
+        "type": "radio",
+        "text": "I easily get distracted from the way I intend to eat.",
+        "section": "choices",
+        "options": [
+          {
+            "label": "Always",
+            "value": "Always"
+          },
+          {
+            "label": "Often",
+            "value": "Often"
+          },
+          {
+            "label": "Sometimes",
+            "value": "Sometimes"
+          },
+          {
+            "label": "Rarely",
+            "value": "Rarely"
+          },
+          {
+            "label": "Never",
+            "value": "Never"
+          }
+        ]
+      },
+      {
+        "questionOrder": "12",
+        "questionId": "choices_2.9",
+        "dependentQuestion": false,
+        "name": "acceptanceToChangingEatingBehaviour",
+        "type": "radio",
+        "text": "If I am not eating in the way I intend to, I make changes.",
+        "section": "choices",
+        "options": [
+          {
+            "label": "Always",
+            "value": "Always"
+          },
+          {
+            "label": "Often",
+            "value": "Often"
+          },
+          {
+            "label": "Sometimes",
+            "value": "Sometimes"
+          },
+          {
+            "label": "Rarely",
+            "value": "Rarely"
+          },
+          {
+            "label": "Never",
+            "value": "Never"
+          }
+        ]
+      },
+      {
+        "questionOrder": "13",
+        "questionId": "choices_2.10",
+        "dependentQuestion": false,
+        "name": "rememberFoodConsumed",
+        "type": "radio",
+        "text": "I find it hard to remember what I have eaten through the day.",
+        "section": "choices",
+        "options": [
+          {
+            "label": "Always",
+            "value": "Always"
+          },
+          {
+            "questionOrder": "13",
+            "label": "Often",
+            "value": "Often"
+          },
+          {
+            "label": "Sometimes",
+            "value": "Sometimes"
+          },
+          {
+            "label": "Rarely",
+            "value": "Rarely"
+          },
+          {
+            "label": "Never",
+            "value": "Never"
+          }
+        ]
+      }
+    ],
+    "health": [
+      {
+        "questionOrder": "1",
+        "questionId": "health_3.1",
+        "dependentQuestion": false,
+        "name": "hereditaryDiabetes",
+        "type": "radio",
+        "text": "Have any of your parents or siblings been diagnosed with diabetes?",
+        "options": [
+          {
+            "label": "Yes",
+            "value": "Yes"
+          },
+          {
+            "label": "No",
+            "value": "No"
+          }
+        ]
+      },
+      {
+        "questionOrder": "2",
+        "questionId": "health_3.2",
+        "dependentQuestion": false,
+        "name": "highBloodPressure",
+        "type": "radio",
+        "text": "Has a doctor told you previously that you’ve got high blood pressure or are you on medication for high blood pressure?",
+        "options": [
+          {
+            "label": "Yes",
+            "value": "Yes"
+          },
+          {
+            "label": "No",
+            "value": "No"
+          }
+        ]
+      },
+      {
+        "questionOrder": "3",
+        "questionId": "health_3.3",
+        "dependentQuestion": false,
+        "name": "uninterestFrequency",
+        "type": "radio",
+        "text": "Over the past 2 weeks, how often have you felt little interest or pleasure in doing things?",
+        "options": [
+          {
+            "label": "Not at all",
+            "value": "Never"
+          },
+          {
+            "label": "Several days",
+            "value": "Sometimes"
+          },
+          {
+            "label": "More than half the days",
+            "value": "Often"
+          },
+          {
+            "label": "Nearly every day",
+            "value": "Regularly"
+          }
+        ]
+      },
+      {
+        "questionOrder": "4",
+        "questionId": "health_3.4",
+        "dependentQuestion": false,
+        "name": "depressionFrequency",
+        "type": "radio",
+        "text": "Over the past 2 weeks, how often have you felt down, depressed, or hopeless?",
+        "options": [
+          {
+            "label": "Not at all",
+            "value": "Never"
+          },
+          {
+            "label": "Several days",
+            "value": "Sometimes"
+          },
+          {
+            "label": "More than half the days",
+            "value": "Often"
+          },
+          {
+            "label": "Nearly every day",
+            "value": "Regularly"
+          }
+        ]
+      },
+      {
+        "questionOrder": "5",
+        "questionId": "health_3.5",
+        "dependentQuestion": false,
+        "name": "drowsinessFrequency",
+        "type": "radio",
+        "text": "During the past month, how often have you had trouble staying awake while driving, eating meals, or engaging in social activity?",
+        "options": [
+          {
+            "label": "Not during the past month",
+            "value": "Never"
+          },
+          {
+            "label": "Less than once a week",
+            "value": "Sometimes"
+          },
+          {
+            "label": "1 - 2 times a week",
+            "value": "Often"
+          },
+          {
+            "label": "3 or more times a week",
+            "value": "Regularly"
+          }
+        ]
+      },
+      {
+        "questionOrder": "6",
+        "questionId": "health_3.6",
+        "dependentQuestion": false,
+        "name": "sleepDuration",
+        "type": "radio",
+        "text": "On average, how many hours of sleep do you get per night?",
+        "options": [
+          {
+            "label": "Less than 5 hours",
+            "value": "Brief"
+          },
+          {
+            "label": "5 - 6 hours",
+            "value": "Short"
+          },
+          {
+            "label": "6 - 7 hours",
+            "value": "Long"
+          },
+          {
+            "label": "More than 7 hours",
+            "value": "VeryLong"
+          }
+        ]
+      }
+    ]
+  }
+}

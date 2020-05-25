@@ -1,0 +1,8 @@
+/* istanbul ignore file */
+
+const PREFIX = '@@shop';
+
+export const UPDATE_SELECTED_CATEGORIES = `${PREFIX}/UPDATE_SELECTED_CATEGORIES`;
+export const UPDATE_SORT_TYPE = `${PREFIX}/UPDATE_SORT_TYPE`;
+export const UPDATE_FILTER_TYPES = `${PREFIX}/UPDATE_FILTER_TYPES`;
+export const UPDATE_SEARCH_STRING = `${PREFIX}/UPDATE_SEARCH_STRING`;

@@ -1,0 +1,82 @@
+{
+  "clientId": "cxadevclient1",
+  "memberId": "3",
+  "fullName": "William Brown",
+  "firstName": "William",
+  "lastName": "Brown",
+  "email": "william@abc.com",
+  "externalId": "3",
+  "gender": "Male",
+  "dateOfBirth": "1989-09-01T00:00:00",
+  "role": "Employee",
+  "relationshipToEmployee": null,
+  "contactNumber": "852 900011",
+  "preferredLocale": "en-HK",
+  "relationships": [
+    {
+      "memberId": "27",
+      "fullName": "Catherine Brown Tan",
+      "firstName": "Catherine Brown",
+      "lastName": "Tan",
+      "email": "cath@test.com",
+      "externalId": "0000124",
+      "gender": "Female",
+      "dateOfBirth": "1990-01-01T00:00:00",
+      "role": "Dependent",
+      "relationshipToEmployee": "Spouse",
+      "contactNumber": null
+    },
+    {
+      "memberId": "28",
+      "fullName": "George Brown Tan",
+      "firstName": "George Brown",
+      "lastName": "Tan",
+      "email": "george@test.com",
+      "externalId": "0000125",
+      "gender": "Male",
+      "dateOfBirth": "1990-01-01T00:00:00",
+      "role": "Dependent",
+      "relationshipToEmployee": "Child",
+      "contactNumber": null
+    },
+    {
+      "memberId": "29",
+      "fullName": "Charlotte Brown Tan",
+      "firstName": "Charlotte Brown",
+      "lastName": "Tan",
+      "email": "cath@test.com",
+      "externalId": "0000126",
+      "gender": "Female",
+      "dateOfBirth": "1990-01-01T00:00:00",
+      "role": "Dependent",
+      "relationshipToEmployee": "Child",
+      "contactNumber": null
+    },
+    {
+      "memberId": "30",
+      "fullName": "Louis Brown Tan",
+      "firstName": "Louis Brown",
+      "lastName": "Tan",
+      "email": "luis@test.com",
+      "externalId": "0000127",
+      "gender": "Female",
+      "dateOfBirth": "1990-01-01T00:00:00",
+      "role": "Dependent",
+      "relationshipToEmployee": "Child",
+      "contactNumber": null
+    },
+    {
+      "memberId": "68",
+      "fullName": "Karen Brown Tan",
+      "firstName": "Karen Brown",
+      "lastName": "Tan",
+      "email": "karen@test.com",
+      "externalId": "0000128",
+      "gender": "Female",
+      "dateOfBirth": "1990-01-01T00:00:00",
+      "role": "Dependent",
+      "relationshipToEmployee": "Child",
+      "contactNumber": null
+    }
+  ]
+}

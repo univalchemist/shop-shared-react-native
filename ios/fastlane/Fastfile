@@ -1,0 +1,96 @@
+# This file contains the fastlane.tools configuration
+# You can find the documentation at https://docs.fastlane.tools
+#
+# For a list of all available actions, check out
+#
+#     https://docs.fastlane.tools/actions
+#
+# For a list of all available plugins, check out
+#
+#     https://docs.fastlane.tools/plugins/available-plugins
+#
+
+# Uncomment the line if you want fastlane to automatically update itself
+# update_fastlane
+
+default_platform(:ios)
+
+platform :ios do
+  desc "Build app file for automation tests"
+    lane :build_appfile do |options|
+        xcodebuild(workspace: "EmployeeFrontend.xcworkspace",
+                    scheme: "EmployeeFrontend",
+                    xcargs: "-configuration 'Release' -destination 'generic/platform=iOS Simulator' -derivedDataPath 'build/EmployeeFrontend'"
+                    )
+        zip(path: "./build/EmployeeFrontend/Build/Products/Release-iphonesimulator/EmployeeFrontend.app",
+            output_path: "./build/EmployeeFrontend.app"
+        )
+    end
+  desc "Build ipa file for release"
+    lane :build_release_ipa do |options|
+        cert(development: true,
+            username: "palawan-mobile@cxagroup.com",
+            team_id: "LW97L5BGRN"
+        )
+        bundle_identifier_profile_map = {
+            "com.cxagroup.mobile.EmployeePortal.development.shared" => "PalawanPortalShared-Development",
+            "com.cxagroup.mobile.EmployeePortal.staging.shared" => "PalawanPortalShared-Staging",
+            "com.cxagroup.mobile.EmployeePortal.uat.shared" => "PalawanPortalShared-UAT",
+            "com.cxagroup.mobile.EmployeePortal.production.shared" => "PalawanPortalShared-Production",
+        }
+
+
+        bundle_id = options[:app_bundle_identifier]
+
+        settings_to_override = {
+            :PRODUCT_BUNDLE_IDENTIFIER => bundle_id,
+            :PROVISIONING_PROFILE_SPECIFIER => bundle_identifier_profile_map[bundle_id]
+        }
+
+        gym(clean: true,
+            scheme: "EmployeeFrontend",
+            export_method: "ad-hoc",
+            output_directory: "build/",
+            xcargs: settings_to_override,
+            export_options: {
+                provisioningProfiles: {
+                    bundle_id => bundle_identifier_profile_map[bundle_id]
+                }
+            },
+        )
+    end
+  desc "Build ipa file for distribution"
+    lane :build_distribution_ipa do |options|
+        cert(development: false,
+            username: "palawan-mobile@cxagroup.com",
+            team_id: "LW97L5BGRN"
+        )
+        bundle_identifier_profile_map = {
+            "com.cxagroup.mobile.EmployeePortal.uat.shared" => "PalawanPortalShared-UAT (Distribution)",
+            "com.cxagroup.mobile.EmployeePortal.production.shared" => "PalawanPortalShared-Production"
+        }
+
+        bundle_id = options[:app_bundle_identifier]
+
+        settings_to_override = {
+            :PRODUCT_BUNDLE_IDENTIFIER => bundle_id,
+            :PROVISIONING_PROFILE_SPECIFIER => bundle_identifier_profile_map[bundle_id]
+        }
+
+        gym(clean: true,
+            scheme: "EmployeeFrontend_Distribute",
+            export_method: "app-store",
+            output_directory: "build/",
+            xcargs: settings_to_override,
+            export_options: {
+                provisioningProfiles: { 
+                    bundle_id => bundle_identifier_profile_map[bundle_id]
+                }
+            },
+        )
+	pilot(distribute_external: false,
+            username: "palawan-mobile@cxagroup.com",
+            skip_submission: false
+	)
+    end
+end

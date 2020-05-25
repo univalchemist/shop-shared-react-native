@@ -1,0 +1,483 @@
+{
+  "fields": [
+    {
+      "_dataType": "String",
+      "fieldId": "DocumentID",
+      "name": "Claim ID",
+      "dataType": "String",
+      "required": true,
+      "disabled": false,
+      "displayOrder": 0,
+      "readOnly": true,
+      "defaultAsBlank": false
+    },
+    {
+      "_dataType": "String",
+      "fieldId": "ClaimItemType",
+      "name": "Claim Type",
+      "dataType": "String",
+      "required": true,
+      "disabled": false,
+      "displayOrder": 0,
+      "readOnly": true,
+      "defaultAsBlank": false
+    },
+    {
+      "_dataType": "Boolean",
+      "fieldId": "TaxStatus",
+      "name": "Tax Status",
+      "dataType": "Boolean",
+      "required": true,
+      "disabled": false,
+      "displayOrder": 0,
+      "readOnly": true,
+      "defaultAsBlank": false
+    },
+    {
+      "_dataType": "String",
+      "fieldId": "ClaimReasonSpecialOthers",
+      "dataType": "String",
+      "required": false,
+      "parentFieldId": "ClaimReason",
+      "disabled": false,
+      "displayOrder": 0,
+      "readOnly": false
+    },
+    {
+      "_dataType": "Integer",
+      "fieldId": "Int1",
+      "name": "hasAgreed",
+      "dataType": "Integer",
+      "required": true,
+      "disabled": false,
+      "displayOrder": 0,
+      "readOnly": false,
+      "defaultAsBlank": false
+    },
+    {
+      "_dataType": "String",
+      "fieldId": "Str5",
+      "name": "contactNumber",
+      "dataType": "String",
+      "required": false,
+      "lookupList": "",
+      "disabled": false,
+      "displayOrder": 0,
+      "readOnly": false,
+      "defaultAsBlank": false
+    },
+    {
+      "_dataType": "List",
+      "fieldId": "ClaimantName",
+      "name": "Claimant",
+      "value": [
+        {
+          "id": "Employee|3",
+          "value": "William Brown"
+        },
+        {
+          "id": "Dependant|27",
+          "value": "Catherine Brown"
+        },
+        {
+          "id": "Dependant|28",
+          "value": "George Brown"
+        },
+        {
+          "id": "Dependant|29",
+          "value": "Charlotte Brown"
+        },
+        {
+          "id": "Dependant|30",
+          "value": "Louis Brown"
+        },
+        {
+          "id": "Dependant|68",
+          "value": "Karen Brown"
+        }
+      ],
+      "dataType": "List",
+      "required": true,
+      "disabled": false,
+      "displayOrder": 1,
+      "readOnly": false,
+      "defaultAsBlank": false
+    },
+    {
+      "_dataType": "Date",
+      "fieldId": "ReceiptDate",
+      "name": "Incurred Date",
+      "dataType": "Date",
+      "required": true,
+      "disabled": false,
+      "displayOrder": 3,
+      "readOnly": false,
+      "validDateRange": {
+        "start": "2018-12-31T16:00:00Z",
+        "end": "2019-05-10T00:00:00Z"
+      },
+      "defaultAsBlank": false
+    },
+    {
+      "_dataType": "Decimal",
+      "fieldId": "ReceiptAmount",
+      "name": "Incurred Amount",
+      "dataType": "Decimal",
+      "toolTip": "800",
+      "required": true,
+      "disabled": false,
+      "displayOrder": 4,
+      "readOnly": false,
+      "defaultAsBlank": false
+    },
+    {
+      "_dataType": "List",
+      "fieldId": "ClaimReason",
+      "name": "Medical Condition/Diagnosis",
+      "value": [
+        {
+          "id": "Abdominal Pain",
+          "value": "Abdominal Pain"
+        },
+        {
+          "id": "Abortion/Miscarriage",
+          "value": "Abortion/Miscarriage"
+        },
+        {
+          "id": "Abscess",
+          "value": "Abscess"
+        },
+        {
+          "id": "Accident",
+          "value": "Accident"
+        },
+        {
+          "id": "All Forms Of Fracture",
+          "value": "All Forms Of Fracture"
+        },
+        {
+          "id": "Any other symptoms or complaints",
+          "value": "Any other symptoms or complaints"
+        },
+        {
+          "id": "Appendicitis",
+          "value": "Appendicitis"
+        },
+        {
+          "id": "Arthritis",
+          "value": "Arthritis"
+        },
+        {
+          "id": "Asthma",
+          "value": "Asthma"
+        },
+        {
+          "id": "Breast Lump/Cyst",
+          "value": "Breast Lump/Cyst"
+        },
+        {
+          "id": "Cancer",
+          "value": "Cancer"
+        },
+        {
+          "id": "Carpal Tunnel Syndrome",
+          "value": "Carpal Tunnel Syndrome"
+        },
+        {
+          "id": "Cataract",
+          "value": "Cataract"
+        },
+        {
+          "id": "Chest Pain",
+          "value": "Chest Pain"
+        },
+        {
+          "id": "Constipation",
+          "value": "Constipation"
+        },
+        {
+          "id": "Coronary Artery Disease (CAD)/Ischaemic Heart Disease",
+          "value": "Coronary Artery Disease (CAD)/Ischaemic Heart Disease"
+        },
+        {
+          "id": "Cough",
+          "value": "Cough"
+        },
+        {
+          "id": "Dengue Haemorrhagic Fever",
+          "value": "Dengue Haemorrhagic Fever"
+        },
+        {
+          "id": "Diabetes Mellitus",
+          "value": "Diabetes Mellitus"
+        },
+        {
+          "id": "Diarrhoea",
+          "value": "Diarrhoea"
+        },
+        {
+          "id": "Eczema",
+          "value": "Eczema"
+        },
+        {
+          "id": "Endometriosis",
+          "value": "Endometriosis"
+        },
+        {
+          "id": "Fever",
+          "value": "Fever"
+        },
+        {
+          "id": "Flu/Influenza",
+          "value": "Flu/Influenza"
+        },
+        {
+          "id": "Food Poisoning/Gastroeneritis",
+          "value": "Food Poisoning/Gastroeneritis"
+        },
+        {
+          "id": "Foreign Body - Throat",
+          "value": "Foreign Body - Throat"
+        },
+        {
+          "id": "Gallbladder Stone/Cholelithias",
+          "value": "Gallbladder Stone/Cholelithias"
+        },
+        {
+          "id": "Gastritis/Gastric/Dyspepsia",
+          "value": "Gastritis/Gastric/Dyspepsia"
+        },
+        {
+          "id": "Giddiness/Giddy",
+          "value": "Giddiness/Giddy"
+        },
+        {
+          "id": "Gout",
+          "value": "Gout"
+        },
+        {
+          "id": "Headache",
+          "value": "Headache"
+        },
+        {
+          "id": "Heart Attack",
+          "value": "Heart Attack"
+        },
+        {
+          "id": "High Blood Pressure/Hypertension",
+          "value": "High Blood Pressure/Hypertension"
+        },
+        {
+          "id": "High Cholesterol",
+          "value": "High Cholesterol"
+        },
+        {
+          "id": "Infection of Ear (Otitis Media/Externa)",
+          "value": "Infection of Ear (Otitis Media/Externa)"
+        },
+        {
+          "id": "Ingrown Toe Nail",
+          "value": "Ingrown Toe Nail"
+        },
+        {
+          "id": "Inguinal Hernia",
+          "value": "Inguinal Hernia"
+        },
+        {
+          "id": "Intestinal/Rectal Colon Polyps",
+          "value": "Intestinal/Rectal Colon Polyps"
+        },
+        {
+          "id": "Kidney Stone",
+          "value": "Kidney Stone"
+        },
+        {
+          "id": "Meniscus Injury/Tear",
+          "value": "Meniscus Injury/Tear"
+        },
+        {
+          "id": "Menstrual Disorder",
+          "value": "Menstrual Disorder"
+        },
+        {
+          "id": "Migraine",
+          "value": "Migraine"
+        },
+        {
+          "id": "Miscellaneous infectious diseases",
+          "value": "Miscellaneous infectious diseases"
+        },
+        {
+          "id": "Other complaint of Cardiovascular Disorder (Heart)",
+          "value": "Other complaint of Cardiovascular Disorder (Heart)"
+        },
+        {
+          "id": "Other complaint of Circulatory System (Blood)",
+          "value": "Other complaint of Circulatory System (Blood)"
+        },
+        {
+          "id": "Other complaint of Dental/Teeth etc",
+          "value": "Other complaint of Dental/Teeth etc"
+        },
+        {
+          "id": "Other complaint of Ear, Nose, Throat",
+          "value": "Other complaint of Ear, Nose, Throat"
+        },
+        {
+          "id": "Other complaint of Endocrine System",
+          "value": "Other complaint of Endocrine System"
+        },
+        {
+          "id": "Other complaint of Eye(s)",
+          "value": "Other complaint of Eye(s)"
+        },
+        {
+          "id": "Other complaint of Gastro Intestinal Tract (including alimentary system)",
+          "value": "Other complaint of Gastro Intestinal Tract (including alimentary system)"
+        },
+        {
+          "id": "Other complaint of Genito-urinary system",
+          "value": "Other complaint of Genito-urinary system"
+        },
+        {
+          "id": "Other complaint of Gynaecological Disorder (Female Disease)",
+          "value": "Other complaint of Gynaecological Disorder (Female Disease)"
+        },
+        {
+          "id": "Other complaint of Musculo-Skeletal/Orthopaedic Disorder/Back Ache",
+          "value": "Other complaint of Musculo-Skeletal/Orthopaedic Disorder/Back Ache"
+        },
+        {
+          "id": "Other complaint of Nervous System",
+          "value": "Other complaint of Nervous System"
+        },
+        {
+          "id": "Other complaint of Respiratory Disorder",
+          "value": "Other complaint of Respiratory Disorder"
+        },
+        {
+          "id": "Other complaint of Skin Disorder",
+          "value": "Other complaint of Skin Disorder"
+        },
+        {
+          "id": "Other complaint of Urinary Disorder",
+          "value": "Other complaint of Urinary Disorder"
+        },
+        {
+          "id": "Ovarian Cyst/Tumour",
+          "value": "Ovarian Cyst/Tumour"
+        },
+        {
+          "id": "Piles/Haemorrhoids",
+          "value": "Piles/Haemorrhoids"
+        },
+        {
+          "id": "Pneumonia/Bronchopneumonia",
+          "value": "Pneumonia/Bronchopneumonia"
+        },
+        {
+          "id": "Retinal Detachment",
+          "value": "Retinal Detachment"
+        },
+        {
+          "id": "Sinusitis",
+          "value": "Sinusitis"
+        },
+        {
+          "id": "Slipped Disc",
+          "value": "Slipped Disc"
+        },
+        {
+          "id": "Stroke (Cerebroavascular Accident)",
+          "value": "Stroke (Cerebroavascular Accident)"
+        },
+        {
+          "id": "Thyroid Disorder",
+          "value": "Thyroid Disorder"
+        },
+        {
+          "id": "Tonsillitis",
+          "value": "Tonsillitis"
+        },
+        {
+          "id": "Traffic Accident / Accident",
+          "value": "Traffic Accident / Accident"
+        },
+        {
+          "id": "Urinary Tract Infection",
+          "value": "Urinary Tract Infection"
+        },
+        {
+          "id": "Uterine Fibroid",
+          "value": "Uterine Fibroid"
+        },
+        {
+          "id": "Vaginal Discharge",
+          "value": "Vaginal Discharge"
+        },
+        {
+          "id": "9999",
+          "value": "Other"
+        }
+      ],
+      "dataType": "List",
+      "required": true,
+      "childFieldId": "ClaimReasonSpecialOthers",
+      "lookupList": "ClaimReason",
+      "disabled": false,
+      "displayOrder": 5,
+      "readOnly": false,
+      "defaultAsBlank": false
+    },
+    {
+      "_dataType": "Boolean",
+      "fieldId": "CPFContributable",
+      "name": "CPF Contributable",
+      "dataType": "Boolean",
+      "required": true,
+      "disabled": false,
+      "displayOrder": 15,
+      "readOnly": true,
+      "defaultAsBlank": false
+    }
+  ],
+  "uploadReceipt": {
+    "isRequired": "Required",
+    "allowDelete": true,
+    "displayOrder": 0,
+    "name": "ReceiptUpload"
+  },
+  "uploadReferral": {
+    "isRequired": "Required",
+    "fieldId": "referral",
+    "fieldName": "Referral Letter",
+    "fields": [
+      {
+        "_dataType": "String",
+        "fieldId": "referralLetterName",
+        "name": "Name of File",
+        "dataType": "String",
+        "required": true,
+        "disabled": false,
+        "displayOrder": 0,
+        "readOnly": false
+      },
+      {
+        "_dataType": "String",
+        "fieldId": "description",
+        "name": "Description",
+        "dataType": "String",
+        "required": true,
+        "disabled": false,
+        "displayOrder": 0,
+        "readOnly": false
+      }
+    ],
+    "canRename": true,
+    "renameFieldId": "renameReferral",
+    "renameFieldName": "Label your Referral Letter",
+    "displayOrder": 9
+  },
+  "claimInstruction": "",
+  "claimFormTitle": "Specialist Consultation"
+}

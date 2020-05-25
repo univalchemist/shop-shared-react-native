@@ -1,0 +1,295 @@
+{
+  "employeeKey": 3,
+  "lifeStage": {
+      "value": "YoungFamily",
+      "display": false,
+      "lookupValue": "Young Family"
+  },
+  "shouldDisplayDependant": true,
+  "employee": {
+      "employeeKey": 3,
+      "fields": [
+          {
+              "id": "ID",
+              "displayName": "Employee ID",
+              "type": "String",
+              "required": true,
+              "disabled": true
+          },
+          {
+              "id": "FullName",
+              "displayName": "Name",
+              "type": "String",
+              "required": true,
+              "disabled": true
+          },
+          {
+              "id": "Identification",
+              "displayName": "Identification",
+              "type": "String",
+              "required": true,
+              "disabled": true
+          },
+          {
+              "id": "ContactNo",
+              "displayName": "Contact No.",
+              "type": "String",
+              "required": false,
+              "disabled": true
+          },
+          {
+              "id": "Email",
+              "displayName": "Portal Email Address",
+              "type": "String",
+              "required": true,
+              "disabled": true
+          },
+          {
+              "id": "BirthDate",
+              "displayName": "Date of Birth",
+              "type": "Date",
+              "required": true,
+              "formatter": "D MMM YYYY",
+              "disabled": true
+          },
+          {
+              "id": "Gender",
+              "displayName": "Gender",
+              "type": "String",
+              "required": true,
+              "disabled": true
+          },
+          {
+              "id": "MaritalStatus",
+              "displayName": "Marital Status",
+              "type": "DropDown",
+              "required": true,
+              "disabled": false,
+              "dropdownValueList": [
+                  {
+                      "id": "Divorced",
+                      "value": "Divorced"
+                  },
+                  {
+                      "id": "Married",
+                      "value": "Married"
+                  },
+                  {
+                      "id": "Single",
+                      "value": "Single"
+                  },
+                  {
+                      "id": "Widowed",
+                      "value": "Widowed"
+                  }
+              ]
+          }
+      ],
+      "data": [
+          {
+              "id": "ID",
+              "value": "testid3"
+          },
+          {
+              "id": "FullName",
+              "value": "William Brown"
+          },
+          {
+              "id": "Identification",
+              "value": "testidentification3"
+          },
+          {
+              "id": "ContactNo",
+              "value": "81238789"
+          },
+          {
+              "id": "Email",
+              "value": "test3@test.com"
+          },
+          {
+              "id": "BirthDate",
+              "value": "1989-09-01"
+          },
+          {
+              "id": "Gender",
+              "value": "Male"
+          },
+          {
+              "id": "MaritalStatus"
+          }
+      ]
+  },
+  "dependantListDTO": {
+      "dependants": [
+          {
+              "employeeKey": 3,
+              "dependantKey": 27,
+              "data": [
+                  {
+                      "id": "FullName",
+                      "value": "Catherine Brown"
+                  },
+                  {
+                      "id": "Identification",
+                      "value": "testdepidentification27"
+                  },
+                  {
+                      "id": "BirthDate",
+                      "value": "1991-10-15"
+                  },
+                  {
+                      "id": "Gender",
+                      "value": "Female"
+                  },
+                  {
+                      "id": "Relationship",
+                      "value": "Spouse"
+                  }
+              ]
+          },
+          {
+              "employeeKey": 3,
+              "dependantKey": 28,
+              "data": [
+                  {
+                      "id": "FullName",
+                      "value": "George Brown"
+                  },
+                  {
+                      "id": "Identification",
+                      "value": "testdepidentification28"
+                  },
+                  {
+                      "id": "BirthDate",
+                      "value": "2013-05-22"
+                  },
+                  {
+                      "id": "Gender",
+                      "value": "Male"
+                  },
+                  {
+                      "id": "Relationship",
+                      "value": "Child"
+                  }
+              ]
+          },
+          {
+              "employeeKey": 3,
+              "dependantKey": 29,
+              "data": [
+                  {
+                      "id": "FullName",
+                      "value": "Charlotte Brown"
+                  },
+                  {
+                      "id": "Identification",
+                      "value": "testdepidentification29"
+                  },
+                  {
+                      "id": "BirthDate",
+                      "value": "2014-05-22"
+                  },
+                  {
+                      "id": "Gender",
+                      "value": "Male"
+                  },
+                  {
+                      "id": "Relationship",
+                      "value": "Child"
+                  }
+              ]
+          },
+          {
+              "employeeKey": 3,
+              "dependantKey": 30,
+              "data": [
+                  {
+                      "id": "FullName",
+                      "value": "Louis Brown"
+                  },
+                  {
+                      "id": "Identification",
+                      "value": "testdepidentification30"
+                  },
+                  {
+                      "id": "BirthDate",
+                      "value": "2015-05-22"
+                  },
+                  {
+                      "id": "Gender",
+                      "value": "Male"
+                  },
+                  {
+                      "id": "Relationship",
+                      "value": "Child"
+                  }
+              ]
+          },
+          {
+              "employeeKey": 3,
+              "dependantKey": 68,
+              "data": [
+                  {
+                      "id": "FullName",
+                      "value": "Karen Brown"
+                  },
+                  {
+                      "id": "Identification",
+                      "value": "testdepidentification68"
+                  },
+                  {
+                      "id": "BirthDate",
+                      "value": "2019-01-05"
+                  },
+                  {
+                      "id": "Gender",
+                      "value": "Male"
+                  },
+                  {
+                      "id": "Relationship",
+                      "value": "Child"
+                  }
+              ]
+          }
+      ],
+      "fields": [
+          {
+              "id": "FullName",
+              "displayName": "Dependant Name",
+              "type": "String",
+              "required": true,
+              "disabled": true
+          },
+          {
+              "id": "Identification",
+              "displayName": "NRIC No. or FIN No.",
+              "type": "String",
+              "required": true,
+              "disabled": true
+          },
+          {
+              "id": "BirthDate",
+              "displayName": "Date of Birth ",
+              "type": "Date",
+              "required": true,
+              "formatter": "D MMM YYYY",
+              "disabled": true
+          },
+          {
+              "id": "Gender",
+              "displayName": "Gender",
+              "type": "String",
+              "required": true,
+              "disabled": true
+          },
+          {
+              "id": "Relationship",
+              "displayName": "Relationship",
+              "type": "String",
+              "required": true,
+              "disabled": true
+          }
+      ]
+  },
+  "myProfileNote": "<b>Note:</b> Please inform HR if you have any discrepancies/updates in your personal data."
+}

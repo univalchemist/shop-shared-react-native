@@ -1,0 +1,4 @@
+export const FETCH_CONTACT = '@help/FETCH_CONTACT';
+export const FETCH_CONTACT_START = '@help/FETCH_CONTACT_START';
+export const FETCH_CONTACT_SUCCESS = '@help/FETCH_CONTACT_SUCCESS';
+export const FETCH_CONTACT_ERROR = '@help/FETCH_HELP_ERROR';

@@ -1,0 +1,1234 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProfileHelpScreen should display correctly when data successfully loads 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <RNCSafeAreaView
+    onInsetsChange={[Function]}
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <View
+      onLayout={[Function]}
+      style={
+        Object {
+          "flex": 1,
+          "overflow": "hidden",
+        }
+      }
+    >
+      <View
+        pointerEvents="box-none"
+        style={
+          Object {
+            "bottom": 0,
+            "left": 0,
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+          }
+        }
+      >
+        <View
+          accessibilityElementsHidden={false}
+          closing={false}
+          gestureVelocityImpact={0.3}
+          importantForAccessibility="auto"
+          onClose={[Function]}
+          onGestureBegin={[Function]}
+          onGestureCanceled={[Function]}
+          onOpen={[Function]}
+          onTransitionStart={[Function]}
+          pointerEvents="box-none"
+          style={
+            Object {
+              "bottom": 0,
+              "left": 0,
+              "position": "absolute",
+              "right": 0,
+              "top": 0,
+            }
+          }
+          transitionSpec={
+            Object {
+              "close": Object {
+                "animation": "spring",
+                "config": Object {
+                  "damping": 500,
+                  "mass": 3,
+                  "overshootClamping": true,
+                  "restDisplacementThreshold": 0.01,
+                  "restSpeedThreshold": 0.01,
+                  "stiffness": 1000,
+                },
+              },
+              "open": Object {
+                "animation": "spring",
+                "config": Object {
+                  "damping": 500,
+                  "mass": 3,
+                  "overshootClamping": true,
+                  "restDisplacementThreshold": 0.01,
+                  "restSpeedThreshold": 0.01,
+                  "stiffness": 1000,
+                },
+              },
+            }
+          }
+        >
+          <View
+            pointerEvents="box-none"
+            style={
+              Object {
+                "flex": 1,
+              }
+            }
+          >
+            <View
+              enabled={false}
+              hitSlop={
+                Object {
+                  "right": -700,
+                }
+              }
+              maxDeltaY={20}
+              minOffsetX={5}
+              onHandlerStateChange={[Function]}
+            >
+              <View
+                style={
+                  Object {
+                    "flex": 1,
+                    "transform": Array [
+                      Object {
+                        "translateX": 0,
+                      },
+                      Object {
+                        "translateX": 0,
+                      },
+                    ],
+                  }
+                }
+              >
+                <View
+                  pointerEvents="none"
+                  style={
+                    Object {
+                      "backgroundColor": "#fff",
+                      "bottom": 0,
+                      "left": 0,
+                      "position": "absolute",
+                      "shadowColor": "#000",
+                      "shadowOffset": Object {
+                        "height": 1,
+                        "width": -1,
+                      },
+                      "shadowOpacity": 0.3,
+                      "shadowRadius": 5,
+                      "top": 0,
+                      "width": 3,
+                    }
+                  }
+                />
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "flex": 1,
+                        "overflow": "hidden",
+                      },
+                      Array [
+                        Object {
+                          "backgroundColor": "rgb(242, 242, 242)",
+                        },
+                        undefined,
+                      ],
+                    ]
+                  }
+                >
+                  <View
+                    style={
+                      Object {
+                        "flex": 1,
+                        "flexDirection": "column-reverse",
+                      }
+                    }
+                  >
+                    <View
+                      style={
+                        Object {
+                          "flex": 1,
+                        }
+                      }
+                    >
+                      <View
+                        bg="gray.7"
+                        flex={1}
+                        style={
+                          Array [
+                            Object {
+                              "backgroundColor": "#f9f9f9",
+                              "flexBasis": 0,
+                              "flexGrow": 1,
+                              "flexShrink": 1,
+                            },
+                          ]
+                        }
+                      >
+                        <RCTScrollView
+                          contentContainerStyle={
+                            Object {
+                              "paddingBottom": 80,
+                            }
+                          }
+                          scrollIndicatorInsets={
+                            Object {
+                              "right": 1,
+                            }
+                          }
+                        >
+                          <View>
+                            <RCTScrollView
+                              data={
+                                Array [
+                                  Object {
+                                    "data": Array [
+                                      Object {
+                                        "actionParams": Object {
+                                          "action": "Call help Hongkong",
+                                          "category": "Profile, help",
+                                        },
+                                        "data": "+852 3070 5005 (Hongkong)",
+                                        "icon": Object {
+                                          "testUri": "../../../src/images/phone.png",
+                                        },
+                                        "onPress": [Function],
+                                      },
+                                      Object {
+                                        "actionParams": Object {
+                                          "action": "Call help Macau",
+                                          "category": "Profile, help",
+                                        },
+                                        "data": "+853 0800 284 (Macau)",
+                                        "icon": Object {
+                                          "testUri": "../../../src/images/phone.png",
+                                        },
+                                        "onPress": [Function],
+                                      },
+                                      Object {
+                                        "data": "medicalservice@axa.com.hk",
+                                        "icon": Object {
+                                          "testUri": "../../../src/images/email.png",
+                                        },
+                                        "onPress": [Function],
+                                      },
+                                    ],
+                                    "titleId": "profile.help.medicalEnquiries",
+                                  },
+                                  Object {
+                                    "data": Array [
+                                      Object {
+                                        "actionParams": Object {
+                                          "action": "Email help",
+                                          "category": "Profile, help",
+                                        },
+                                        "data": "employee.benefit@hsbc.com.hk",
+                                        "icon": Object {
+                                          "testUri": "../../../src/images/email.png",
+                                        },
+                                        "onPress": [Function],
+                                      },
+                                    ],
+                                    "titleId": "profile.help.technicalEmail.title",
+                                  },
+                                  Object {
+                                    "data": Array [
+                                      Object {
+                                        "data": "09:00 AM - 05:30 PM 
+Monday to Friday (except Hong Kong Public Holidays)",
+                                        "icon": null,
+                                        "isCustomerSupportHour": true,
+                                        "onPress": null,
+                                        "subhead": "Hongkong",
+                                        "textId": null,
+                                      },
+                                      Object {
+                                        "data": "09:00 AM - 05:30 
+PM Monday to Friday (except Ma Cau Banking holidays)",
+                                        "icon": null,
+                                        "isCustomerSupportHour": true,
+                                        "onPress": null,
+                                        "subhead": "Macau",
+                                        "textId": null,
+                                      },
+                                      Object {
+                                        "data": "For faster processing when submitting enquiries, please provide your staff ID or policy number with certificate number, or membership number from your Health card",
+                                        "icon": null,
+                                        "isNote": true,
+                                        "onPress": null,
+                                        "textId": null,
+                                      },
+                                    ],
+                                    "titleId": "profile.help.customerSupportHours.title",
+                                  },
+                                  Object {
+                                    "data": Array [
+                                      Object {
+                                        "data": "Coverage",
+                                        "icon": null,
+                                        "isListItem": true,
+                                        "onPress": [Function],
+                                      },
+                                      Object {
+                                        "data": "Policy/Membership Servicing",
+                                        "icon": null,
+                                        "isListItem": true,
+                                        "onPress": [Function],
+                                      },
+                                      Object {
+                                        "data": "Claims – Statement/Receipts",
+                                        "icon": null,
+                                        "isListItem": true,
+                                        "onPress": [Function],
+                                      },
+                                      Object {
+                                        "data": "Claims Status",
+                                        "icon": null,
+                                        "isListItem": true,
+                                        "onPress": [Function],
+                                      },
+                                      Object {
+                                        "data": "Claims – Outpatient",
+                                        "icon": null,
+                                        "isListItem": true,
+                                        "onPress": [Function],
+                                      },
+                                      Object {
+                                        "data": "Claims – Inpatient",
+                                        "icon": null,
+                                        "isListItem": true,
+                                        "onPress": [Function],
+                                      },
+                                      Object {
+                                        "data": "Claims - General",
+                                        "icon": null,
+                                        "isListItem": true,
+                                        "onPress": [Function],
+                                      },
+                                    ],
+                                    "titleId": "profile.help.faq.title",
+                                  },
+                                ]
+                              }
+                              disableVirtualization={false}
+                              getItem={[Function]}
+                              getItemCount={[Function]}
+                              horizontal={false}
+                              initialNumToRender={10}
+                              keyExtractor={[Function]}
+                              maxToRenderPerBatch={10}
+                              onContentSizeChange={[Function]}
+                              onEndReachedThreshold={2}
+                              onLayout={[Function]}
+                              onMomentumScrollEnd={[Function]}
+                              onScroll={[Function]}
+                              onScrollBeginDrag={[Function]}
+                              onScrollEndDrag={[Function]}
+                              renderItem={[Function]}
+                              renderSectionHeader={[Function]}
+                              scrollEventThrottle={50}
+                              sections={
+                                Array [
+                                  Object {
+                                    "data": Array [
+                                      Object {
+                                        "actionParams": Object {
+                                          "action": "Call help Hongkong",
+                                          "category": "Profile, help",
+                                        },
+                                        "data": "+852 3070 5005 (Hongkong)",
+                                        "icon": Object {
+                                          "testUri": "../../../src/images/phone.png",
+                                        },
+                                        "onPress": [Function],
+                                      },
+                                      Object {
+                                        "actionParams": Object {
+                                          "action": "Call help Macau",
+                                          "category": "Profile, help",
+                                        },
+                                        "data": "+853 0800 284 (Macau)",
+                                        "icon": Object {
+                                          "testUri": "../../../src/images/phone.png",
+                                        },
+                                        "onPress": [Function],
+                                      },
+                                      Object {
+                                        "data": "medicalservice@axa.com.hk",
+                                        "icon": Object {
+                                          "testUri": "../../../src/images/email.png",
+                                        },
+                                        "onPress": [Function],
+                                      },
+                                    ],
+                                    "titleId": "profile.help.medicalEnquiries",
+                                  },
+                                  Object {
+                                    "data": Array [
+                                      Object {
+                                        "actionParams": Object {
+                                          "action": "Email help",
+                                          "category": "Profile, help",
+                                        },
+                                        "data": "employee.benefit@hsbc.com.hk",
+                                        "icon": Object {
+                                          "testUri": "../../../src/images/email.png",
+                                        },
+                                        "onPress": [Function],
+                                      },
+                                    ],
+                                    "titleId": "profile.help.technicalEmail.title",
+                                  },
+                                  Object {
+                                    "data": Array [
+                                      Object {
+                                        "data": "09:00 AM - 05:30 PM 
+Monday to Friday (except Hong Kong Public Holidays)",
+                                        "icon": null,
+                                        "isCustomerSupportHour": true,
+                                        "onPress": null,
+                                        "subhead": "Hongkong",
+                                        "textId": null,
+                                      },
+                                      Object {
+                                        "data": "09:00 AM - 05:30 
+PM Monday to Friday (except Ma Cau Banking holidays)",
+                                        "icon": null,
+                                        "isCustomerSupportHour": true,
+                                        "onPress": null,
+                                        "subhead": "Macau",
+                                        "textId": null,
+                                      },
+                                      Object {
+                                        "data": "For faster processing when submitting enquiries, please provide your staff ID or policy number with certificate number, or membership number from your Health card",
+                                        "icon": null,
+                                        "isNote": true,
+                                        "onPress": null,
+                                        "textId": null,
+                                      },
+                                    ],
+                                    "titleId": "profile.help.customerSupportHours.title",
+                                  },
+                                  Object {
+                                    "data": Array [
+                                      Object {
+                                        "data": "Coverage",
+                                        "icon": null,
+                                        "isListItem": true,
+                                        "onPress": [Function],
+                                      },
+                                      Object {
+                                        "data": "Policy/Membership Servicing",
+                                        "icon": null,
+                                        "isListItem": true,
+                                        "onPress": [Function],
+                                      },
+                                      Object {
+                                        "data": "Claims – Statement/Receipts",
+                                        "icon": null,
+                                        "isListItem": true,
+                                        "onPress": [Function],
+                                      },
+                                      Object {
+                                        "data": "Claims Status",
+                                        "icon": null,
+                                        "isListItem": true,
+                                        "onPress": [Function],
+                                      },
+                                      Object {
+                                        "data": "Claims – Outpatient",
+                                        "icon": null,
+                                        "isListItem": true,
+                                        "onPress": [Function],
+                                      },
+                                      Object {
+                                        "data": "Claims – Inpatient",
+                                        "icon": null,
+                                        "isListItem": true,
+                                        "onPress": [Function],
+                                      },
+                                      Object {
+                                        "data": "Claims - General",
+                                        "icon": null,
+                                        "isListItem": true,
+                                        "onPress": [Function],
+                                      },
+                                    ],
+                                    "titleId": "profile.help.faq.title",
+                                  },
+                                ]
+                              }
+                              stickyHeaderIndices={
+                                Array [
+                                  0,
+                                  5,
+                                  8,
+                                ]
+                              }
+                              stickySectionHeadersEnabled={true}
+                              updateCellsBatchingPeriod={50}
+                              windowSize={21}
+                            >
+                              <View>
+                                <View
+                                  onLayout={[Function]}
+                                  style={null}
+                                >
+                                  <Text
+                                    color="gray.0"
+                                    fontFamily="default"
+                                    fontSize={18}
+                                    fontWeight="light"
+                                    lineHeight={22}
+                                    marginLeft={32}
+                                    marginTop={32}
+                                    style={
+                                      Array [
+                                        Object {
+                                          "color": "#212121",
+                                          "fontFamily": "Arial",
+                                          "fontSize": 18,
+                                          "fontWeight": "300",
+                                          "lineHeight": 22,
+                                          "marginLeft": 32,
+                                          "marginTop": 32,
+                                        },
+                                      ]
+                                    }
+                                  >
+                                    Medical enquiries
+                                  </Text>
+                                </View>
+                                <View
+                                  onLayout={[Function]}
+                                  style={null}
+                                >
+                                  <View
+                                    accessible={true}
+                                    focusable={true}
+                                    isTVSelectable={true}
+                                    onClick={[Function]}
+                                    onResponderGrant={[Function]}
+                                    onResponderMove={[Function]}
+                                    onResponderRelease={[Function]}
+                                    onResponderTerminate={[Function]}
+                                    onResponderTerminationRequest={[Function]}
+                                    onStartShouldSetResponder={[Function]}
+                                    style={null}
+                                  >
+                                    <View
+                                      alignItems="center"
+                                      flexDirection="row"
+                                      px={4}
+                                      py={24}
+                                      style={
+                                        Array [
+                                          Object {
+                                            "alignItems": "center",
+                                            "flexDirection": "row",
+                                            "paddingBottom": 24,
+                                            "paddingLeft": 32,
+                                            "paddingRight": 32,
+                                            "paddingTop": 24,
+                                          },
+                                        ]
+                                      }
+                                    >
+                                      <View
+                                        marginRight={3}
+                                        style={
+                                          Array [
+                                            Object {
+                                              "marginRight": 16,
+                                            },
+                                          ]
+                                        }
+                                      >
+                                        <Image
+                                          source={
+                                            Object {
+                                              "testUri": "../../../src/images/phone.png",
+                                            }
+                                          }
+                                          style={
+                                            Array [
+                                              Object {},
+                                            ]
+                                          }
+                                        />
+                                      </View>
+                                      <View
+                                        flex={1}
+                                        style={
+                                          Array [
+                                            Object {
+                                              "flexBasis": 0,
+                                              "flexGrow": 1,
+                                              "flexShrink": 1,
+                                            },
+                                          ]
+                                        }
+                                      >
+                                        <Text
+                                          color="gray.1"
+                                          fontFamily="default"
+                                          fontSize={16}
+                                          lineHeight={22}
+                                          style={
+                                            Array [
+                                              Object {
+                                                "color": "#646464",
+                                                "fontFamily": "Arial",
+                                                "fontSize": 16,
+                                                "lineHeight": 22,
+                                              },
+                                            ]
+                                          }
+                                        >
+                                          +852 3070 5005 (Hongkong)
+                                        </Text>
+                                      </View>
+                                      <View
+                                        marginLeft={3}
+                                        style={
+                                          Array [
+                                            Object {
+                                              "marginLeft": 16,
+                                            },
+                                          ]
+                                        }
+                                      >
+                                        <Image
+                                          source={
+                                            Object {
+                                              "testUri": "../../../src/images/chevronRightArrow.png",
+                                            }
+                                          }
+                                          style={
+                                            Array [
+                                              Object {},
+                                            ]
+                                          }
+                                        />
+                                      </View>
+                                    </View>
+                                    <View
+                                      pl={4}
+                                      pr={4}
+                                      style={
+                                        Array [
+                                          Object {
+                                            "paddingLeft": 32,
+                                            "paddingRight": 32,
+                                          },
+                                        ]
+                                      }
+                                    >
+                                      <View
+                                        backgroundColor="gray.5"
+                                        height={1}
+                                        style={
+                                          Array [
+                                            Object {
+                                              "backgroundColor": "#e3e3e3",
+                                              "height": 1,
+                                              "width": "100%",
+                                            },
+                                          ]
+                                        }
+                                        width="100%"
+                                      />
+                                    </View>
+                                  </View>
+                                </View>
+                                <View
+                                  onLayout={[Function]}
+                                  style={null}
+                                >
+                                  <View
+                                    accessible={true}
+                                    focusable={true}
+                                    isTVSelectable={true}
+                                    onClick={[Function]}
+                                    onResponderGrant={[Function]}
+                                    onResponderMove={[Function]}
+                                    onResponderRelease={[Function]}
+                                    onResponderTerminate={[Function]}
+                                    onResponderTerminationRequest={[Function]}
+                                    onStartShouldSetResponder={[Function]}
+                                    style={null}
+                                  >
+                                    <View
+                                      alignItems="center"
+                                      flexDirection="row"
+                                      px={4}
+                                      py={24}
+                                      style={
+                                        Array [
+                                          Object {
+                                            "alignItems": "center",
+                                            "flexDirection": "row",
+                                            "paddingBottom": 24,
+                                            "paddingLeft": 32,
+                                            "paddingRight": 32,
+                                            "paddingTop": 24,
+                                          },
+                                        ]
+                                      }
+                                    >
+                                      <View
+                                        marginRight={3}
+                                        style={
+                                          Array [
+                                            Object {
+                                              "marginRight": 16,
+                                            },
+                                          ]
+                                        }
+                                      >
+                                        <Image
+                                          source={
+                                            Object {
+                                              "testUri": "../../../src/images/phone.png",
+                                            }
+                                          }
+                                          style={
+                                            Array [
+                                              Object {},
+                                            ]
+                                          }
+                                        />
+                                      </View>
+                                      <View
+                                        flex={1}
+                                        style={
+                                          Array [
+                                            Object {
+                                              "flexBasis": 0,
+                                              "flexGrow": 1,
+                                              "flexShrink": 1,
+                                            },
+                                          ]
+                                        }
+                                      >
+                                        <Text
+                                          color="gray.1"
+                                          fontFamily="default"
+                                          fontSize={16}
+                                          lineHeight={22}
+                                          style={
+                                            Array [
+                                              Object {
+                                                "color": "#646464",
+                                                "fontFamily": "Arial",
+                                                "fontSize": 16,
+                                                "lineHeight": 22,
+                                              },
+                                            ]
+                                          }
+                                        >
+                                          +853 0800 284 (Macau)
+                                        </Text>
+                                      </View>
+                                      <View
+                                        marginLeft={3}
+                                        style={
+                                          Array [
+                                            Object {
+                                              "marginLeft": 16,
+                                            },
+                                          ]
+                                        }
+                                      >
+                                        <Image
+                                          source={
+                                            Object {
+                                              "testUri": "../../../src/images/chevronRightArrow.png",
+                                            }
+                                          }
+                                          style={
+                                            Array [
+                                              Object {},
+                                            ]
+                                          }
+                                        />
+                                      </View>
+                                    </View>
+                                    <View
+                                      pl={4}
+                                      pr={4}
+                                      style={
+                                        Array [
+                                          Object {
+                                            "paddingLeft": 32,
+                                            "paddingRight": 32,
+                                          },
+                                        ]
+                                      }
+                                    >
+                                      <View
+                                        backgroundColor="gray.5"
+                                        height={1}
+                                        style={
+                                          Array [
+                                            Object {
+                                              "backgroundColor": "#e3e3e3",
+                                              "height": 1,
+                                              "width": "100%",
+                                            },
+                                          ]
+                                        }
+                                        width="100%"
+                                      />
+                                    </View>
+                                  </View>
+                                </View>
+                                <View
+                                  onLayout={[Function]}
+                                  style={null}
+                                >
+                                  <View
+                                    accessible={true}
+                                    focusable={true}
+                                    isTVSelectable={true}
+                                    onClick={[Function]}
+                                    onResponderGrant={[Function]}
+                                    onResponderMove={[Function]}
+                                    onResponderRelease={[Function]}
+                                    onResponderTerminate={[Function]}
+                                    onResponderTerminationRequest={[Function]}
+                                    onStartShouldSetResponder={[Function]}
+                                    style={null}
+                                  >
+                                    <View
+                                      alignItems="center"
+                                      flexDirection="row"
+                                      px={4}
+                                      py={24}
+                                      style={
+                                        Array [
+                                          Object {
+                                            "alignItems": "center",
+                                            "flexDirection": "row",
+                                            "paddingBottom": 24,
+                                            "paddingLeft": 32,
+                                            "paddingRight": 32,
+                                            "paddingTop": 24,
+                                          },
+                                        ]
+                                      }
+                                    >
+                                      <View
+                                        marginRight={3}
+                                        style={
+                                          Array [
+                                            Object {
+                                              "marginRight": 16,
+                                            },
+                                          ]
+                                        }
+                                      >
+                                        <Image
+                                          source={
+                                            Object {
+                                              "testUri": "../../../src/images/email.png",
+                                            }
+                                          }
+                                          style={
+                                            Array [
+                                              Object {},
+                                            ]
+                                          }
+                                        />
+                                      </View>
+                                      <View
+                                        flex={1}
+                                        style={
+                                          Array [
+                                            Object {
+                                              "flexBasis": 0,
+                                              "flexGrow": 1,
+                                              "flexShrink": 1,
+                                            },
+                                          ]
+                                        }
+                                      >
+                                        <Text
+                                          color="gray.1"
+                                          fontFamily="default"
+                                          fontSize={16}
+                                          lineHeight={22}
+                                          style={
+                                            Array [
+                                              Object {
+                                                "color": "#646464",
+                                                "fontFamily": "Arial",
+                                                "fontSize": 16,
+                                                "lineHeight": 22,
+                                              },
+                                            ]
+                                          }
+                                        >
+                                          medicalservice@axa.com.hk
+                                        </Text>
+                                      </View>
+                                      <View
+                                        marginLeft={3}
+                                        style={
+                                          Array [
+                                            Object {
+                                              "marginLeft": 16,
+                                            },
+                                          ]
+                                        }
+                                      >
+                                        <Image
+                                          source={
+                                            Object {
+                                              "testUri": "../../../src/images/chevronRightArrow.png",
+                                            }
+                                          }
+                                          style={
+                                            Array [
+                                              Object {},
+                                            ]
+                                          }
+                                        />
+                                      </View>
+                                    </View>
+                                    <View
+                                      pl={4}
+                                      pr={4}
+                                      style={
+                                        Array [
+                                          Object {
+                                            "paddingLeft": 32,
+                                            "paddingRight": 32,
+                                          },
+                                        ]
+                                      }
+                                    >
+                                      <View
+                                        backgroundColor="gray.5"
+                                        height={1}
+                                        style={
+                                          Array [
+                                            Object {
+                                              "backgroundColor": "#e3e3e3",
+                                              "height": 1,
+                                              "width": "100%",
+                                            },
+                                          ]
+                                        }
+                                        width="100%"
+                                      />
+                                    </View>
+                                  </View>
+                                </View>
+                                <View
+                                  onLayout={[Function]}
+                                  style={null}
+                                />
+                                <View
+                                  onLayout={[Function]}
+                                  style={null}
+                                >
+                                  <Text
+                                    color="gray.0"
+                                    fontFamily="default"
+                                    fontSize={18}
+                                    fontWeight="light"
+                                    lineHeight={22}
+                                    marginLeft={32}
+                                    marginTop={32}
+                                    style={
+                                      Array [
+                                        Object {
+                                          "color": "#212121",
+                                          "fontFamily": "Arial",
+                                          "fontSize": 18,
+                                          "fontWeight": "300",
+                                          "lineHeight": 22,
+                                          "marginLeft": 32,
+                                          "marginTop": 32,
+                                        },
+                                      ]
+                                    }
+                                  >
+                                    Other enquiries
+                                  </Text>
+                                </View>
+                                <View
+                                  onLayout={[Function]}
+                                  style={null}
+                                >
+                                  <View
+                                    accessible={true}
+                                    focusable={true}
+                                    isTVSelectable={true}
+                                    onClick={[Function]}
+                                    onResponderGrant={[Function]}
+                                    onResponderMove={[Function]}
+                                    onResponderRelease={[Function]}
+                                    onResponderTerminate={[Function]}
+                                    onResponderTerminationRequest={[Function]}
+                                    onStartShouldSetResponder={[Function]}
+                                    style={null}
+                                  >
+                                    <View
+                                      alignItems="center"
+                                      flexDirection="row"
+                                      px={4}
+                                      py={24}
+                                      style={
+                                        Array [
+                                          Object {
+                                            "alignItems": "center",
+                                            "flexDirection": "row",
+                                            "paddingBottom": 24,
+                                            "paddingLeft": 32,
+                                            "paddingRight": 32,
+                                            "paddingTop": 24,
+                                          },
+                                        ]
+                                      }
+                                    >
+                                      <View
+                                        marginRight={3}
+                                        style={
+                                          Array [
+                                            Object {
+                                              "marginRight": 16,
+                                            },
+                                          ]
+                                        }
+                                      >
+                                        <Image
+                                          source={
+                                            Object {
+                                              "testUri": "../../../src/images/email.png",
+                                            }
+                                          }
+                                          style={
+                                            Array [
+                                              Object {},
+                                            ]
+                                          }
+                                        />
+                                      </View>
+                                      <View
+                                        flex={1}
+                                        style={
+                                          Array [
+                                            Object {
+                                              "flexBasis": 0,
+                                              "flexGrow": 1,
+                                              "flexShrink": 1,
+                                            },
+                                          ]
+                                        }
+                                      >
+                                        <Text
+                                          color="gray.1"
+                                          fontFamily="default"
+                                          fontSize={16}
+                                          lineHeight={22}
+                                          style={
+                                            Array [
+                                              Object {
+                                                "color": "#646464",
+                                                "fontFamily": "Arial",
+                                                "fontSize": 16,
+                                                "lineHeight": 22,
+                                              },
+                                            ]
+                                          }
+                                        >
+                                          employee.benefit@hsbc.com.hk
+                                        </Text>
+                                      </View>
+                                      <View
+                                        marginLeft={3}
+                                        style={
+                                          Array [
+                                            Object {
+                                              "marginLeft": 16,
+                                            },
+                                          ]
+                                        }
+                                      >
+                                        <Image
+                                          source={
+                                            Object {
+                                              "testUri": "../../../src/images/chevronRightArrow.png",
+                                            }
+                                          }
+                                          style={
+                                            Array [
+                                              Object {},
+                                            ]
+                                          }
+                                        />
+                                      </View>
+                                    </View>
+                                    <View
+                                      pl={4}
+                                      pr={4}
+                                      style={
+                                        Array [
+                                          Object {
+                                            "paddingLeft": 32,
+                                            "paddingRight": 32,
+                                          },
+                                        ]
+                                      }
+                                    >
+                                      <View
+                                        backgroundColor="gray.5"
+                                        height={1}
+                                        style={
+                                          Array [
+                                            Object {
+                                              "backgroundColor": "#e3e3e3",
+                                              "height": 1,
+                                              "width": "100%",
+                                            },
+                                          ]
+                                        }
+                                        width="100%"
+                                      />
+                                    </View>
+                                  </View>
+                                </View>
+                                <View
+                                  onLayout={[Function]}
+                                  style={null}
+                                />
+                                <View
+                                  onLayout={[Function]}
+                                  style={null}
+                                >
+                                  <Text
+                                    color="gray.0"
+                                    fontFamily="default"
+                                    fontSize={18}
+                                    fontWeight="light"
+                                    lineHeight={22}
+                                    marginLeft={32}
+                                    marginTop={32}
+                                    style={
+                                      Array [
+                                        Object {
+                                          "color": "#212121",
+                                          "fontFamily": "Arial",
+                                          "fontSize": 18,
+                                          "fontWeight": "300",
+                                          "lineHeight": 22,
+                                          "marginLeft": 32,
+                                          "marginTop": 32,
+                                        },
+                                      ]
+                                    }
+                                  >
+                                    Customer support hours
+                                  </Text>
+                                </View>
+                                <View
+                                  onLayout={[Function]}
+                                  style={null}
+                                >
+                                  <View
+                                    px={4}
+                                    py={8}
+                                    style={
+                                      Array [
+                                        Object {
+                                          "paddingBottom": 8,
+                                          "paddingLeft": 32,
+                                          "paddingRight": 32,
+                                          "paddingTop": 8,
+                                        },
+                                      ]
+                                    }
+                                  >
+                                    <Text
+                                      color="#000000"
+                                      fontFamily="default"
+                                      fontSize={16}
+                                      lineHeight={22}
+                                      style={
+                                        Array [
+                                          Object {
+                                            "color": "#000000",
+                                            "fontFamily": "Arial",
+                                            "fontSize": 16,
+                                            "lineHeight": 22,
+                                          },
+                                        ]
+                                      }
+                                    >
+                                      Hongkong
+                                    </Text>
+                                    <Text
+                                      color="gray.1"
+                                      fontFamily="default"
+                                      fontSize={16}
+                                      lineHeight={22}
+                                      style={
+                                        Array [
+                                          Object {
+                                            "color": "#646464",
+                                            "fontFamily": "Arial",
+                                            "fontSize": 16,
+                                            "lineHeight": 22,
+                                          },
+                                        ]
+                                      }
+                                    >
+                                      09:00 AM - 05:30 PM 
+Monday to Friday (except Hong Kong Public Holidays)
+                                    </Text>
+                                  </View>
+                                </View>
+                                <View
+                                  style={
+                                    Object {
+                                      "height": 0,
+                                    }
+                                  }
+                                />
+                              </View>
+                            </RCTScrollView>
+                          </View>
+                        </RCTScrollView>
+                      </View>
+                    </View>
+                  </View>
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </RNCSafeAreaView>
+</View>
+`;

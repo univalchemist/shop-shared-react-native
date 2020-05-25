@@ -1,0 +1,1140 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FaceAgingResults when faceaging is done should render snapshot of faceaging component 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <RNCSafeAreaView
+    onInsetsChange={[Function]}
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <View
+      onLayout={[Function]}
+      style={
+        Object {
+          "flex": 1,
+          "overflow": "hidden",
+        }
+      }
+    >
+      <View
+        pointerEvents="box-none"
+        style={
+          Object {
+            "bottom": 0,
+            "left": 0,
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+          }
+        }
+      >
+        <View
+          accessibilityElementsHidden={false}
+          closing={false}
+          gestureVelocityImpact={0.3}
+          importantForAccessibility="auto"
+          onClose={[Function]}
+          onGestureBegin={[Function]}
+          onGestureCanceled={[Function]}
+          onOpen={[Function]}
+          onTransitionStart={[Function]}
+          pointerEvents="box-none"
+          style={
+            Object {
+              "bottom": 0,
+              "left": 0,
+              "position": "absolute",
+              "right": 0,
+              "top": 0,
+            }
+          }
+          transitionSpec={
+            Object {
+              "close": Object {
+                "animation": "spring",
+                "config": Object {
+                  "damping": 500,
+                  "mass": 3,
+                  "overshootClamping": true,
+                  "restDisplacementThreshold": 0.01,
+                  "restSpeedThreshold": 0.01,
+                  "stiffness": 1000,
+                },
+              },
+              "open": Object {
+                "animation": "spring",
+                "config": Object {
+                  "damping": 500,
+                  "mass": 3,
+                  "overshootClamping": true,
+                  "restDisplacementThreshold": 0.01,
+                  "restSpeedThreshold": 0.01,
+                  "stiffness": 1000,
+                },
+              },
+            }
+          }
+        >
+          <View
+            pointerEvents="box-none"
+            style={
+              Object {
+                "flex": 1,
+              }
+            }
+          >
+            <View
+              enabled={false}
+              hitSlop={
+                Object {
+                  "right": -700,
+                }
+              }
+              maxDeltaY={20}
+              minOffsetX={5}
+              onHandlerStateChange={[Function]}
+            >
+              <View
+                style={
+                  Object {
+                    "flex": 1,
+                    "transform": Array [
+                      Object {
+                        "translateX": 0,
+                      },
+                      Object {
+                        "translateX": 0,
+                      },
+                    ],
+                  }
+                }
+              >
+                <View
+                  pointerEvents="none"
+                  style={
+                    Object {
+                      "backgroundColor": "#fff",
+                      "bottom": 0,
+                      "left": 0,
+                      "position": "absolute",
+                      "shadowColor": "#000",
+                      "shadowOffset": Object {
+                        "height": 1,
+                        "width": -1,
+                      },
+                      "shadowOpacity": 0.3,
+                      "shadowRadius": 5,
+                      "top": 0,
+                      "width": 3,
+                    }
+                  }
+                />
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "flex": 1,
+                        "overflow": "hidden",
+                      },
+                      Array [
+                        Object {
+                          "backgroundColor": "rgb(242, 242, 242)",
+                        },
+                        undefined,
+                      ],
+                    ]
+                  }
+                >
+                  <View
+                    style={
+                      Object {
+                        "flex": 1,
+                        "flexDirection": "column-reverse",
+                      }
+                    }
+                  >
+                    <View
+                      style={
+                        Object {
+                          "flex": 1,
+                        }
+                      }
+                    >
+                      <View
+                        style={
+                          Object {
+                            "paddingBottom": 32,
+                            "paddingHorizontal": 32,
+                          }
+                        }
+                      >
+                        <Text
+                          color="gray.0"
+                          fontFamily="default"
+                          fontSize={26}
+                          fontWeight="light"
+                          letterSpacing={-1.5}
+                          lineHeight={37}
+                          mb={2}
+                          style={
+                            Array [
+                              Object {
+                                "color": "#212121",
+                                "fontFamily": "Arial",
+                                "fontSize": 26,
+                                "fontWeight": "300",
+                                "letterSpacing": -1.5,
+                                "lineHeight": 37,
+                                "marginBottom": 8,
+                              },
+                            ]
+                          }
+                        >
+                          Future me
+                        </Text>
+                        <View
+                          style={
+                            Array [
+                              Object {},
+                            ]
+                          }
+                        >
+                          <Text
+                            accessibilityLabel="Me at age 35"
+                            accessible={true}
+                            color="#212121"
+                            fontFamily="default"
+                            fontSize={16}
+                            fontWeight={700}
+                            letterSpacing={0.3}
+                            lineHeight={22}
+                            mb={8}
+                            mt={8}
+                            style={
+                              Array [
+                                Object {
+                                  "color": "#212121",
+                                  "fontFamily": "Arial",
+                                  "fontSize": 16,
+                                  "fontWeight": "700",
+                                  "letterSpacing": 0.3,
+                                  "lineHeight": 22,
+                                  "marginBottom": 8,
+                                  "marginTop": 8,
+                                },
+                              ]
+                            }
+                          >
+                            Me at age 35
+                          </Text>
+                          <View
+                            flexDirection="row"
+                            style={
+                              Array [
+                                Object {
+                                  "display": "flex",
+                                  "flexDirection": "row",
+                                  "flexWrap": "wrap",
+                                },
+                                Object {},
+                              ]
+                            }
+                          >
+                            <View
+                              flex={1}
+                              marginRight={8}
+                              style={
+                                Array [
+                                  Object {
+                                    "flexBasis": 0,
+                                    "flexGrow": 1,
+                                    "flexShrink": 1,
+                                    "marginRight": 8,
+                                  },
+                                ]
+                              }
+                            >
+                              <View
+                                style={
+                                  Array [
+                                    Object {},
+                                  ]
+                                }
+                              >
+                                <Image
+                                  accessibilityLabel="Healthy lifestyle face aging image"
+                                  accessibilityRole="image"
+                                  accessible={true}
+                                  borderRadius={5}
+                                  height={210}
+                                  source={
+                                    Object {
+                                      "uri": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFx0X4/AATr6beNeuA8ABDqV5OCgALy5vL9kxxACnPUvBHyAAD9RAAGI8lngAAIMXkAAgDAAXDjyXrhAAtL8f2kia4ADN1QvLLI8AALysAAEt/9k=",
+                                    }
+                                  }
+                                  style={
+                                    Array [
+                                      Object {
+                                        "height": 210,
+                                      },
+                                    ]
+                                  }
+                                />
+                                <Text
+                                  accessibilityLabel="Healthy lifestyle"
+                                  accessible={true}
+                                  color="gray.1"
+                                  fontFamily="default"
+                                  fontSize={14}
+                                  lineHeight={22}
+                                  paddingTop={8}
+                                  style={
+                                    Array [
+                                      Object {
+                                        "color": "#646464",
+                                        "fontFamily": "Arial",
+                                        "fontSize": 14,
+                                        "lineHeight": 22,
+                                        "paddingTop": 8,
+                                      },
+                                    ]
+                                  }
+                                >
+                                  Healthy lifestyle
+                                </Text>
+                              </View>
+                            </View>
+                            <View
+                              flex={1}
+                              style={
+                                Array [
+                                  Object {
+                                    "flexBasis": 0,
+                                    "flexGrow": 1,
+                                    "flexShrink": 1,
+                                  },
+                                ]
+                              }
+                            >
+                              <View
+                                style={
+                                  Array [
+                                    Object {},
+                                  ]
+                                }
+                              >
+                                <Image
+                                  accessibilityLabel="Current lifestyle face aging image"
+                                  accessibilityRole="image"
+                                  accessible={true}
+                                  borderRadius={5}
+                                  height={210}
+                                  source={
+                                    Object {
+                                      "uri": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzgCSob8ABQQ/eNGPwAEa9NvjXrgPAAQ6VWTgoAC8uf5PZMcQAphUvBHyAAR+ogAZiPJZ4AACDF5ABEAYAC4ceS9cIAFpePaSLFwAEOmF5ZZHgAEvKwAAFv//Z",
+                                    }
+                                  }
+                                  style={
+                                    Array [
+                                      Object {
+                                        "height": 210,
+                                      },
+                                    ]
+                                  }
+                                />
+                                <Text
+                                  accessibilityLabel="Current lifestyle"
+                                  accessible={true}
+                                  color="gray.1"
+                                  fontFamily="default"
+                                  fontSize={14}
+                                  lineHeight={22}
+                                  paddingTop={8}
+                                  style={
+                                    Array [
+                                      Object {
+                                        "color": "#646464",
+                                        "fontFamily": "Arial",
+                                        "fontSize": 14,
+                                        "lineHeight": 22,
+                                        "paddingTop": 8,
+                                      },
+                                    ]
+                                  }
+                                >
+                                  Current lifestyle
+                                </Text>
+                              </View>
+                            </View>
+                          </View>
+                          <View
+                            flexDirection="row"
+                            style={
+                              Array [
+                                Object {
+                                  "display": "flex",
+                                  "flexDirection": "row",
+                                  "flexWrap": "wrap",
+                                },
+                                Object {
+                                  "display": "none",
+                                },
+                              ]
+                            }
+                          >
+                            <View
+                              flex={1}
+                              marginRight={8}
+                              style={
+                                Array [
+                                  Object {
+                                    "flexBasis": 0,
+                                    "flexGrow": 1,
+                                    "flexShrink": 1,
+                                    "marginRight": 8,
+                                  },
+                                ]
+                              }
+                            >
+                              <View
+                                style={
+                                  Array [
+                                    Object {},
+                                  ]
+                                }
+                              >
+                                <Image
+                                  accessibilityLabel="Healthy lifestyle face aging image"
+                                  accessibilityRole="image"
+                                  accessible={true}
+                                  borderRadius={5}
+                                  height={210}
+                                  source={
+                                    Object {
+                                      "uri": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdAS+PBTk3lsEFQGo7AluTAFHk0RRmi6ZqjuKt8elkVsMEhshvFGRFC2NOXgzl5c3yeyk0H0YmNIbKpJMGwE7bAglYmtySsVgAluTIx5JeACICAAJIIumPkjwwNswyvyWPmzJjlTNHfaJ1HT8euzgXNlsSq9yxMlrFliu2Qb8Eo8CUnH2AceABSVilwABCquRTPgAGy0qZCQAW56i/JCPIANnVngsXAABxGYueQAPwBH8wSS7gAAMiXYiAAAEuBQ4AAJJeCuQAEASVDfgAAIfvGjH4ABa9NsL1wHgAIbq8nBnAC8sPk9kwiADY1PwR8gAEfqIAAxHks8AABBi8gAEAYANcOPJoXCACdLx7SRNcABDoheWWx4AAVlYAAJb/9k=",
+                                    }
+                                  }
+                                  style={
+                                    Array [
+                                      Object {
+                                        "height": 210,
+                                      },
+                                    ]
+                                  }
+                                />
+                                <Text
+                                  accessibilityLabel="Healthy lifestyle"
+                                  accessible={true}
+                                  color="gray.1"
+                                  fontFamily="default"
+                                  fontSize={14}
+                                  lineHeight={22}
+                                  paddingTop={8}
+                                  style={
+                                    Array [
+                                      Object {
+                                        "color": "#646464",
+                                        "fontFamily": "Arial",
+                                        "fontSize": 14,
+                                        "lineHeight": 22,
+                                        "paddingTop": 8,
+                                      },
+                                    ]
+                                  }
+                                >
+                                  Healthy lifestyle
+                                </Text>
+                              </View>
+                            </View>
+                            <View
+                              flex={1}
+                              style={
+                                Array [
+                                  Object {
+                                    "flexBasis": 0,
+                                    "flexGrow": 1,
+                                    "flexShrink": 1,
+                                  },
+                                ]
+                              }
+                            >
+                              <View
+                                style={
+                                  Array [
+                                    Object {},
+                                  ]
+                                }
+                              >
+                                <Image
+                                  accessibilityLabel="Current lifestyle face aging image"
+                                  accessibilityRole="image"
+                                  accessible={true}
+                                  borderRadius={5}
+                                  height={210}
+                                  source={
+                                    Object {
+                                      "uri": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdAS+AAjXpt8a9cB4ACXQrycGcAKyw+T2THEAKYVLwR8gAEfqIAGYjyWeAAAgxeQARAGAAuHHkvXCABaXj2mia4ACHTC8stjwAAvKYAAlP/Z",
+                                    }
+                                  }
+                                  style={
+                                    Array [
+                                      Object {
+                                        "height": 210,
+                                      },
+                                    ]
+                                  }
+                                />
+                                <Text
+                                  accessibilityLabel="Current lifestyle"
+                                  accessible={true}
+                                  color="gray.1"
+                                  fontFamily="default"
+                                  fontSize={14}
+                                  lineHeight={22}
+                                  paddingTop={8}
+                                  style={
+                                    Array [
+                                      Object {
+                                        "color": "#646464",
+                                        "fontFamily": "Arial",
+                                        "fontSize": 14,
+                                        "lineHeight": 22,
+                                        "paddingTop": 8,
+                                      },
+                                    ]
+                                  }
+                                >
+                                  Current lifestyle
+                                </Text>
+                              </View>
+                            </View>
+                          </View>
+                          <View
+                            flexDirection="row"
+                            style={
+                              Array [
+                                Object {
+                                  "display": "flex",
+                                  "flexDirection": "row",
+                                  "flexWrap": "wrap",
+                                },
+                                Object {
+                                  "display": "none",
+                                },
+                              ]
+                            }
+                          >
+                            <View
+                              flex={1}
+                              marginRight={8}
+                              style={
+                                Array [
+                                  Object {
+                                    "flexBasis": 0,
+                                    "flexGrow": 1,
+                                    "flexShrink": 1,
+                                    "marginRight": 8,
+                                  },
+                                ]
+                              }
+                            >
+                              <View
+                                style={
+                                  Array [
+                                    Object {},
+                                  ]
+                                }
+                              >
+                                <Image
+                                  accessibilityLabel="Healthy lifestyle face aging image"
+                                  accessibilityRole="image"
+                                  accessible={true}
+                                  borderRadius={5}
+                                  height={210}
+                                  source={
+                                    Object {
+                                      "uri": undefined,
+                                    }
+                                  }
+                                  style={
+                                    Array [
+                                      Object {
+                                        "height": 210,
+                                      },
+                                    ]
+                                  }
+                                />
+                                <Text
+                                  accessibilityLabel="Healthy lifestyle"
+                                  accessible={true}
+                                  color="gray.1"
+                                  fontFamily="default"
+                                  fontSize={14}
+                                  lineHeight={22}
+                                  paddingTop={8}
+                                  style={
+                                    Array [
+                                      Object {
+                                        "color": "#646464",
+                                        "fontFamily": "Arial",
+                                        "fontSize": 14,
+                                        "lineHeight": 22,
+                                        "paddingTop": 8,
+                                      },
+                                    ]
+                                  }
+                                >
+                                  Healthy lifestyle
+                                </Text>
+                              </View>
+                            </View>
+                            <View
+                              flex={1}
+                              style={
+                                Array [
+                                  Object {
+                                    "flexBasis": 0,
+                                    "flexGrow": 1,
+                                    "flexShrink": 1,
+                                  },
+                                ]
+                              }
+                            >
+                              <View
+                                style={
+                                  Array [
+                                    Object {},
+                                  ]
+                                }
+                              >
+                                <Image
+                                  accessibilityLabel="Current lifestyle face aging image"
+                                  accessibilityRole="image"
+                                  accessible={true}
+                                  borderRadius={5}
+                                  height={210}
+                                  source={
+                                    Object {
+                                      "uri": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wAARCAH0AXcDASIAAhEBAxEB/8QAGwAAAgMBAQEAAAAAAAAAAAAAAAECAwQFBgf/aL8fgAJ19NvGvXAeAAh1K8nBQAF5c3l+yY4gBTnqXgj5AAB+ogADEeSzwAAEGLyAAQBgALhx5L1wgAWl+P7SRNcABm6oXllkeAAF5WAACW/9k=",
+                                    }
+                                  }
+                                  style={
+                                    Array [
+                                      Object {
+                                        "height": 210,
+                                      },
+                                    ]
+                                  }
+                                />
+                                <Text
+                                  accessibilityLabel="Current lifestyle"
+                                  accessible={true}
+                                  color="gray.1"
+                                  fontFamily="default"
+                                  fontSize={14}
+                                  lineHeight={22}
+                                  paddingTop={8}
+                                  style={
+                                    Array [
+                                      Object {
+                                        "color": "#646464",
+                                        "fontFamily": "Arial",
+                                        "fontSize": 14,
+                                        "lineHeight": 22,
+                                        "paddingTop": 8,
+                                      },
+                                    ]
+                                  }
+                                >
+                                  Current lifestyle
+                                </Text>
+                              </View>
+                            </View>
+                          </View>
+                          <View
+                            flexDirection="row"
+                            style={
+                              Array [
+                                Object {
+                                  "display": "flex",
+                                  "flexDirection": "row",
+                                  "flexWrap": "wrap",
+                                },
+                                Object {
+                                  "display": "none",
+                                },
+                              ]
+                            }
+                          >
+                            <View
+                              flex={1}
+                              marginRight={8}
+                              style={
+                                Array [
+                                  Object {
+                                    "flexBasis": 0,
+                                    "flexGrow": 1,
+                                    "flexShrink": 1,
+                                    "marginRight": 8,
+                                  },
+                                ]
+                              }
+                            >
+                              <View
+                                style={
+                                  Array [
+                                    Object {},
+                                  ]
+                                }
+                              >
+                                <Image
+                                  accessibilityLabel="Healthy lifestyle face aging image"
+                                  accessibilityRole="image"
+                                  accessible={true}
+                                  borderRadius={5}
+                                  height={210}
+                                  source={
+                                    Object {
+                                      "uri": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/xAA7EAACAgEDAwIDBQcEAQQDAAAAAQIRAwQhMQUSQVFhEyJxBhQjMoEkQmKRobHBFTM0UtE+AAnXpt8a9cB4ACHSrycGcALy5/k9kxxACmFS8EfIABH6iABmI8lngAAIMXkAEQBgALhx5L1wgAWl49pIsXAAQ6YXllkeAAF5WAACW/9k=",
+                                    }
+                                  }
+                                  style={
+                                    Array [
+                                      Object {
+                                        "height": 210,
+                                      },
+                                    ]
+                                  }
+                                />
+                                <Text
+                                  accessibilityLabel="Healthy lifestyle"
+                                  accessible={true}
+                                  color="gray.1"
+                                  fontFamily="default"
+                                  fontSize={14}
+                                  lineHeight={22}
+                                  paddingTop={8}
+                                  style={
+                                    Array [
+                                      Object {
+                                        "color": "#646464",
+                                        "fontFamily": "Arial",
+                                        "fontSize": 14,
+                                        "lineHeight": 22,
+                                        "paddingTop": 8,
+                                      },
+                                    ]
+                                  }
+                                >
+                                  Healthy lifestyle
+                                </Text>
+                              </View>
+                            </View>
+                            <View
+                              flex={1}
+                              style={
+                                Array [
+                                  Object {
+                                    "flexBasis": 0,
+                                    "flexGrow": 1,
+                                    "flexShrink": 1,
+                                  },
+                                ]
+                              }
+                            >
+                              <View
+                                style={
+                                  Array [
+                                    Object {},
+                                  ]
+                                }
+                              >
+                                <Image
+                                  accessibilityLabel="Current lifestyle face aging image"
+                                  accessibilityRole="image"
+                                  accessible={true}
+                                  borderRadius={5}
+                                  height={210}
+                                  source={
+                                    Object {
+                                      "uri": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/UhHkAGirPQsXAABxGYueQAPgCP4gkl3AAAZEuxEAAAcuCMOAACSXoVyAAgCSob9AAYQ/aNGN8ABN6a4NC4D0ACHQqycGcALxYeTsmEQApjU/Qj6gAiP3EADMR5LPQAAIMXqACIAwAa4ceTQuEACqsO0kWLgAM3RC9WWx4AAVEwAAW//2Q==",
+                                    }
+                                  }
+                                  style={
+                                    Array [
+                                      Object {
+                                        "height": 210,
+                                      },
+                                    ]
+                                  }
+                                />
+                                <Text
+                                  accessibilityLabel="Current lifestyle"
+                                  accessible={true}
+                                  color="gray.1"
+                                  fontFamily="default"
+                                  fontSize={14}
+                                  lineHeight={22}
+                                  paddingTop={8}
+                                  style={
+                                    Array [
+                                      Object {
+                                        "color": "#646464",
+                                        "fontFamily": "Arial",
+                                        "fontSize": 14,
+                                        "lineHeight": 22,
+                                        "paddingTop": 8,
+                                      },
+                                    ]
+                                  }
+                                >
+                                  Current lifestyle
+                                </Text>
+                              </View>
+                            </View>
+                          </View>
+                          <View
+                            flexDirection="row"
+                            style={
+                              Array [
+                                Object {
+                                  "display": "flex",
+                                  "flexDirection": "row",
+                                  "flexWrap": "wrap",
+                                },
+                                Object {
+                                  "display": "none",
+                                },
+                              ]
+                            }
+                          >
+                            <View
+                              flex={1}
+                              marginRight={8}
+                              style={
+                                Array [
+                                  Object {
+                                    "flexBasis": 0,
+                                    "flexGrow": 1,
+                                    "flexShrink": 1,
+                                    "marginRight": 8,
+                                  },
+                                ]
+                              }
+                            >
+                              <View
+                                style={
+                                  Array [
+                                    Object {},
+                                  ]
+                                }
+                              >
+                                <Image
+                                  accessibilityLabel="Healthy lifestyle face aging image"
+                                  accessibilityRole="image"
+                                  accessible={true}
+                                  borderRadius={5}
+                                  height={210}
+                                  source={
+                                    Object {
+                                      "uri": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/L1wHgAIdCvLwZwAvLn+T2TCIANjU/BHyAAR+ogADEeSzwAAEGLyAAQBgALhx5NC4QALS8e0kTXAAQ6IXllseAAF5TAAEp//2Q==",
+                                    }
+                                  }
+                                  style={
+                                    Array [
+                                      Object {
+                                        "height": 210,
+                                      },
+                                    ]
+                                  }
+                                />
+                                <Text
+                                  accessibilityLabel="Healthy lifestyle"
+                                  accessible={true}
+                                  color="gray.1"
+                                  fontFamily="default"
+                                  fontSize={14}
+                                  lineHeight={22}
+                                  paddingTop={8}
+                                  style={
+                                    Array [
+                                      Object {
+                                        "color": "#646464",
+                                        "fontFamily": "Arial",
+                                        "fontSize": 14,
+                                        "lineHeight": 22,
+                                        "paddingTop": 8,
+                                      },
+                                    ]
+                                  }
+                                >
+                                  Healthy lifestyle
+                                </Text>
+                              </View>
+                            </View>
+                            <View
+                              flex={1}
+                              style={
+                                Array [
+                                  Object {
+                                    "flexBasis": 0,
+                                    "flexGrow": 1,
+                                    "flexShrink": 1,
+                                  },
+                                ]
+                              }
+                            >
+                              <View
+                                style={
+                                  Array [
+                                    Object {},
+                                  ]
+                                }
+                              >
+                                <Image
+                                  accessibilityLabel="Current lifestyle face aging image"
+                                  accessibilityRole="image"
+                                  accessible={true}
+                                  borderRadius={5}
+                                  height={210}
+                                  source={
+                                    Object {
+                                      "uri": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wAARCiCSXcAAGRLsRAAAJcChwABEl4K5AAgElQ34ACiP8RfjfAAZvx14aFwHgAMu6rLwZwA1HDv6TCIAacan4I+QAB+ogAKI8lngAAgxeQAIBsADcEeTRHhABK1x9TRNcABh3heWWx4AA1FgABGn//Z",
+                                    }
+                                  }
+                                  style={
+                                    Array [
+                                      Object {
+                                        "height": 210,
+                                      },
+                                    ]
+                                  }
+                                />
+                                <Text
+                                  accessibilityLabel="Current lifestyle"
+                                  accessible={true}
+                                  color="gray.1"
+                                  fontFamily="default"
+                                  fontSize={14}
+                                  lineHeight={22}
+                                  paddingTop={8}
+                                  style={
+                                    Array [
+                                      Object {
+                                        "color": "#646464",
+                                        "fontFamily": "Arial",
+                                        "fontSize": 14,
+                                        "lineHeight": 22,
+                                        "paddingTop": 8,
+                                      },
+                                    ]
+                                  }
+                                >
+                                  Current lifestyle
+                                </Text>
+                              </View>
+                            </View>
+                          </View>
+                          <View
+                            mt={16}
+                            style={
+                              Array [
+                                Object {
+                                  "marginTop": 16,
+                                },
+                              ]
+                            }
+                          >
+                            <View
+                              animationType="timing"
+                              onLayout={[Function]}
+                              onSlidingComplete={[Function]}
+                              onValueChange={[Function]}
+                              replaceTheme={[Function]}
+                              step={1}
+                              style={
+                                Object {
+                                  "height": 40,
+                                  "justifyContent": "center",
+                                  "width": "100%",
+                                }
+                              }
+                              theme={
+                                Object {
+                                  "colors": Object {
+                                    "disabled": "hsl(208, 8%, 90%)",
+                                    "divider": "#bcbbc1",
+                                    "error": "#ff190c",
+                                    "grey0": "#393e42",
+                                    "grey1": "#43484d",
+                                    "grey2": "#5e6977",
+                                    "grey3": "#86939e",
+                                    "grey4": "#bdc6cf",
+                                    "grey5": "#e1e8ee",
+                                    "greyOutline": "#bbb",
+                                    "platform": Object {
+                                      "android": Object {
+                                        "error": "#f44336",
+                                        "primary": "#2196f3",
+                                        "secondary": "#9C27B0",
+                                        "success": "#4caf50",
+                                        "warning": "#ffeb3b",
+                                      },
+                                      "ios": Object {
+                                        "error": "#ff3b30",
+                                        "primary": "#007aff",
+                                        "secondary": "#5856d6",
+                                        "success": "#4cd964",
+                                        "warning": "#ffcc00",
+                                      },
+                                    },
+                                    "primary": "#2089dc",
+                                    "searchBg": "#303337",
+                                    "secondary": "#8F0CE8",
+                                    "success": "#52c41a",
+                                    "warning": "#faad14",
+                                  },
+                                }
+                              }
+                              thumbTouchSize={
+                                Object {
+                                  "height": 40,
+                                  "width": 40,
+                                }
+                              }
+                              updateTheme={[Function]}
+                              value={0}
+                            >
+                              <View
+                                onLayout={[Function]}
+                                style={
+                                  Object {
+                                    "backgroundColor": "#b8b8b8",
+                                    "borderRadius": 2,
+                                    "height": 4,
+                                  }
+                                }
+                              />
+                              <View
+                                style={
+                                  Object {
+                                    "backgroundColor": "#000000",
+                                    "borderRadius": 2,
+                                    "height": 0,
+                                    "marginTop": -0,
+                                    "position": "absolute",
+                                    "width": 0,
+                                  }
+                                }
+                              />
+                              <View
+                                onLayout={[Function]}
+                                style={
+                                  Object {
+                                    "backgroundColor": "#000000",
+                                    "borderRadius": 10,
+                                    "height": 0,
+                                    "position": "absolute",
+                                    "top": 22,
+                                    "transform": Array [
+                                      Object {
+                                        "translateX": 0,
+                                      },
+                                      Object {
+                                        "translateY": -0,
+                                      },
+                                    ],
+                                    "width": 0,
+                                  }
+                                }
+                                testID="sliderThumb"
+                              />
+                              <View
+                                onMoveShouldSetResponder={[Function]}
+                                onMoveShouldSetResponderCapture={[Function]}
+                                onResponderEnd={[Function]}
+                                onResponderGrant={[Function]}
+                                onResponderMove={[Function]}
+                                onResponderReject={[Function]}
+                                onResponderRelease={[Function]}
+                                onResponderStart={[Function]}
+                                onResponderTerminate={[Function]}
+                                onResponderTerminationRequest={[Function]}
+                                onStartShouldSetResponder={[Function]}
+                                onStartShouldSetResponderCapture={[Function]}
+                                style={
+                                  Object {
+                                    "backgroundColor": "transparent",
+                                    "bottom": 0,
+                                    "left": 0,
+                                    "position": "absolute",
+                                    "right": 0,
+                                    "top": 0,
+                                  }
+                                }
+                              />
+                            </View>
+                            <View
+                              flex={1}
+                              flexDirection="row"
+                              style={
+                                Array [
+                                  Object {
+                                    "display": "flex",
+                                    "flexBasis": 0,
+                                    "flexDirection": "row",
+                                    "flexGrow": 1,
+                                    "flexShrink": 1,
+                                    "flexWrap": "wrap",
+                                  },
+                                ]
+                              }
+                            />
+                          </View>
+                          <Text
+                            accessibilityLabel="Move the slider to view your future appearance when you live a healthier lifestyle."
+                            accessible={true}
+                            color="gray.1"
+                            fontFamily="default"
+                            fontSize={14}
+                            lineHeight={22}
+                            mb={16}
+                            mt={8}
+                            style={
+                              Array [
+                                Object {
+                                  "color": "#646464",
+                                  "fontFamily": "Arial",
+                                  "fontSize": 14,
+                                  "lineHeight": 22,
+                                  "marginBottom": 16,
+                                  "marginTop": 8,
+                                },
+                              ]
+                            }
+                          >
+                            Move the slider to view your future appearance when you live a healthier lifestyle.
+                          </Text>
+                        </View>
+                      </View>
+                    </View>
+                  </View>
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </RNCSafeAreaView>
+</View>
+`;

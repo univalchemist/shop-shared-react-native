@@ -1,0 +1,1 @@
+export const CLAIM_REASON_OTHERS = 'OTHERS';

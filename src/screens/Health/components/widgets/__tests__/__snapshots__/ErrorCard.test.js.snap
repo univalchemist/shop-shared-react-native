@@ -1,0 +1,256 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Error Card should match the snapshot 1`] = `
+<View
+  alignItems="center"
+  color="#FFF"
+  flexGrow={1}
+  justifyContent="center"
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#ffffff",
+        "borderRadius": 4,
+        "borderTopColor": "#FFF",
+        "borderTopWidth": 4,
+        "display": "flex",
+        "height": 252.5,
+        "justifyContent": "center",
+        "paddingBottom": 40,
+        "paddingLeft": 24,
+        "paddingRight": 24,
+        "paddingTop": 28,
+        "shadowColor": "#000",
+        "shadowOffset": Object {
+          "height": 2,
+          "width": 0,
+        },
+        "shadowOpacity": 0.05,
+        "shadowRadius": 3,
+      },
+    ]
+  }
+  theme={
+    Object {
+      "backgroundColor": Object {
+        "default": "#f9f9f9",
+      },
+      "borders": Array [
+        0,
+        "1px solid",
+        "2px solid",
+      ],
+      "breakpoints": Array [
+        "420px",
+        "740px",
+        "980px",
+        "1300px",
+      ],
+      "checkBox": Object {
+        "checked": "#0275d8",
+        "text": "#212121",
+        "unchecked": "#9a9a9a",
+      },
+      "colors": Object {
+        "amber": Array [
+          "#FF9900",
+        ],
+        "backgroundColor": "#f9f9f9",
+        "black": "#000000",
+        "blue": Array [
+          "#0275d8",
+          "#afdaff",
+          "#3a98c9",
+        ],
+        "buttonPrimary": "#50ABAD",
+        "buttonPrimaryPressed": "#AD0012",
+        "error": Array [
+          "#b00020",
+          "#f6710a",
+          "#fcd1b9",
+          "#d7d8d6",
+        ],
+        "fonts": Object {
+          "link": "#0275D8",
+        },
+        "gray": Array [
+          "#212121",
+          "#646464",
+          "#727272",
+          "#9a9a9a",
+          "#b8b8b8",
+          "#e3e3e3",
+          "#f0f0f0",
+          "#f9f9f9",
+          "#666666",
+          "#f2f2f2",
+          "#ededed",
+        ],
+        "green": Array [
+          "#00847F",
+        ],
+        "imageHeaderMatching": "#f2f2f2",
+        "info": Array [
+          "#31707e",
+          "#1d5b6a",
+          "#d9edf7",
+        ],
+        "primary": Array [
+          "#50ABAD",
+          "#AD0012",
+        ],
+        "red": Array [
+          "#DB0011",
+        ],
+        "riskAmber": "#FF9900",
+        "riskGreen": "#00847F",
+        "riskRed": "#DB0011",
+        "secondary": Array [
+          "#2f3494",
+          "#648be7",
+          "#cfe1ff",
+        ],
+        "success": Array [
+          "#03A450",
+          "#77b03c",
+          "#dff0d8",
+        ],
+        "touchableOverlayColor": "#f0f0f0",
+        "transparent": "transparent",
+        "warning": Array [
+          "#935c01",
+          "#ffae28",
+          "#fdf1b2",
+        ],
+        "white": "#ffffff",
+      },
+      "fontSizes": Array [
+        12,
+        14,
+        16,
+        20,
+        24,
+        32,
+        48,
+        64,
+        96,
+        128,
+      ],
+      "fontWeights": Object {
+        "bold": 700,
+        "bolder": 800,
+        "light": 300,
+        "normal": 500,
+      },
+      "fonts": Object {
+        "default": "Open Sans",
+      },
+      "healthScoreGraphicColors": Object {
+        "averageScore": "#ffae28",
+        "default": "#e3e3e3",
+        "highScore": "#03A450",
+        "lowScore": "#50ABAD",
+        "none": "transparent",
+      },
+      "inputField": Object {
+        "disabledBorder": "#d1d1d1",
+        "disabledText": "rgba(0, 0, 0, 0.38)",
+        "inputBorder": "#000000",
+        "inputBorderUntouched": "#9a9a9a",
+        "inputFocus": "#0275d8",
+        "inputText": "#646464",
+        "rightText": "rgba(0, 0, 0, 0.38)",
+      },
+      "letterSpacings": Object {
+        "caps": "0.25em",
+        "normal": "normal",
+      },
+      "lineHeights": Array [
+        1,
+        1.125,
+        1.25,
+        1.5,
+        20,
+        37,
+      ],
+      "radii": Array [
+        0,
+        2,
+        4,
+        8,
+      ],
+      "radioButton": Object {
+        "checked": "#00847f",
+      },
+      "shadows": Array [
+        "0 1px 2px 0 #9a9a9a",
+        "0 1px 4px 0 #9a9a9a",
+      ],
+      "space": Array [
+        0,
+        4,
+        8,
+        16,
+        32,
+        64,
+        128,
+      ],
+      "tabbar": Object {
+        "activeColor": "#DB0011",
+        "activeTextColor": "#DB0011",
+        "inactiveColor": "#bdbdbd",
+      "terminatedLabel": Object {
+        "backgroundColor": "rgba(233, 161, 21, 0.1)",
+      },
+    }
+  }
+>
+  <Text
+    accessibilityLabel="Unable to show data."
+    accessible={true}
+    color="gray.8"
+    flexGrow={1}
+    fontFamily="default"
+    fontSize={14}
+    letterSpacing={0.3}
+    lineHeight={22}
+    style={
+      Array [
+        Object {
+          "color": "#666666",
+          "fontFamily": "Open Sans",
+          "fontSize": 14,
+          "letterSpacing": 0.3,
+          "lineHeight": 22,
+        },
+      ]
+    }
+  >
+    Unable to show data.
+  </Text>
+  <Text
+    accessibilityLabel="Try again later."
+    accessible={true}
+    color="gray.8"
+    flexGrow={1}
+    fontFamily="default"
+    fontSize={14}
+    letterSpacing={0.3}
+    lineHeight={22}
+    style={
+      Array [
+        Object {
+          "color": "#666666",
+          "fontFamily": "Open Sans",
+          "fontSize": 14,
+          "letterSpacing": 0.3,
+          "lineHeight": 22,
+        },
+      ]
+    }
+  >
+    Try again later.
+  </Text>
+</View>
+`;

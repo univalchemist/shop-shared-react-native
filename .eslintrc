@@ -1,0 +1,30 @@
+{
+  "extends": "@react-native-community",
+  "rules": {
+    "no-shadow": "off",
+    "curly": "off",
+    "quotes": "off",
+    "react-hooks/exhaustive-deps": "warn"
+  },
+  "globals": {
+    "GLOBAL": true
+  },
+  "overrides": [
+    {
+      "files": [
+        "**/__fixtures__/**/*.js",
+        "**/__mocks__/**/*.js",
+        "**/__tests__/**/*.js",
+        "jest/**/*.js"
+      ],
+      "globals": {
+        "afterAll": true,
+        "afterEach": true,
+        "beforeAll": true,
+        "beforeEach": true,
+        "expect": true,
+        "jest": true
+      }
+    }
+  ]
+}

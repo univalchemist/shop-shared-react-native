@@ -1,0 +1,22 @@
+[
+  {
+      "isDefault": true,
+      "planID": "2019",
+      "planName": "2019",
+      "planStart": "2018-12-31T16:00:00Z",
+      "planEnd": "2019-12-30T16:00:00Z",
+      "isVisible": true,
+      "clientType": "NA",
+      "isEmpty": false
+  },
+  {
+      "isDefault": false,
+      "planID": "Initial",
+      "planName": "2018",
+      "planStart": "2017-12-31T16:00:00Z",
+      "planEnd": "2018-12-30T16:00:00Z",
+      "isVisible": true,
+      "clientType": "NA",
+      "isEmpty": false
+  }
+]

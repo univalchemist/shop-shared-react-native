@@ -1,0 +1,4 @@
+const PREFIX = `@@ssoLogin`;
+
+export const UPDATE_SSO_LOGIN_STATE = `${PREFIX}/UPDATE_SSO_LOGIN_STATE`;
+export const UPDATE_ACCOUNT_INFO = `${PREFIX}/UPDATE_ACCOUNT_INFO`;

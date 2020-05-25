@@ -1,0 +1,110 @@
+{
+  "bmi": [
+    {
+      "topic": "10 minute Exercise",
+      "source": "Department of Health",
+      "link": "https://www.chp.gov.hk",
+      "text": "Take a break from your office desk and follow these simple exercises"
+    },
+    {
+      "topic": "How to Lose 8 Pounds",
+      "source": "Kenzai",
+      "link": "https://pulse.kenzai.com/how-to-lose-8-pounds?wvideo=08pxzzzrys",
+      "text": "Want to know the easiest way to lose 8 pounds? Cut off your arm. Want to know the smartest way? Eat the right food in the right amounts and work out every day safely and efficiently; no shortcuts."
+    },
+    {
+      "topic": "Keeping a Normal Body Weight",
+      "source": "Department of Health",
+      "link": "https://www.chp.gov.hk",
+      "text": "The golden rules in achieving a normal body weight"
+    },
+    {
+      "topic": "Know More About Sweeteners",
+      "source": "Asia Diabetes Foundation",
+      "link": "http://www.diabetesrisk.hk/cs_healthy_diet/know_more_about_sweeteners",
+      "text": "In order to control blood glucose levels and calories but with some sweet taste, many people use sweeteners. In fact, many types of sweeteners have passed the safety evaluation test from multiple international authorities. "
+    }
+  ],
+  "diabetes": [
+    {
+      "topic": "topic",
+      "source": "source",
+      "link": "link",
+      "text": "Text"
+    }
+  ],
+  "nutrition": [
+    {
+      "topic": "topic",
+      "source": "source",
+      "link": "link",
+      "text": "Text"
+    }
+  ],
+  "alcohol": [
+    {
+      "topic": "topic",
+      "source": "source",
+      "link": "link",
+      "text": "Text"
+    }
+  ],
+  "tobacco": [
+    {
+      "topic": "topic",
+      "source": "source",
+      "link": "link",
+      "text": "Text"
+    }
+  ],
+  "exercise": [
+    {
+      "topic": "topic",
+      "source": "source",
+      "link": "link",
+      "text": "Text"
+    }
+  ],
+  "sleep": [
+    {
+      "topic": "topic",
+      "source": "source",
+      "link": "link",
+      "text": "Text"
+    }
+  ],
+  "mindAndStress": [
+    {
+      "topic": "topic",
+      "source": "source",
+      "link": "link",
+      "text": "Text"
+    }
+  ],
+  "general": [
+    {
+      "topic": "Sugar: Facts and Myths",
+      "source": "Centre for Food Safety",
+      "link": "https://www.cfs.gov.hk/english/programme/programme_rdss/Sugars_Facts_and_Myths_for_Consumers.html",
+      "text": "Learn more about the difference types of sugar and tips to reduce sugar in your diet."
+    },
+    {
+      "topic": "Common Misconceptions about Diet",
+      "source": "Asia Diabetes Foundation",
+      "link": "http://www.diabetesrisk.hk/cs_healthy_diet/common_misconceptions_about_diet",
+      "text": "People believe that soup ingredients have no nutritional value after being boiled. They just drink the soup and discard the ingredients."
+    },
+    {
+      "topic": "Eat Smart Recipes",
+      "source": "Department of Health",
+      "link": "http://restaurant.eatsmart.gov.hk",
+      "text": "Search for Eat Smart Recipes and enjoy cooking health dishes with your family."
+    },
+    {
+      "topic": "Third-hand Smoking",
+      "source": "Hong Kong Council on Smoking and Health",
+      "link": "https://pediatrics.aappublications.org/content/123/1/e74.comments",
+      "text": "What is 'Third-hand Smoke'? Understand the risks when having close exposure to tobacco and the ways to reduce 'Third-hand Smoke'. "
+    }
+  ]
+}

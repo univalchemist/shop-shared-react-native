@@ -1,0 +1,620 @@
+{
+  "name": "My Lifestyle",
+  "version": 1,
+  "questionGroups": {
+    "choices": [
+      {
+        "questionOrder": "1",
+        "questionId": "choices_2.1",
+        "dependentQuestion": false,
+        "name": "smokingBehaviour",
+        "type": "radio",
+        "text": "請問您的吸煙習慣是...（包括吸食各類煙草及相關產品)？",
+        "section": "choices",
+        "options": [
+          {
+            "label": "非吸煙人士",
+            "value": "NonSmoker"
+          },
+          {
+            "label": "以前習慣吸煙的人士",
+            "value": "ExSmoker"
+          },
+          {
+            "label": "間歇吸煙人士",
+            "value": "OccasionalSmoker"
+          },
+          {
+            "label": "習慣每日吸煙的人士",
+            "value": "DailySmoker"
+          }
+        ]
+      },
+      {
+        "questionOrder": "2",
+        "questionId": "choices_2.2",
+        "dependentQuestion": false,
+        "name": "alcoholConsumptionFrequency",
+        "type": "radio",
+        "text": "你有幾經常飲酒?\n\n以件每杯12.5克酒精計算\n\n啤酒 – 12盎司 (355毫升)\n\n葡萄酒 – 5 盎司 (148毫升)\n\n烈酒 – 1.5盎司 (44毫升)",
+        "section": "choices",
+        "options": [
+          {
+            "label": "從不飲酒",
+            "value": "Never"
+          },
+          {
+            "label": "每月一次或以下",
+            "value": "MonthlyOrLess"
+          },
+          {
+            "label": "每月二至四次",
+            "value": "TwoToFourTimesAMonth"
+          },
+          {
+            "label": "每星期兩至三次",
+            "value": "TwoToThreeTimesAWeek"
+          },
+          {
+            "label": "每星期四次或以上",
+            "value": "FourOrMoreTimesAWeek"
+          }
+        ]
+      },
+      {
+        "questionOrder": "3",
+        "questionId": "choices_2.2.1",
+        "dependentQuestion": true,
+        "name": "alcoholConsumptionAmount",
+        "section": "choices",
+        "type": "radio",
+        "text": "在您飲酒的日子裡，通常一日會飲幾多杯含酒精飲品？",
+        "parentQuestionId": "choices_2.2",
+        "activationAnswer": [
+          "MonthlyOrLess",
+          "TwoToFourTimesAMonth",
+          "TwoToThreeTimesAWeek",
+          "FourOrMoreTimesAWeek"
+        ],
+        "options": [
+          {
+            "label": "1 至 2 杯",
+            "value": "OneOrTwo"
+          },
+          {
+            "label": "3 至 4 杯",
+            "value": "ThreeOrFour"
+          },
+          {
+            "label": "5 至 6 杯",
+            "value": "FiveOrSix"
+          },
+          {
+            "label": "7 至 9 杯",
+            "value": "SevenOrEightOrNine"
+          },
+          {
+            "label": "10 杯或以上",
+            "value": "TenOrMore"
+          }
+        ]
+      },
+      {
+        "questionOrder": "4",
+        "questionId": "choices_2.3",
+        "dependentQuestion": false,
+        "name": "exerciseFrequency",
+        "type": "singleSelect",
+        "titleLabel": "頻率",
+        "selectFieldLabel": "頻率",
+        "text": "最近7天裡，您有多少天步行10分鐘以上或參與適度運動 (如提重物、帶氧運動或騎單車)，而讓您呼吸比正常費力? ",
+        "section": "choices",
+        "options": [
+          {
+            "label": "0天",
+            "value": "0"
+          },
+          {
+            "label": "1天",
+            "value": "1"
+          },
+          {
+            "label": "2天",
+            "value": "2"
+          },
+          {
+            "label": "3天",
+            "value": "3"
+          },
+          {
+            "label": "4天",
+            "value": "4"
+          },
+          {
+            "label": "5天",
+            "value": "5"
+          },
+          {
+            "label": "6天",
+            "value": "6"
+          },
+          {
+            "label": "7天",
+            "value": "7"
+          }
+        ]
+      },
+      {
+        "questionOrder": "5",
+        "questionId": "choices_2.3.1",
+        "parentQuestionId": "choices_2.3",
+        "name": "exerciseMinuteFrequency",
+        "dependentQuestion": true,
+        "titleLabel": "持續時間",
+        "selectFieldLabel": "持續時間",
+        "activationAnswer": ["1", "2", "3", "4", "5", "6", "7"],
+        "section": "choices",
+        "type": "singleSelect",
+        "text": "在以上的日子，通常您每天花多少時間做運動？",
+        "options": [
+          {
+            "label": "最多15分鐘",
+            "value": "UpToFifteenMins"
+          },
+          {
+            "label": "15 - 20分鐘",
+            "value": "FifteenToTwentyMins"
+          },
+          {
+            "label": "20 - 25分鐘",
+            "value": "TwentyToTwentyFiveMins"
+          },
+          {
+            "label": "25 - 30分鐘",
+            "value": "TwentyFiveToThirtyMins"
+          },
+          {
+            "label": "30 - 40分鐘",
+            "value": "ThirtyToFortyMins"
+          },
+          {
+            "label": "40分鐘到1.5小時",
+            "value": "FortyMinsToOneAndHalfHour"
+          },
+          {
+            "label": "超過1.5小時",
+            "value": "MoreThanOneAndHalfHour"
+          }
+        ]
+      },
+      {
+        "questionOrder": "6",
+        "questionId": "choices_2.4",
+        "dependentQuestion": false,
+        "name": "temptingFoodItems",
+        "text": "您會被以下食品吸引嗎 (令您進食多於您心目中理想的分量)?",
+        "section": "choices",
+        "type": "multiselect",
+        "titleLabel": "食物",
+        "selectFieldLabel": "選擇食物",
+        "buttonLabel": "選擇食物",
+        "options": [
+          {
+            "value": "Chocolate",
+            "label": "朱古力"
+          },
+          {
+            "value": "PotatoChips",
+            "label": "薯片"
+          },
+          {
+            "value": "FrenchFries",
+            "label": "薯條"
+          },
+          {
+            "value": "Cakes",
+            "label": "蛋糕"
+          },
+          {
+            "value": "IceCream",
+            "label": "雪糕"
+          },
+          {
+            "value": "BreadOrToast",
+            "label": "麪包或多士"
+          },
+          {
+            "value": "SugaryDrinks",
+            "label": "汽水或紙包飲品"
+          },
+          {
+            "value": "CookiesOrBiscuits",
+            "label": "曲奇餅或餅乾"
+          },
+          {
+            "value": "DessertsOrSweets",
+            "label": "甜品或糖果"
+          },
+          {
+            "value": "BubbleTea",
+            "label": "珍珠奶茶"
+          },
+          {
+            "value": "Pastries",
+            "label": "酥餅"
+          },
+          {
+            "value": "InstantNoodles",
+            "label": "即食麪"
+          },
+          {
+            "value": "FriedFood",
+            "label": "油炸食物(如炸雞翼或炸魚柳等)"
+          },
+          {
+            "value": "Other",
+            "label": "其他"
+          },
+          {
+            "value": "NoneTempting",
+            "label": "沒有，我沒有特別喜好",
+            "hasInversion": true
+          }
+        ]
+      },
+      {
+        "questionOrder": "7",
+        "questionId": "choices_2.4.1",
+        "dependentQuestion": true,
+        "parentQuestionId": "choices_2.4",
+        "name": "avoidingTemptingFood",
+        "type": "radio",
+        "section": "choices",
+        "text": "您有意避開以上令你難以自控的食品嗎?",
+        "options": [
+          {
+            "value": "Yes",
+            "label": "有"
+          },
+          {
+            "value": "No",
+            "label": "沒有"
+          }
+        ],
+        "activationAnswer": [
+          "Chocolate",
+          "PotatoChips",
+          "FrenchFries",
+          "Cakes",
+          "IceCream",
+          "BreadOrToast",
+          "SugaryDrinks",
+          "CookiesOrBiscuits",
+          "DessertsOrSweets",
+          "BubbleTea",
+          "Pastries",
+          "InstantNoodles",
+          "FriedFood",
+          "Other",
+          "NoneTempting"
+        ]
+      },
+      {
+        "questionOrder": "8",
+        "questionId": "choices_2.5",
+        "dependentQuestion": false,
+        "name": "healthyDietIntention",
+        "type": "radio",
+        "text": "您有意訂立健康飲食目標嗎?",
+        "section": "choices",
+        "options": [
+          {
+            "label": "有",
+            "value": "Yes"
+          },
+          {
+            "label": "沒有",
+            "value": "No"
+          }
+        ]
+      },
+      {
+        "questionOrder": "9",
+        "questionId": "choices_2.6",
+        "dependentQuestion": false,
+        "name": "eatingIntentionPerseverance",
+        "type": "radio",
+        "text": "我會輕易放棄健康飲食目標",
+        "section": "choices",
+        "options": [
+          {
+            "label": "總是",
+            "value": "Always"
+          },
+          {
+            "label": "經常",
+            "value": "Often"
+          },
+          {
+            "label": "有時",
+            "value": "Sometimes"
+          },
+          {
+            "label": "很少",
+            "value": "Rarely"
+          },
+          {
+            "label": "完全沒有",
+            "value": "Never"
+          }
+        ]
+      },
+      {
+        "questionOrder": "10",
+        "questionId": "choices_2.7",
+        "dependentQuestion": false,
+        "name": "resistingTemptingFood",
+        "type": "radio",
+        "text": "我擅於克制自己享用喜愛的食物",
+        "section": "choices",
+        "options": [
+          {
+            "label": "總是",
+            "value": "Always"
+          },
+          {
+            "label": "經常",
+            "value": "Often"
+          },
+          {
+            "label": "有時",
+            "value": "Sometimes"
+          },
+          {
+            "label": "很少",
+            "value": "Rarely"
+          },
+          {
+            "label": "完全沒有",
+            "value": "Never"
+          }
+        ]
+      },
+      {
+        "questionOrder": "11",
+        "questionId": "choices_2.8",
+        "dependentQuestion": false,
+        "name": "distractedFromTheWayIWantToEat",
+        "type": "radio",
+        "text": "我會容易偏離自己訂立的飲食方式",
+        "section": "choices",
+        "options": [
+          {
+            "label": "總是",
+            "value": "Always"
+          },
+          {
+            "label": "經常",
+            "value": "Often"
+          },
+          {
+            "label": "有時",
+            "value": "Sometimes"
+          },
+          {
+            "label": "很少",
+            "value": "Rarely"
+          },
+          {
+            "label": "完全沒有",
+            "value": "Never"
+          }
+        ]
+      },
+      {
+        "questionOrder": "12",
+        "questionId": "choices_2.9",
+        "dependentQuestion": false,
+        "name": "acceptanceToChangingEatingBehaviour",
+        "type": "radio",
+        "text": "如果我並沒有跟從自己訂立的飲食方式，我會作出改變",
+        "section": "choices",
+        "options": [
+          {
+            "label": "總是",
+            "value": "Always"
+          },
+          {
+            "label": "經常",
+            "value": "Often"
+          },
+          {
+            "label": "有時",
+            "value": "Sometimes"
+          },
+          {
+            "label": "很少",
+            "value": "Rarely"
+          },
+          {
+            "label": "完全沒有",
+            "value": "Never"
+          }
+        ]
+      },
+      {
+        "questionOrder": "13",
+        "questionId": "choices_2.10",
+        "dependentQuestion": false,
+        "name": "rememberFoodConsumed",
+        "type": "radio",
+        "text": "我很難記起我整日吃過什麼",
+        "section": "choices",
+        "options": [
+          {
+            "label": "總是",
+            "value": "Always"
+          },
+          {
+            "label": "經常",
+            "value": "Often"
+          },
+          {
+            "label": "有時",
+            "value": "Sometimes"
+          },
+          {
+            "label": "很少",
+            "value": "Rarely"
+          },
+          {
+            "label": "完全沒有",
+            "value": "Never"
+          }
+        ]
+      }
+    ],
+    "health": [
+      {
+        "questionOrder": "1",
+        "questionId": "health_3.1",
+        "dependentQuestion": false,
+        "name": "hereditaryDiabetes",
+        "type": "radio",
+        "text": "您有否糖尿病家族史? (即指直系父母兄弟姐妹)",
+        "options": [
+          {
+            "label": "有",
+            "value": "Yes"
+          },
+          {
+            "label": "沒有",
+            "value": "No"
+          }
+        ]
+      },
+      {
+        "questionOrder": "2",
+        "questionId": "health_3.2",
+        "dependentQuestion": false,
+        "name": "highBloodPressure",
+        "type": "radio",
+        "text": "您是否曾經血壓偏高或患有高血壓，或正服用降血壓藥?",
+        "options": [
+          {
+            "label": "是",
+            "value": "Yes"
+          },
+          {
+            "label": "否",
+            "value": "No"
+          }
+        ]
+      },
+      {
+        "questionOrder": "3",
+        "questionId": "health_3.3",
+        "dependentQuestion": false,
+        "name": "uninterestFrequency",
+        "type": "radio",
+        "text": "在過去的兩星期，您有多經常做任何事都覺得沉悶或者根本不想做任何事?",
+        "options": [
+          {
+            "label": "完全沒有",
+            "value": "Never"
+          },
+          {
+            "label": "幾天",
+            "value": "Sometimes"
+          },
+          {
+            "label": "一半以上天數",
+            "value": "Often"
+          },
+          {
+            "label": "近乎每天",
+            "value": "Regularly"
+          }
+        ]
+      },
+      {
+        "questionOrder": "4",
+        "questionId": "health_3.4",
+        "dependentQuestion": false,
+        "name": "depressionFrequency",
+        "type": "radio",
+        "text": "在過去的兩星期，您有多經常會情緒低落、抑鬱或絕望?",
+        "options": [
+          {
+            "label": "完全沒有",
+            "value": "Never"
+          },
+          {
+            "label": "幾天",
+            "value": "Sometimes"
+          },
+          {
+            "label": "一半以上天數",
+            "value": "Often"
+          },
+          {
+            "label": "近乎每天",
+            "value": "Regularly"
+          }
+        ]
+      },
+      {
+        "questionOrder": "5",
+        "questionId": "health_3.5",
+        "dependentQuestion": false,
+        "name": "drowsinessFrequency",
+        "type": "radio",
+        "text": "在最近一個月，您有多經常在駕駛、用餐或參與任何活動都難以保持清醒? ",
+        "options": [
+          {
+            "label": "完全沒有",
+            "value": "Never"
+          },
+          {
+            "label": "一星期少於一次",
+            "value": "Sometimes"
+          },
+          {
+            "label": "一星期有一至兩次",
+            "value": "Often"
+          },
+          {
+            "label": "一星期有三次或以上",
+            "value": "Regularly"
+          }
+        ]
+      },
+      {
+        "questionOrder": "6",
+        "questionId": "health_3.6",
+        "dependentQuestion": false,
+        "name": "sleepDuration",
+        "type": "radio",
+        "text": "您平均每晚有多少時間睡覺?",
+        "options": [
+          {
+            "label": "少於5小時",
+            "value": "Brief"
+          },
+          {
+            "label": "5 至6小時",
+            "value": "Short"
+          },
+          {
+            "label": "6 至7 小時",
+            "value": "Long"
+          },
+          {
+            "label": "多於7 小時",
+            "value": "VeryLong"
+          }
+        ]
+      }
+    ]
+  }
+}

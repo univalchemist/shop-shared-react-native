@@ -1,0 +1,53 @@
+diff --git a/node_modules/jail-monkey/JailMonkey/JailMonkey.m b/node_modules/jail-monkey/JailMonkey/JailMonkey.m
+index be8f7db..1141283 100644
+--- a/node_modules/jail-monkey/JailMonkey/JailMonkey.m
++++ b/node_modules/jail-monkey/JailMonkey/JailMonkey.m
+@@ -7,12 +7,13 @@
+ //
+ 
+ #import "JailMonkey.h"
++#include <TargetConditionals.h>
+ @import UIKit;
+ @import Darwin.sys.sysctl;
+ 
+ static NSString * const JMJailbreakTextFile = @"/private/jailbreak.txt";
+ static NSString * const JMisJailBronkenKey = @"isJailBroken";
+-static NSString * const JMisDebuggedKey = @"isDebugged";
++static NSString * const JMisDebuggedKey = @"isDebuggedMode";
+ static NSString * const JMCanMockLocationKey = @"canMockLocation";
+ 
+ @implementation JailMonkey
+@@ -138,6 +139,9 @@ - (BOOL)isDebugged{
+ }
+ 
+ - (BOOL)isJailBroken{
++    #if TARGET_OS_SIMULATOR
++      return NO;
++    #endif
+     return [self checkPaths] || [self checkSchemes] || [self canViolateSandbox];
+ }
+ 
+diff --git a/node_modules/jail-monkey/android/src/main/java/com/gantix/JailMonkey/Rooted/RootedCheck.java b/node_modules/jail-monkey/android/src/main/java/com/gantix/JailMonkey/Rooted/RootedCheck.java
+index ebdb710..16dd191 100644
+--- a/node_modules/jail-monkey/android/src/main/java/com/gantix/JailMonkey/Rooted/RootedCheck.java
++++ b/node_modules/jail-monkey/android/src/main/java/com/gantix/JailMonkey/Rooted/RootedCheck.java
+@@ -15,6 +15,19 @@ public class RootedCheck {
+     public static boolean isJailBroken(Context context) {
+         CheckApiVersion check;
+ 
++        if (Build.FINGERPRINT.startsWith("generic")
++            || Build.FINGERPRINT.startsWith("unknown")
++            || Build.MODEL.contains("google_sdk")
++            || Build.MODEL.contains("Emulator")
++            || Build.MODEL.contains("Android SDK built for x86")
++            || Build.BOARD == "QC_Reference_Phone" //bluestacks
++            || Build.MANUFACTURER.contains("Genymotion")
++            || Build.HOST.startsWith("Build") //MSI App Player
++            || (Build.BRAND.startsWith("generic") && Build.DEVICE.startsWith("generic"))
++            || "google_sdk" == Build.PRODUCT) {
++            return false;
++        }
++        
+         if (android.os.Build.VERSION.SDK_INT >= 23) {
+             check = new GreaterThan23();
+         } else {

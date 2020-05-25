@@ -1,0 +1,36 @@
+{
+  "token": "JWV72STqGEiIhBIhXKdHGA",
+  "subsidiaryLogo": "",
+  "isDemo": false,
+  "isTemporary": false,
+  "isImpersonated": false,
+  "clientName": "twclient3",
+  "requirePasswordReset": false,
+  "employee": {
+    "objectId": "3",
+    "userName": "test3@test.com",
+    "clientId": 5,
+    "fullName": "testfullname 3",
+    "email": "test3@test.com"
+  },
+  "locale": "en",
+  "websiteConfig": {
+    "url": "cxapalawandev.com",
+    "portal": "dashboard",
+    "defaultPage": "dashboard",
+    "locale": "en",
+    "logo": {},
+    "objectId": 0,
+    "status": "active",
+    "lastModified": "0001-01-01T00:00:00Z"
+  },
+  "isLoggedInUsingWebApp": false,
+  "logoutAction": {
+    "type": "redirectToLogin"
+  },
+  "pendingAuthActions": [],
+  "timeZoneSetting": {
+    "serverTZ": "Asia/Singapore",
+    "userTZ": "Asia/Singapore"
+  }
+}

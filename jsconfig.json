@@ -1,0 +1,34 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@routes": ["./src/routes.js"],
+      "@theme": ["./src/theme.js"],
+      "@navigations": ["./src/navigations"],
+      "@navigations/*": ["./src/navigations/*"],
+      "@middlewares": ["./src/middlewares"],
+      "@middlewares/*": ["./src/middlewares/*"],
+      "@components": ["./src/components"],
+      "@components/*": ["./src/components/*"],
+      "@containers": ["./src/containers"],
+      "@containers/*": ["./src/containers/*"],
+      "@services": ["./src/services"],
+      "@services/*": ["./src/services/*"],
+      "@images": ["./src/images"],
+      "@images/*": ["./src/images/*"],
+      "@config": ["./src/config"],
+      "@utils": ["./src/utils"],
+      "@store": ["./src/store"],
+      "@store/*": ["./src/store/*"],
+      "@testUtils": ["./src/testUtils"],
+      "@screens": ["./src/screens"],
+      "@screens/*": ["./src/screens/*"],
+      "@wrappers/*": ["./src/wrappers/*"],
+      "@heal/*": ["./src/components/heal/*"],
+      "@heal": ["./src/components/heal/"],
+      "@shops": ["./src/components/shops/src"],
+      "@shops/*": ["./src/components/shops/src/*"]
+    }
+  },
+  "exclude": ["node_modules"]
+}

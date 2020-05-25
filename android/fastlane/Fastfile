@@ -1,0 +1,35 @@
+# This file contains the fastlane.tools configuration
+# You can find the documentation at https://docs.fastlane.tools
+#
+# For a list of all available actions, check out
+#
+#     https://docs.fastlane.tools/actions
+#
+# For a list of all available plugins, check out
+#
+#     https://docs.fastlane.tools/plugins/available-plugins
+#
+
+# Uncomment the line if you want fastlane to automatically update itself
+# update_fastlane
+
+default_platform(:android)
+
+platform :android do
+  desc "Build APK to be published to app center"
+    lane :build_apk do |options|
+      keystore = options[:app_keystore]
+      keyalias= options[:app_keyalias]
+      keystorepassword = options[:app_keystore_password]
+      keypassword = options[:app_key_password]
+      gradle(
+        task: "clean assembleRelease",
+        properties: {
+          "RELEASE_STORE_FILE" => keystore,
+          "RELEASE_KEY_ALIAS" => keyalias,
+          "RELEASE_STORE_PASSWORD" => keystorepassword,
+          "RELEASE_KEY_PASSWORD" => keypassword,
+        }
+      )
+  end
+end

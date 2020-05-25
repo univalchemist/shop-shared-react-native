@@ -1,0 +1,14 @@
+{
+  "userId": "3",
+  "clientId": "cxadevclient1",
+  "bmi": 130.2,
+  "bmiClass": "ExtremelyObese",
+  "totalRisk": "HighRisk",
+  "totalPoint": 4,
+  "smokeRisk": "Low",
+  "alcoholRisk": "High",
+  "exerciseRisk": "High",
+  "nutritionRisk": "Low",
+  "sleepRisk": "Low",
+  "mentalHealthRisk": "Low"
+}

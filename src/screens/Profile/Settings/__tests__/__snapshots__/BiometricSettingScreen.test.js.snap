@@ -1,0 +1,626 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BiometricSettingScreen should render correctly 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <RNCSafeAreaView
+    onInsetsChange={[Function]}
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <View
+      onLayout={[Function]}
+      style={
+        Object {
+          "flex": 1,
+          "overflow": "hidden",
+        }
+      }
+    >
+      <View
+        pointerEvents="box-none"
+        style={
+          Object {
+            "bottom": 0,
+            "left": 0,
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+          }
+        }
+      >
+        <View
+          accessibilityElementsHidden={false}
+          closing={false}
+          gestureVelocityImpact={0.3}
+          importantForAccessibility="auto"
+          onClose={[Function]}
+          onGestureBegin={[Function]}
+          onGestureCanceled={[Function]}
+          onOpen={[Function]}
+          onTransitionStart={[Function]}
+          pointerEvents="box-none"
+          style={
+            Object {
+              "bottom": 0,
+              "left": 0,
+              "position": "absolute",
+              "right": 0,
+              "top": 0,
+            }
+          }
+          transitionSpec={
+            Object {
+              "close": Object {
+                "animation": "spring",
+                "config": Object {
+                  "damping": 500,
+                  "mass": 3,
+                  "overshootClamping": true,
+                  "restDisplacementThreshold": 0.01,
+                  "restSpeedThreshold": 0.01,
+                  "stiffness": 1000,
+                },
+              },
+              "open": Object {
+                "animation": "spring",
+                "config": Object {
+                  "damping": 500,
+                  "mass": 3,
+                  "overshootClamping": true,
+                  "restDisplacementThreshold": 0.01,
+                  "restSpeedThreshold": 0.01,
+                  "stiffness": 1000,
+                },
+              },
+            }
+          }
+        >
+          <View
+            pointerEvents="box-none"
+            style={
+              Object {
+                "flex": 1,
+              }
+            }
+          >
+            <View
+              enabled={false}
+              hitSlop={
+                Object {
+                  "right": -700,
+                }
+              }
+              maxDeltaY={20}
+              minOffsetX={5}
+              onHandlerStateChange={[Function]}
+            >
+              <View
+                style={
+                  Object {
+                    "flex": 1,
+                    "transform": Array [
+                      Object {
+                        "translateX": 0,
+                      },
+                      Object {
+                        "translateX": 0,
+                      },
+                    ],
+                  }
+                }
+              >
+                <View
+                  pointerEvents="none"
+                  style={
+                    Object {
+                      "backgroundColor": "#fff",
+                      "bottom": 0,
+                      "left": 0,
+                      "position": "absolute",
+                      "shadowColor": "#000",
+                      "shadowOffset": Object {
+                        "height": 1,
+                        "width": -1,
+                      },
+                      "shadowOpacity": 0.3,
+                      "shadowRadius": 5,
+                      "top": 0,
+                      "width": 3,
+                    }
+                  }
+                />
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "flex": 1,
+                        "overflow": "hidden",
+                      },
+                      Array [
+                        Object {
+                          "backgroundColor": "rgb(242, 242, 242)",
+                        },
+                        undefined,
+                      ],
+                    ]
+                  }
+                >
+                  <View
+                    style={
+                      Object {
+                        "flex": 1,
+                        "flexDirection": "column-reverse",
+                      }
+                    }
+                  >
+                    <View
+                      style={
+                        Object {
+                          "flex": 1,
+                        }
+                      }
+                    >
+                      <View
+                        flex={1}
+                        px={32}
+                        py={24}
+                        style={
+                          Array [
+                            Object {
+                              "flexBasis": 0,
+                              "flexGrow": 1,
+                              "flexShrink": 1,
+                              "paddingBottom": 24,
+                              "paddingLeft": 32,
+                              "paddingRight": 32,
+                              "paddingTop": 24,
+                            },
+                          ]
+                        }
+                      >
+                        <View
+                          alignItems="center"
+                          flexDirection="row"
+                          justifyContent="space-between"
+                          pb={24}
+                          style={
+                            Array [
+                              Object {
+                                "alignItems": "center",
+                                "flexDirection": "row",
+                                "justifyContent": "space-between",
+                                "paddingBottom": 24,
+                              },
+                              Object {
+                                "borderBottomColor": "#b8b8b8",
+                                "borderBottomWidth": 0.5,
+                              },
+                            ]
+                          }
+                        >
+                          <Text
+                            color="gray.1"
+                            fontFamily="default"
+                            fontSize={16}
+                            lineHeight={22}
+                            style={
+                              Array [
+                                Object {
+                                  "color": "#646464",
+                                  "fontFamily": "Arial",
+                                  "fontSize": 16,
+                                  "lineHeight": 22,
+                                },
+                              ]
+                            }
+                          >
+                            Face ID
+                          </Text>
+                          <RCTSwitch
+                            accessibilityRole="button"
+                            onChange={[Function]}
+                            onResponderTerminationRequest={[Function]}
+                            onStartShouldSetResponder={[Function]}
+                            style={
+                              Object {
+                                "height": 31,
+                                "width": 51,
+                              }
+                            }
+                            value={false}
+                          />
+                        </View>
+                        <View
+                          py={24}
+                          style={
+                            Array [
+                              Object {
+                                "paddingBottom": 24,
+                                "paddingTop": 24,
+                              },
+                            ]
+                          }
+                        >
+                          <Text
+                            color="gray.1"
+                            fontFamily="default"
+                            fontSize={14}
+                            lineHeight={22}
+                            style={
+                              Array [
+                                Object {
+                                  "color": "#646464",
+                                  "fontFamily": "Arial",
+                                  "fontSize": 14,
+                                  "lineHeight": 22,
+                                },
+                              ]
+                            }
+                          >
+                            Please note the following information when you enable Face ID:
+                          </Text>
+                          <View
+                            flexDirection="row"
+                            pt={8}
+                            style={
+                              Array [
+                                Object {
+                                  "flexDirection": "row",
+                                  "paddingTop": 8,
+                                },
+                              ]
+                            }
+                          >
+                            <View
+                              style={
+                                Object {
+                                  "marginLeft": 2,
+                                  "marginRight": 16,
+                                  "marginTop": 10,
+                                }
+                              }
+                            >
+                              <View
+                                replaceTheme={[Function]}
+                                style={
+                                  Object {
+                                    "alignItems": "center",
+                                    "backgroundColor": "transparent",
+                                    "justifyContent": "center",
+                                  }
+                                }
+                                theme={
+                                  Object {
+                                    "colors": Object {
+                                      "disabled": "hsl(208, 8%, 90%)",
+                                      "divider": "#bcbbc1",
+                                      "error": "#ff190c",
+                                      "grey0": "#393e42",
+                                      "grey1": "#43484d",
+                                      "grey2": "#5e6977",
+                                      "grey3": "#86939e",
+                                      "grey4": "#bdc6cf",
+                                      "grey5": "#e1e8ee",
+                                      "greyOutline": "#bbb",
+                                      "platform": Object {
+                                        "android": Object {
+                                          "error": "#f44336",
+                                          "primary": "#2196f3",
+                                          "secondary": "#9C27B0",
+                                          "success": "#4caf50",
+                                          "warning": "#ffeb3b",
+                                        },
+                                        "ios": Object {
+                                          "error": "#ff3b30",
+                                          "primary": "#007aff",
+                                          "secondary": "#5856d6",
+                                          "success": "#4cd964",
+                                          "warning": "#ffcc00",
+                                        },
+                                      },
+                                      "primary": "#2089dc",
+                                      "searchBg": "#303337",
+                                      "secondary": "#8F0CE8",
+                                      "success": "#52c41a",
+                                      "warning": "#faad14",
+                                    },
+                                  }
+                                }
+                                underlayColor="white"
+                                updateTheme={[Function]}
+                              >
+                                <Text
+                                  allowFontScaling={false}
+                                  style={
+                                    Array [
+                                      Object {
+                                        "color": "black",
+                                        "fontSize": 10,
+                                      },
+                                      Object {
+                                        "backgroundColor": "transparent",
+                                      },
+                                      Object {
+                                        "fontFamily": "Material Icons",
+                                        "fontStyle": "normal",
+                                        "fontWeight": "normal",
+                                      },
+                                      Object {},
+                                    ]
+                                  }
+                                  testID="iconIcon"
+                                >
+                                  
+                                </Text>
+                              </View>
+                            </View>
+                            <Text
+                              color="gray.1"
+                              fontFamily="default"
+                              fontSize={14}
+                              lineHeight={22}
+                              style={
+                                Array [
+                                  Object {
+                                    "color": "#646464",
+                                    "fontFamily": "Arial",
+                                    "fontSize": 14,
+                                    "lineHeight": 22,
+                                  },
+                                ]
+                              }
+                            >
+                              Any face registered with Face ID on this device will have access to this app.
+                            </Text>
+                          </View>
+                          <View
+                            flexDirection="row"
+                            pt={8}
+                            style={
+                              Array [
+                                Object {
+                                  "flexDirection": "row",
+                                  "paddingTop": 8,
+                                },
+                              ]
+                            }
+                          >
+                            <View
+                              style={
+                                Object {
+                                  "marginLeft": 2,
+                                  "marginRight": 16,
+                                  "marginTop": 10,
+                                }
+                              }
+                            >
+                              <View
+                                replaceTheme={[Function]}
+                                style={
+                                  Object {
+                                    "alignItems": "center",
+                                    "backgroundColor": "transparent",
+                                    "justifyContent": "center",
+                                  }
+                                }
+                                theme={
+                                  Object {
+                                    "colors": Object {
+                                      "disabled": "hsl(208, 8%, 90%)",
+                                      "divider": "#bcbbc1",
+                                      "error": "#ff190c",
+                                      "grey0": "#393e42",
+                                      "grey1": "#43484d",
+                                      "grey2": "#5e6977",
+                                      "grey3": "#86939e",
+                                      "grey4": "#bdc6cf",
+                                      "grey5": "#e1e8ee",
+                                      "greyOutline": "#bbb",
+                                      "platform": Object {
+                                        "android": Object {
+                                          "error": "#f44336",
+                                          "primary": "#2196f3",
+                                          "secondary": "#9C27B0",
+                                          "success": "#4caf50",
+                                          "warning": "#ffeb3b",
+                                        },
+                                        "ios": Object {
+                                          "error": "#ff3b30",
+                                          "primary": "#007aff",
+                                          "secondary": "#5856d6",
+                                          "success": "#4cd964",
+                                          "warning": "#ffcc00",
+                                        },
+                                      },
+                                      "primary": "#2089dc",
+                                      "searchBg": "#303337",
+                                      "secondary": "#8F0CE8",
+                                      "success": "#52c41a",
+                                      "warning": "#faad14",
+                                    },
+                                  }
+                                }
+                                underlayColor="white"
+                                updateTheme={[Function]}
+                              >
+                                <Text
+                                  allowFontScaling={false}
+                                  style={
+                                    Array [
+                                      Object {
+                                        "color": "black",
+                                        "fontSize": 10,
+                                      },
+                                      Object {
+                                        "backgroundColor": "transparent",
+                                      },
+                                      Object {
+                                        "fontFamily": "Material Icons",
+                                        "fontStyle": "normal",
+                                        "fontWeight": "normal",
+                                      },
+                                      Object {},
+                                    ]
+                                  }
+                                  testID="iconIcon"
+                                >
+                                  
+                                </Text>
+                              </View>
+                            </View>
+                            <Text
+                              color="gray.1"
+                              fontFamily="default"
+                              fontSize={14}
+                              lineHeight={22}
+                              style={
+                                Array [
+                                  Object {
+                                    "color": "#646464",
+                                    "fontFamily": "Arial",
+                                    "fontSize": 14,
+                                    "lineHeight": 22,
+                                  },
+                                ]
+                              }
+                            >
+                              If you tap cancel at the Face ID prompt, you can still login using your username and password
+                            </Text>
+                          </View>
+                          <View
+                            flexDirection="row"
+                            pt={8}
+                            style={
+                              Array [
+                                Object {
+                                  "flexDirection": "row",
+                                  "paddingTop": 8,
+                                },
+                              ]
+                            }
+                          >
+                            <View
+                              style={
+                                Object {
+                                  "marginLeft": 2,
+                                  "marginRight": 16,
+                                  "marginTop": 10,
+                                }
+                              }
+                            >
+                              <View
+                                replaceTheme={[Function]}
+                                style={
+                                  Object {
+                                    "alignItems": "center",
+                                    "backgroundColor": "transparent",
+                                    "justifyContent": "center",
+                                  }
+                                }
+                                theme={
+                                  Object {
+                                    "colors": Object {
+                                      "disabled": "hsl(208, 8%, 90%)",
+                                      "divider": "#bcbbc1",
+                                      "error": "#ff190c",
+                                      "grey0": "#393e42",
+                                      "grey1": "#43484d",
+                                      "grey2": "#5e6977",
+                                      "grey3": "#86939e",
+                                      "grey4": "#bdc6cf",
+                                      "grey5": "#e1e8ee",
+                                      "greyOutline": "#bbb",
+                                      "platform": Object {
+                                        "android": Object {
+                                          "error": "#f44336",
+                                          "primary": "#2196f3",
+                                          "secondary": "#9C27B0",
+                                          "success": "#4caf50",
+                                          "warning": "#ffeb3b",
+                                        },
+                                        "ios": Object {
+                                          "error": "#ff3b30",
+                                          "primary": "#007aff",
+                                          "secondary": "#5856d6",
+                                          "success": "#4cd964",
+                                          "warning": "#ffcc00",
+                                        },
+                                      },
+                                      "primary": "#2089dc",
+                                      "searchBg": "#303337",
+                                      "secondary": "#8F0CE8",
+                                      "success": "#52c41a",
+                                      "warning": "#faad14",
+                                    },
+                                  }
+                                }
+                                underlayColor="white"
+                                updateTheme={[Function]}
+                              >
+                                <Text
+                                  allowFontScaling={false}
+                                  style={
+                                    Array [
+                                      Object {
+                                        "color": "black",
+                                        "fontSize": 10,
+                                      },
+                                      Object {
+                                        "backgroundColor": "transparent",
+                                      },
+                                      Object {
+                                        "fontFamily": "Material Icons",
+                                        "fontStyle": "normal",
+                                        "fontWeight": "normal",
+                                      },
+                                      Object {},
+                                    ]
+                                  }
+                                  testID="iconIcon"
+                                >
+                                  
+                                </Text>
+                              </View>
+                            </View>
+                            <Text
+                              color="gray.1"
+                              fontFamily="default"
+                              fontSize={14}
+                              lineHeight={22}
+                              style={
+                                Array [
+                                  Object {
+                                    "color": "#646464",
+                                    "fontFamily": "Arial",
+                                    "fontSize": 14,
+                                    "lineHeight": 22,
+                                  },
+                                ]
+                              }
+                            >
+                              By enabling Face ID you agree to these Terms and Condition
+                            </Text>
+                          </View>
+                        </View>
+                      </View>
+                    </View>
+                  </View>
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </RNCSafeAreaView>
+</View>
+`;

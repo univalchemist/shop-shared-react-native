@@ -1,0 +1,35 @@
+{
+  "heading": "Benefits Documents",
+  "listStyle": "disc",
+  "benefitDocuments": [
+    {
+      "category": "Claim Forms",
+      "items": [
+        {
+          "documentName": "cfd_30_000000_00_03_en.pdf",
+          "content": "Hospitalisation & Surgical Claim Form",
+          "linkType": "Document",
+          "documentPath": "/Clients/twclient3/Documents/cfd_30_000000_00_03_en.pdf",
+          "target": "_blank",
+          "order": 0
+        },
+        {
+          "documentName": "cfd_30_000000_00_01_en.pdf",
+          "content": "Outpatient Claim Form",
+          "linkType": "Document",
+          "documentPath": "/Clients/twclient3/Documents/cfd_30_000000_00_01_en.pdf",
+          "target": "_blank",
+          "order": 1
+        },
+        {
+          "documentName": "cfd_30_000000_00_02_en.pdf",
+          "content": "Dental Claim Form",
+          "linkType": "Document",
+          "documentPath": "/Clients/twclient3/Documents/cfd_30_000000_00_02_en.pdf",
+          "target": "_blank",
+          "order": 1
+        }
+      ]
+    }
+  ]
+}

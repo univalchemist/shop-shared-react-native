@@ -1,0 +1,51 @@
+diff --git a/node_modules/metro-resolver/src/resolve.js b/node_modules/metro-resolver/src/resolve.js
+index 0aef96f..67d4b3f 100644
+--- a/node_modules/metro-resolver/src/resolve.js
++++ b/node_modules/metro-resolver/src/resolve.js
+@@ -410,6 +410,23 @@ function resolveSourceFile(context, platform) {
+  * full path of the resolved module, `null` if no resolution could be found.
+  */
+ function resolveSourceFileForAllExts(context, sourceExt, platform) {
++  const flavor = process.env.APP_FLAVOR;
++  if (flavor != null) {
++    let ext = `.${flavor}.${platform}${sourceExt}`;
++    let filePath = resolveSourceFileForExt(context, ext);
++
++    if (filePath) {
++      return filePath;
++    }
++
++    ext = `.${flavor}${sourceExt}`;
++    filePath = resolveSourceFileForExt(context, ext);
++
++    if (filePath) {
++      return filePath;
++    }
++  }
++
+   if (platform != null) {
+     const ext = `.${platform}${sourceExt}`;
+     const filePath = resolveSourceFileForExt(context, ext);
+@@ -452,6 +469,22 @@ function resolveSourceFileForExt(context, extension) {
+ 
+ function resolveAssetFiles(resolveAsset, dirPath, fileNameHint, platform) {
+   try {
++    const flavor = process.env.APP_FLAVOR;
++    let fileFlavorName = '';
++    const words = fileNameHint.split('.');
++    words.forEach((word, index) => {
++      if (index < words.length - 1) {
++        fileFlavorName += `${word}.`;
++      } else {
++        fileFlavorName += `${flavor}.${word}`;
++      }
++    });
++    const assetFlavorNames = resolveAsset(dirPath, fileFlavorName, platform);
++    if (assetFlavorNames != null) {
++      const res = assetFlavorNames.map(assetName => path.join(dirPath, assetName));
++      return resolvedAs(res);
++    }
++
+     const assetNames = resolveAsset(dirPath, fileNameHint, platform);
+ 
+     if (assetNames != null) {

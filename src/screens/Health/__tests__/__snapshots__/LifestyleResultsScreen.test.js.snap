@@ -1,0 +1,3521 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LifestyleResultsScreen should match healthscreen snapshot 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <RNCSafeAreaView
+    onInsetsChange={[Function]}
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <View
+      onLayout={[Function]}
+      style={
+        Object {
+          "flex": 1,
+          "overflow": "hidden",
+        }
+      }
+    >
+      <View
+        pointerEvents="box-none"
+        style={
+          Object {
+            "bottom": 0,
+            "left": 0,
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+          }
+        }
+      >
+        <View
+          accessibilityElementsHidden={false}
+          closing={false}
+          gestureVelocityImpact={0.3}
+          importantForAccessibility="auto"
+          onClose={[Function]}
+          onGestureBegin={[Function]}
+          onGestureCanceled={[Function]}
+          onOpen={[Function]}
+          onTransitionStart={[Function]}
+          pointerEvents="box-none"
+          style={
+            Object {
+              "bottom": 0,
+              "left": 0,
+              "position": "absolute",
+              "right": 0,
+              "top": 0,
+            }
+          }
+          transitionSpec={
+            Object {
+              "close": Object {
+                "animation": "spring",
+                "config": Object {
+                  "damping": 500,
+                  "mass": 3,
+                  "overshootClamping": true,
+                  "restDisplacementThreshold": 0.01,
+                  "restSpeedThreshold": 0.01,
+                  "stiffness": 1000,
+                },
+              },
+              "open": Object {
+                "animation": "spring",
+                "config": Object {
+                  "damping": 500,
+                  "mass": 3,
+                  "overshootClamping": true,
+                  "restDisplacementThreshold": 0.01,
+                  "restSpeedThreshold": 0.01,
+                  "stiffness": 1000,
+                },
+              },
+            }
+          }
+        >
+          <View
+            pointerEvents="box-none"
+            style={
+              Object {
+                "flex": 1,
+              }
+            }
+          >
+            <View
+              enabled={false}
+              hitSlop={
+                Object {
+                  "right": -700,
+                }
+              }
+              maxDeltaY={20}
+              minOffsetX={5}
+              onHandlerStateChange={[Function]}
+            >
+              <View
+                style={
+                  Object {
+                    "flex": 1,
+                    "transform": Array [
+                      Object {
+                        "translateX": 0,
+                      },
+                      Object {
+                        "translateX": 0,
+                      },
+                    ],
+                  }
+                }
+              >
+                <View
+                  pointerEvents="none"
+                  style={
+                    Object {
+                      "backgroundColor": "#fff",
+                      "bottom": 0,
+                      "left": 0,
+                      "position": "absolute",
+                      "shadowColor": "#000",
+                      "shadowOffset": Object {
+                        "height": 1,
+                        "width": -1,
+                      },
+                      "shadowOpacity": 0.3,
+                      "shadowRadius": 5,
+                      "top": 0,
+                      "width": 3,
+                    }
+                  }
+                />
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "flex": 1,
+                        "overflow": "hidden",
+                      },
+                      Array [
+                        Object {
+                          "backgroundColor": "rgb(242, 242, 242)",
+                        },
+                        undefined,
+                      ],
+                    ]
+                  }
+                >
+                  <View
+                    style={
+                      Object {
+                        "flex": 1,
+                        "flexDirection": "column-reverse",
+                      }
+                    }
+                  >
+                    <View
+                      style={
+                        Object {
+                          "flex": 1,
+                        }
+                      }
+                    >
+                      <RCTSafeAreaView
+                        backgroundColor="#f2f2f2"
+                        emulateUnlessSupported={true}
+                        style={
+                          Array [
+                            Object {
+                              "backgroundColor": "#f2f2f2",
+                            },
+                          ]
+                        }
+                      >
+                        <RCTScrollView
+                          contentContainerStyle={
+                            Object {
+                              "backgroundColor": "#f9f9f9",
+                            }
+                          }
+                        >
+                          <View>
+                            <View
+                              backgroundColor="#f9f9f9"
+                              style={
+                                Array [
+                                  Object {
+                                    "backgroundColor": "#f9f9f9",
+                                  },
+                                ]
+                              }
+                            >
+                              <View
+                                height={150}
+                                style={
+                                  Array [
+                                    Object {
+                                      "height": 150,
+                                    },
+                                  ]
+                                }
+                              >
+                                <View
+                                  bottom={0}
+                                  position="absolute"
+                                  right={0}
+                                  style={
+                                    Array [
+                                      Object {
+                                        "position": "absolute",
+                                      },
+                                    ]
+                                  }
+                                  top={0}
+                                >
+                                  <Image
+                                    height={150}
+                                    source={
+                                      Object {
+                                        "testUri": "../../../src/images/mainPageHero.png",
+                                      }
+                                    }
+                                    style={
+                                      Array [
+                                        Object {
+                                          "height": 150,
+                                          "width": 750,
+                                        },
+                                      ]
+                                    }
+                                    width={750}
+                                  />
+                                </View>
+                                <View
+                                  pl={4}
+                                  position="absolute"
+                                  pr={136}
+                                  style={
+                                    Array [
+                                      Object {
+                                        "paddingLeft": 32,
+                                        "paddingRight": 136,
+                                        "position": "absolute",
+                                      },
+                                    ]
+                                  }
+                                  top={36}
+                                >
+                                  <Text
+                                    accessibilityLabel="My lifestyle overview"
+                                    accessible={true}
+                                    color="gray.0"
+                                    fontFamily="default"
+                                    fontSize={26}
+                                    fontWeight="light"
+                                    letterSpacing={-1.5}
+                                    lineHeight={37}
+                                    numberOfLines={2}
+                                    style={
+                                      Array [
+                                        Object {
+                                          "color": "#212121",
+                                          "fontFamily": "Arial",
+                                          "fontSize": 26,
+                                          "fontWeight": "300",
+                                          "letterSpacing": -1.5,
+                                          "lineHeight": 37,
+                                        },
+                                      ]
+                                    }
+                                  >
+                                    <Text>
+                                      My lifestyle overview
+                                    </Text>
+                                  </Text>
+                                </View>
+                              </View>
+                              <View
+                                pt={4}
+                                style={
+                                  Array [
+                                    Object {
+                                      "paddingTop": 32,
+                                    },
+                                  ]
+                                }
+                              >
+                                <RCTScrollView
+                                  actionParams={
+                                    Object {
+                                      "action": "Horizontal scroll of health score",
+                                      "category": "My lifestyle overview",
+                                    }
+                                  }
+                                  activeAnimationOptions={null}
+                                  activeAnimationType="timing"
+                                  activeSlideAlignment="center"
+                                  activeSlideOffset={20}
+                                  apparitionDelay={0}
+                                  automaticallyAdjustContentInsets={false}
+                                  autoplay={false}
+                                  autoplayDelay={1000}
+                                  autoplayInterval={3000}
+                                  callbackOffsetMargin={5}
+                                  containerCustomStyle={Object {}}
+                                  contentContainerCustomStyle={Object {}}
+                                  contentContainerStyle={
+                                    Array [
+                                      Object {
+                                        "paddingLeft": 24,
+                                        "paddingRight": 24,
+                                      },
+                                      Object {},
+                                    ]
+                                  }
+                                  data={
+                                    Array [
+                                      Object {},
+                                      Object {},
+                                    ]
+                                  }
+                                  decelerationRate="fast"
+                                  directionalLockEnabled={true}
+                                  disableVirtualization={false}
+                                  enableMomentum={false}
+                                  enableSnap={true}
+                                  firstItem={0}
+                                  getItem={[Function]}
+                                  getItemCount={[Function]}
+                                  hasParallaxImages={false}
+                                  horizontal={true}
+                                  inactiveSlideOpacity={1}
+                                  inactiveSlideScale={1}
+                                  inactiveSlideShift={0}
+                                  initialNumToRender={7}
+                                  invertStickyHeaders={false}
+                                  inverted={false}
+                                  itemWidth={702}
+                                  keyExtractor={[Function]}
+                                  layout="default"
+                                  lockScrollTimeoutDuration={1000}
+                                  lockScrollWhileSnapping={false}
+                                  loop={false}
+                                  loopClonesPerSide={3}
+                                  maxToRenderPerBatch={15}
+                                  numColumns={1}
+                                  onContentSizeChange={[Function]}
+                                  onEndReachedThreshold={2}
+                                  onLayout={[Function]}
+                                  onMomentumScrollEnd={[Function]}
+                                  onResponderRelease={[Function]}
+                                  onScroll={[Function]}
+                                  onScrollBeginDrag={[Function]}
+                                  onScrollEndDrag={[Function]}
+                                  onSnapToItem={[Function]}
+                                  onStartShouldSetResponderCapture={[Function]}
+                                  onTouchEnd={[Function]}
+                                  onTouchStart={[Function]}
+                                  overScrollMode="never"
+                                  pinchGestureEnabled={false}
+                                  removeClippedSubviews={true}
+                                  renderItem={[Function]}
+                                  scrollEnabled={true}
+                                  scrollEventThrottle={1}
+                                  scrollsToTop={false}
+                                  shouldOptimizeUpdates={true}
+                                  showsHorizontalScrollIndicator={false}
+                                  showsVerticalScrollIndicator={false}
+                                  slideStyle={Object {}}
+                                  sliderWidth={750}
+                                  stickyHeaderIndices={Array []}
+                                  style={
+                                    Object {
+                                      "flexDirection": "row",
+                                      "opacity": 0,
+                                      "width": 750,
+                                    }
+                                  }
+                                  swipeThreshold={20}
+                                  updateCellsBatchingPeriod={50}
+                                  useScrollView={false}
+                                  vertical={false}
+                                  viewabilityConfigCallbackPairs={Array []}
+                                  windowSize={15}
+                                >
+                                  <View>
+                                    <View
+                                      onLayout={[Function]}
+                                      style={
+                                        Array [
+                                          Object {
+                                            "flexDirection": "row",
+                                          },
+                                          null,
+                                        ]
+                                      }
+                                    >
+                                      <View
+                                        pointerEvents="box-none"
+                                        style={
+                                          Array [
+                                            Object {
+                                              "width": 702,
+                                            },
+                                            Object {},
+                                            Object {},
+                                          ]
+                                        }
+                                      >
+                                        <View
+                                          flexGrow={1}
+                                          marginBottom={1}
+                                          minHeight={336}
+                                          px={5.333333333333333}
+                                          style={
+                                            Array [
+                                              Object {
+                                                "marginBottom": 4,
+                                                "minHeight": 336,
+                                                "paddingLeft": 5.333333333333333,
+                                                "paddingRight": 5.333333333333333,
+                                                "width": 702,
+                                              },
+                                            ]
+                                          }
+                                          width={702}
+                                        >
+                                          <View
+                                            bg="white"
+                                            flexGrow={1}
+                                            pb={24}
+                                            pt={4}
+                                            px={4}
+                                            style={
+                                              Array [
+                                                Object {
+                                                  "backgroundColor": "#ffffff",
+                                                  "borderRadius": 4,
+                                                  "paddingBottom": 24,
+                                                  "paddingLeft": 32,
+                                                  "paddingRight": 32,
+                                                  "paddingTop": 32,
+                                                  "shadowColor": "#000",
+                                                  "shadowOffset": Object {
+                                                    "height": 2,
+                                                    "width": 0,
+                                                  },
+                                                  "shadowOpacity": 0.05,
+                                                  "shadowRadius": 3,
+                                                },
+                                              ]
+                                            }
+                                          >
+                                            <View
+                                              justifyContent="center"
+                                              style={
+                                                Array [
+                                                  Object {
+                                                    "display": "flex",
+                                                    "flexWrap": "wrap",
+                                                    "justifyContent": "center",
+                                                  },
+                                                ]
+                                              }
+                                            >
+                                              <View
+                                                alignItems="center"
+                                                style={
+                                                  Array [
+                                                    Object {
+                                                      "alignItems": "center",
+                                                      "width": "100%",
+                                                    },
+                                                  ]
+                                                }
+                                                width="100%"
+                                              >
+                                                <View
+                                                  alignItems="center"
+                                                  flexDirection="column"
+                                                  justifyContent="center"
+                                                  style={
+                                                    Array [
+                                                      Object {
+                                                        "alignItems": "center",
+                                                        "flexDirection": "column",
+                                                        "justifyContent": "center",
+                                                      },
+                                                    ]
+                                                  }
+                                                >
+                                                  <View
+                                                    style={
+                                                      Array [
+                                                        Object {
+                                                          "width": "100%",
+                                                        },
+                                                        Object {
+                                                          "aspectRatio": 1.448,
+                                                        },
+                                                      ]
+                                                    }
+                                                    width="100%"
+                                                  >
+                                                    <RNSVGSvgView
+                                                      align="xMidYMid"
+                                                      bbHeight="100%"
+                                                      bbWidth="100%"
+                                                      fill="none"
+                                                      focusable={false}
+                                                      height="100%"
+                                                      meetOrSlice={0}
+                                                      minX={0}
+                                                      minY={0}
+                                                      style={
+                                                        Array [
+                                                          Object {
+                                                            "backgroundColor": "transparent",
+                                                            "borderWidth": 0,
+                                                          },
+                                                          undefined,
+                                                          Object {
+                                                            "opacity": 1,
+                                                          },
+                                                          Object {
+                                                            "flex": 0,
+                                                            "height": "100%",
+                                                            "width": "100%",
+                                                          },
+                                                        ]
+                                                      }
+                                                      vbHeight={174}
+                                                      vbWidth={252}
+                                                      width="100%"
+                                                    >
+                                                      <RNSVGGroup
+                                                        fill={null}
+                                                        fillOpacity={1}
+                                                        fillRule={1}
+                                                        font={Object {}}
+                                                        matrix={
+                                                          Array [
+                                                            1,
+                                                            0,
+                                                            0,
+                                                            1,
+                                                            0,
+                                                            0,
+                                                          ]
+                                                        }
+                                                        opacity={1}
+                                                        originX={0}
+                                                        originY={0}
+                                                        propList={
+                                                          Array [
+                                                            "fill",
+                                                          ]
+                                                        }
+                                                        rotation={0}
+                                                        scaleX={1}
+                                                        scaleY={1}
+                                                        skewX={0}
+                                                        skewY={0}
+                                                        stroke={null}
+                                                        strokeDasharray={null}
+                                                        strokeDashoffset={null}
+                                                        strokeLinecap={0}
+                                                        strokeLinejoin={0}
+                                                        strokeMiterlimit={4}
+                                                        strokeOpacity={1}
+                                                        strokeWidth={1}
+                                                        vectorEffect={0}
+                                                        x={0}
+                                                        y={0}
+                                                      >
+                                                        <RNSVGPath
+                                                          d="M19.7813 169.286C24.7224 167.045 26.8608 161.233 25.1112 156.098C21.556 145.662 19.7106 134.618 19.7106 123.281C19.7106 95.6942 30.6992 69.7297 50.7055 50.158C52.6273 48.2402 54.6476 46.4699 56.7172 44.6996L43.9546 29.7012C17.0497 52.3217 0 85.8591 0 123.281C0 137.626 2.52779 151.428 7.14504 164.25C8.9824 169.352 14.8428 171.526 19.7813 169.286Z"
+                                                          fill={
+                                                            Array [
+                                                              0,
+                                                              4293125091,
+                                                            ]
+                                                          }
+                                                          fillOpacity={1}
+                                                          fillRule={1}
+                                                          matrix={
+                                                            Array [
+                                                              1,
+                                                              0,
+                                                              0,
+                                                              1,
+                                                              0,
+                                                              0,
+                                                            ]
+                                                          }
+                                                          opacity={1}
+                                                          originX={0}
+                                                          originY={0}
+                                                          propList={
+                                                            Array [
+                                                              "fill",
+                                                            ]
+                                                          }
+                                                          rotation={0}
+                                                          scaleX={1}
+                                                          scaleY={1}
+                                                          skewX={0}
+                                                          skewY={0}
+                                                          stroke={null}
+                                                          strokeDasharray={null}
+                                                          strokeDashoffset={null}
+                                                          strokeLinecap={0}
+                                                          strokeLinejoin={0}
+                                                          strokeMiterlimit={4}
+                                                          strokeOpacity={1}
+                                                          strokeWidth={1}
+                                                          vectorEffect={0}
+                                                          x={0}
+                                                          y={0}
+                                                        />
+                                                        <RNSVGPath
+                                                          d="M59.7724 42.2414C67.3117 36.3896 75.5901 31.5704 84.5092 27.8823C97.6167 22.473 111.562 19.7192 126 19.7192C140.438 19.7192 154.334 22.473 167.491 27.8823C176.41 31.5704 184.688 36.3896 192.228 42.2414L204.99 27.243C183.259 10.1792 155.812 0 125.951 0C96.0891 0 68.5929 10.1792 47.0098 27.1938L59.7724 42.2414Z"
+                                                          fill={
+                                                            Array [
+                                                              0,
+                                                              4293125091,
+                                                            ]
+                                                          }
+                                                          fillOpacity={1}
+                                                          fillRule={1}
+                                                          matrix={
+                                                            Array [
+                                                              1,
+                                                              0,
+                                                              0,
+                                                              1,
+                                                              0,
+                                                              0,
+                                                            ]
+                                                          }
+                                                          opacity={1}
+                                                          originX={0}
+                                                          originY={0}
+                                                          propList={
+                                                            Array [
+                                                              "fill",
+                                                            ]
+                                                          }
+                                                          rotation={0}
+                                                          scaleX={1}
+                                                          scaleY={1}
+                                                          skewX={0}
+                                                          skewY={0}
+                                                          stroke={null}
+                                                          strokeDasharray={null}
+                                                          strokeDashoffset={null}
+                                                          strokeLinecap={0}
+                                                          strokeLinejoin={0}
+                                                          strokeMiterlimit={4}
+                                                          strokeOpacity={1}
+                                                          strokeWidth={1}
+                                                          vectorEffect={0}
+                                                          x={0}
+                                                          y={0}
+                                                        />
+                                                        <RNSVGPath
+                                                          d="M207.947 29.7012L195.233 44.6996C197.303 46.4207 199.274 48.2402 201.245 50.158C221.202 69.7297 232.24 95.6942 232.24 123.281C232.24 134.571 230.398 145.626 226.848 156.066C225.096 161.218 227.245 167.047 232.203 169.29C237.152 171.529 243.019 169.348 244.86 164.239C249.474 151.432 252 137.66 252 123.281C251.901 85.8591 234.852 52.3217 207.947 29.7012Z"
+                                                          fill={
+                                                            Array [
+                                                              0,
+                                                              4293125091,
+                                                            ]
+                                                          }
+                                                          fillOpacity={1}
+                                                          fillRule={1}
+                                                          matrix={
+                                                            Array [
+                                                              1,
+                                                              0,
+                                                              0,
+                                                              1,
+                                                              0,
+                                                              0,
+                                                            ]
+                                                          }
+                                                          opacity={1}
+                                                          originX={0}
+                                                          originY={0}
+                                                          propList={
+                                                            Array [
+                                                              "fill",
+                                                            ]
+                                                          }
+                                                          rotation={0}
+                                                          scaleX={1}
+                                                          scaleY={1}
+                                                          skewX={0}
+                                                          skewY={0}
+                                                          stroke={null}
+                                                          strokeDasharray={null}
+                                                          strokeDashoffset={null}
+                                                          strokeLinecap={0}
+                                                          strokeLinejoin={0}
+                                                          strokeMiterlimit={4}
+                                                          strokeOpacity={1}
+                                                          strokeWidth={1}
+                                                          vectorEffect={0}
+                                                          x={0}
+                                                          y={0}
+                                                        />
+                                                      </RNSVGGroup>
+                                                    </RNSVGSvgView>
+                                                  </View>
+                                                  <View
+                                                    alignItems="center"
+                                                    bottom="15%"
+                                                    position="absolute"
+                                                    style={
+                                                      Array [
+                                                        Object {
+                                                          "alignItems": "center",
+                                                          "position": "absolute",
+                                                        },
+                                                      ]
+                                                    }
+                                                  >
+                                                    <Text
+                                                      color="gray.0"
+                                                      fontFamily="default"
+                                                      fontSize={48}
+                                                      fontWeight={600}
+                                                      lineHeight={37}
+                                                      paddingTop={24}
+                                                      style={
+                                                        Array [
+                                                          Object {
+                                                            "color": "#212121",
+                                                            "fontFamily": "Arial",
+                                                            "fontSize": 48,
+                                                            "fontWeight": "600",
+                                                            "lineHeight": 37,
+                                                            "paddingTop": 24,
+                                                            "textAlign": "center",
+                                                          },
+                                                        ]
+                                                      }
+                                                      textAlign="center"
+                                                    >
+                                                      -
+                                                    </Text>
+                                                    <Text
+                                                      color="gray.1"
+                                                      fontFamily="default"
+                                                      fontSize={12}
+                                                      fontWeight={600}
+                                                      letterSpacing={1.6}
+                                                      lineHeight={16}
+                                                      style={
+                                                        Array [
+                                                          Object {
+                                                            "color": "#646464",
+                                                            "fontFamily": "Arial",
+                                                            "fontSize": 12,
+                                                            "fontWeight": "600",
+                                                            "letterSpacing": 1.6,
+                                                            "lineHeight": 16,
+                                                            "textAlign": "center",
+                                                          },
+                                                        ]
+                                                      }
+                                                      textAlign="center"
+                                                    >
+                                                      OUT OF 100
+                                                    </Text>
+                                                  </View>
+                                                </View>
+                                                <View
+                                                  mt={3}
+                                                  style={
+                                                    Array [
+                                                      Object {
+                                                        "marginTop": 16,
+                                                      },
+                                                    ]
+                                                  }
+                                                >
+                                                  <Text
+                                                    color="gray.1"
+                                                    fontFamily="default"
+                                                    fontSize={14}
+                                                    lineHeight={20}
+                                                    style={
+                                                      Array [
+                                                        Object {
+                                                          "color": "#646464",
+                                                          "fontFamily": "Arial",
+                                                          "fontSize": 14,
+                                                          "lineHeight": 20,
+                                                          "textAlign": "center",
+                                                        },
+                                                      ]
+                                                    }
+                                                    textAlign="center"
+                                                  >
+                                                    Unable to show health score.
+                                                  </Text>
+                                                </View>
+                                                <View
+                                                  mt={2}
+                                                  style={
+                                                    Array [
+                                                      Object {
+                                                        "marginTop": 8,
+                                                      },
+                                                    ]
+                                                  }
+                                                >
+                                                  <Text
+                                                    color="gray.1"
+                                                    fontFamily="default"
+                                                    fontSize={14}
+                                                    lineHeight={20}
+                                                    style={
+                                                      Array [
+                                                        Object {
+                                                          "color": "#646464",
+                                                          "fontFamily": "Arial",
+                                                          "fontSize": 14,
+                                                          "lineHeight": 20,
+                                                          "textAlign": "center",
+                                                        },
+                                                      ]
+                                                    }
+                                                    textAlign="center"
+                                                  >
+                                                    Try again later.
+                                                  </Text>
+                                                </View>
+                                              </View>
+                                            </View>
+                                          </View>
+                                        </View>
+                                      </View>
+                                    </View>
+                                    <View
+                                      onLayout={[Function]}
+                                      style={
+                                        Array [
+                                          Object {
+                                            "flexDirection": "row",
+                                          },
+                                          null,
+                                        ]
+                                      }
+                                    >
+                                      <View
+                                        pointerEvents="box-none"
+                                        style={
+                                          Array [
+                                            Object {
+                                              "width": 702,
+                                            },
+                                            Object {},
+                                            Object {},
+                                          ]
+                                        }
+                                      >
+                                        <View
+                                          flexGrow={1}
+                                          marginBottom={1}
+                                          minHeight={336}
+                                          px={5.333333333333333}
+                                          style={
+                                            Array [
+                                              Object {
+                                                "marginBottom": 4,
+                                                "minHeight": 336,
+                                                "paddingLeft": 5.333333333333333,
+                                                "paddingRight": 5.333333333333333,
+                                                "width": 702,
+                                              },
+                                            ]
+                                          }
+                                          width={702}
+                                        >
+                                          <View
+                                            bg="white"
+                                            flexGrow={1}
+                                            justifyContent="center"
+                                            pb={3}
+                                            pt={3}
+                                            px={3}
+                                            style={
+                                              Array [
+                                                Object {
+                                                  "backgroundColor": "#ffffff",
+                                                  "borderRadius": 4,
+                                                  "justifyContent": "center",
+                                                  "paddingBottom": 16,
+                                                  "paddingLeft": 16,
+                                                  "paddingRight": 16,
+                                                  "paddingTop": 16,
+                                                  "shadowColor": "#000",
+                                                  "shadowOffset": Object {
+                                                    "height": 2,
+                                                    "width": 0,
+                                                  },
+                                                  "shadowOpacity": 0.05,
+                                                  "shadowRadius": 3,
+                                                },
+                                              ]
+                                            }
+                                          />
+                                        </View>
+                                      </View>
+                                    </View>
+                                  </View>
+                                </RCTScrollView>
+                                <View
+                                  accessible={false}
+                                  pointerEvents="box-none"
+                                  style={
+                                    Array [
+                                      Object {
+                                        "alignItems": "center",
+                                        "justifyContent": "center",
+                                        "paddingHorizontal": 20,
+                                        "paddingVertical": 30,
+                                      },
+                                      Object {
+                                        "flexDirection": "row",
+                                      },
+                                      Object {
+                                        "paddingBottom": 24,
+                                        "paddingVertical": 15,
+                                      },
+                                    ]
+                                  }
+                                >
+                                  <View
+                                    accessible={false}
+                                    focusable={false}
+                                    isTVSelectable={true}
+                                    onClick={[Function]}
+                                    onResponderGrant={[Function]}
+                                    onResponderMove={[Function]}
+                                    onResponderRelease={[Function]}
+                                    onResponderTerminate={[Function]}
+                                    onResponderTerminationRequest={[Function]}
+                                    onStartShouldSetResponder={[Function]}
+                                    style={
+                                      Object {
+                                        "alignItems": "center",
+                                        "justifyContent": "center",
+                                        "marginHorizontal": 8,
+                                        "opacity": 1,
+                                      }
+                                    }
+                                  >
+                                    <View
+                                      style={
+                                        Object {
+                                          "backgroundColor": "rgba(0, 0, 0, 0.75)",
+                                          "borderRadius": 3.5,
+                                          "height": 7,
+                                          "opacity": 0.5,
+                                          "transform": Array [
+                                            Object {
+                                              "scale": 1,
+                                            },
+                                          ],
+                                          "width": 7,
+                                        }
+                                      }
+                                    />
+                                  </View>
+                                  <View
+                                    accessible={false}
+                                    focusable={false}
+                                    isTVSelectable={true}
+                                    onClick={[Function]}
+                                    onResponderGrant={[Function]}
+                                    onResponderMove={[Function]}
+                                    onResponderRelease={[Function]}
+                                    onResponderTerminate={[Function]}
+                                    onResponderTerminationRequest={[Function]}
+                                    onStartShouldSetResponder={[Function]}
+                                    style={
+                                      Object {
+                                        "alignItems": "center",
+                                        "justifyContent": "center",
+                                        "marginHorizontal": 8,
+                                        "opacity": 1,
+                                      }
+                                    }
+                                  >
+                                    <View
+                                      style={
+                                        Object {
+                                          "backgroundColor": "rgba(0, 0, 0, 0.75)",
+                                          "borderRadius": 3.5,
+                                          "height": 7,
+                                          "opacity": 0.5,
+                                          "transform": Array [
+                                            Object {
+                                              "scale": 1,
+                                            },
+                                          ],
+                                          "width": 7,
+                                        }
+                                      }
+                                    />
+                                  </View>
+                                </View>
+                              </View>
+                              <View
+                                px={4}
+                                style={
+                                  Array [
+                                    Object {
+                                      "paddingLeft": 32,
+                                      "paddingRight": 32,
+                                    },
+                                  ]
+                                }
+                              >
+                                <View
+                                  flexDirection="row"
+                                  justifyContent="center"
+                                  style={
+                                    Array [
+                                      Object {
+                                        "display": "flex",
+                                        "flexDirection": "row",
+                                        "flexWrap": "wrap",
+                                        "justifyContent": "center",
+                                      },
+                                    ]
+                                  }
+                                >
+                                  <View
+                                    flex={1}
+                                    style={
+                                      Array [
+                                        Object {
+                                          "flexBasis": 0,
+                                          "flexGrow": 1,
+                                          "flexShrink": 1,
+                                        },
+                                      ]
+                                    }
+                                  >
+                                    <View
+                                      accessibilityLabel="Update my lifestyle data"
+                                      accessibilityRole="button"
+                                      accessible={true}
+                                      focusable={true}
+                                      isTVSelectable={true}
+                                      onClick={[Function]}
+                                      onResponderGrant={[Function]}
+                                      onResponderMove={[Function]}
+                                      onResponderRelease={[Function]}
+                                      onResponderTerminate={[Function]}
+                                      onResponderTerminationRequest={[Function]}
+                                      onStartShouldSetResponder={[Function]}
+                                      style={
+                                        Array [
+                                          Object {
+                                            "alignItems": "center",
+                                            "backgroundColor": "#ffffff",
+                                            "borderRadius": 4,
+                                            "display": "flex",
+                                            "flexBasis": 0,
+                                            "flexGrow": 1,
+                                            "flexShrink": 1,
+                                            "justifyContent": "center",
+                                            "shadowColor": "#000",
+                                            "shadowOffset": Object {
+                                              "height": 2,
+                                              "width": 0,
+                                            },
+                                            "shadowOpacity": 0.05,
+                                            "shadowRadius": 3,
+                                          },
+                                        ]
+                                      }
+                                    >
+                                      <View
+                                        alignItems="center"
+                                        flexDirection="row"
+                                        justifyContent="flex-start"
+                                        px={2}
+                                        py={20}
+                                        style={
+                                          Array [
+                                            Object {
+                                              "alignItems": "center",
+                                              "flexDirection": "row",
+                                              "justifyContent": "flex-start",
+                                              "paddingBottom": 20,
+                                              "paddingLeft": 8,
+                                              "paddingRight": 8,
+                                              "paddingTop": 20,
+                                              "width": "90%",
+                                            },
+                                            null,
+                                          ]
+                                        }
+                                        width="90%"
+                                      >
+                                        <View
+                                          pr={15}
+                                          style={
+                                            Array [
+                                              Object {
+                                                "paddingRight": 15,
+                                              },
+                                            ]
+                                          }
+                                        >
+                                          <Image
+                                            resizeMode="contain"
+                                            size={24}
+                                            source={
+                                              Object {
+                                                "testUri": "../../../src/images/pencil.png",
+                                              }
+                                            }
+                                            style={
+                                              Array [
+                                                Object {
+                                                  "height": 24,
+                                                  "width": 24,
+                                                },
+                                              ]
+                                            }
+                                          />
+                                        </View>
+                                        <View
+                                          flex={2}
+                                          style={
+                                            Array [
+                                              Object {
+                                                "flexBasis": 0,
+                                                "flexGrow": 2,
+                                                "flexShrink": 1,
+                                              },
+                                            ]
+                                          }
+                                        >
+                                          <Text
+                                            color="#212121"
+                                            fontFamily="default"
+                                            fontSize={12}
+                                            lineHeight={16}
+                                            style={
+                                              Array [
+                                                Object {
+                                                  "color": "#212121",
+                                                  "fontFamily": "Arial",
+                                                  "fontSize": 12,
+                                                  "lineHeight": 16,
+                                                },
+                                              ]
+                                            }
+                                          >
+                                            Update my lifestyle data
+                                          </Text>
+                                        </View>
+                                      </View>
+                                    </View>
+                                  </View>
+                                  <View
+                                    flex={0.05}
+                                    style={
+                                      Array [
+                                        Object {
+                                          "flexBasis": 0,
+                                          "flexGrow": 0.05,
+                                          "flexShrink": 1,
+                                        },
+                                      ]
+                                    }
+                                  />
+                                  <View
+                                    flex={1}
+                                    style={
+                                      Array [
+                                        Object {
+                                          "flexBasis": 0,
+                                          "flexGrow": 1,
+                                          "flexShrink": 1,
+                                        },
+                                      ]
+                                    }
+                                  >
+                                    <View
+                                      accessibilityLabel="Search for panel clinic"
+                                      accessibilityRole="button"
+                                      accessible={true}
+                                      focusable={true}
+                                      isTVSelectable={true}
+                                      onClick={[Function]}
+                                      onResponderGrant={[Function]}
+                                      onResponderMove={[Function]}
+                                      onResponderRelease={[Function]}
+                                      onResponderTerminate={[Function]}
+                                      onResponderTerminationRequest={[Function]}
+                                      onStartShouldSetResponder={[Function]}
+                                      style={
+                                        Array [
+                                          Object {
+                                            "alignItems": "center",
+                                            "backgroundColor": "#ffffff",
+                                            "borderRadius": 4,
+                                            "display": "flex",
+                                            "flexBasis": 0,
+                                            "flexGrow": 1,
+                                            "flexShrink": 1,
+                                            "justifyContent": "center",
+                                            "shadowColor": "#000",
+                                            "shadowOffset": Object {
+                                              "height": 2,
+                                              "width": 0,
+                                            },
+                                            "shadowOpacity": 0.05,
+                                            "shadowRadius": 3,
+                                          },
+                                        ]
+                                      }
+                                    >
+                                      <View
+                                        alignItems="center"
+                                        flexDirection="row"
+                                        justifyContent="flex-start"
+                                        px={2}
+                                        py={20}
+                                        style={
+                                          Array [
+                                            Object {
+                                              "alignItems": "center",
+                                              "flexDirection": "row",
+                                              "justifyContent": "flex-start",
+                                              "paddingBottom": 20,
+                                              "paddingLeft": 8,
+                                              "paddingRight": 8,
+                                              "paddingTop": 20,
+                                              "width": "90%",
+                                            },
+                                            null,
+                                          ]
+                                        }
+                                        width="90%"
+                                      >
+                                        <View
+                                          pr={15}
+                                          style={
+                                            Array [
+                                              Object {
+                                                "paddingRight": 15,
+                                              },
+                                            ]
+                                          }
+                                        >
+                                          <Image
+                                            resizeMode="contain"
+                                            size={24}
+                                            source={
+                                              Object {
+                                                "testUri": "../../../src/images/magnifyingGlass.png",
+                                              }
+                                            }
+                                            style={
+                                              Array [
+                                                Object {
+                                                  "height": 24,
+                                                  "width": 24,
+                                                },
+                                              ]
+                                            }
+                                          />
+                                        </View>
+                                        <View
+                                          flex={2}
+                                          style={
+                                            Array [
+                                              Object {
+                                                "flexBasis": 0,
+                                                "flexGrow": 2,
+                                                "flexShrink": 1,
+                                              },
+                                            ]
+                                          }
+                                        >
+                                          <Text
+                                            color="#212121"
+                                            fontFamily="default"
+                                            fontSize={12}
+                                            lineHeight={16}
+                                            style={
+                                              Array [
+                                                Object {
+                                                  "color": "#212121",
+                                                  "fontFamily": "Arial",
+                                                  "fontSize": 12,
+                                                  "lineHeight": 16,
+                                                },
+                                              ]
+                                            }
+                                          >
+                                            Search for panel clinic
+                                          </Text>
+                                        </View>
+                                      </View>
+                                    </View>
+                                  </View>
+                                </View>
+                              </View>
+                              <View
+                                style={
+                                  Array [
+                                    Object {},
+                                  ]
+                                }
+                              >
+                                <Text
+                                  accessibilityLabel="My results"
+                                  accessible={true}
+                                  color="#212121"
+                                  fontFamily="default"
+                                  fontSize={16}
+                                  fontWeight={700}
+                                  letterSpacing={0.3}
+                                  lineHeight={22}
+                                  ml={32}
+                                  mt={40}
+                                  style={
+                                    Array [
+                                      Object {
+                                        "color": "#212121",
+                                        "fontFamily": "Arial",
+                                        "fontSize": 16,
+                                        "fontWeight": "700",
+                                        "letterSpacing": 0.3,
+                                        "lineHeight": 22,
+                                        "marginLeft": 32,
+                                        "marginTop": 40,
+                                      },
+                                    ]
+                                  }
+                                >
+                                  <Text>
+                                    My results
+                                  </Text>
+                                </Text>
+                              </View>
+                              <View
+                                alignSelf="center"
+                                height={252.5}
+                                marginTop={16}
+                                px={5.333333333333333}
+                                style={
+                                  Array [
+                                    Object {
+                                      "alignSelf": "center",
+                                      "height": 252.5,
+                                      "marginTop": 16,
+                                      "paddingLeft": 5.333333333333333,
+                                      "paddingRight": 5.333333333333333,
+                                      "width": 702,
+                                    },
+                                  ]
+                                }
+                                width={702}
+                              >
+                                <View
+                                  color="#D7D8D6"
+                                  style={
+                                    Array [
+                                      Object {
+                                        "backgroundColor": "#ffffff",
+                                        "borderRadius": 4,
+                                        "borderTopColor": "#D7D8D6",
+                                        "borderTopWidth": 4,
+                                        "display": "flex",
+                                        "height": 252.5,
+                                        "paddingBottom": 40,
+                                        "paddingLeft": 24,
+                                        "paddingRight": 24,
+                                        "paddingTop": 28,
+                                        "shadowColor": "#000",
+                                        "shadowOffset": Object {
+                                          "height": 2,
+                                          "width": 0,
+                                        },
+                                        "shadowOpacity": 0.05,
+                                        "shadowRadius": 3,
+                                      },
+                                    ]
+                                  }
+                                  theme={
+                                    Object {
+                                      "backgroundColor": Object {
+                                        "default": "#f9f9f9",
+                                      },
+                                      "borders": Array [
+                                        0,
+                                        "1px solid",
+                                        "2px solid",
+                                      ],
+                                      "breakpoints": Array [
+                                        "420px",
+                                        "740px",
+                                        "980px",
+                                        "1300px",
+                                      ],
+                                      "checkBox": Object {
+                                        "checked": "#0275d8",
+                                        "text": "#212121",
+                                        "unchecked": "#9a9a9a",
+                                      },
+                                      "colors": Object {
+                                        "amber": Array [
+                                          "#FF9900",
+                                        ],
+                                        "backgroundColor": "#f9f9f9",
+                                        "black": "#000000",
+                                        "blue": Array [
+                                          "#0275d8",
+                                          "#afdaff",
+                                          "#3a98c9",
+                                          "#294B71",
+                                        ],
+                                        "buttonPrimary": "#DB0011",
+                                        "buttonPrimaryPressed": "#AD0012",
+                                        "defaultText": "#333333",
+                                        "error": Array [
+                                          "#b00020",
+                                          "#f6710a",
+                                          "#fcd1b9",
+                                          "#d7d8d6",
+                                        ],
+                                        "fonts": Object {
+                                          "blackLink": "#333333",
+                                          "link": "#0275D8",
+                                        },
+                                        "gray": Array [
+                                          "#212121",
+                                          "#646464",
+                                          "#727272",
+                                          "#9a9a9a",
+                                          "#b8b8b8",
+                                          "#e3e3e3",
+                                          "#f0f0f0",
+                                          "#f9f9f9",
+                                          "#666666",
+                                          "#f2f2f2",
+                                          "#ededed",
+                                        ],
+                                        "green": Array [
+                                          "#00847F",
+                                        ],
+                                        "imageHeaderMatching": "#f2f2f2",
+                                        "info": Array [
+                                          "#31707e",
+                                          "#1d5b6a",
+                                          "#d9edf7",
+                                        ],
+                                        "primary": Array [
+                                          "#DB0011",
+                                          "#AD0012",
+                                          "#ffcccf",
+                                        ],
+                                        "red": Array [
+                                          "#DB0011",
+                                        ],
+                                        "riskAmber": "#FF9900",
+                                        "riskGreen": "#00847F",
+                                        "riskRed": "#DB0011",
+                                        "secondary": Array [
+                                          "#2f3494",
+                                          "#648be7",
+                                          "#cfe1ff",
+                                        ],
+                                        "success": Array [
+                                          "#03A450",
+                                          "#77b03c",
+                                          "#dff0d8",
+                                        ],
+                                        "touchableOverlayColor": "#f0f0f0",
+                                        "transparent": "transparent",
+                                        "warning": Array [
+                                          "#935c01",
+                                          "#ffae28",
+                                          "#fdf1b2",
+                                          "#F4511E",
+                                        ],
+                                        "white": "#ffffff",
+                                      },
+                                      "customInputStyles": Object {
+                                        "customFocusedLabelStyles": Object {
+                                          "color": "#333333",
+                                        },
+                                        "customHintStyles": Object {
+                                          "color": "#333333",
+                                        },
+                                        "customLabelStyles": Object {
+                                          "color": "#333333",
+                                        },
+                                      },
+                                      "fontSizes": Array [
+                                        12,
+                                        14,
+                                        16,
+                                        20,
+                                        24,
+                                        32,
+                                        48,
+                                        64,
+                                        96,
+                                        128,
+                                      ],
+                                      "fontWeights": Object {
+                                        "bold": 700,
+                                        "bolder": 800,
+                                        "light": 300,
+                                        "normal": 500,
+                                      },
+                                      "fonts": Object {
+                                        "default": "Arial",
+                                      },
+                                      "heal": Object {
+                                        "colors": Object {
+                                          "backgroundColor": "#f9f9f9",
+                                          "black": "#000",
+                                          "crimson": "#ED1C24",
+                                          "defaultText": "#333333",
+                                          "gray": Array [
+                                            "#9e9e9e",
+                                            "#ececec",
+                                            "#f1f1f1",
+                                            "#212121",
+                                            "#666666",
+                                            "#f9f9f9",
+                                          ],
+                                          "ming": "#39827e",
+                                          "teal": "#00847F",
+                                          "white": "#ffffff",
+                                        },
+                                      },
+                                      "healthScoreGraphicColors": Object {
+                                        "averageScore": "#ffae28",
+                                        "default": "#e3e3e3",
+                                        "highScore": "#03A450",
+                                        "lowScore": "#DB0011",
+                                        "none": "transparent",
+                                      },
+                                      "inputField": Object {
+                                        "disabledBorder": "#d1d1d1",
+                                        "disabledText": "rgba(0, 0, 0, 0.38)",
+                                        "inputBorder": "#000000",
+                                        "inputBorderUntouched": "#9a9a9a",
+                                        "inputFocus": "#0275d8",
+                                        "inputText": "#646464",
+                                        "rightText": "rgba(0, 0, 0, 0.38)",
+                                      },
+                                      "letterSpacings": Object {
+                                        "caps": "0.25em",
+                                        "normal": "normal",
+                                      },
+                                      "lineHeights": Array [
+                                        1,
+                                        1.125,
+                                        1.25,
+                                        1.5,
+                                        20,
+                                        37,
+                                      ],
+                                      "modal": Object {
+                                        "cancelText": "#00847F",
+                                        "errorText": "#F4511E",
+                                        "text": "#ffffff",
+                                      },
+                                      "radii": Array [
+                                        0,
+                                        2,
+                                        4,
+                                        8,
+                                      ],
+                                      "radioButton": Object {
+                                        "checked": "#00847f",
+                                      },
+                                      "shadows": Array [
+                                        "0 1px 2px 0 #9a9a9a",
+                                        "0 1px 4px 0 #9a9a9a",
+                                      ],
+                                      "shop": Object {
+                                        "colors": Object {
+                                          "background": "#F9F9F9",
+                                          "backgroundSnackError": "#F6E5E2",
+                                          "backgroundSnackSuccess": "#484848",
+                                          "border": "#9E9E9E",
+                                          "disabled": "#D7D8D6",
+                                          "divider": "rgba(0, 0, 0, 0.05)",
+                                          "iconSnackError": "#BF7353",
+                                          "label": "#666666",
+                                          "primary": Array [
+                                            "#DB0011",
+                                            "#212121",
+                                          ],
+                                          "ratings": "#646464",
+                                          "sliderDisabled": "#D1D1D1",
+                                          "successGreen": "#00847F",
+                                          "text": "#212121",
+                                          "transparent": "transparent",
+                                          "white": "#fff",
+                                        },
+                                      },
+                                      "space": Array [
+                                        0,
+                                        4,
+                                        8,
+                                        16,
+                                        32,
+                                        64,
+                                        128,
+                                      ],
+                                      "tabbar": Object {
+                                        "activeColor": "#DB0011",
+                                        "activeTextColor": "#DB0011",
+                                        "inactiveColor": "#bdbdbd",
+                                      },
+                                      "terminatedLabel": Object {
+                                        "backgroundColor": "rgba(233, 161, 21, 0.1)",
+                                      },
+                                    }
+                                  }
+                                >
+                                  <View
+                                    alignItems="center"
+                                    flexDirection="row"
+                                    style={
+                                      Array [
+                                        Object {
+                                          "alignItems": "center",
+                                          "display": "flex",
+                                          "flexDirection": "row",
+                                          "flexWrap": "wrap",
+                                        },
+                                      ]
+                                    }
+                                  >
+                                    <View
+                                      height={43}
+                                      justifyContent="center"
+                                      style={
+                                        Array [
+                                          Object {
+                                            "height": 43,
+                                            "justifyContent": "center",
+                                          },
+                                        ]
+                                      }
+                                    >
+                                      <View
+                                        style={
+                                          Array [
+                                            Object {
+                                              "height": 43,
+                                              "width": 60,
+                                            },
+                                            Object {
+                                              "overflow": "hidden",
+                                            },
+                                            Array [
+                                              Object {
+                                                "borderRadius": 4,
+                                              },
+                                            ],
+                                          ]
+                                        }
+                                      >
+                                        <View
+                                          style={
+                                            Object {
+                                              "backgroundColor": "#f0f0f0",
+                                              "flex": 1,
+                                            }
+                                          }
+                                        >
+                                          <View
+                                            style={
+                                              Object {
+                                                "flex": 1,
+                                                "transform": Array [
+                                                  Object {
+                                                    "translateX": -60,
+                                                  },
+                                                ],
+                                              }
+                                            }
+                                          >
+                                            <BVLinearGradient
+                                              colors={
+                                                Array [
+                                                  4293980400,
+                                                  4293125091,
+                                                  4293980400,
+                                                ]
+                                              }
+                                              endPoint={
+                                                Object {
+                                                  "x": 2,
+                                                  "y": 0.5,
+                                                }
+                                              }
+                                              locations={
+                                                Array [
+                                                  0.3,
+                                                  0.5,
+                                                  0.7,
+                                                ]
+                                              }
+                                              startPoint={
+                                                Object {
+                                                  "x": -1,
+                                                  "y": 0.5,
+                                                }
+                                              }
+                                              style={
+                                                Object {
+                                                  "flex": 1,
+                                                  "width": 60,
+                                                }
+                                              }
+                                            />
+                                          </View>
+                                          <View
+                                            style={
+                                              Object {
+                                                "height": 0,
+                                                "width": 0,
+                                              }
+                                            }
+                                          />
+                                        </View>
+                                      </View>
+                                    </View>
+                                    <View
+                                      flexDirection="column"
+                                      paddingLeft={26}
+                                      style={
+                                        Array [
+                                          Object {
+                                            "display": "flex",
+                                            "flexDirection": "column",
+                                            "flexWrap": "wrap",
+                                            "paddingLeft": 26,
+                                          },
+                                        ]
+                                      }
+                                    >
+                                      <View
+                                        height={25}
+                                        justifyContent="center"
+                                        style={
+                                          Array [
+                                            Object {
+                                              "height": 25,
+                                              "justifyContent": "center",
+                                            },
+                                          ]
+                                        }
+                                      >
+                                        <View
+                                          style={
+                                            Array [
+                                              Object {
+                                                "height": 16,
+                                                "width": 552,
+                                              },
+                                              Object {
+                                                "overflow": "hidden",
+                                              },
+                                              Array [
+                                                Object {
+                                                  "borderRadius": 4,
+                                                },
+                                              ],
+                                            ]
+                                          }
+                                        >
+                                          <View
+                                            style={
+                                              Object {
+                                                "backgroundColor": "#f0f0f0",
+                                                "flex": 1,
+                                              }
+                                            }
+                                          >
+                                            <View
+                                              style={
+                                                Object {
+                                                  "flex": 1,
+                                                  "transform": Array [
+                                                    Object {
+                                                      "translateX": -552,
+                                                    },
+                                                  ],
+                                                }
+                                              }
+                                            >
+                                              <BVLinearGradient
+                                                colors={
+                                                  Array [
+                                                    4293980400,
+                                                    4293125091,
+                                                    4293980400,
+                                                  ]
+                                                }
+                                                endPoint={
+                                                  Object {
+                                                    "x": 2,
+                                                    "y": 0.5,
+                                                  }
+                                                }
+                                                locations={
+                                                  Array [
+                                                    0.3,
+                                                    0.5,
+                                                    0.7,
+                                                  ]
+                                                }
+                                                startPoint={
+                                                  Object {
+                                                    "x": -1,
+                                                    "y": 0.5,
+                                                  }
+                                                }
+                                                style={
+                                                  Object {
+                                                    "flex": 1,
+                                                    "width": 552,
+                                                  }
+                                                }
+                                              />
+                                            </View>
+                                            <View
+                                              style={
+                                                Object {
+                                                  "height": 0,
+                                                  "width": 0,
+                                                }
+                                              }
+                                            />
+                                          </View>
+                                        </View>
+                                      </View>
+                                      <View
+                                        height={22}
+                                        justifyContent="center"
+                                        style={
+                                          Array [
+                                            Object {
+                                              "height": 22,
+                                              "justifyContent": "center",
+                                            },
+                                          ]
+                                        }
+                                      >
+                                        <View
+                                          style={
+                                            Array [
+                                              Object {
+                                                "height": 24,
+                                                "width": 552,
+                                              },
+                                              Object {
+                                                "overflow": "hidden",
+                                              },
+                                              Array [
+                                                Object {
+                                                  "borderRadius": 4,
+                                                },
+                                              ],
+                                            ]
+                                          }
+                                        >
+                                          <View
+                                            style={
+                                              Object {
+                                                "backgroundColor": "#f0f0f0",
+                                                "flex": 1,
+                                              }
+                                            }
+                                          >
+                                            <View
+                                              style={
+                                                Object {
+                                                  "flex": 1,
+                                                  "transform": Array [
+                                                    Object {
+                                                      "translateX": -552,
+                                                    },
+                                                  ],
+                                                }
+                                              }
+                                            >
+                                              <BVLinearGradient
+                                                colors={
+                                                  Array [
+                                                    4293980400,
+                                                    4293125091,
+                                                    4293980400,
+                                                  ]
+                                                }
+                                                endPoint={
+                                                  Object {
+                                                    "x": 2,
+                                                    "y": 0.5,
+                                                  }
+                                                }
+                                                locations={
+                                                  Array [
+                                                    0.3,
+                                                    0.5,
+                                                    0.7,
+                                                  ]
+                                                }
+                                                startPoint={
+                                                  Object {
+                                                    "x": -1,
+                                                    "y": 0.5,
+                                                  }
+                                                }
+                                                style={
+                                                  Object {
+                                                    "flex": 1,
+                                                    "width": 552,
+                                                  }
+                                                }
+                                              />
+                                            </View>
+                                            <View
+                                              style={
+                                                Object {
+                                                  "height": 0,
+                                                  "width": 0,
+                                                }
+                                              }
+                                            />
+                                          </View>
+                                        </View>
+                                      </View>
+                                    </View>
+                                  </View>
+                                  <View
+                                    paddingTop={36}
+                                    style={
+                                      Array [
+                                        Object {
+                                          "paddingTop": 36,
+                                        },
+                                      ]
+                                    }
+                                  >
+                                    <View
+                                      height={25}
+                                      justifyContent="center"
+                                      style={
+                                        Array [
+                                          Object {
+                                            "height": 25,
+                                            "justifyContent": "center",
+                                          },
+                                        ]
+                                      }
+                                    >
+                                      <View
+                                        style={
+                                          Array [
+                                            Object {
+                                              "height": 16,
+                                              "width": 638,
+                                            },
+                                            Object {
+                                              "overflow": "hidden",
+                                            },
+                                            Array [
+                                              Object {
+                                                "borderRadius": 4,
+                                              },
+                                            ],
+                                          ]
+                                        }
+                                      >
+                                        <View
+                                          style={
+                                            Object {
+                                              "backgroundColor": "#f0f0f0",
+                                              "flex": 1,
+                                            }
+                                          }
+                                        >
+                                          <View
+                                            style={
+                                              Object {
+                                                "flex": 1,
+                                                "transform": Array [
+                                                  Object {
+                                                    "translateX": -638,
+                                                  },
+                                                ],
+                                              }
+                                            }
+                                          >
+                                            <BVLinearGradient
+                                              colors={
+                                                Array [
+                                                  4293980400,
+                                                  4293125091,
+                                                  4293980400,
+                                                ]
+                                              }
+                                              endPoint={
+                                                Object {
+                                                  "x": 2,
+                                                  "y": 0.5,
+                                                }
+                                              }
+                                              locations={
+                                                Array [
+                                                  0.3,
+                                                  0.5,
+                                                  0.7,
+                                                ]
+                                              }
+                                              startPoint={
+                                                Object {
+                                                  "x": -1,
+                                                  "y": 0.5,
+                                                }
+                                              }
+                                              style={
+                                                Object {
+                                                  "flex": 1,
+                                                  "width": 638,
+                                                }
+                                              }
+                                            />
+                                          </View>
+                                          <View
+                                            style={
+                                              Object {
+                                                "height": 0,
+                                                "width": 0,
+                                              }
+                                            }
+                                          />
+                                        </View>
+                                      </View>
+                                    </View>
+                                    <View
+                                      height={25}
+                                      justifyContent="center"
+                                      style={
+                                        Array [
+                                          Object {
+                                            "height": 25,
+                                            "justifyContent": "center",
+                                          },
+                                        ]
+                                      }
+                                    >
+                                      <View
+                                        style={
+                                          Array [
+                                            Object {
+                                              "height": 16,
+                                              "width": 638,
+                                            },
+                                            Object {
+                                              "overflow": "hidden",
+                                            },
+                                            Array [
+                                              Object {
+                                                "borderRadius": 4,
+                                              },
+                                            ],
+                                          ]
+                                        }
+                                      >
+                                        <View
+                                          style={
+                                            Object {
+                                              "backgroundColor": "#f0f0f0",
+                                              "flex": 1,
+                                            }
+                                          }
+                                        >
+                                          <View
+                                            style={
+                                              Object {
+                                                "flex": 1,
+                                                "transform": Array [
+                                                  Object {
+                                                    "translateX": -638,
+                                                  },
+                                                ],
+                                              }
+                                            }
+                                          >
+                                            <BVLinearGradient
+                                              colors={
+                                                Array [
+                                                  4293980400,
+                                                  4293125091,
+                                                  4293980400,
+                                                ]
+                                              }
+                                              endPoint={
+                                                Object {
+                                                  "x": 2,
+                                                  "y": 0.5,
+                                                }
+                                              }
+                                              locations={
+                                                Array [
+                                                  0.3,
+                                                  0.5,
+                                                  0.7,
+                                                ]
+                                              }
+                                              startPoint={
+                                                Object {
+                                                  "x": -1,
+                                                  "y": 0.5,
+                                                }
+                                              }
+                                              style={
+                                                Object {
+                                                  "flex": 1,
+                                                  "width": 638,
+                                                }
+                                              }
+                                            />
+                                          </View>
+                                          <View
+                                            style={
+                                              Object {
+                                                "height": 0,
+                                                "width": 0,
+                                              }
+                                            }
+                                          />
+                                        </View>
+                                      </View>
+                                    </View>
+                                    <View
+                                      height={25}
+                                      justifyContent="center"
+                                      style={
+                                        Array [
+                                          Object {
+                                            "height": 25,
+                                            "justifyContent": "center",
+                                          },
+                                        ]
+                                      }
+                                    >
+                                      <View
+                                        style={
+                                          Array [
+                                            Object {
+                                              "height": 16,
+                                              "width": 638,
+                                            },
+                                            Object {
+                                              "overflow": "hidden",
+                                            },
+                                            Array [
+                                              Object {
+                                                "borderRadius": 4,
+                                              },
+                                            ],
+                                          ]
+                                        }
+                                      >
+                                        <View
+                                          style={
+                                            Object {
+                                              "backgroundColor": "#f0f0f0",
+                                              "flex": 1,
+                                            }
+                                          }
+                                        >
+                                          <View
+                                            style={
+                                              Object {
+                                                "flex": 1,
+                                                "transform": Array [
+                                                  Object {
+                                                    "translateX": -638,
+                                                  },
+                                                ],
+                                              }
+                                            }
+                                          >
+                                            <BVLinearGradient
+                                              colors={
+                                                Array [
+                                                  4293980400,
+                                                  4293125091,
+                                                  4293980400,
+                                                ]
+                                              }
+                                              endPoint={
+                                                Object {
+                                                  "x": 2,
+                                                  "y": 0.5,
+                                                }
+                                              }
+                                              locations={
+                                                Array [
+                                                  0.3,
+                                                  0.5,
+                                                  0.7,
+                                                ]
+                                              }
+                                              startPoint={
+                                                Object {
+                                                  "x": -1,
+                                                  "y": 0.5,
+                                                }
+                                              }
+                                              style={
+                                                Object {
+                                                  "flex": 1,
+                                                  "width": 638,
+                                                }
+                                              }
+                                            />
+                                          </View>
+                                          <View
+                                            style={
+                                              Object {
+                                                "height": 0,
+                                                "width": 0,
+                                              }
+                                            }
+                                          />
+                                        </View>
+                                      </View>
+                                    </View>
+                                    <View
+                                      height={25}
+                                      justifyContent="center"
+                                      style={
+                                        Array [
+                                          Object {
+                                            "height": 25,
+                                            "justifyContent": "center",
+                                          },
+                                        ]
+                                      }
+                                    >
+                                      <View
+                                        style={
+                                          Array [
+                                            Object {
+                                              "height": 16,
+                                              "width": 638,
+                                            },
+                                            Object {
+                                              "overflow": "hidden",
+                                            },
+                                            Array [
+                                              Object {
+                                                "borderRadius": 4,
+                                              },
+                                            ],
+                                          ]
+                                        }
+                                      >
+                                        <View
+                                          style={
+                                            Object {
+                                              "backgroundColor": "#f0f0f0",
+                                              "flex": 1,
+                                            }
+                                          }
+                                        >
+                                          <View
+                                            style={
+                                              Object {
+                                                "flex": 1,
+                                                "transform": Array [
+                                                  Object {
+                                                    "translateX": -638,
+                                                  },
+                                                ],
+                                              }
+                                            }
+                                          >
+                                            <BVLinearGradient
+                                              colors={
+                                                Array [
+                                                  4293980400,
+                                                  4293125091,
+                                                  4293980400,
+                                                ]
+                                              }
+                                              endPoint={
+                                                Object {
+                                                  "x": 2,
+                                                  "y": 0.5,
+                                                }
+                                              }
+                                              locations={
+                                                Array [
+                                                  0.3,
+                                                  0.5,
+                                                  0.7,
+                                                ]
+                                              }
+                                              startPoint={
+                                                Object {
+                                                  "x": -1,
+                                                  "y": 0.5,
+                                                }
+                                              }
+                                              style={
+                                                Object {
+                                                  "flex": 1,
+                                                  "width": 638,
+                                                }
+                                              }
+                                            />
+                                          </View>
+                                          <View
+                                            style={
+                                              Object {
+                                                "height": 0,
+                                                "width": 0,
+                                              }
+                                            }
+                                          />
+                                        </View>
+                                      </View>
+                                    </View>
+                                  </View>
+                                </View>
+                              </View>
+                              <View
+                                style={
+                                  Array [
+                                    Object {},
+                                  ]
+                                }
+                              >
+                                <Text
+                                  color="gray.0"
+                                  fontFamily="default"
+                                  fontSize={16}
+                                  fontWeight={700}
+                                  letterSpacing={0.3}
+                                  lineHeight={22}
+                                  ml={32}
+                                  mt={40}
+                                  style={
+                                    Array [
+                                      Object {
+                                        "color": "#212121",
+                                        "fontFamily": "Arial",
+                                        "fontSize": 16,
+                                        "fontWeight": "700",
+                                        "letterSpacing": 0.3,
+                                        "lineHeight": 22,
+                                        "marginLeft": 32,
+                                        "marginTop": 40,
+                                      },
+                                    ]
+                                  }
+                                >
+                                  <Text>
+                                    More lifestyle tips
+                                  </Text>
+                                </Text>
+                              </View>
+                              <View
+                                alignSelf="center"
+                                height={252.5}
+                                marginTop={16}
+                                px={5.333333333333333}
+                                style={
+                                  Array [
+                                    Object {
+                                      "alignSelf": "center",
+                                      "height": 252.5,
+                                      "marginTop": 16,
+                                      "paddingLeft": 5.333333333333333,
+                                      "paddingRight": 5.333333333333333,
+                                      "width": 702,
+                                    },
+                                  ]
+                                }
+                                width={702}
+                              >
+                                <View
+                                  accessible={true}
+                                  focusable={true}
+                                  isTVSelectable={true}
+                                  onClick={[Function]}
+                                  onResponderGrant={[Function]}
+                                  onResponderMove={[Function]}
+                                  onResponderRelease={[Function]}
+                                  onResponderTerminate={[Function]}
+                                  onResponderTerminationRequest={[Function]}
+                                  onStartShouldSetResponder={[Function]}
+                                  style={
+                                    Object {
+                                      "opacity": 1,
+                                    }
+                                  }
+                                >
+                                  <View
+                                    color="#FFF"
+                                    flexGrow={1}
+                                    justifyContent="center"
+                                    style={
+                                      Array [
+                                        Object {
+                                          "backgroundColor": "#ffffff",
+                                          "borderRadius": 4,
+                                          "borderTopColor": "#FFF",
+                                          "borderTopWidth": 4,
+                                          "display": "flex",
+                                          "height": 252.5,
+                                          "justifyContent": "center",
+                                          "paddingBottom": 40,
+                                          "paddingLeft": 24,
+                                          "paddingRight": 24,
+                                          "paddingTop": 28,
+                                          "shadowColor": "#000",
+                                          "shadowOffset": Object {
+                                            "height": 2,
+                                            "width": 0,
+                                          },
+                                          "shadowOpacity": 0.05,
+                                          "shadowRadius": 3,
+                                        },
+                                      ]
+                                    }
+                                    theme={
+                                      Object {
+                                        "backgroundColor": Object {
+                                          "default": "#f9f9f9",
+                                        },
+                                        "borders": Array [
+                                          0,
+                                          "1px solid",
+                                          "2px solid",
+                                        ],
+                                        "breakpoints": Array [
+                                          "420px",
+                                          "740px",
+                                          "980px",
+                                          "1300px",
+                                        ],
+                                        "checkBox": Object {
+                                          "checked": "#0275d8",
+                                          "text": "#212121",
+                                          "unchecked": "#9a9a9a",
+                                        },
+                                        "colors": Object {
+                                          "amber": Array [
+                                            "#FF9900",
+                                          ],
+                                          "backgroundColor": "#f9f9f9",
+                                          "black": "#000000",
+                                          "blue": Array [
+                                            "#0275d8",
+                                            "#afdaff",
+                                            "#3a98c9",
+                                            "#294B71",
+                                          ],
+                                          "buttonPrimary": "#DB0011",
+                                          "buttonPrimaryPressed": "#AD0012",
+                                          "defaultText": "#333333",
+                                          "error": Array [
+                                            "#b00020",
+                                            "#f6710a",
+                                            "#fcd1b9",
+                                            "#d7d8d6",
+                                          ],
+                                          "fonts": Object {
+                                            "blackLink": "#333333",
+                                            "link": "#0275D8",
+                                          },
+                                          "gray": Array [
+                                            "#212121",
+                                            "#646464",
+                                            "#727272",
+                                            "#9a9a9a",
+                                            "#b8b8b8",
+                                            "#e3e3e3",
+                                            "#f0f0f0",
+                                            "#f9f9f9",
+                                            "#666666",
+                                            "#f2f2f2",
+                                            "#ededed",
+                                          ],
+                                          "green": Array [
+                                            "#00847F",
+                                          ],
+                                          "imageHeaderMatching": "#f2f2f2",
+                                          "info": Array [
+                                            "#31707e",
+                                            "#1d5b6a",
+                                            "#d9edf7",
+                                          ],
+                                          "primary": Array [
+                                            "#DB0011",
+                                            "#AD0012",
+                                            "#ffcccf",
+                                          ],
+                                          "red": Array [
+                                            "#DB0011",
+                                          ],
+                                          "riskAmber": "#FF9900",
+                                          "riskGreen": "#00847F",
+                                          "riskRed": "#DB0011",
+                                          "secondary": Array [
+                                            "#2f3494",
+                                            "#648be7",
+                                            "#cfe1ff",
+                                          ],
+                                          "success": Array [
+                                            "#03A450",
+                                            "#77b03c",
+                                            "#dff0d8",
+                                          ],
+                                          "touchableOverlayColor": "#f0f0f0",
+                                          "transparent": "transparent",
+                                          "warning": Array [
+                                            "#935c01",
+                                            "#ffae28",
+                                            "#fdf1b2",
+                                            "#F4511E",
+                                          ],
+                                          "white": "#ffffff",
+                                        },
+                                        "customInputStyles": Object {
+                                          "customFocusedLabelStyles": Object {
+                                            "color": "#333333",
+                                          },
+                                          "customHintStyles": Object {
+                                            "color": "#333333",
+                                          },
+                                          "customLabelStyles": Object {
+                                            "color": "#333333",
+                                          },
+                                        },
+                                        "fontSizes": Array [
+                                          12,
+                                          14,
+                                          16,
+                                          20,
+                                          24,
+                                          32,
+                                          48,
+                                          64,
+                                          96,
+                                          128,
+                                        ],
+                                        "fontWeights": Object {
+                                          "bold": 700,
+                                          "bolder": 800,
+                                          "light": 300,
+                                          "normal": 500,
+                                        },
+                                        "fonts": Object {
+                                          "default": "Arial",
+                                        },
+                                        "heal": Object {
+                                          "colors": Object {
+                                            "backgroundColor": "#f9f9f9",
+                                            "black": "#000",
+                                            "crimson": "#ED1C24",
+                                            "defaultText": "#333333",
+                                            "gray": Array [
+                                              "#9e9e9e",
+                                              "#ececec",
+                                              "#f1f1f1",
+                                              "#212121",
+                                              "#666666",
+                                              "#f9f9f9",
+                                            ],
+                                            "ming": "#39827e",
+                                            "teal": "#00847F",
+                                            "white": "#ffffff",
+                                          },
+                                        },
+                                        "healthScoreGraphicColors": Object {
+                                          "averageScore": "#ffae28",
+                                          "default": "#e3e3e3",
+                                          "highScore": "#03A450",
+                                          "lowScore": "#DB0011",
+                                          "none": "transparent",
+                                        },
+                                        "inputField": Object {
+                                          "disabledBorder": "#d1d1d1",
+                                          "disabledText": "rgba(0, 0, 0, 0.38)",
+                                          "inputBorder": "#000000",
+                                          "inputBorderUntouched": "#9a9a9a",
+                                          "inputFocus": "#0275d8",
+                                          "inputText": "#646464",
+                                          "rightText": "rgba(0, 0, 0, 0.38)",
+                                        },
+                                        "letterSpacings": Object {
+                                          "caps": "0.25em",
+                                          "normal": "normal",
+                                        },
+                                        "lineHeights": Array [
+                                          1,
+                                          1.125,
+                                          1.25,
+                                          1.5,
+                                          20,
+                                          37,
+                                        ],
+                                        "modal": Object {
+                                          "cancelText": "#00847F",
+                                          "errorText": "#F4511E",
+                                          "text": "#ffffff",
+                                        },
+                                        "radii": Array [
+                                          0,
+                                          2,
+                                          4,
+                                          8,
+                                        ],
+                                        "radioButton": Object {
+                                          "checked": "#00847f",
+                                        },
+                                        "shadows": Array [
+                                          "0 1px 2px 0 #9a9a9a",
+                                          "0 1px 4px 0 #9a9a9a",
+                                        ],
+                                        "shop": Object {
+                                          "colors": Object {
+                                            "background": "#F9F9F9",
+                                            "backgroundSnackError": "#F6E5E2",
+                                            "backgroundSnackSuccess": "#484848",
+                                            "border": "#9E9E9E",
+                                            "disabled": "#D7D8D6",
+                                            "divider": "rgba(0, 0, 0, 0.05)",
+                                            "iconSnackError": "#BF7353",
+                                            "label": "#666666",
+                                            "primary": Array [
+                                              "#DB0011",
+                                              "#212121",
+                                            ],
+                                            "ratings": "#646464",
+                                            "sliderDisabled": "#D1D1D1",
+                                            "successGreen": "#00847F",
+                                            "text": "#212121",
+                                            "transparent": "transparent",
+                                            "white": "#fff",
+                                          },
+                                        },
+                                        "space": Array [
+                                          0,
+                                          4,
+                                          8,
+                                          16,
+                                          32,
+                                          64,
+                                          128,
+                                        ],
+                                        "tabbar": Object {
+                                          "activeColor": "#DB0011",
+                                          "activeTextColor": "#DB0011",
+                                          "inactiveColor": "#bdbdbd",
+                                        },
+                                        "terminatedLabel": Object {
+                                          "backgroundColor": "rgba(233, 161, 21, 0.1)",
+                                        },
+                                      }
+                                    }
+                                  >
+                                    <Text
+                                      color="gray.0"
+                                      fontFamily="default"
+                                      fontSize={16}
+                                      fontWeight="bold"
+                                      lineHeight={22}
+                                      style={
+                                        Array [
+                                          Object {
+                                            "color": "#212121",
+                                            "fontFamily": "Arial",
+                                            "fontSize": 16,
+                                            "fontWeight": "700",
+                                            "lineHeight": 22,
+                                            "textAlign": "center",
+                                          },
+                                        ]
+                                      }
+                                      textAlign="center"
+                                    >
+                                      Something went wrong
+                                    </Text>
+                                    <Text
+                                      accessibilityLabel="We are unable to process the photo you uploaded."
+                                      accessible={true}
+                                      color="gray.8"
+                                      flexGrow={1}
+                                      fontFamily="default"
+                                      fontSize={14}
+                                      letterSpacing={0.3}
+                                      lineHeight={22}
+                                      mt={2}
+                                      style={
+                                        Array [
+                                          Object {
+                                            "color": "#666666",
+                                            "fontFamily": "Arial",
+                                            "fontSize": 14,
+                                            "letterSpacing": 0.3,
+                                            "lineHeight": 22,
+                                            "marginTop": 8,
+                                            "textAlign": "center",
+                                          },
+                                        ]
+                                      }
+                                      textAlign="center"
+                                    >
+                                      We are unable to process the photo you uploaded.
+                                    </Text>
+                                    <Text
+                                      accessibilityLabel="Please retry uploading a selfie and we will analyst and predict the future you."
+                                      accessible={true}
+                                      color="gray.8"
+                                      flexGrow={1}
+                                      fontFamily="default"
+                                      fontSize={14}
+                                      letterSpacing={0.3}
+                                      lineHeight={22}
+                                      style={
+                                        Array [
+                                          Object {
+                                            "color": "#666666",
+                                            "fontFamily": "Arial",
+                                            "fontSize": 14,
+                                            "letterSpacing": 0.3,
+                                            "lineHeight": 22,
+                                            "textAlign": "center",
+                                          },
+                                        ]
+                                      }
+                                      textAlign="center"
+                                    >
+                                      Please retry uploading a selfie and we will analyst and predict the future you.
+                                    </Text>
+                                    <View
+                                      mt={4}
+                                      style={
+                                        Array [
+                                          Object {
+                                            "marginTop": 32,
+                                          },
+                                        ]
+                                      }
+                                    >
+                                      <View
+                                        style={
+                                          Object {
+                                            "borderRadius": 3,
+                                          }
+                                        }
+                                      >
+                                        <View
+                                          accessibilityLabel="Try again"
+                                          accessible={true}
+                                          focusable={true}
+                                          isTVSelectable={true}
+                                          onClick={[Function]}
+                                          onResponderGrant={[Function]}
+                                          onResponderMove={[Function]}
+                                          onResponderRelease={[Function]}
+                                          onResponderTerminate={[Function]}
+                                          onResponderTerminationRequest={[Function]}
+                                          onStartShouldSetResponder={[Function]}
+                                          style={
+                                            Object {
+                                              "opacity": 1,
+                                            }
+                                          }
+                                        >
+                                          <View
+                                            style={
+                                              Object {
+                                                "alignItems": "center",
+                                                "backgroundColor": "#DB0011",
+                                                "borderColor": "#2089dc",
+                                                "borderRadius": 3,
+                                                "borderWidth": 0,
+                                                "flexDirection": "row",
+                                                "height": 48,
+                                                "justifyContent": "center",
+                                                "padding": 8,
+                                              }
+                                            }
+                                          >
+                                            <Text
+                                              style={
+                                                Object {
+                                                  "color": "white",
+                                                  "fontFamily": "Arial",
+                                                  "fontSize": 16,
+                                                  "lineHeight": 20,
+                                                  "paddingBottom": 1,
+                                                  "paddingTop": 2,
+                                                  "textAlign": "center",
+                                                }
+                                              }
+                                            >
+                                              Try again
+                                            </Text>
+                                          </View>
+                                        </View>
+                                      </View>
+                                    </View>
+                                  </View>
+                                </View>
+                              </View>
+                              <View
+                                style={
+                                  Object {
+                                    "paddingBottom": 32,
+                                    "paddingHorizontal": 32,
+                                  }
+                                }
+                              >
+                                <Text
+                                  color="gray.0"
+                                  fontFamily="default"
+                                  fontSize={26}
+                                  fontWeight="light"
+                                  letterSpacing={-1.5}
+                                  lineHeight={37}
+                                  mb={2}
+                                  style={
+                                    Array [
+                                      Object {
+                                        "color": "#212121",
+                                        "fontFamily": "Arial",
+                                        "fontSize": 26,
+                                        "fontWeight": "300",
+                                        "letterSpacing": -1.5,
+                                        "lineHeight": 37,
+                                        "marginBottom": 8,
+                                      },
+                                    ]
+                                  }
+                                >
+                                  Future me
+                                </Text>
+                                <View
+                                  style={
+                                    Array [
+                                      Object {},
+                                    ]
+                                  }
+                                >
+                                  <Text
+                                    accessibilityLabel="Me at age 65"
+                                    accessible={true}
+                                    color="#212121"
+                                    fontFamily="default"
+                                    fontSize={16}
+                                    fontWeight={700}
+                                    letterSpacing={0.3}
+                                    lineHeight={22}
+                                    mb={8}
+                                    mt={8}
+                                    style={
+                                      Array [
+                                        Object {
+                                          "color": "#212121",
+                                          "fontFamily": "Arial",
+                                          "fontSize": 16,
+                                          "fontWeight": "700",
+                                          "letterSpacing": 0.3,
+                                          "lineHeight": 22,
+                                          "marginBottom": 8,
+                                          "marginTop": 8,
+                                        },
+                                      ]
+                                    }
+                                  >
+                                    Me at age 65
+                                  </Text>
+                                  <View
+                                    flexDirection="row"
+                                    style={
+                                      Array [
+                                        Object {
+                                          "display": "flex",
+                                          "flexDirection": "row",
+                                          "flexWrap": "wrap",
+                                        },
+                                        Object {},
+                                      ]
+                                    }
+                                  >
+                                    <View
+                                      flex={1}
+                                      marginRight={8}
+                                      style={
+                                        Array [
+                                          Object {
+                                            "flexBasis": 0,
+                                            "flexGrow": 1,
+                                            "flexShrink": 1,
+                                            "marginRight": 8,
+                                          },
+                                        ]
+                                      }
+                                    >
+                                      <View
+                                        style={
+                                          Array [
+                                            Object {},
+                                          ]
+                                        }
+                                      >
+                                        <Image
+                                          accessibilityLabel="Healthy lifestyle face aging image"
+                                          accessibilityRole="image"
+                                          accessible={true}
+                                          borderRadius={5}
+                                          height={210}
+                                          source={
+                                            Object {
+                                              "uri": "healthybase64Image",
+                                            }
+                                          }
+                                          style={
+                                            Array [
+                                              Object {
+                                                "height": 210,
+                                              },
+                                            ]
+                                          }
+                                        />
+                                        <Text
+                                          accessibilityLabel="Healthy lifestyle"
+                                          accessible={true}
+                                          color="gray.1"
+                                          fontFamily="default"
+                                          fontSize={14}
+                                          lineHeight={22}
+                                          paddingTop={8}
+                                          style={
+                                            Array [
+                                              Object {
+                                                "color": "#646464",
+                                                "fontFamily": "Arial",
+                                                "fontSize": 14,
+                                                "lineHeight": 22,
+                                                "paddingTop": 8,
+                                              },
+                                            ]
+                                          }
+                                        >
+                                          Healthy lifestyle
+                                        </Text>
+                                      </View>
+                                    </View>
+                                    <View
+                                      flex={1}
+                                      style={
+                                        Array [
+                                          Object {
+                                            "flexBasis": 0,
+                                            "flexGrow": 1,
+                                            "flexShrink": 1,
+                                          },
+                                        ]
+                                      }
+                                    >
+                                      <View
+                                        style={
+                                          Array [
+                                            Object {},
+                                          ]
+                                        }
+                                      >
+                                        <Image
+                                          accessibilityLabel="Current lifestyle face aging image"
+                                          accessibilityRole="image"
+                                          accessible={true}
+                                          borderRadius={5}
+                                          height={210}
+                                          source={
+                                            Object {
+                                              "uri": "unhealthybase64Image",
+                                            }
+                                          }
+                                          style={
+                                            Array [
+                                              Object {
+                                                "height": 210,
+                                              },
+                                            ]
+                                          }
+                                        />
+                                        <Text
+                                          accessibilityLabel="Current lifestyle"
+                                          accessible={true}
+                                          color="gray.1"
+                                          fontFamily="default"
+                                          fontSize={14}
+                                          lineHeight={22}
+                                          paddingTop={8}
+                                          style={
+                                            Array [
+                                              Object {
+                                                "color": "#646464",
+                                                "fontFamily": "Arial",
+                                                "fontSize": 14,
+                                                "lineHeight": 22,
+                                                "paddingTop": 8,
+                                              },
+                                            ]
+                                          }
+                                        >
+                                          Current lifestyle
+                                        </Text>
+                                      </View>
+                                    </View>
+                                  </View>
+                                  <View
+                                    flexDirection="row"
+                                    style={
+                                      Array [
+                                        Object {
+                                          "display": "flex",
+                                          "flexDirection": "row",
+                                          "flexWrap": "wrap",
+                                        },
+                                        Object {
+                                          "display": "none",
+                                        },
+                                      ]
+                                    }
+                                  >
+                                    <View
+                                      flex={1}
+                                      marginRight={8}
+                                      style={
+                                        Array [
+                                          Object {
+                                            "flexBasis": 0,
+                                            "flexGrow": 1,
+                                            "flexShrink": 1,
+                                            "marginRight": 8,
+                                          },
+                                        ]
+                                      }
+                                    >
+                                      <View
+                                        style={
+                                          Array [
+                                            Object {},
+                                          ]
+                                        }
+                                      >
+                                        <Image
+                                          accessibilityLabel="Healthy lifestyle face aging image"
+                                          accessibilityRole="image"
+                                          accessible={true}
+                                          borderRadius={5}
+                                          height={210}
+                                          source={
+                                            Object {
+                                              "uri": "healthybase64Image",
+                                            }
+                                          }
+                                          style={
+                                            Array [
+                                              Object {
+                                                "height": 210,
+                                              },
+                                            ]
+                                          }
+                                        />
+                                        <Text
+                                          accessibilityLabel="Healthy lifestyle"
+                                          accessible={true}
+                                          color="gray.1"
+                                          fontFamily="default"
+                                          fontSize={14}
+                                          lineHeight={22}
+                                          paddingTop={8}
+                                          style={
+                                            Array [
+                                              Object {
+                                                "color": "#646464",
+                                                "fontFamily": "Arial",
+                                                "fontSize": 14,
+                                                "lineHeight": 22,
+                                                "paddingTop": 8,
+                                              },
+                                            ]
+                                          }
+                                        >
+                                          Healthy lifestyle
+                                        </Text>
+                                      </View>
+                                    </View>
+                                    <View
+                                      flex={1}
+                                      style={
+                                        Array [
+                                          Object {
+                                            "flexBasis": 0,
+                                            "flexGrow": 1,
+                                            "flexShrink": 1,
+                                          },
+                                        ]
+                                      }
+                                    >
+                                      <View
+                                        style={
+                                          Array [
+                                            Object {},
+                                          ]
+                                        }
+                                      >
+                                        <Image
+                                          accessibilityLabel="Current lifestyle face aging image"
+                                          accessibilityRole="image"
+                                          accessible={true}
+                                          borderRadius={5}
+                                          height={210}
+                                          source={
+                                            Object {
+                                              "uri": "unhealthybase64Image",
+                                            }
+                                          }
+                                          style={
+                                            Array [
+                                              Object {
+                                                "height": 210,
+                                              },
+                                            ]
+                                          }
+                                        />
+                                        <Text
+                                          accessibilityLabel="Current lifestyle"
+                                          accessible={true}
+                                          color="gray.1"
+                                          fontFamily="default"
+                                          fontSize={14}
+                                          lineHeight={22}
+                                          paddingTop={8}
+                                          style={
+                                            Array [
+                                              Object {
+                                                "color": "#646464",
+                                                "fontFamily": "Arial",
+                                                "fontSize": 14,
+                                                "lineHeight": 22,
+                                                "paddingTop": 8,
+                                              },
+                                            ]
+                                          }
+                                        >
+                                          Current lifestyle
+                                        </Text>
+                                      </View>
+                                    </View>
+                                  </View>
+                                  <View
+                                    mt={16}
+                                    style={
+                                      Array [
+                                        Object {
+                                          "marginTop": 16,
+                                        },
+                                      ]
+                                    }
+                                  >
+                                    <View
+                                      animationType="timing"
+                                      onLayout={[Function]}
+                                      onSlidingComplete={[Function]}
+                                      onValueChange={[Function]}
+                                      replaceTheme={[Function]}
+                                      step={1}
+                                      style={
+                                        Object {
+                                          "height": 40,
+                                          "justifyContent": "center",
+                                          "width": "100%",
+                                        }
+                                      }
+                                      theme={
+                                        Object {
+                                          "colors": Object {
+                                            "disabled": "hsl(208, 8%, 90%)",
+                                            "divider": "#bcbbc1",
+                                            "error": "#ff190c",
+                                            "grey0": "#393e42",
+                                            "grey1": "#43484d",
+                                            "grey2": "#5e6977",
+                                            "grey3": "#86939e",
+                                            "grey4": "#bdc6cf",
+                                            "grey5": "#e1e8ee",
+                                            "greyOutline": "#bbb",
+                                            "platform": Object {
+                                              "android": Object {
+                                                "error": "#f44336",
+                                                "primary": "#2196f3",
+                                                "secondary": "#9C27B0",
+                                                "success": "#4caf50",
+                                                "warning": "#ffeb3b",
+                                              },
+                                              "ios": Object {
+                                                "error": "#ff3b30",
+                                                "primary": "#007aff",
+                                                "secondary": "#5856d6",
+                                                "success": "#4cd964",
+                                                "warning": "#ffcc00",
+                                              },
+                                            },
+                                            "primary": "#2089dc",
+                                            "searchBg": "#303337",
+                                            "secondary": "#8F0CE8",
+                                            "success": "#52c41a",
+                                            "warning": "#faad14",
+                                          },
+                                        }
+                                      }
+                                      thumbTouchSize={
+                                        Object {
+                                          "height": 40,
+                                          "width": 40,
+                                        }
+                                      }
+                                      updateTheme={[Function]}
+                                      value={0}
+                                    >
+                                      <View
+                                        onLayout={[Function]}
+                                        style={
+                                          Object {
+                                            "backgroundColor": "#b8b8b8",
+                                            "borderRadius": 2,
+                                            "height": 4,
+                                          }
+                                        }
+                                      />
+                                      <View
+                                        style={
+                                          Object {
+                                            "backgroundColor": "#000000",
+                                            "borderRadius": 2,
+                                            "height": 0,
+                                            "marginTop": -0,
+                                            "position": "absolute",
+                                            "width": 0,
+                                          }
+                                        }
+                                      />
+                                      <View
+                                        onLayout={[Function]}
+                                        style={
+                                          Object {
+                                            "backgroundColor": "#000000",
+                                            "borderRadius": 10,
+                                            "height": 0,
+                                            "position": "absolute",
+                                            "top": 22,
+                                            "transform": Array [
+                                              Object {
+                                                "translateX": 0,
+                                              },
+                                              Object {
+                                                "translateY": -0,
+                                              },
+                                            ],
+                                            "width": 0,
+                                          }
+                                        }
+                                        testID="sliderThumb"
+                                      />
+                                      <View
+                                        onMoveShouldSetResponder={[Function]}
+                                        onMoveShouldSetResponderCapture={[Function]}
+                                        onResponderEnd={[Function]}
+                                        onResponderGrant={[Function]}
+                                        onResponderMove={[Function]}
+                                        onResponderReject={[Function]}
+                                        onResponderRelease={[Function]}
+                                        onResponderStart={[Function]}
+                                        onResponderTerminate={[Function]}
+                                        onResponderTerminationRequest={[Function]}
+                                        onStartShouldSetResponder={[Function]}
+                                        onStartShouldSetResponderCapture={[Function]}
+                                        style={
+                                          Object {
+                                            "backgroundColor": "transparent",
+                                            "bottom": 0,
+                                            "left": 0,
+                                            "position": "absolute",
+                                            "right": 0,
+                                            "top": 0,
+                                          }
+                                        }
+                                      />
+                                    </View>
+                                    <View
+                                      flex={1}
+                                      flexDirection="row"
+                                      style={
+                                        Array [
+                                          Object {
+                                            "display": "flex",
+                                            "flexBasis": 0,
+                                            "flexDirection": "row",
+                                            "flexGrow": 1,
+                                            "flexShrink": 1,
+                                            "flexWrap": "wrap",
+                                          },
+                                        ]
+                                      }
+                                    />
+                                  </View>
+                                  <Text
+                                    accessibilityLabel="Move the slider to view your future appearance when you live a healthier lifestyle."
+                                    accessible={true}
+                                    color="gray.1"
+                                    fontFamily="default"
+                                    fontSize={14}
+                                    lineHeight={22}
+                                    mb={16}
+                                    mt={8}
+                                    style={
+                                      Array [
+                                        Object {
+                                          "color": "#646464",
+                                          "fontFamily": "Arial",
+                                          "fontSize": 14,
+                                          "lineHeight": 22,
+                                          "marginBottom": 16,
+                                          "marginTop": 8,
+                                        },
+                                      ]
+                                    }
+                                  >
+                                    Move the slider to view your future appearance when you live a healthier lifestyle.
+                                  </Text>
+                                </View>
+                              </View>
+                              <View
+                                mb={104}
+                                mt={16}
+                                mx={32}
+                                style={
+                                  Array [
+                                    Object {
+                                      "marginBottom": 104,
+                                      "marginLeft": 32,
+                                      "marginRight": 32,
+                                      "marginTop": 16,
+                                    },
+                                  ]
+                                }
+                              >
+                                <View
+                                  mb={16}
+                                  style={
+                                    Array [
+                                      Object {
+                                        "marginBottom": 16,
+                                      },
+                                    ]
+                                  }
+                                >
+                                  <Text
+                                    accessibilityLabel="Suggestions based on my lifestyle"
+                                    accessible={true}
+                                    color="gray.0"
+                                    fontFamily="default"
+                                    fontSize={16}
+                                    fontWeight="bold"
+                                    lineHeight={22}
+                                    style={
+                                      Array [
+                                        Object {
+                                          "color": "#212121",
+                                          "fontFamily": "Arial",
+                                          "fontSize": 16,
+                                          "fontWeight": "700",
+                                          "lineHeight": 22,
+                                        },
+                                      ]
+                                    }
+                                  >
+                                    Suggestions based on my lifestyle
+                                  </Text>
+                                </View>
+                                <View
+                                  alignItems="center"
+                                  color="#ffffff"
+                                  height={368}
+                                  justifyContent="center"
+                                  style={
+                                    Array [
+                                      Object {
+                                        "alignItems": "center",
+                                        "backgroundColor": "#ffffff",
+                                        "borderRadius": 4,
+                                        "borderTopColor": "#ffffff",
+                                        "borderTopWidth": 4,
+                                        "display": "flex",
+                                        "height": 368,
+                                        "justifyContent": "center",
+                                        "paddingBottom": 40,
+                                        "paddingLeft": 24,
+                                        "paddingRight": 24,
+                                        "paddingTop": 28,
+                                        "shadowColor": "#000",
+                                        "shadowOffset": Object {
+                                          "height": 2,
+                                          "width": 0,
+                                        },
+                                        "shadowOpacity": 0.05,
+                                        "shadowRadius": 3,
+                                      },
+                                    ]
+                                  }
+                                >
+                                  <Text
+                                    accessibilityLabel="Unable to show product suggestions."
+                                    accessible={true}
+                                    color="gray.8"
+                                    fontFamily="default"
+                                    fontSize={14}
+                                    letterSpacing={0.3}
+                                    lineHeight={22}
+                                    style={
+                                      Array [
+                                        Object {
+                                          "color": "#666666",
+                                          "fontFamily": "Arial",
+                                          "fontSize": 14,
+                                          "letterSpacing": 0.3,
+                                          "lineHeight": 22,
+                                          "textAlign": "center",
+                                        },
+                                      ]
+                                    }
+                                    textAlign="center"
+                                  >
+                                    Unable to show product suggestions.
+                                  </Text>
+                                  <Text
+                                    accessibilityLabel="Try again later."
+                                    accessible={true}
+                                    color="gray.8"
+                                    fontFamily="default"
+                                    fontSize={14}
+                                    letterSpacing={0.3}
+                                    lineHeight={22}
+                                    style={
+                                      Array [
+                                        Object {
+                                          "color": "#666666",
+                                          "fontFamily": "Arial",
+                                          "fontSize": 14,
+                                          "letterSpacing": 0.3,
+                                          "lineHeight": 22,
+                                          "textAlign": "center",
+                                        },
+                                      ]
+                                    }
+                                    textAlign="center"
+                                  >
+                                    Try again later.
+                                  </Text>
+                                </View>
+                              </View>
+                            </View>
+                          </View>
+                        </RCTScrollView>
+                      </RCTSafeAreaView>
+                    </View>
+                  </View>
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </RNCSafeAreaView>
+</View>
+`;

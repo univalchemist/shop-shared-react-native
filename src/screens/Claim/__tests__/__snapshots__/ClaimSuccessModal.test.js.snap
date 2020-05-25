@@ -1,0 +1,276 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ClaimSuccessModal should render correctly 1`] = `
+<RCTScrollView
+  centerContent={true}
+>
+  <View>
+    <View
+      alignItems="center"
+      display="flex"
+      p={4}
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "display": "flex",
+            "paddingBottom": 32,
+            "paddingLeft": 32,
+            "paddingRight": 32,
+            "paddingTop": 32,
+          },
+        ]
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {},
+          ]
+        }
+      >
+        <Image
+          maxHeight={215}
+          maxWidth={215}
+          resizeMode="contain"
+          source={
+            Object {
+              "testUri": "../../../src/images/claimSuccess.png",
+            }
+          }
+          style={
+            Array [
+              Object {
+                "maxHeight": 215,
+                "maxWidth": 215,
+              },
+            ]
+          }
+        />
+      </View>
+      <View
+        mt={4}
+        style={
+          Array [
+            Object {
+              "marginTop": 32,
+            },
+          ]
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {},
+            ]
+          }
+        >
+          <Text
+            color="gray.0"
+            fontFamily="default"
+            fontSize={32}
+            fontWeight="light"
+            letterSpacing={-1.5}
+            lineHeight={37}
+            style={
+              Array [
+                Object {
+                  "color": "#212121",
+                  "fontFamily": "Open Sans",
+                  "fontSize": 32,
+                  "fontWeight": "300",
+                  "letterSpacing": -1.5,
+                  "lineHeight": 37,
+                  "textAlign": "center",
+                },
+              ]
+            }
+            textAlign="center"
+          >
+            Claim submitted
+          </Text>
+        </View>
+        <View
+          mt={3}
+          style={
+            Array [
+              Object {
+                "marginTop": 16,
+              },
+            ]
+          }
+        >
+          <Text
+            color="gray.1"
+            fontFamily="default"
+            fontSize={16}
+            lineHeight={22}
+            style={
+              Array [
+                Object {
+                  "color": "#646464",
+                  "fontFamily": "Open Sans",
+                  "fontSize": 16,
+                  "lineHeight": 22,
+                  "textAlign": "center",
+                },
+              ]
+            }
+            textAlign="center"
+          >
+            Thank you. Please keep your original documents for at least 6 months.
+          </Text>
+        </View>
+      </View>
+      <View
+        mt={4}
+        style={
+          Array [
+            Object {
+              "marginTop": 32,
+              "width": "100%",
+            },
+          ]
+        }
+        width="100%"
+      >
+        <View
+          style={
+            Array [
+              Object {},
+            ]
+          }
+        >
+          <View
+            style={
+              Object {
+                "borderRadius": 3,
+              }
+            }
+          >
+            <View
+              accessibilityLabel="View Submitted Claims"
+              accessible={true}
+              clickable={true}
+              isTVSelectable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "opacity": 1,
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "backgroundColor": "#50ABAD",
+                    "borderColor": "#2089dc",
+                    "borderRadius": 3,
+                    "borderWidth": 0,
+                    "flexDirection": "row",
+                    "height": 48,
+                    "justifyContent": "center",
+                    "padding": 8,
+                  }
+                }
+              >
+                <Text
+                  style={
+                    Object {
+                      "color": "white",
+                      "fontFamily": "Open Sans",
+                      "fontSize": 16,
+                      "lineHeight": 20,
+                      "paddingBottom": 1,
+                      "paddingTop": 2,
+                      "textAlign": "center",
+                    }
+                  }
+                >
+                  View Submitted Claims
+                </Text>
+              </View>
+            </View>
+          </View>
+        </View>
+        <View
+          mt={3}
+          style={
+            Array [
+              Object {
+                "marginTop": 16,
+              },
+            ]
+          }
+        >
+          <View
+            style={
+              Object {
+                "borderRadius": 3,
+              }
+            }
+          >
+            <View
+              accessibilityLabel="Make another claim"
+              accessible={true}
+              clickable={true}
+              isTVSelectable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "opacity": 1,
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "backgroundColor": "#f9f9f9",
+                    "borderColor": "#646464",
+                    "borderRadius": 3,
+                    "borderWidth": 1,
+                    "flexDirection": "row",
+                    "height": 48,
+                    "justifyContent": "center",
+                    "padding": 8,
+                  }
+                }
+              >
+                <Text
+                  style={
+                    Object {
+                      "color": "#212121",
+                      "fontFamily": "Open Sans",
+                      "fontSize": 16,
+                      "lineHeight": 20,
+                      "paddingBottom": 1,
+                      "paddingTop": 2,
+                      "textAlign": "center",
+                    }
+                  }
+                >
+                  Make another claim
+                </Text>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+</RCTScrollView>
+`;

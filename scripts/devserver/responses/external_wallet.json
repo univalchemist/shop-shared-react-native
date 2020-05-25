@@ -1,0 +1,28 @@
+{
+  "member": {
+    "memberId": "3",
+    "balance": 1000.0
+  },
+  "dependents": [
+    {
+      "memberId": "27",
+      "balance": 2000.0
+    },
+    {
+      "memberId": "28",
+      "balance": 3000.0
+    },
+    {
+      "memberId": "29",
+      "balance": 4000.0
+    },
+    {
+      "memberId": "30",
+      "balance": 5000.0
+    },
+    {
+      "memberId": "68",
+      "balance": 6000.0
+    }
+  ]
+}
